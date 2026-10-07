@@ -1,0 +1,233 @@
+{
+  "nome": "Gato Preto Mistério",
+  "handle": "@gatopretomisterio",
+  "nicho": "Mistério e paranormal",
+  "idioma": "pt",
+  "criado_em": "2026-10-05",
+  "fontes": [
+    {
+      "canal": "PARANORMAL EXPERIENCE",
+      "canal_url": "https://www.youtube.com/channel/UCyIU3E4WGVp4s7x8_ypXQ4g",
+      "status": "SEM MENÇÃO",
+      "espera_horas": null,
+      "emails": [
+        "[e-mail removido]"
+      ],
+      "evidencia": "",
+      "obs": "preparado antes da autorização — pedir por e-mail antes de publicar"
+    },
+    {
+      "canal": "Daniel Pires",
+      "canal_url": "https://www.youtube.com/channel/UCrijbKcq54RKfYvVlc84QCg",
+      "status": "SEM MENÇÃO",
+      "espera_horas": null,
+      "emails": [
+        "[e-mail removido]"
+      ],
+      "evidencia": "",
+      "obs": "preparado antes da autorização — pedir por e-mail antes de publicar"
+    },
+    {
+      "canal": "Ossos Perdidos",
+      "canal_url": "https://www.youtube.com/channel/UCMarwbCbVZcog2FsjQJH-sw",
+      "status": "SEM MENÇÃO",
+      "espera_horas": null,
+      "emails": [],
+      "evidencia": "",
+      "obs": "preparado antes da autorização — pedir por e-mail antes de publicar"
+    }
+  ],
+  "estilo": {
+    "fonte": "Anton",
+    "cor_destaque": "#A970FF",
+    "maiusculas": true,
+    "palavras_por_bloco": 3,
+    "chars_por_bloco": 16,
+    "tamanho_legenda_short": 112,
+    "tamanho_legenda_horizontal": 64,
+    "legenda_altura_short": 0.7,
+    "tamanho_gancho": 82,
+    "gancho_margem_topo": 150,
+    "gancho_segundos": null,
+    "credito": "{podcast}",
+    "falante_ativo": true,
+    "zoom_enfase": true,
+    "barra_progresso": true,
+    "gancho_animado": true,
+    "animacao_legenda": "quique",
+    "animacao_gancho": "pop",
+    "nome_convidado": false,
+    "censurar_palavroes": true,
+    "encerramento": true,
+    "logo_marca": "_identidade/logo-mini-misterio.png"
+  },
+  "short": {
+    "apertar_pausas": true,
+    "pausa_max": 0.45,
+    "pausa_folga": 0.14,
+    "duracao_alvo_seg": [
+      35,
+      90
+    ]
+  },
+  "horizontal": {
+    "apertar_pausas": true,
+    "pausa_max": 0.8,
+    "pausa_folga": 0.25,
+    "duracao_alvo_seg": [
+      240,
+      900
+    ]
+  },
+  "publicacao": {
+    "descricao_horizontal": "{descricao}\n\n🎙️ Corte do episódio completo de {podcast}: {episodio_url}\nEpisódio: {episodio_titulo}\n\nTodos os créditos a {podcast}. Cortes publicados conforme a regra de cortes do próprio podcast.",
+    "descricao_short": "{descricao}\n\n🎙️ Episódio completo ({podcast}): {episodio_url}\n#Shorts",
+    "tags_fixas": [],
+    "agenda": {
+      "shorts_por_dia": 2,
+      "horizontais_por_semana": 3,
+      "horarios": [
+        "12:00",
+        "19:00"
+      ]
+    }
+  },
+  "candidatos": [
+    {
+      "canal": "Ju Cassini",
+      "canal_url": "https://www.youtube.com/channel/UC4jHJsOhFa2w_ySI9fJ5p5w",
+      "inscritos": 3370000,
+      "status": "SEM MENÇÃO",
+      "emails": [
+        "[e-mail removido]"
+      ]
+    },
+    {
+      "canal": "Investigação Criminal",
+      "canal_url": "https://www.youtube.com/channel/UCDN9trGkW4NiznUCUhHcSmg",
+      "inscritos": 2210000,
+      "status": "SEM MENÇÃO",
+      "emails": []
+    },
+    {
+      "canal": "Daniel Pires",
+      "canal_url": "https://www.youtube.com/channel/UCrijbKcq54RKfYvVlc84QCg",
+      "inscritos": 2000000,
+      "status": "SEM MENÇÃO",
+      "emails": [
+        "[e-mail removido]"
+      ]
+    },
+    {
+      "canal": "Ossos Perdidos",
+      "canal_url": "https://www.youtube.com/channel/UCMarwbCbVZcog2FsjQJH-sw",
+      "inscritos": 1530000,
+      "status": "SEM MENÇÃO",
+      "emails": []
+    },
+    {
+      "canal": "Karol Kaepstick",
+      "canal_url": "https://www.youtube.com/channel/UCrnD_MjvupRr9LPJQRreNEA",
+      "inscritos": 1130000,
+      "status": "SEM MENÇÃO",
+      "emails": []
+    },
+    {
+      "canal": "LER ATÉ AMANHECER",
+      "canal_url": "https://www.youtube.com/channel/UCKQ9Zvs6y7kRUpfMs5PPanQ",
+      "inscritos": 1120000,
+      "status": "SEM MENÇÃO",
+      "emails": [
+        "[e-mail removido]"
+      ]
+    },
+    {
+      "canal": "Marcos Campos",
+      "canal_url": "https://www.youtube.com/channel/UC7-cLW-2p0fXAjCT_LxDSOg",
+      "inscritos": 946000,
+      "status": "SEM MENÇÃO",
+      "emails": [
+        "[e-mail removido]"
+      ]
+    },
+    {
+      "canal": "PARANORMAL EXPERIENCE",
+      "canal_url": "https://www.youtube.com/channel/UCyIU3E4WGVp4s7x8_ypXQ4g",
+      "inscritos": 867000,
+      "status": "SEM MENÇÃO",
+      "emails": [
+        "[e-mail removido]"
+      ]
+    },
+    {
+      "canal": "SkyRox",
+      "canal_url": "https://www.youtube.com/channel/UCMXEZZfVYFIAG_mmF4H9lqQ",
+      "inscritos": 633000,
+      "status": "SEM MENÇÃO",
+      "emails": []
+    },
+    {
+      "canal": "Falatuh podcast",
+      "canal_url": "https://www.youtube.com/channel/UCDsSTDR60vaps6NP_g8-XRg",
+      "inscritos": 530000,
+      "status": "SEM MENÇÃO",
+      "emails": [
+        "[e-mail removido]"
+      ]
+    },
+    {
+      "canal": "Na Cena Do Crime",
+      "canal_url": "https://www.youtube.com/channel/UCjZgRO0QwqUv6Pw3In2AQpw",
+      "inscritos": 511000,
+      "status": "SEM MENÇÃO",
+      "emails": []
+    }
+  ],
+  "concorrentes": [
+    {
+      "canal": "Cortes do Inteligência [OFICIAL]",
+      "canal_url": "https://www.youtube.com/channel/UCvmWNQH4c2T3Triih3lftiw",
+      "inscritos": 4100000
+    },
+    {
+      "canal": "PARANORMAL CORTES [Oficial]",
+      "canal_url": "https://www.youtube.com/channel/UCXtXepmPpbQmHjaOw4ff0Wg",
+      "inscritos": 879000
+    },
+    {
+      "canal": "Cortes do Astral",
+      "canal_url": "https://www.youtube.com/channel/UCA69hpXcVoRV4TQbGxWivpQ",
+      "inscritos": 241000
+    },
+    {
+      "canal": "Cortes do Isto Não É - PodCast [OFICIAL]",
+      "canal_url": "https://www.youtube.com/channel/UCoGY-yPiCj7MxVsyjRcR_cg",
+      "inscritos": 207000
+    },
+    {
+      "canal": "Cortes do Broxada [OFICIAL]",
+      "canal_url": "https://www.youtube.com/channel/UCX30gpyctO6vVHc_s99n0Ag",
+      "inscritos": 186000
+    },
+    {
+      "canal": "Cortes do Chapado Crítico [OFICIAL]",
+      "canal_url": "https://www.youtube.com/channel/UCe4fHVV3A2vRowTmp04XuTA",
+      "inscritos": 97300
+    },
+    {
+      "canal": "Cortes do Jovi",
+      "canal_url": "https://www.youtube.com/channel/UCMIjPhJzKXnmN_H2QjZsYCw",
+      "inscritos": 76000
+    },
+    {
+      "canal": "Cortes do Danael Fernandes",
+      "canal_url": "https://www.youtube.com/channel/UCF4Ui8xV-rMiTokOWWg8e4g",
+      "inscritos": 62200
+    }
+  ],
+  "correcoes": {
+    "Carla Coutts": "Carlo Acutis",
+    "Carlo Acutes": "Carlo Acutis",
+    "Carla Coutts,": "Carlo Acutis,"
+  }
+}

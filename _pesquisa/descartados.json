@@ -1,0 +1,52 @@
+[
+  {
+    "id": "U387T4JgYZU",
+    "canal": "canal-tema3-misterio",
+    "fonte": "Daniel Pires",
+    "fonte_url": "https://www.youtube.com/channel/UCrijbKcq54RKfYvVlc84QCg",
+    "titulo": "\"NÃO ME PAGOU PELO TRABALHO COM BELZEBU\", diz Mãe Michelly sobre Cariúcha",
+    "motivo": "Acusações contra pessoas nomeadas (calote, feitiço, ameaça de processo): risco de difamação em qualquer canal.",
+    "retentar": false,
+    "removido_em": "2026-10-06"
+  },
+  {
+    "id": "vPn_q7WP6g8",
+    "canal": "canal-tema4-historia",
+    "fonte": "Parabólica",
+    "fonte_url": "https://www.youtube.com/channel/UCeLwY_iqGhtq3AIdAEvT9-g",
+    "titulo": "COMENTANDO AS PRINCIPAIS NOTÍCIAS DO MUNDO",
+    "motivo": "Live lendo chat, política partidária e recomendação de voto; não serve nem para o canal de Política.",
+    "retentar": false,
+    "removido_em": "2026-10-06"
+  },
+  {
+    "id": "soXBCUksUe4",
+    "canal": "canal-tema6-esporte",
+    "fonte": "RedCast [Oficial]",
+    "fonte_url": "https://www.youtube.com/channel/UCeL1a4rpEA8UG9IQIewPccg",
+    "titulo": "RUBÃO X 25 ESQUERDISTAS - REDCAST",
+    "motivo": "Debatedor é candidato (diz número e pede voto) e acusa pessoas nomeadas; não serve para Política.",
+    "retentar": false,
+    "removido_em": "2026-10-06"
+  },
+  {
+    "id": "wOszZkhOjfU",
+    "canal": "canal-tema6-esporte",
+    "fonte": "Flow Sport Club",
+    "fonte_url": "https://www.youtube.com/channel/UC5-aueB1RqpUc-EeAjtx9Lw",
+    "titulo": "DANILO LACALLE - Flow Sport Club #280",
+    "motivo": "Download falhou (HTTP 403). Conteúdo é de Esporte: tentar baixar de novo na próxima busca.",
+    "retentar": true,
+    "removido_em": "2026-10-06"
+  },
+  {
+    "id": "eripsf5db74",
+    "canal": "canal-tema8-games",
+    "fonte": "99Vidas Podcast | Nostalgia e Videogames",
+    "fonte_url": "https://www.youtube.com/channel/UC5v8HxjUpGPY-qNpl3vuK1w",
+    "titulo": "99Vidas 740 - World Tour: Jogos de Videogame Feitos na França",
+    "motivo": "Vídeo de imagem parada (só áudio com a capa): 100% dos quadros iguais.",
+    "retentar": false,
+    "removido_em": "2026-10-06"
+  }
+]

@@ -1,0 +1,380 @@
+{
+  "correcoes": {
+    "lindários": "lendários",
+    "corpudila": "crocodilo",
+    "Extendro": "Extended Look",
+    "extended look": "Extended Look",
+    "azamentos": "vazamentos",
+    "Gameformer": "Game Informer"
+  },
+  "cortes": [
+    {
+      "id": "01",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:19:38",
+      "fim": "00:20:24",
+      "de": "Isso é sacanagem, você tem que pagar 540 reais pela anuidade",
+      "ate": "e mesmo assim tá tendo pico de acesso, cara.",
+      "gancho": "540 REAIS PRA LER SOBRE GTA 6",
+      "titulo_short": "540 REAIS pra ler sobre GTA 6?",
+      "titulo": "540 reais pra ler a matéria de GTA 6: a assinatura da Game Informer no Brasil",
+      "descricao": "No Brasil não dá pra comprar só a edição de GTA 6: é a anuidade fechada de 540 reais, contra 40 dólares lá fora.",
+      "convidado": "",
+      "podcast": "Flow Games",
+      "tags": [
+        "GTA 6",
+        "Game Informer",
+        "Rockstar",
+        "games",
+        "Flow Games"
+      ],
+      "cortar_embaixo": 0.8
+    },
+    {
+      "id": "02",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:51:47",
+      "fim": "00:52:54",
+      "de": "A vida selvagem do GTA 6 inclui mais 170 espécies de animais",
+      "ate": "e vai ter as silhuetas apagadinhas.",
+      "gancho": "GTA 6 TERÁ 170 ESPÉCIES DE ANIMAIS",
+      "titulo_short": "GTA 6 terá 170 ESPÉCIES de animais",
+      "titulo": "GTA 6 terá mais de 170 espécies de animais (e cara de catálogo estilo Red Dead)",
+      "descricao": "Mais de 60 tipos de aves, 30 mamíferos, peixe-boi, flamingo e jacaré: a vida selvagem revelada na Game Informer.",
+      "convidado": "",
+      "podcast": "Flow Games",
+      "tags": [
+        "GTA 6",
+        "animais GTA 6",
+        "Red Dead Redemption 2",
+        "Rockstar",
+        "Flow Games"
+      ],
+      "cortar_embaixo": 0.8
+    },
+    {
+      "id": "03",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:53:20",
+      "fim": "00:54:13",
+      "de": "Furacões e tempestades tropicais ocorrerão no GTA 6",
+      "ate": "Personaliza, muito foda, tá?",
+      "gancho": "FURACÃO CONFIRMADO NO GTA 6",
+      "titulo_short": "FURACÃO confirmado no GTA 6",
+      "titulo": "Furacões e tempestades tropicais confirmados no GTA 6: a reação ao vivo",
+      "descricao": "A notícia chegou durante a live: nuvens pesadas, ventos fortes e muita chuva em Leonida.",
+      "convidado": "",
+      "podcast": "Flow Games",
+      "tags": [
+        "GTA 6",
+        "furacão GTA 6",
+        "clima GTA 6",
+        "Rockstar",
+        "Flow Games"
+      ],
+      "cortar_embaixo": 0.8
+    },
+    {
+      "id": "04",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:01:03",
+      "fim": "01:01:56",
+      "de": "o lance do zoológico, eu tô muito curioso pra saber",
+      "ate": "Saindo pela cidade de girafa?",
+      "gancho": "VAI DAR PRA ENTRAR ARMADO NO ZOOLÓGICO?",
+      "titulo_short": "Dá pra entrar ARMADO no zoológico do GTA 6?",
+      "titulo": "Zoológico no GTA 6: vai dar pra entrar armado? O palpite usando o golfe do Vice City",
+      "descricao": "No Vice City você deixava as armas na porta do campo de golfe. Será que o zoológico do GTA 6 vai fazer igual?",
+      "convidado": "",
+      "podcast": "Flow Games",
+      "tags": [
+        "GTA 6",
+        "zoológico GTA 6",
+        "GTA Vice City",
+        "Rockstar",
+        "Flow Games"
+      ],
+      "cortar_embaixo": 0.8
+    },
+    {
+      "id": "05",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:08:58",
+      "fim": "01:09:42",
+      "de": "Não, não, eu acho que é impossível a possibilidade",
+      "ate": "Da avenida, dos prédios, das casas.",
+      "gancho": "AVIÃO VOANDO NO FURACÃO DO GTA 6",
+      "titulo_short": "E se você VOAR no furacão do GTA 6?",
+      "titulo": "Avião no meio do furacão do GTA 6: tem que cair?",
+      "descricao": "Na vida real os aeroportos fecham. Mas e quando é você pilotando no meio da tempestade?",
+      "convidado": "",
+      "podcast": "Flow Games",
+      "tags": [
+        "GTA 6",
+        "furacão GTA 6",
+        "avião",
+        "Rockstar",
+        "Flow Games"
+      ],
+      "cortar_embaixo": 0.8
+    },
+    {
+      "id": "06",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:30:04",
+      "fim": "01:31:30",
+      "de": "A história do GTA 6 é central",
+      "ate": "não tem graça nenhuma isso aí, desculpa.",
+      "gancho": "JASON E LUCIA PODEM SER SÓ AMIGOS",
+      "titulo_short": "Jason e Lucia podem ser SÓ AMIGOS?",
+      "titulo": "Jason e Lucia podem ser só amigos no GTA 6: o romance é opcional",
+      "descricao": "Segundo a matéria, você decide se a dupla vira casal. Sem benefício de gameplay, mas com efeito na história.",
+      "convidado": "",
+      "podcast": "Flow Games",
+      "tags": [
+        "GTA 6",
+        "Jason e Lucia",
+        "história GTA 6",
+        "Rockstar",
+        "Flow Games"
+      ],
+      "cortar_embaixo": 0.8
+    },
+    {
+      "id": "07",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:32:18",
+      "fim": "01:33:33",
+      "de": "a Rockstar falou que o nome do jogo",
+      "ate": "não adianta só fazer a coisa principal, entendeu?",
+      "gancho": "ROUBAR CARRO VAI DAR DINHEIRO NO GTA 6",
+      "titulo_short": "Roubar carro vai DAR DINHEIRO no GTA 6",
+      "titulo": "Roubo de carro no GTA 6: ferramentas, rastreador e venda pra fazer dinheiro",
+      "descricao": "Carro caro tem segurança melhor, um app escaneia o veículo e mostra quanto vale vender.",
+      "convidado": "",
+      "podcast": "Flow Games",
+      "tags": [
+        "GTA 6",
+        "roubo de carro",
+        "economia GTA 6",
+        "Rockstar",
+        "Flow Games"
+      ],
+      "esconder": [
+        [
+          0.0,
+          0.0,
+          0.13,
+          0.37,
+          33.4,
+          35.8
+        ]
+      ],
+      "cortar_embaixo": 0.8
+    },
+    {
+      "id": "08",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:37:36",
+      "fim": "01:38:29",
+      "de": "Sistema de caça e rastreamento de animais",
+      "ate": "Agora o céu é o limite",
+      "gancho": "ANIMAIS LENDÁRIOS CONFIRMADOS NO GTA 6",
+      "titulo_short": "Animais LENDÁRIOS confirmados no GTA 6",
+      "titulo": "Animais lendários confirmados no GTA 6: caça no estilo Red Dead Redemption 2",
+      "descricao": "Raros, descobertos e lendários: o sistema de caça e rastreamento que veio do Red Dead.",
+      "convidado": "",
+      "podcast": "Flow Games",
+      "tags": [
+        "GTA 6",
+        "animais lendários",
+        "Red Dead Redemption 2",
+        "caça",
+        "Flow Games"
+      ],
+      "cortar_embaixo": 0.8
+    },
+    {
+      "id": "09",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:45:24",
+      "fim": "01:46:25",
+      "de": "Mas ó, isso vai ao encontro do clima dinâmico",
+      "ate": "Então vai ser absurdo, cara",
+      "gancho": "TEM ANIMAL QUE SÓ APARECE NA CHUVA",
+      "titulo_short": "Animal que só aparece NA CHUVA",
+      "titulo": "No GTA 6 pode ter animal que só aparece na chuva, como no Red Dead Redemption 2",
+      "descricao": "O clima dinâmico pode decidir onde e quando cada espécie aparece. O Red Dead já fazia isso em 2018.",
+      "convidado": "",
+      "podcast": "Flow Games",
+      "tags": [
+        "GTA 6",
+        "Red Dead Redemption 2",
+        "clima dinâmico",
+        "animais",
+        "Flow Games"
+      ],
+      "cortar_embaixo": 0.8
+    },
+    {
+      "id": "10",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:57:26",
+      "fim": "01:58:18",
+      "de": "se você tiver paciência de parar e observar",
+      "ate": "Tudo isso a gente vai querer observar, né",
+      "gancho": "O OUTRO JOGO ESCONDIDO NO GTA 6",
+      "titulo_short": "O OUTRO JOGO escondido no GTA 6",
+      "titulo": "Pare e observe: o outro jogo escondido no GTA 6",
+      "descricao": "Sem Jason e sem Lucia, a vida continua: a praia esvaziando no fim da tarde e enchendo de manhã.",
+      "convidado": "",
+      "podcast": "Flow Games",
+      "tags": [
+        "GTA 6",
+        "detalhes GTA 6",
+        "NPCs",
+        "Rockstar",
+        "Flow Games"
+      ]
+    },
+    {
+      "id": "11",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "02:16:21",
+      "fim": "02:16:53",
+      "de": "Mas Miami, né, não tem tanto animal de rua",
+      "ate": "A vida é assim.",
+      "gancho": "EM MIAMI O BICHO DE RUA É JACARÉ",
+      "titulo_short": "Em Miami o bicho de rua é JACARÉ",
+      "titulo": "Em Miami o bicho de rua é jacaré (e o GTA 6 se passa lá)",
+      "descricao": "Abrir a porta de manhã e dar de cara com um jacaré: rotina na Flórida que inspira Leonida.",
+      "convidado": "",
+      "podcast": "Flow Games",
+      "tags": [
+        "GTA 6",
+        "Miami",
+        "jacaré",
+        "Vice City",
+        "Flow Games"
+      ],
+      "cortar_embaixo": 0.8
+    },
+    {
+      "id": "12",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "02:35:33",
+      "fim": "02:36:23",
+      "de": "eu não sei o que a galera quer que o Jason seja",
+      "ate": "ele vai parecer um cara introvertido mesmo.",
+      "gancho": "JASON NÃO TEM PERSONALIDADE?",
+      "titulo_short": "Jason SEM personalidade? A resposta",
+      "titulo": "Jason sem personalidade? Por que o protagonista do GTA 6 é tão sério",
+      "descricao": "A crítica de que o Jason é sério demais e a defesa: ex-militar, e o contraponto dele é a Lucia.",
+      "convidado": "",
+      "podcast": "Flow Games",
+      "tags": [
+        "GTA 6",
+        "Jason GTA 6",
+        "Lucia",
+        "Rockstar",
+        "Flow Games"
+      ],
+      "cortar_embaixo": 0.8
+    },
+    {
+      "id": "13",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "03:06:05",
+      "fim": "03:07:06",
+      "de": "O conselho que eu daria pra galera",
+      "ate": "ser um pouco mais arcade, então tem algumas mudanças.",
+      "gancho": "NÃO ESPERE UM ARTHUR MORGAN NO GTA 6",
+      "titulo_short": "Não espere um ARTHUR MORGAN no GTA 6",
+      "titulo": "Não espere a história do Red Dead 2 no GTA 6: o conselho sobre Arthur Morgan",
+      "descricao": "O Red Dead elevou a régua da Rockstar. Por que comparar a história do GTA 6 com a do Arthur Morgan pode ser injusto.",
+      "convidado": "",
+      "podcast": "Flow Games",
+      "tags": [
+        "GTA 6",
+        "Red Dead Redemption 2",
+        "Arthur Morgan",
+        "Rockstar",
+        "Flow Games"
+      ],
+      "cortar_embaixo": 0.8
+    },
+    {
+      "id": "14",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "03:24:14",
+      "fim": "03:24:56",
+      "de": "Vocês repararam que, na imagem em que o Jason",
+      "ate": "O cara tá na bandoleira, pô",
+      "gancho": "A POLÊMICA DA BANDOLEIRA NO GTA 6",
+      "titulo_short": "A polêmica da BANDOLEIRA no GTA 6",
+      "titulo": "A fixação com a bandoleira no GTA 6: a reação à nova imagem do Jason",
+      "descricao": "Nova imagem mostra o Jason com bandoleira, e a reação a quem reclamou disso no Extended Look.",
+      "convidado": "",
+      "podcast": "Flow Games",
+      "tags": [
+        "GTA 6",
+        "bandoleira",
+        "Jason GTA 6",
+        "Rockstar",
+        "Flow Games"
+      ]
+    },
+    {
+      "id": "15",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "03:25:15",
+      "fim": "03:26:40.5",
+      "de": "Nunca vai ser simulação tática",
+      "ate": "muito menos para a Gunplay",
+      "gancho": "GTA 6 NUNCA VAI SER REALISTA DEMAIS",
+      "titulo_short": "GTA 6 NUNCA vai ser realista demais",
+      "titulo": "Por que o GTA 6 não pode ser simulação: o que aconteceu no GTA IV",
+      "descricao": "Tiroteio e direção têm que ser arcade. O GTA IV tentou física mais realista e a Rockstar abandonou a ideia.",
+      "convidado": "",
+      "podcast": "Flow Games",
+      "tags": [
+        "GTA 6",
+        "GTA IV",
+        "GTA Online",
+        "Rockstar",
+        "Flow Games"
+      ],
+      "cortar_embaixo": 0.8
+    }
+  ]
+}

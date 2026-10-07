@@ -1,0 +1,261 @@
+{
+  "correcoes": {
+    "Arbashir": "al-Bashir",
+    "Abashir": "al-Bashir",
+    "Abashiro": "al-Bashir",
+    "Al-Bashir": "al-Bashir",
+    "Al-Burran": "al-Burhan",
+    "Al-Buram": "al-Burhan",
+    "Abdallah Handok": "Abdalla Hamdok",
+    "Abdala Randoque": "Abdalla Hamdok",
+    "Abdallah Randoque": "Abdalla Hamdok",
+    "Randanda Galo": "Hamdan Dagalo",
+    "Randan Bagalo": "Hamdan Dagalo",
+    "Randan da Galo": "Hamdan Dagalo",
+    "Randam da Galo": "Hamdan Dagalo",
+    "Randa Nagalo": "Hamdan Dagalo",
+    "Rwandan da Galo": "Hamdan Dagalo",
+    "Janjawits": "Janjaweed",
+    "Jandiawits": "Janjaweed",
+    "Andjawids": "Janjaweed",
+    "Janjewits": "Janjaweed",
+    "Bukharan": "Boko Haram",
+    "Renascense": "Renascença",
+    "Tottenham Morrow": "Doutrina Monroe",
+    "Morrill": "Monroe",
+    "Dorrill": "Monroe",
+    "Colorado Roosevelt": "Corolário Roosevelt",
+    "Osni": "Hosni",
+    "TPFL": "TPLF",
+    "Rodenbelt": "Belt and Road",
+    "Prigogin": "Prigozhin",
+    "souetos": "Sowetos",
+    "Margélia": "Argélia",
+    "Babal-Mandeb": "Bab al-Mandeb"
+  },
+  "cortes": [
+    {
+      "id": "01",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:00:54",
+      "fim": "00:01:51",
+      "de": "Professor, mas eu nem ouço falar",
+      "ate": "começa a mexer no bolso da população internacional",
+      "gancho": "POR QUE NINGUÉM FALA DAS GUERRAS NA ÁFRICA",
+      "titulo": "O continente com mais conflitos do mundo — e por que quase não aparece no jornal",
+      "titulo_short": "Por que ninguém fala das GUERRAS NA ÁFRICA",
+      "descricao": "Ruanda e Congo, Egito e Etiópia, Somalilândia, Tigré, Sahel: as guerras que a mídia só cobre quando afetam a economia.",
+      "convidado": "Ricardo Marcílio",
+      "podcast": "Professor Ricardo Marcílio",
+      "tags": [
+        "geopolítica",
+        "África",
+        "conflitos",
+        "história"
+      ]
+    },
+    {
+      "id": "02",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:02:46",
+      "fim": "00:03:52",
+      "de": "O organismo, o Conselho de Segurança da ONU",
+      "ate": "pouquíssima representatividade nos organismos internacionais",
+      "gancho": "A ÁFRICA SEM VAGA PERMANENTE NA ONU",
+      "titulo": "O Conselho de Segurança da ONU não tem nenhum membro permanente da África",
+      "titulo_short": "A África sem vaga PERMANENTE na ONU",
+      "descricao": "Por que o órgão criado em 1945 é criticado — e por que nem é simples escolher quem representaria o continente.",
+      "convidado": "Ricardo Marcílio",
+      "podcast": "Professor Ricardo Marcílio",
+      "tags": [
+        "ONU",
+        "Conselho de Segurança",
+        "África",
+        "geopolítica"
+      ]
+    },
+    {
+      "id": "03",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:11:57",
+      "fim": "00:12:40",
+      "de": "A gente vai ver que no momento, pós Segunda Guerra Mundial",
+      "ate": "Olha o imperialismo francês ainda predominante no continente africano",
+      "gancho": "A FRANÇA CONTROLAVA A MOEDA DELES",
+      "titulo": "Independentes, mas com a moeda controlada pela França",
+      "titulo_short": "A França CONTROLAVA a moeda deles",
+      "descricao": "O franco nas ex-colônias francesas da África e a 'independência entre aspas'.",
+      "convidado": "Ricardo Marcílio",
+      "podcast": "Professor Ricardo Marcílio",
+      "tags": [
+        "franco CFA",
+        "França",
+        "colonialismo",
+        "África",
+        "geopolítica"
+      ]
+    },
+    {
+      "id": "04",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:22:39",
+      "fim": "00:23:55",
+      "de": "Aliás, fica até uma dica para vocês",
+      "ate": "levou em consideração do aspecto negativo",
+      "gancho": "POR QUE AS FRONTEIRAS DA ÁFRICA SÃO RETAS",
+      "titulo": "Fronteira em linha reta no mapa quase sempre tem a mesma explicação",
+      "titulo_short": "Por que as fronteiras da África são RETAS",
+      "descricao": "A Conferência de Berlim e as fronteiras desenhadas pelos europeus.",
+      "convidado": "Ricardo Marcílio",
+      "podcast": "Professor Ricardo Marcílio",
+      "tags": [
+        "Conferência de Berlim",
+        "fronteiras",
+        "África",
+        "história"
+      ]
+    },
+    {
+      "id": "05",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:24:25",
+      "fim": "00:25:37",
+      "de": "Sabe o que os países faziam",
+      "ate": "no sentimento de desenvolvimento de conflitos étnicos regionais",
+      "gancho": "DIVIDIR PARA CONQUISTAR",
+      "titulo": "Dividir para conquistar: como os europeus usaram as etnias para dominar a África",
+      "titulo_short": "DIVIDIR para conquistar",
+      "descricao": "Financiar uma etnia contra as outras: a estratégia do imperialismo europeu.",
+      "convidado": "Ricardo Marcílio",
+      "podcast": "Professor Ricardo Marcílio",
+      "tags": [
+        "imperialismo",
+        "África",
+        "colonialismo",
+        "história"
+      ]
+    },
+    {
+      "id": "06",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:31:52",
+      "fim": "00:32:55",
+      "de": "Em Ruanda você tinha a população dividida entre Tutsis e Hutus",
+      "ate": "aquilo é um conflito herdado do passado colonial",
+      "gancho": "DIVIDIDOS PELA COR DA PELE E ALTURA",
+      "titulo": "Em Ruanda, os colonizadores separaram tutsis e hutus pela cor da pele e pela altura",
+      "titulo_short": "Divididos pela COR DA PELE e ALTURA",
+      "descricao": "A origem colonial da classificação que antecedeu o genocídio de 1994.",
+      "convidado": "Ricardo Marcílio",
+      "podcast": "Professor Ricardo Marcílio",
+      "tags": [
+        "Ruanda",
+        "genocídio",
+        "tutsis",
+        "hutus",
+        "história"
+      ]
+    },
+    {
+      "id": "07",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:39:19",
+      "fim": "00:40:46",
+      "de": "O rio Nilo, ele, nasce na região dos lagos tectônicos",
+      "ate": "embates acontecem entre os dois países",
+      "gancho": "A HIDRELÉTRICA QUE AMEAÇA O EGITO",
+      "titulo": "A maior hidrelétrica da África fica na Etiópia — e o Egito não gostou nada",
+      "titulo_short": "A hidrelétrica que AMEAÇA o Egito",
+      "descricao": "O Nilo Azul, a hidrelétrica Renascença e a disputa por água entre Etiópia, Sudão e Egito.",
+      "convidado": "Ricardo Marcílio",
+      "podcast": "Professor Ricardo Marcílio",
+      "tags": [
+        "Rio Nilo",
+        "Etiópia",
+        "Egito",
+        "geopolítica"
+      ]
+    },
+    {
+      "id": "08",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:42:52",
+      "fim": "00:44:19",
+      "de": "tem uma outra questão importante, que é a Somália",
+      "ate": "numa guerra de procuração na Somália pela independência da Somalilândia",
+      "gancho": "UM PAÍS ATRÁS DE UMA SAÍDA PRO MAR",
+      "titulo": "Por que a Etiópia apoia a independência de um pedaço da Somália",
+      "titulo_short": "Um país atrás de uma SAÍDA PRO MAR",
+      "descricao": "Somalilândia: o movimento separatista que interessa à Etiópia.",
+      "convidado": "Ricardo Marcílio",
+      "podcast": "Professor Ricardo Marcílio",
+      "tags": [
+        "Etiópia",
+        "Somalilândia",
+        "Somália",
+        "geopolítica"
+      ]
+    },
+    {
+      "id": "09",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:54:17",
+      "fim": "00:55:29",
+      "de": "Vocês sabem que esses recursos minerais",
+      "ate": "mantém a sua ditadura em pé",
+      "gancho": "OURO DE SANGUE",
+      "titulo": "Diamantes de sangue, ouro de sangue: como minério sustenta ditaduras na África",
+      "titulo_short": "OURO DE SANGUE",
+      "descricao": "Por que esses recursos ganharam esse apelido.",
+      "convidado": "Ricardo Marcílio",
+      "podcast": "Professor Ricardo Marcílio",
+      "tags": [
+        "diamantes de sangue",
+        "África",
+        "ditaduras",
+        "geopolítica"
+      ]
+    },
+    {
+      "id": "10",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:57:39",
+      "fim": "00:59:20",
+      "de": "Existem alguns grupos, a exemplo de um grupo chamado de M23",
+      "ate": "somente para ter acesso aos recursos naturais",
+      "gancho": "O MINÉRIO DO SEU CELULAR E A GUERRA NO CONGO",
+      "titulo": "O minério do seu celular está no centro da guerra entre Ruanda e Congo",
+      "titulo_short": "O minério do seu CELULAR e a guerra no Congo",
+      "descricao": "O grupo M23, o tântalo e as exportações de minério de Ruanda.",
+      "convidado": "Ricardo Marcílio",
+      "podcast": "Professor Ricardo Marcílio",
+      "tags": [
+        "Congo",
+        "Ruanda",
+        "M23",
+        "tântalo",
+        "geopolítica"
+      ]
+    }
+  ]
+}

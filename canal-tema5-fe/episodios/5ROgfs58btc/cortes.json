@@ -1,0 +1,254 @@
+{
+  "correcoes": {
+    "Tamires": "Thamires",
+    "Gazzac": "Isaac",
+    "Abacuque": "Habacuque",
+    "Sennacherib": "Senaqueribe",
+    "carnecedores": "escarnecedores"
+  },
+  "cortes": [
+    {
+      "id": "01",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:05:20",
+      "fim": "00:06:10",
+      "de": "E eu me lembro com sete anos que eu queria muito andar de bicicleta",
+      "ate": "E foi Josué 1,9",
+      "gancho": "DECORE A BÍBLIA, GANHE UMA BICICLETA",
+      "titulo": "Ana Paula Valadão ganhou uma bicicleta por decorar todos os livros da Bíblia",
+      "titulo_short": "Decore a Bíblia, ganhe uma BICICLETA",
+      "descricao": "A estratégia dos pais de Ana Paula Valadão para ela amar a Palavra.",
+      "convidado": "Ana Paula Valadão",
+      "podcast": "JesusCopy Podcast",
+      "tags": [
+        "Ana Paula Valadão",
+        "Bíblia",
+        "família",
+        "JesusCopy"
+      ]
+    },
+    {
+      "id": "02",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:09:05",
+      "fim": "00:09:50",
+      "de": "E eu aprendi a ler na Bíblia",
+      "ate": "a Bíblia estava sendo lida",
+      "gancho": "APRENDEU A LER SOZINHA NA BÍBLIA",
+      "titulo": "Thamires Garcia aprendeu a ler sozinha, numa Bíblia",
+      "titulo_short": "Aprendeu a ler SOZINHA na Bíblia",
+      "descricao": "A menina que chorava na igreja porque ninguém a ensinava a ler a Palavra.",
+      "convidado": "Thamires Garcia",
+      "podcast": "JesusCopy Podcast",
+      "tags": [
+        "Thamires Garcia",
+        "Bíblia",
+        "testemunho",
+        "JesusCopy"
+      ]
+    },
+    {
+      "id": "03",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:10:58",
+      "fim": "00:11:40",
+      "de": "Eu comecei a perceber que eu pregava uma semana",
+      "ate": "foi por isso",
+      "gancho": "A PREGAÇÃO ESQUECIAM, A MÚSICA NÃO",
+      "titulo": "Ninguém lembrava da pregação, mas todo mundo decorava o que ela cantava",
+      "titulo_short": "A pregação esqueciam, a MÚSICA não",
+      "descricao": "Por que Thamires Garcia passou a cantar a Bíblia literalmente.",
+      "convidado": "Thamires Garcia",
+      "podcast": "JesusCopy Podcast",
+      "tags": [
+        "Thamires Garcia",
+        "música cristã",
+        "Bíblia",
+        "JesusCopy"
+      ]
+    },
+    {
+      "id": "04",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:13:40",
+      "fim": "00:14:54",
+      "de": "e nós estamos perdendo em quantidade",
+      "ate": "Continuam lendo",
+      "gancho": "100 DÓLARES PRA QUEM LER A BÍBLIA TODA",
+      "titulo": "Ela pagou 100 dólares para cada sobrinho que lesse a Bíblia inteira",
+      "titulo_short": "100 DÓLARES pra quem ler a Bíblia toda",
+      "descricao": "Uma hora de profundidade contra 23 horas de outras mensagens.",
+      "convidado": "Ana Paula Valadão",
+      "podcast": "JesusCopy Podcast",
+      "tags": [
+        "Bíblia",
+        "família",
+        "Ana Paula Valadão",
+        "JesusCopy"
+      ]
+    },
+    {
+      "id": "05",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:19:10",
+      "fim": "00:20:10",
+      "de": "Olha, talvez seja até considerado um pouco radical",
+      "ate": "ele quer ser sempre o Davi",
+      "gancho": "HOMEM-ARANHA OU REI DAVI?",
+      "titulo": "Homem-Aranha ou Rei Davi: qual herói ensinar primeiro ao filho",
+      "titulo_short": "Homem-Aranha ou REI DAVI?",
+      "descricao": "Thamires Garcia e as brincadeiras com histórias bíblicas em casa.",
+      "convidado": "Thamires Garcia",
+      "podcast": "JesusCopy Podcast",
+      "tags": [
+        "Thamires Garcia",
+        "criação de filhos",
+        "Bíblia",
+        "JesusCopy"
+      ]
+    },
+    {
+      "id": "06",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:22:51",
+      "fim": "00:24:20",
+      "de": "Eu lembro de uma brincadeira que a gente sempre fazia",
+      "ate": "Que pra nós o Martolomeu começa com M",
+      "gancho": "O PERSONAGEM BÍBLICO QUE COMEÇA COM M",
+      "titulo": "A brincadeira de família que durou dias: o personagem bíblico que 'começa com M'",
+      "titulo_short": "O personagem bíblico que começa com M",
+      "descricao": "Uma história engraçada da família de Ana Paula Valadão.",
+      "convidado": "Ana Paula Valadão",
+      "podcast": "JesusCopy Podcast",
+      "tags": [
+        "Ana Paula Valadão",
+        "família",
+        "Bíblia",
+        "JesusCopy"
+      ]
+    },
+    {
+      "id": "07",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:24:50",
+      "fim": "00:25:25",
+      "de": "Porque lá em Gênesis 3",
+      "ate": "até chegar em Jesus",
+      "gancho": "POR QUE DAVI VENCEU GOLIAS",
+      "titulo": "Davi não venceu Golias só por ser herói: a semente de Gênesis 3",
+      "titulo_short": "Por que DAVI venceu Golias",
+      "descricao": "Lendo a Bíblia como uma história só, de Gênesis até Jesus.",
+      "convidado": "Douglas Gonçalves",
+      "podcast": "JesusCopy Podcast",
+      "tags": [
+        "Davi e Golias",
+        "Bíblia",
+        "Gênesis",
+        "JesusCopy"
+      ]
+    },
+    {
+      "id": "08",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:29:25",
+      "fim": "00:30:58",
+      "de": "porque olha, tem um versículo na Bíblia que diz que Jesus cantava",
+      "ate": "então Deus dança e canta",
+      "gancho": "JESUS CANTAVA AS ESCRITURAS?",
+      "titulo": "Jesus cantava? O que a Bíblia diz — e o que estudiosos acreditam",
+      "titulo_short": "Jesus CANTAVA as Escrituras?",
+      "descricao": "O cântico antes do Monte das Oliveiras, a tradição judaica de cantar para memorizar e Sofonias 3:17.",
+      "convidado": "Ana Paula Valadão",
+      "podcast": "JesusCopy Podcast",
+      "tags": [
+        "Jesus",
+        "música",
+        "Salmos",
+        "Ana Paula Valadão",
+        "JesusCopy"
+      ]
+    },
+    {
+      "id": "09",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:41:30",
+      "fim": "00:42:38",
+      "de": "Mas eu, por exemplo, eu faço um tipo de leitura bíblica",
+      "ate": "para viver os propósitos de Deus",
+      "gancho": "TRÊS MESES EM GÊNESIS 1 A 4",
+      "titulo": "Ela ficou três meses em Gênesis 1 a 4 — e leva três anos para ler a Bíblia",
+      "titulo_short": "Três MESES em Gênesis 1 a 4",
+      "descricao": "Não importa a velocidade: o importante é começar a ler.",
+      "convidado": "Ana Paula Valadão",
+      "podcast": "JesusCopy Podcast",
+      "tags": [
+        "leitura bíblica",
+        "Ana Paula Valadão",
+        "devocional",
+        "JesusCopy"
+      ]
+    },
+    {
+      "id": "10",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:44:50",
+      "fim": "00:45:33",
+      "de": "Eu quero dizer que esses meninos, eles estudam a Bíblia doze horas por dia",
+      "ate": "como Jesus, né? Que vergonha",
+      "gancho": "ELES ESTUDAM A TORÁ 12 HORAS POR DIA",
+      "titulo": "Jovens em Jerusalém estudam a Torá 12 horas por dia — e nós?",
+      "titulo_short": "Eles estudam a Torá 12 HORAS por dia",
+      "descricao": "O que o filho de Ana Paula Valadão viu em Jerusalém e a conversa com um guia no Egito.",
+      "convidado": "Ana Paula Valadão",
+      "podcast": "JesusCopy Podcast",
+      "tags": [
+        "Bíblia",
+        "Jerusalém",
+        "Ana Paula Valadão",
+        "JesusCopy"
+      ]
+    },
+    {
+      "id": "11",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:47:25",
+      "fim": "00:48:05",
+      "de": "eu não sei se você sabe, mas quando Jesus está na cruz",
+      "ate": "cheios da Palavra de Deus",
+      "gancho": "QUANDO TE ESPREMEREM, O QUE SAI?",
+      "titulo": "Na cruz, Jesus 'sangrou' a Bíblia: o Salmo 22",
+      "titulo_short": "Quando te ESPREMEREM, o que sai?",
+      "descricao": "Douglas Gonçalves sobre o Salmo 22 na cruz.",
+      "convidado": "Douglas Gonçalves",
+      "podcast": "JesusCopy Podcast",
+      "tags": [
+        "Salmo 22",
+        "Jesus",
+        "Douglas Gonçalves",
+        "JesusCopy"
+      ]
+    }
+  ]
+}

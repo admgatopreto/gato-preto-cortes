@@ -1,0 +1,120 @@
+{
+  "negocios": {
+    "podcast": [
+      "podcast empreendedorismo",
+      "podcast negócios",
+      "podcast finanças investimentos",
+      "podcast dinheiro ficar rico",
+      "podcast marketing digital vendas"
+    ],
+    "cortes": [
+      "cortes empreendedorismo",
+      "cortes podcast negócios",
+      "cortes bilionários",
+      "cortes finanças podcast"
+    ]
+  },
+  "ciencia": {
+    "podcast": [
+      "podcast ciência",
+      "podcast curiosidades",
+      "podcast astronomia espaço",
+      "podcast ciência tecnologia",
+      "podcast neurociência mente"
+    ],
+    "cortes": [
+      "cortes ciência podcast",
+      "cortes curiosidades podcast",
+      "cortes ciência sem fim",
+      "cortes astronomia"
+    ]
+  },
+  "misterio": {
+    "podcast": [
+      "podcast paranormal",
+      "podcast mistério",
+      "podcast terror histórias reais",
+      "podcast ufologia",
+      "podcast casos criminais"
+    ],
+    "cortes": [
+      "cortes paranormal",
+      "cortes podcast terror",
+      "cortes mistério podcast",
+      "cortes ufologia"
+    ]
+  },
+  "historia": {
+    "podcast": [
+      "podcast história",
+      "podcast história do brasil",
+      "podcast história mundial",
+      "podcast geopolítica",
+      "podcast segunda guerra"
+    ],
+    "cortes": [
+      "cortes história podcast",
+      "cortes geopolítica",
+      "cortes história"
+    ]
+  },
+  "fe": {
+    "podcast": [
+      "podcast cristão",
+      "podcast evangélico",
+      "podcast católico",
+      "podcast fé bíblia",
+      "podcast pastor"
+    ],
+    "cortes": [
+      "cortes pregação",
+      "cortes podcast cristão",
+      "cortes evangélicos",
+      "cortes católicos"
+    ]
+  },
+  "esporte": {
+    "podcast": [
+      "podcast futebol",
+      "podcast esporte",
+      "podcast futebol resenha ex jogadores",
+      "podcast mma luta",
+      "podcast nba basquete"
+    ],
+    "cortes": [
+      "cortes futebol podcast",
+      "cortes resenha futebol",
+      "cortes podcast esporte"
+    ]
+  },
+  "politica": {
+    "podcast": [
+      "podcast política",
+      "podcast política brasil",
+      "podcast debate político",
+      "podcast análise política",
+      "podcast economia política"
+    ],
+    "cortes": [
+      "cortes política",
+      "cortes podcast política",
+      "cortes debate político",
+      "cortes análise política"
+    ]
+  },
+  "games": {
+    "podcast": [
+      "podcast games",
+      "podcast videogame",
+      "podcast jogos eletrônicos",
+      "podcast nerd games",
+      "podcast esports"
+    ],
+    "cortes": [
+      "cortes games",
+      "cortes podcast games",
+      "cortes gameplay",
+      "cortes streamer"
+    ]
+  }
+}

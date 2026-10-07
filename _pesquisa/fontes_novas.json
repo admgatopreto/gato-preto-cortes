@@ -1,0 +1,110 @@
+{
+ "gerado_em": "2026-10-07 14:52",
+ "itens": [
+  {
+   "url": "https://www.youtube.com/channel/UC0dxswlu7vVncgvsvzLOL0w",
+   "nome": "Cortes do Praticast [OFICIAL]",
+   "nicho": "negocios",
+   "canal": "canal-tema1-negocios",
+   "status": "LIBERADO",
+   "espera_horas": 24,
+   "emails": [],
+   "prova": {
+    "texto": "✂ Cortes estão liberados depois de 24h do episódio ter acabado / 📝 Não se esqueça de colocar a divulgação do vídeo completo na descrição do corte",
+    "video": "https://youtu.be/om9HWqdGSqY"
+   },
+   "achado_em": "2026-10-07",
+   "decisao": null,
+   "principal": null
+  },
+  {
+   "url": "https://www.youtube.com/channel/UCscgPXGrVFmUQLcYPGtzUjA",
+   "nome": "Cortes do Aurum [OFICIAL]",
+   "nicho": "negocios",
+   "canal": "canal-tema1-negocios",
+   "status": "LIBERADO",
+   "espera_horas": 24,
+   "emails": [],
+   "prova": {
+    "texto": "✂ Cortes estão liberados depois de 24h do episódio ter acabado / 📝 Não se esqueça de colocar a divulgação do vídeo completo na descrição do corte",
+    "video": "https://youtu.be/zweCeEdJCfs"
+   },
+   "achado_em": "2026-10-07",
+   "decisao": null,
+   "principal": {
+    "canal": "Aurum Podcast",
+    "canal_url": "https://www.youtube.com/channel/UC2e_hl_VJxdEZbMSx_tFceg"
+   }
+  },
+  {
+   "url": "https://www.youtube.com/channel/UC2nKl5g9OWW81swgMFHkvFw",
+   "nome": "Neurotônico Negócios",
+   "nicho": "negocios",
+   "canal": "canal-tema1-negocios",
+   "status": "CONDICIONAL",
+   "espera_horas": 72,
+   "emails": [],
+   "prova": {
+    "texto": "Os Cortes estão liberados após 72h do episódio ter encerrado. / 🎥 QUER PARTICIPAR DO PODCAST? / Entre em contato para fazer parcerias e participar do nosso podcast:",
+    "video": "https://youtu.be/9D8BOtEcAgs"
+   },
+   "achado_em": "2026-10-07",
+   "decisao": null
+  },
+  {
+   "url": "https://www.youtube.com/channel/UCmN7b4mLw47mOVoD5p_TEmw",
+   "nome": "Neurotônico Cortes [OFICIAL]",
+   "nicho": "negocios",
+   "canal": "canal-tema1-negocios",
+   "status": "CONDICIONAL",
+   "espera_horas": 72,
+   "emails": [],
+   "prova": {
+    "texto": "✂ Os Cortes estão liberados após 72h do episódio entrar no ar. / 🎥 QUER PARTICIPAR DO PODCAST? / Entre em contato para fazer parcerias e participar do nosso podcast:",
+    "video": "https://youtu.be/HLG6pn_wA4A"
+   },
+   "achado_em": "2026-10-07",
+   "decisao": null,
+   "principal": {
+    "canal": "Neurotônico",
+    "canal_url": "https://www.youtube.com/channel/UCAEDpOTORhOgut0PDRdE8Uw"
+   }
+  },
+  {
+   "url": "https://www.youtube.com/channel/UCxjHLdRvNdEt89I9r0dbyow",
+   "nome": "Cortes do PodBrisa [OFICIAL]",
+   "nicho": "misterio",
+   "canal": "canal-tema3-misterio",
+   "status": "LIBERADO",
+   "espera_horas": 24,
+   "emails": [
+    "[e-mail removido]"
+   ],
+   "prova": {
+    "texto": "✂ Cortes liberados depois de 24h do episódio original ir ao ar",
+    "video": "https://www.youtube.com/channel/UCxjHLdRvNdEt89I9r0dbyow/about"
+   },
+   "achado_em": "2026-10-07",
+   "decisao": null,
+   "principal": {
+    "canal": "PodBrisa [OFICIAL]",
+    "canal_url": "https://www.youtube.com/channel/UCvBNIrU4k0jlZhaYc_BTuyw"
+   }
+  },
+  {
+   "url": "https://www.youtube.com/channel/UCoJb9SsJvjKspMRwka1FnOg",
+   "nome": "Neurotônico Política e Ideologia",
+   "nicho": "politica",
+   "canal": "canal-tema7-politica",
+   "status": "CONDICIONAL",
+   "espera_horas": 72,
+   "emails": [],
+   "prova": {
+    "texto": "Os Cortes estão liberados após 72h do episódio ter encerrado. / 🎥 QUER PARTICIPAR DO PODCAST? / Entre em contato para fazer parcerias e participar do nosso podcast:",
+    "video": "https://youtu.be/2JHEuxus5EQ"
+   },
+   "achado_em": "2026-10-07",
+   "decisao": null
+  }
+ ]
+}

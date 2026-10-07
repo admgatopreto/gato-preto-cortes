@@ -1,0 +1,289 @@
+{
+  "correcoes": {
+    "ex-prejudicial": "extrajudicial",
+    "armatante": "arrematante",
+    "BS e CBS": "IBS e CBS",
+    "BS e BS": "IBS e CBS",
+    "TBI": "ITBI",
+    "despedido": "despejo",
+    "descresse": "estresse",
+    "lelão": "leilão",
+    "pagrão": "padrão",
+    "rescrições": "restrições",
+    "montanjo": "montante",
+    "confitura": "construtora",
+    "retabilizo": "rentabilizo",
+    "Elão": "Leilão"
+  },
+  "cortes": [
+    {
+      "id": "01",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:07:54",
+      "fim": "00:09:13",
+      "de": "Eu arrematei dois imóveis populares",
+      "ate": "praticamente por metade do preço",
+      "remover_texto": [
+        [
+          "Já ia perguntar isso",
+          "É, é isso aí"
+        ]
+      ],
+      "gancho": "COMPROU APARTAMENTO PELA METADE",
+      "titulo": "Ela arrematou dois apartamentos por R$125 mil que valem R$260 mil",
+      "titulo_short": "Apartamento pela METADE do preço no leilão",
+      "descricao": "Priscila Perini conta como arrematou dois apartamentos populares em leilão da Caixa por cerca de metade do valor de mercado.",
+      "convidado": "Priscila Perini",
+      "podcast": "Os Sócios",
+      "tags": [
+        "leilão de imóveis",
+        "imóvel de leilão",
+        "Priscila Perini",
+        "Os Sócios",
+        "investimento imobiliário"
+      ]
+    },
+    {
+      "id": "02",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:10:00",
+      "fim": "00:11:25",
+      "de": "Então as pessoas compraram esse imóvel na planta há três anos",
+      "ate": "Comprar na planta não foi um bom investimento",
+      "gancho": "COMPRAR NA PLANTA NÃO COMPENSOU",
+      "titulo": "Comprar imóvel na planta rendeu menos que o Tesouro Direto nesse caso",
+      "titulo_short": "Comprar na planta NÃO compensou (as contas)",
+      "descricao": "A conta de quem comprou na planta por R$209 mil e vendeu por R$260 mil: 7,5% ao ano, menos que um título público.",
+      "convidado": "Priscila Perini",
+      "podcast": "Os Sócios",
+      "tags": [
+        "imóvel na planta",
+        "leilão de imóveis",
+        "tesouro direto",
+        "Bruno Perini",
+        "Os Sócios"
+      ]
+    },
+    {
+      "id": "03",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:15:45",
+      "fim": "00:17:15",
+      "de": "O leiloeiro é encarregado de realizar vários leilões",
+      "ate": "como esses dois, né",
+      "gancho": "O QUE O LEILOEIRO NÃO TE CONTA",
+      "titulo": "Por que o leiloeiro marca imóvel como ocupado mesmo quando está vazio",
+      "titulo_short": "O que o leiloeiro NÃO te conta",
+      "descricao": "Como a falta de informação no edital faz muitos imóveis de leilão aparecerem como ocupados quando estão vazios.",
+      "convidado": "Priscila Perini",
+      "podcast": "Os Sócios",
+      "tags": [
+        "leilão de imóveis",
+        "imóvel ocupado",
+        "leiloeiro",
+        "Os Sócios"
+      ]
+    },
+    {
+      "id": "04",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:17:40",
+      "fim": "00:18:44",
+      "de": "No geral, quem participa muito de leilão",
+      "ate": "do que comprar no mercado tradicional",
+      "gancho": "NO LEILÃO, PERDER É BOM",
+      "titulo": "Quem mais participa de leilão mais perde do que ganha — e isso é bom",
+      "titulo_short": "No leilão, perder é BOM",
+      "descricao": "Por que o investidor de leilão tem um teto de preço e prefere perder a arrematar caro.",
+      "convidado": "Priscila Perini",
+      "podcast": "Os Sócios",
+      "tags": [
+        "leilão de imóveis",
+        "investidor",
+        "Os Sócios",
+        "Priscila Perini"
+      ]
+    },
+    {
+      "id": "05",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:19:55",
+      "fim": "00:20:50",
+      "de": "O principal preconceito é realmente você tá acabando com o sonho de alguém",
+      "ate": "E adequar o padrão de vida pro bolso dele",
+      "gancho": "LEILÃO TIRA A CASA DE ALGUÉM?",
+      "titulo": "Comprar imóvel de leilão é tirar a casa de alguém? A resposta da especialista",
+      "titulo_short": "Leilão é tirar a casa de alguém?",
+      "descricao": "O principal preconceito com leilão de imóveis e o que acontece de verdade numa dívida de condomínio.",
+      "convidado": "Priscila Perini",
+      "podcast": "Os Sócios",
+      "tags": [
+        "leilão de imóveis",
+        "dívida de condomínio",
+        "Os Sócios"
+      ]
+    },
+    {
+      "id": "06",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:22:45",
+      "fim": "00:24:05",
+      "de": "Muita gente acredita que precisa ser advogado",
+      "ate": "é ser maior de idade",
+      "gancho": "PRECISA SER ADVOGADO PRA LEILÃO?",
+      "titulo": "Precisa ser advogado ou ter contato pra comprar em leilão? Não",
+      "titulo_short": "Precisa ser advogado pra comprar em leilão?",
+      "descricao": "Dois mitos sobre leilão de imóveis: precisar de contato e precisar ser advogado.",
+      "convidado": "Priscila Perini",
+      "podcast": "Os Sócios",
+      "tags": [
+        "leilão de imóveis",
+        "leilão online",
+        "Os Sócios"
+      ]
+    },
+    {
+      "id": "07",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:26:30",
+      "fim": "00:27:35",
+      "de": "Eu lembro uma vez até que foi um dos primeiros imóveis",
+      "ate": "Inclusive tem até julgamento que condenou o arrematante que fez isso",
+      "gancho": "ELE PEDIU O CAMINHÃO DE MUDANÇA",
+      "titulo": "O ocupante disse que estava quebrado e pediu o caminhão de mudança",
+      "titulo_short": "O ocupante pediu o caminhão de mudança",
+      "descricao": "Como funciona a desocupação de um imóvel de leilão na prática, e o erro de quem corta água e luz.",
+      "convidado": "Priscila Perini",
+      "podcast": "Os Sócios",
+      "tags": [
+        "desocupação",
+        "leilão de imóveis",
+        "Os Sócios"
+      ]
+    },
+    {
+      "id": "08",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:48:25",
+      "fim": "00:49:40",
+      "de": "E aí a pessoa que cai num golpe de leilão",
+      "ate": "enquanto você for participar ali",
+      "gancho": "COMO NÃO CAIR EM GOLPE DE LEILÃO",
+      "titulo": "Como saber se o site do leilão é verdadeiro antes de dar lance",
+      "titulo_short": "Como NÃO cair em golpe de leilão",
+      "descricao": "O passo a passo pra conferir se o leiloeiro é oficial pela junta comercial.",
+      "convidado": "Priscila Perini",
+      "podcast": "Os Sócios",
+      "tags": [
+        "golpe de leilão",
+        "leilão falso",
+        "junta comercial",
+        "Os Sócios"
+      ]
+    },
+    {
+      "id": "09",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:55:28",
+      "fim": "00:56:25",
+      "de": "Então tem casos de leilão da Caixa",
+      "ate": "quando você pensa em poder de alavancagem",
+      "gancho": "R$15 MIL DE ENTRADA, IMÓVEL DE R$555 MIL",
+      "titulo": "R$15 mil de entrada num imóvel de R$555 mil em leilão da Caixa",
+      "titulo_short": "R$15 mil de entrada num imóvel de R$555 mil",
+      "descricao": "Leilão também aceita financiamento: o caso de um imóvel arrematado com menos de 3% de entrada.",
+      "convidado": "Priscila Perini",
+      "podcast": "Os Sócios",
+      "tags": [
+        "financiamento leilão",
+        "leilão da caixa",
+        "alavancagem",
+        "Os Sócios"
+      ]
+    },
+    {
+      "id": "10",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:08:58",
+      "fim": "01:09:30",
+      "de": "Warren Buffett, que é um mega investidor",
+      "ate": "é comprar barato",
+      "gancho": "COMO AS PESSOAS FICAM RICAS",
+      "titulo": "As pessoas não ficam ricas comprando coisas boas — a frase de Howard Marks",
+      "titulo_short": "Ninguém fica rico comprando coisa boa",
+      "descricao": "Bruno Perini cita Warren Buffett e Howard Marks sobre margem de segurança.",
+      "podcast": "Os Sócios",
+      "tags": [
+        "Howard Marks",
+        "Warren Buffett",
+        "margem de segurança",
+        "Bruno Perini",
+        "Os Sócios"
+      ]
+    },
+    {
+      "id": "11",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:14:45",
+      "fim": "01:16:10",
+      "de": "Uma das piores operações que eu tive foi durante a pandemia",
+      "ate": "muita gente teve que se mexer",
+      "gancho": "A PIOR OPERAÇÃO DELA RENDEU 20%",
+      "titulo": "A pior operação de leilão dela ainda rendeu 20% em 9 meses",
+      "titulo_short": "A PIOR operação dela rendeu 20%",
+      "descricao": "O imóvel vendido com desconto na pandemia que ainda rendeu mais de 20% em nove meses.",
+      "convidado": "Priscila Perini",
+      "podcast": "Os Sócios",
+      "tags": [
+        "leilão de imóveis",
+        "rentabilidade",
+        "pandemia",
+        "Os Sócios"
+      ]
+    },
+    {
+      "id": "12",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:20:15",
+      "fim": "01:21:25",
+      "de": "Eu queria que você falasse das opções pra quem tem pouco dinheiro",
+      "ate": "É vendendo o teu conhecimento",
+      "gancho": "LEILÃO COM ZERO REAIS NO BOLSO",
+      "titulo": "Como começar no leilão de imóveis com zero dinheiro",
+      "titulo_short": "Como começar no leilão SEM dinheiro",
+      "descricao": "A primeira das opções pra quem quer entrar no mercado de leilão sem capital.",
+      "convidado": "Priscila Perini",
+      "podcast": "Os Sócios",
+      "tags": [
+        "leilão de imóveis",
+        "começar sem dinheiro",
+        "assessoria",
+        "Os Sócios"
+      ]
+    }
+  ]
+}

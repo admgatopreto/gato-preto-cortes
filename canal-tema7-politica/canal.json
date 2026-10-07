@@ -1,0 +1,250 @@
+{
+  "nome": "Gato Preto Política",
+  "handle": "@gatopretopolitica",
+  "nicho": "Política",
+  "idioma": "pt",
+  "criado_em": "2026-10-05",
+  "fontes": [
+    {
+      "canal": "Os Economistas Podcast",
+      "canal_url": "https://www.youtube.com/channel/UCIX5uq1meeqhtKdBIFwHGWg",
+      "status": "SEM MENÇÃO",
+      "espera_horas": null,
+      "emails": [],
+      "evidencia": "",
+      "obs": "preparado antes da autorização — pedir por e-mail antes de publicar"
+    },
+    {
+      "canal": "Marcelo Vitorino - Comunicação e Marketing Político",
+      "canal_url": "https://www.youtube.com/channel/UC7WRgeJf-aBoKryMkKdq6eg",
+      "status": "SEM MENÇÃO",
+      "espera_horas": null,
+      "emails": [],
+      "evidencia": "",
+      "obs": "preparado antes da autorização — pedir por e-mail antes de publicar"
+    },
+    {
+      "canal": "Canal Foco",
+      "canal_url": "https://www.youtube.com/channel/UC5rO0aTewMfpk2UKKPTLBYw",
+      "status": "SEM MENÇÃO",
+      "espera_horas": null,
+      "emails": [],
+      "evidencia": "",
+      "obs": "preparado antes da autorização — pedir por e-mail antes de publicar"
+    }
+  ],
+  "estilo": {
+    "fonte": "Anton",
+    "cor_destaque": "#4FD1C5",
+    "maiusculas": true,
+    "palavras_por_bloco": 3,
+    "chars_por_bloco": 16,
+    "tamanho_legenda_short": 112,
+    "tamanho_legenda_horizontal": 64,
+    "legenda_altura_short": 0.7,
+    "tamanho_gancho": 82,
+    "gancho_margem_topo": 150,
+    "gancho_segundos": null,
+    "credito": "{podcast}",
+    "falante_ativo": true,
+    "zoom_enfase": true,
+    "barra_progresso": true,
+    "gancho_animado": true,
+    "animacao_legenda": "quique",
+    "animacao_gancho": "pop",
+    "nome_convidado": false,
+    "censurar_palavroes": true,
+    "encerramento": true,
+    "logo_marca": "_identidade/logo-mini-politica.png"
+  },
+  "short": {
+    "apertar_pausas": true,
+    "pausa_max": 0.45,
+    "pausa_folga": 0.14,
+    "duracao_alvo_seg": [
+      35,
+      90
+    ]
+  },
+  "horizontal": {
+    "apertar_pausas": true,
+    "pausa_max": 0.8,
+    "pausa_folga": 0.25,
+    "duracao_alvo_seg": [
+      240,
+      900
+    ]
+  },
+  "publicacao": {
+    "descricao_horizontal": "{descricao}\n\n🎙️ Corte do episódio completo de {podcast}: {episodio_url}\nEpisódio: {episodio_titulo}\n\nTodos os créditos a {podcast}. Cortes publicados conforme a regra de cortes do próprio podcast.",
+    "descricao_short": "{descricao}\n\n🎙️ Episódio completo ({podcast}): {episodio_url}\n#Shorts",
+    "tags_fixas": [],
+    "agenda": {
+      "shorts_por_dia": 2,
+      "horizontais_por_semana": 3,
+      "horarios": [
+        "12:00",
+        "19:00"
+      ]
+    }
+  },
+  "candidatos": [
+    {
+      "canal": "CNN Brasil",
+      "canal_url": "https://www.youtube.com/channel/UCvdwhh_fDyWccR42-rReZLw",
+      "inscritos": 6980000,
+      "status": "SEM MENÇÃO",
+      "emails": [],
+      "nao_usar": "Telejornal: Content ID forte e não é podcast."
+    },
+    {
+      "canal": "Brasil Paralelo",
+      "canal_url": "https://www.youtube.com/channel/UCKDjjeeBmdaiicey2nImISw",
+      "inscritos": 5280000,
+      "status": "SEM MENÇÃO",
+      "emails": [],
+      "nao_usar": "Produtora com posicionamento político forte."
+    },
+    {
+      "canal": "BBC News Brasil",
+      "canal_url": "https://www.youtube.com/channel/UCthbIFAxbXTTQEC7EcQvP1Q",
+      "inscritos": 5030000,
+      "status": "SEM MENÇÃO",
+      "emails": [],
+      "nao_usar": "Telejornal: Content ID forte e não é podcast."
+    },
+    {
+      "canal": "Te atualizei",
+      "canal_url": "https://www.youtube.com/channel/UCXRIQok8uzYtg1TPwSqikVg",
+      "inscritos": 2380000,
+      "status": "SEM MENÇÃO",
+      "emails": [],
+      "nao_usar": "Notícia de atualidade, não podcast de análise."
+    },
+    {
+      "canal": "Canal Foco",
+      "canal_url": "https://www.youtube.com/channel/UC5rO0aTewMfpk2UKKPTLBYw",
+      "inscritos": 1220000,
+      "status": "SEM MENÇÃO",
+      "emails": []
+    },
+    {
+      "canal": "RedCast [Oficial]",
+      "canal_url": "https://www.youtube.com/channel/UCeL1a4rpEA8UG9IQIewPccg",
+      "inscritos": 1130000,
+      "status": "SEM MENÇÃO",
+      "emails": [],
+      "nao_usar": "Debates com xingamento, candidatos em campanha e acusações (episódio removido no lote 1)."
+    },
+    {
+      "canal": "Debate em Foco",
+      "canal_url": "https://www.youtube.com/channel/UCaXvlGPVCiFIG12w-YmutCQ",
+      "inscritos": 379000,
+      "status": "SEM MENÇÃO",
+      "emails": []
+    },
+    {
+      "canal": "Os Economistas Podcast",
+      "canal_url": "https://www.youtube.com/channel/UCIX5uq1meeqhtKdBIFwHGWg",
+      "inscritos": 319000,
+      "status": "SEM MENÇÃO",
+      "emails": []
+    },
+    {
+      "canal": "POLITICO",
+      "canal_url": "https://www.youtube.com/channel/UCgjtvMmHXbutALaw9XzRkAg",
+      "inscritos": 231000,
+      "status": "SEM MENÇÃO",
+      "emails": [],
+      "nao_usar": "Imprensa estrangeira, não é podcast em português."
+    },
+    {
+      "canal": "Felipe Moura Brasil",
+      "canal_url": "https://www.youtube.com/channel/UC6goPLJfPWENPXAPeiTtJCQ",
+      "inscritos": 204000,
+      "status": "SEM MENÇÃO",
+      "emails": [],
+      "nao_usar": "Comentário partidário de atualidade, não aula/análise."
+    },
+    {
+      "canal": "Marcelo Vitorino - Comunicação e Marketing Político",
+      "canal_url": "https://www.youtube.com/channel/UC7WRgeJf-aBoKryMkKdq6eg",
+      "inscritos": 142000,
+      "status": "SEM MENÇÃO",
+      "emails": []
+    },
+    {
+      "canal": "Geoforça Brasil - Rubem Gonzalez",
+      "canal_url": "https://www.youtube.com/channel/UClSt_VdYpCb77r_N6f0cAwA",
+      "inscritos": 132000,
+      "status": "NÃO AUDITADO",
+      "emails": [],
+      "nao_usar": "Canal do candidato do debate do RedCast (campanha)."
+    },
+    {
+      "canal": "BRASIL EM DEBATE",
+      "canal_url": "https://www.youtube.com/channel/UCOZ8riiPPH7hFa2iA9QudgQ",
+      "inscritos": 106000,
+      "status": "NÃO AUDITADO",
+      "emails": [],
+      "nao_usar": "Transmite discursos de políticos (imagem da TV Câmara/campanha)."
+    },
+    {
+      "canal": "joseluisguerramx",
+      "canal_url": "https://www.youtube.com/channel/UCjPNJGIDXXwI5nSV7oDECUA",
+      "inscritos": 85700,
+      "status": "NÃO AUDITADO",
+      "emails": [],
+      "nao_usar": "Não é em português."
+    },
+    {
+      "canal": "WM Podcast",
+      "canal_url": "https://www.youtube.com/channel/UC89Mhzj4m4XoKBUN-U__qeQ",
+      "inscritos": 33300,
+      "status": "NÃO AUDITADO",
+      "emails": []
+    }
+  ],
+  "concorrentes": [
+    {
+      "canal": "Cortes do Inteligência [OFICIAL]",
+      "canal_url": "https://www.youtube.com/channel/UCvmWNQH4c2T3Triih3lftiw",
+      "inscritos": 4100000
+    },
+    {
+      "canal": "Cortes do Flow [OFICIAL]",
+      "canal_url": "https://www.youtube.com/channel/UC3uYvpJ3J6oNoNYRXfZXjEw",
+      "inscritos": 3240000
+    },
+    {
+      "canal": "CORTES - Leon e Nilce [Oficial]",
+      "canal_url": "https://www.youtube.com/channel/UCr3dtVIm3nL7I-Yjn2PxxIQ",
+      "inscritos": 894000
+    },
+    {
+      "canal": "Cortes do MBL",
+      "canal_url": "https://www.youtube.com/channel/UC_hb3-hOFioxkjGrhvUIbOA",
+      "inscritos": 514000
+    },
+    {
+      "canal": "Cortes Disruptivos",
+      "canal_url": "https://www.youtube.com/channel/UCDSDEhrY-7N0mgYvDoSyjrA",
+      "inscritos": 273000
+    },
+    {
+      "canal": "corte compilados",
+      "canal_url": "https://www.youtube.com/channel/UCDPgpJrkELl7EtrXtS36NaA",
+      "inscritos": 63600
+    },
+    {
+      "canal": "Fabio Chocolate - CORTES",
+      "canal_url": "https://www.youtube.com/channel/UCDBogqb0qIhQtLQZ2pWyq2Q",
+      "inscritos": 57500
+    },
+    {
+      "canal": "Cortes Cast - Podcasts",
+      "canal_url": "https://www.youtube.com/channel/UCC_Sg_8rTwMwgLwcXs1El2g",
+      "inscritos": 15900
+    }
+  ]
+}

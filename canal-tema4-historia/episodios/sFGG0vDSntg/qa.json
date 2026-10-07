@@ -1,0 +1,52 @@
+{
+  "01": {
+    "dur": 37.0,
+    "amostras": 36,
+    "cortado": 0.0,
+    "pequeno": 0.0,
+    "gancho": 0.0,
+    "sem_rosto": 0.0,
+    "nota_problema": 0.0,
+    "tempos": []
+  },
+  "02": {
+    "dur": 34.3,
+    "amostras": 34,
+    "cortado": 0.0,
+    "pequeno": 0.0,
+    "gancho": 0.0,
+    "sem_rosto": 0.0,
+    "nota_problema": 0.0,
+    "tempos": []
+  },
+  "03": {
+    "dur": 31.0,
+    "amostras": 30,
+    "cortado": 0.0,
+    "pequeno": 0.0,
+    "gancho": 0.0,
+    "sem_rosto": 0.0,
+    "nota_problema": 0.0,
+    "tempos": []
+  },
+  "04": {
+    "dur": 38.6,
+    "amostras": 38,
+    "cortado": 0.0,
+    "pequeno": 0.0,
+    "gancho": 0.0,
+    "sem_rosto": 0.0,
+    "nota_problema": 0.0,
+    "tempos": []
+  },
+  "05": {
+    "dur": 51.3,
+    "amostras": 51,
+    "cortado": 0.0,
+    "pequeno": 0.0,
+    "gancho": 0.0,
+    "sem_rosto": 0.0,
+    "nota_problema": 0.0,
+    "tempos": []
+  }
+}

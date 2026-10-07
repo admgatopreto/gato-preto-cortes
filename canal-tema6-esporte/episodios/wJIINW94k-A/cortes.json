@@ -1,0 +1,287 @@
+{
+  "correcoes": {
+    "Cacá": "Kaká",
+    "Cacameleca": "Kaká meleca",
+    "Mod": "Moggi",
+    "Odinese": "Udinese",
+    "Nézis": "Udinese",
+    "Udni": "Udine",
+    "Udn": "Udine",
+    "Iacuinta": "Iaquinta",
+    "Spaletti": "Spalletti",
+    "Carly": "Carli",
+    "Petralha": "Petraglia",
+    "Campeiro": "Campello",
+    "Campelo": "Campello",
+    "Arrascaíta": "Arrascaeta",
+    "Arrasqueta": "Arrascaeta",
+    "tecnicadora": "técnica",
+    "Vadão é que subiu": "Vadão que subiu",
+    "Jorgensen": "Jørgensen"
+  },
+  "cortes": [
+    {
+      "id": "01",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:07:40",
+      "fim": "00:08:32",
+      "de": "É porque o Denilson, eu falo assim",
+      "ate": "a bola saía 3, 4 metros dele",
+      "gancho": "O MELHOR DRIBLADOR QUE ELE MARCOU",
+      "titulo": "Alberto Valentim: 'o Denílson foi o melhor driblador que eu vi'",
+      "titulo_short": "O MELHOR DRIBLADOR que ele marcou",
+      "descricao": "Como era marcar o Denílson em 1997, segundo quem enfrentou e treinou com ele.",
+      "convidado": "Alberto Valentim",
+      "podcast": "Charla Podcast",
+      "tags": [
+        "Denílson",
+        "drible",
+        "futebol brasileiro",
+        "Alberto Valentim",
+        "Charla Podcast"
+      ]
+    },
+    {
+      "id": "02",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:10:38",
+      "fim": "00:11:50",
+      "de": "Se for a gente perguntar, por que a Itália se tornou",
+      "ate": "perderam um pouco a identidade da Itália",
+      "gancho": "POR QUE A ITÁLIA AFUNDOU",
+      "titulo": "O campeonato italiano era a Premier League dos anos 2000. O que aconteceu?",
+      "titulo_short": "Por que a ITÁLIA afundou",
+      "descricao": "Quem jogou 8 anos na Itália explica a queda da Serie A e da seleção.",
+      "convidado": "Alberto Valentim",
+      "podcast": "Charla Podcast",
+      "tags": [
+        "seleção italiana",
+        "Serie A",
+        "futebol italiano",
+        "Charla Podcast"
+      ]
+    },
+    {
+      "id": "03",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:14:35",
+      "fim": "00:15:42",
+      "de": "O Adriano, Imperador",
+      "ate": "Provavelmente, se ele continua naquela sequência",
+      "gancho": "O GOL QUE BATIZOU O IMPERADOR",
+      "titulo": "O gol contra a Udinese que, segundo Valentim, transformou Adriano no 'Imperatore'",
+      "titulo_short": "O gol que batizou o IMPERADOR",
+      "descricao": "Alberto Valentim estava no elenco da Udinese naquele dia.",
+      "convidado": "Alberto Valentim",
+      "podcast": "Charla Podcast",
+      "tags": [
+        "Adriano Imperador",
+        "Inter de Milão",
+        "Udinese",
+        "Charla Podcast"
+      ]
+    },
+    {
+      "id": "04",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:17:34",
+      "fim": "00:18:22",
+      "de": "Você sabe que o Moggi, o que foi banido",
+      "ate": "Dizem também que não quiseram contratar por causa disso",
+      "gancho": "O PROBLEMA DO NOME 'KAKÁ' NA EUROPA",
+      "titulo": "Kaká chegou ao Milan cercado de piada por causa do nome",
+      "titulo_short": "O problema do nome 'KAKÁ' na Europa",
+      "descricao": "A história contada por Alberto Valentim, que jogava na Itália na época.",
+      "convidado": "Alberto Valentim",
+      "podcast": "Charla Podcast",
+      "tags": [
+        "Kaká",
+        "Milan",
+        "futebol italiano",
+        "Charla Podcast"
+      ]
+    },
+    {
+      "id": "05",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:23:30",
+      "fim": "00:24:16",
+      "de": "Mas o Valentim, na época rolou muito uma lenda",
+      "ate": "mas ficou um clima ruim",
+      "gancho": "OS REFORÇOS SÓ PRO MUNDIAL DE 97",
+      "titulo": "Cruzeiro contratou quatro jogadores só para o Mundial de 97 — e o clima azedou",
+      "titulo_short": "Os reforços SÓ PRO MUNDIAL de 97",
+      "descricao": "Alberto Valentim foi um dos reforços, ao lado de Bebeto, Gonçalves e Donizete.",
+      "convidado": "Alberto Valentim",
+      "podcast": "Charla Podcast",
+      "tags": [
+        "Cruzeiro",
+        "Mundial 1997",
+        "Borussia Dortmund",
+        "Charla Podcast"
+      ]
+    },
+    {
+      "id": "06",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:27:35",
+      "fim": "00:28:30",
+      "de": "Eu tenho o Spalletti",
+      "ate": "quero isso pra mim um dia",
+      "gancho": "O TÉCNICO QUE O FEZ VIRAR TÉCNICO",
+      "titulo": "O treinador italiano que fez Alberto Valentim querer ser técnico",
+      "titulo_short": "O técnico que o fez VIRAR TÉCNICO",
+      "descricao": "Spalletti na Udinese e a semente da nova carreira.",
+      "convidado": "Alberto Valentim",
+      "podcast": "Charla Podcast",
+      "tags": [
+        "Spalletti",
+        "Udinese",
+        "treinador",
+        "Charla Podcast"
+      ]
+    },
+    {
+      "id": "07",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:46:55",
+      "fim": "00:47:56",
+      "de": "e foi no jogo, o estupim foi o jogo que",
+      "ate": "junto com a comissão",
+      "gancho": "O DONO MANDOU TIRAR. ELE FEZ 2 GOLS",
+      "titulo": "O dono do clube mandou tirar o atacante. Ele fez os 2 gols — e o técnico foi demitido",
+      "titulo_short": "O dono mandou tirar. Ele fez 2 GOLS",
+      "descricao": "A passagem relâmpago de Alberto Valentim pelo Pyramids, do Egito.",
+      "convidado": "Alberto Valentim",
+      "podcast": "Charla Podcast",
+      "tags": [
+        "Pyramids",
+        "Egito",
+        "Ribamar",
+        "Alberto Valentim",
+        "Charla Podcast"
+      ]
+    },
+    {
+      "id": "08",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:52:11",
+      "fim": "00:53:30",
+      "de": "O Carli é foda demais",
+      "ate": "fomos para os pênaltis",
+      "gancho": "MANDOU OS ZAGUEIROS PRO ATAQUE",
+      "titulo": "Aos 39 do segundo tempo ele mandou os dois zagueiros pra frente. Deu título",
+      "titulo_short": "Mandou os ZAGUEIROS pro ataque",
+      "descricao": "O gol de Carli na final do Carioca de 2018, Botafogo x Vasco.",
+      "convidado": "Alberto Valentim",
+      "podcast": "Charla Podcast",
+      "tags": [
+        "Botafogo",
+        "Carli",
+        "Campeonato Carioca 2018",
+        "Charla Podcast"
+      ]
+    },
+    {
+      "id": "09",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:02:58",
+      "fim": "01:03:42",
+      "de": "Vocês sabem que uma coisa que não sei se eu já falei fora também",
+      "ate": "pra ser organizado mesmo",
+      "gancho": "'DAQUI A 3 MESES VEMOS SE VOCÊ FICA'",
+      "titulo": "A conversa que começou a virada do Palmeiras: 'daqui a 3 meses a gente vê se você fica'",
+      "titulo_short": "'Daqui a 3 MESES vemos se você fica'",
+      "descricao": "Como Alexandre Mattos e Cícero Souza reorganizaram o Palmeiras, segundo Alberto Valentim.",
+      "convidado": "Alberto Valentim",
+      "podcast": "Charla Podcast",
+      "tags": [
+        "Palmeiras",
+        "gestão no futebol",
+        "Charla Podcast"
+      ]
+    },
+    {
+      "id": "10",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:15:29",
+      "fim": "01:16:12",
+      "de": "Então, cara, mas assim, tá tudo certo",
+      "ate": "hoje não tem ninguém bobo mais",
+      "gancho": "NA 1ª SEMANA O JOGADOR JÁ SABE",
+      "titulo": "Na primeira semana de treino o jogador já sabe se o técnico é bom",
+      "titulo_short": "Na 1ª semana o jogador JÁ SABE",
+      "descricao": "Alberto Valentim sobre metodologia de treino.",
+      "convidado": "Alberto Valentim",
+      "podcast": "Charla Podcast",
+      "tags": [
+        "treinador",
+        "futebol brasileiro",
+        "Charla Podcast"
+      ]
+    },
+    {
+      "id": "11",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:24:30",
+      "fim": "01:25:12",
+      "de": "Tem uma das coisas que, na época do Vasco",
+      "ate": "ele usa a camisa, usa a calça dele",
+      "gancho": "A REPORTAGEM QUE ELE SE ARREPENDE",
+      "titulo": "A reportagem de moda que saiu no dia da final — e o arrependimento de Valentim",
+      "titulo_short": "A reportagem que ele se ARREPENDE",
+      "descricao": "Como o rótulo de 'bonitão' grudou no técnico.",
+      "convidado": "Alberto Valentim",
+      "podcast": "Charla Podcast",
+      "tags": [
+        "Alberto Valentim",
+        "Vasco",
+        "Charla Podcast"
+      ]
+    },
+    {
+      "id": "12",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:26:05",
+      "fim": "01:26:45",
+      "de": "a única vez só na Udinese que eles pegaram dois",
+      "ate": "porque eu não vou desfilar",
+      "gancho": "CHAMADO PRA DESFILAR EM MILÃO",
+      "titulo": "Quando a Udinese escolheu Valentim para desfilar em Milão",
+      "titulo_short": "Chamado pra DESFILAR em Milão",
+      "descricao": "Um moreno e um loiro de cada clube: a resposta dele.",
+      "convidado": "Alberto Valentim",
+      "podcast": "Charla Podcast",
+      "tags": [
+        "Udinese",
+        "Alberto Valentim",
+        "curiosidades do futebol",
+        "Charla Podcast"
+      ]
+    }
+  ]
+}

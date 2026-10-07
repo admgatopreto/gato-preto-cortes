@@ -1,0 +1,268 @@
+{
+  "nome": "Gato Preto Ciência",
+  "handle": "@gatopretociencia",
+  "nicho": "Ciência e curiosidades",
+  "idioma": "pt",
+  "criado_em": "2026-10-05",
+  "fontes": [
+    {
+      "canal": "Ciência Sem Fim",
+      "canal_url": "https://www.youtube.com/channel/UC9djCiv4e85Kd8G--GWlcoQ",
+      "status": "SEM MENÇÃO",
+      "espera_horas": null,
+      "emails": [
+        "[e-mail removido]"
+      ],
+      "evidencia": "",
+      "obs": "preparado antes da autorização — pedir por e-mail antes de publicar"
+    },
+    {
+      "canal": "PodPeople - Ana Beatriz Barbosa",
+      "canal_url": "https://www.youtube.com/channel/UC5VvsTwsyKWMZSQtt1MPCEw",
+      "status": "SEM MENÇÃO",
+      "espera_horas": null,
+      "emails": [],
+      "evidencia": "",
+      "obs": "preparado antes da autorização — pedir por e-mail antes de publicar"
+    },
+    {
+      "canal": "Além da Ciência - Sérgio Sacani",
+      "canal_url": "https://www.youtube.com/channel/UCMbGt0MuxDW6rQAX_Ih8gvQ",
+      "status": "SEM MENÇÃO",
+      "espera_horas": null,
+      "emails": [],
+      "evidencia": "",
+      "obs": "preparado antes da autorização — pedir por e-mail antes de publicar"
+    },
+    {
+      "canal": "Neurotônico",
+      "canal_url": "https://www.youtube.com/channel/UCAEDpOTORhOgut0PDRdE8Uw",
+      "status": "LIBERADO",
+      "espera_horas": 72,
+      "emails": [],
+      "evidencia": "Descrição pública de todos os episódios: '✂ Os Cortes estão liberados após 72h do episódio entrar no ar.' (ex.: https://youtu.be/UFGlCYiHkE4; também nos cortes oficiais @NeurotonicoCortes) — conferido em 07/10/2026",
+      "obs": "Neurociência, psiquiatria, TDAH. Regra: só publicar corte 72h depois do episódio."
+    }
+  ],
+  "estilo": {
+    "fonte": "Anton",
+    "cor_destaque": "#3FB6FF",
+    "maiusculas": true,
+    "palavras_por_bloco": 3,
+    "chars_por_bloco": 16,
+    "tamanho_legenda_short": 112,
+    "tamanho_legenda_horizontal": 64,
+    "legenda_altura_short": 0.7,
+    "tamanho_gancho": 82,
+    "gancho_margem_topo": 150,
+    "gancho_segundos": null,
+    "credito": "{podcast}",
+    "falante_ativo": true,
+    "zoom_enfase": true,
+    "barra_progresso": true,
+    "gancho_animado": true,
+    "animacao_legenda": "quique",
+    "animacao_gancho": "pop",
+    "nome_convidado": false,
+    "censurar_palavroes": true,
+    "encerramento": true,
+    "logo_marca": "_identidade/logo-mini-ciencia.png"
+  },
+  "short": {
+    "apertar_pausas": true,
+    "pausa_max": 0.45,
+    "pausa_folga": 0.14,
+    "duracao_alvo_seg": [
+      35,
+      90
+    ]
+  },
+  "horizontal": {
+    "apertar_pausas": true,
+    "pausa_max": 0.8,
+    "pausa_folga": 0.25,
+    "duracao_alvo_seg": [
+      240,
+      900
+    ]
+  },
+  "publicacao": {
+    "descricao_horizontal": "{descricao}\n\n🎙️ Corte do episódio completo de {podcast}: {episodio_url}\nEpisódio: {episodio_titulo}\n\nTodos os créditos a {podcast}. Cortes publicados conforme a regra de cortes do próprio podcast.",
+    "descricao_short": "{descricao}\n\n🎙️ Episódio completo ({podcast}): {episodio_url}\n#Shorts",
+    "tags_fixas": [],
+    "agenda": {
+      "shorts_por_dia": 2,
+      "horizontais_por_semana": 3,
+      "horarios": [
+        "12:00",
+        "19:00"
+      ]
+    },
+    "auto_upload": true,
+    "auto_escolher": true,
+    "estoque_dias": 7
+  },
+  "candidatos": [
+    {
+      "canal": "PodPeople - Ana Beatriz Barbosa",
+      "canal_url": "https://www.youtube.com/channel/UC5VvsTwsyKWMZSQtt1MPCEw",
+      "inscritos": 4780000,
+      "status": "SEM MENÇÃO",
+      "emails": []
+    },
+    {
+      "canal": "SpaceToday",
+      "canal_url": "https://www.youtube.com/channel/UC_Fk7hHbl7vv_7K8tYqJd5A",
+      "inscritos": 2370000,
+      "status": "SEM MENÇÃO",
+      "emails": [
+        "[e-mail removido]"
+      ]
+    },
+    {
+      "canal": "Ciência Sem Fim",
+      "canal_url": "https://www.youtube.com/channel/UC9djCiv4e85Kd8G--GWlcoQ",
+      "inscritos": 1310000,
+      "status": "SEM MENÇÃO",
+      "emails": [
+        "[e-mail removido]"
+      ]
+    },
+    {
+      "canal": "Lutz Podcast",
+      "canal_url": "https://www.youtube.com/channel/UCG0FxF6ByyzbYHl_x40TD4g",
+      "inscritos": 591000,
+      "status": "SEM MENÇÃO",
+      "emails": []
+    },
+    {
+      "canal": "Raul Ferreira Netto Sem Limites",
+      "canal_url": "https://www.youtube.com/channel/UCvnWMyECqjqG2Wdgrvn1VLw",
+      "inscritos": 542000,
+      "status": "SEM MENÇÃO",
+      "emails": []
+    },
+    {
+      "canal": "Falatuh podcast",
+      "canal_url": "https://www.youtube.com/channel/UCDsSTDR60vaps6NP_g8-XRg",
+      "inscritos": 530000,
+      "status": "SEM MENÇÃO",
+      "emails": [
+        "[e-mail removido]"
+      ]
+    },
+    {
+      "canal": "Além da Ciência - Sérgio Sacani",
+      "canal_url": "https://www.youtube.com/channel/UCMbGt0MuxDW6rQAX_Ih8gvQ",
+      "inscritos": 287000,
+      "status": "SEM MENÇÃO",
+      "emails": []
+    },
+    {
+      "canal": "Os Três Elementos",
+      "canal_url": "https://www.youtube.com/channel/UCNV2eEr4N2DNWv2TC3_EClA",
+      "inscritos": 213000,
+      "status": "SEM MENÇÃO",
+      "emails": []
+    },
+    {
+      "canal": "Andrei Mayer",
+      "canal_url": "https://www.youtube.com/channel/UCkU_pOw46kwsrzcdzfqE7UQ",
+      "inscritos": 202000,
+      "status": "SEM MENÇÃO",
+      "emails": []
+    },
+    {
+      "canal": "Cauê Santos",
+      "canal_url": "https://www.youtube.com/channel/UCyvSnfev4dYXjj13ylLAcfg",
+      "inscritos": 187000,
+      "status": "SEM MENÇÃO",
+      "emails": [
+        "[e-mail removido]"
+      ]
+    },
+    {
+      "canal": "Leo Simão | Calma da Mente",
+      "canal_url": "https://www.youtube.com/channel/UCQJ_594zdkEtwnKL7iRc7-w",
+      "inscritos": 90400,
+      "status": "SEM MENÇÃO",
+      "emails": []
+    },
+    {
+      "canal": "Podcast do ZOOi",
+      "canal_url": "https://www.youtube.com/channel/UC2648URMopRjuRMOLt10yTg",
+      "inscritos": 49000,
+      "status": "SEM MENÇÃO",
+      "emails": []
+    },
+    {
+      "canal": "Cientística & Podcast Naruhodo",
+      "canal_url": "https://www.youtube.com/channel/UCPzA7lZCeFiafe9V9bamISw",
+      "inscritos": 38300,
+      "status": "SEM MENÇÃO",
+      "emails": []
+    },
+    {
+      "canal": "cauwave",
+      "canal_url": "https://www.youtube.com/channel/UCDeU1kfwWCLyKw1THGIVZDw",
+      "inscritos": 29700,
+      "status": "SEM MENÇÃO",
+      "emails": []
+    },
+    {
+      "canal": "Podcast Ciência Suja",
+      "canal_url": "https://www.youtube.com/channel/UCdlm2W9w-24kqcCKM5arTkg",
+      "inscritos": 24900,
+      "status": "SEM MENÇÃO",
+      "emails": []
+    }
+  ],
+  "concorrentes": [
+    {
+      "canal": "Cortes do Inteligência [OFICIAL]",
+      "canal_url": "https://www.youtube.com/channel/UCvmWNQH4c2T3Triih3lftiw",
+      "inscritos": 4100000
+    },
+    {
+      "canal": "Cortes do Ciência Sem Fim [OFICIAL]",
+      "canal_url": "https://www.youtube.com/channel/UCbiNMBd57pgETEFbiDSa4yQ",
+      "inscritos": 807000
+    },
+    {
+      "canal": "Cortes Daniel Lopez [OFICIAL]",
+      "canal_url": "https://www.youtube.com/channel/UCwsHR0z1hi-RrKE6SeBR5dg",
+      "inscritos": 363000
+    },
+    {
+      "canal": "Cortes Alakazam",
+      "canal_url": "https://www.youtube.com/channel/UCZaJNx9-BTRjInd6X8VunXw",
+      "inscritos": 82700
+    },
+    {
+      "canal": "Sacani Cortes ",
+      "canal_url": "https://www.youtube.com/channel/UCRnjvlSqHfZ32ADyyDb2aVA",
+      "inscritos": 66400
+    },
+    {
+      "canal": "Olá, Ciência! | Cortes",
+      "canal_url": "https://www.youtube.com/channel/UChogneUHndobYIVNN_cxxqA",
+      "inscritos": 23700
+    },
+    {
+      "canal": "Ciência em Cortes",
+      "canal_url": "https://www.youtube.com/channel/UCWsxawJ5MAOkAxV7yrd3C9g",
+      "inscritos": 5890
+    },
+    {
+      "canal": "CortesInteligentes",
+      "canal_url": "https://www.youtube.com/channel/UCDJ89GPTZytqkH5Cky3Y_fw",
+      "inscritos": 3500
+    }
+  ],
+  "youtube": {
+    "channel_id": "UC8O3q_ImDMTPN434DvSvF-g",
+    "titulo": "Gato Preto Ciência",
+    "handle": "@gatopretociencia",
+    "conectado_em": "2026-10-07 12:50"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "canal-tema4-historia": {
+    "Charla Podcast": "É de esporte, não de história.",
+    "Brasil Paralelo": "Produtora com posicionamento político forte; documentário, não podcast.",
+    "Opera Mundi": "Comentário político de atualidade, não história.",
+    "Ian Neves": "Comentário político de atualidade, não história.",
+    "AchismosTV": "Podcast generalista (curiosidades do dia a dia), não de história."
+  },
+  "canal-tema5-fe": {
+    "Daniel Pires": "É de mistério/paranormal, não de fé.",
+    "PrimoCast": "É de negócios, não de fé.",
+    "PARANORMAL EXPERIENCE": "É de mistério/paranormal, não de fé."
+  },
+  "canal-tema7-politica": {
+    "CNN Brasil": "Telejornal: Content ID forte e não é podcast.",
+    "BBC News Brasil": "Telejornal: Content ID forte e não é podcast.",
+    "POLITICO": "Imprensa estrangeira, não é podcast em português.",
+    "Te atualizei": "Notícia de atualidade, não podcast de análise.",
+    "Brasil Paralelo": "Produtora com posicionamento político forte.",
+    "Geoforça Brasil - Rubem Gonzalez": "Canal do candidato do debate do RedCast (campanha).",
+    "joseluisguerramx": "Não é em português.",
+    "RedCast [Oficial]": "Debates com xingamento, candidatos em campanha e acusações (episódio removido no lote 1).",
+    "Felipe Moura Brasil": "Comentário partidário de atualidade, não aula/análise.",
+    "BRASIL EM DEBATE": "Transmite discursos de políticos (imagem da TV Câmara/campanha)."
+  },
+  "canal-tema8-games": {
+    "TNT Sports Brasil": "É de esporte, não de games.",
+    "Flow Sport Club": "É de esporte, não de games.",
+    "N Sports": "É de esporte, não de games.",
+    "Cara dos Sports": "É de esporte, não de games.",
+    "Made In Brasil Podcast - MIB por Dom e Carol ": "Podcast generalista, não de games."
+  },
+  "canal-tema6-esporte": {
+    "TNT Sports Brasil": "Transmissão/narração de jogos: Content ID certo."
+  }
+}

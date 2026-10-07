@@ -1,0 +1,318 @@
+{
+  "correcoes": {
+    "ENUPT": "eNAMPT",
+    "Enumpt": "eNAMPT",
+    "ENAMPT": "eNAMPT",
+    "Nade": "NAD",
+    "nade": "NAD",
+    "nádia": "NAD",
+    "Nádia": "NAD",
+    "NMI": "NMN",
+    "incumpridaram": "encompridaram",
+    "Nicoleles": "Nicolelis",
+    "Nicolás": "Nicolelis",
+    "Half Spent": "Lifespan",
+    "Norton": "Northon",
+    "Dória": "Dolly",
+    "ovelha dólar": "ovelha Dolly",
+    "ovelha dole": "ovelha Dolly",
+    "Human Connection Project": "Human Connectome Project",
+    "Ode": "Old"
+  },
+  "cortes": [
+    {
+      "id": "01",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:08:41",
+      "fim": "00:09:55",
+      "de": "Aí o pessoal, como eu estava falando antes, começou a vender suplementação",
+      "ate": "resistência à insulina e tudo mais",
+      "gancho": "SUPLEMENTO DE NAD FUNCIONA?",
+      "titulo": "Suplemento de NAD aumenta o NAD no sangue, mas não o que importa",
+      "titulo_short": "Suplemento de NAD funciona?",
+      "descricao": "A cientista Patrícia explica o que os estudos desde 2017 mostram sobre suplementação de NAD, NR e NMN.",
+      "podcast": "Ciência Sem Fim",
+      "tags": [
+        "NAD",
+        "longevidade",
+        "suplementação",
+        "envelhecimento",
+        "Ciência Sem Fim"
+      ]
+    },
+    {
+      "id": "02",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:10:14",
+      "fim": "00:11:41",
+      "de": "Isso, eles pegaram uma outra substância",
+      "ate": "agilidade cognitiva e também motora",
+      "remover_texto": [
+        [
+          "E aí, pode colocar um pouquinho pra cima",
+          "mais um pouquinho, o que eles viram é que",
+          "00:11:00"
+        ]
+      ],
+      "gancho": "RATOS VIVERAM 16% A MAIS",
+      "titulo": "A substância que fez ratos viverem 16% a mais (e por que se testa em rato)",
+      "titulo_short": "Ratos viveram 16% A MAIS",
+      "descricao": "O estudo com eNAMPT que aumentou o NAD, o metabolismo e a expectativa de vida de camundongos.",
+      "podcast": "Ciência Sem Fim",
+      "tags": [
+        "longevidade",
+        "NAD",
+        "eNAMPT",
+        "camundongos",
+        "Ciência Sem Fim"
+      ]
+    },
+    {
+      "id": "03",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:11:41",
+      "fim": "00:13:15",
+      "de": "Veja bem, eu disse gerenciar o envelhecimento",
+      "ate": "são os marcadores biológicos de envelhecimento",
+      "gancho": "ENVELHECER É UMA DOENÇA?",
+      "titulo": "Envelhecer é uma doença? A ideia que parece absurda e o que ela quer dizer",
+      "titulo_short": "Envelhecer é uma DOENÇA?",
+      "descricao": "Idade cronológica x idade biológica: por que alguns pesquisadores tratam o envelhecimento como algo gerenciável.",
+      "podcast": "Ciência Sem Fim",
+      "tags": [
+        "envelhecimento",
+        "idade biológica",
+        "longevidade",
+        "Ciência Sem Fim"
+      ]
+    },
+    {
+      "id": "04",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:27:00",
+      "fim": "00:28:05",
+      "de": "por que você acha que as crianças não precisam fazer skincare",
+      "ate": "é de 30 a 40 dias",
+      "gancho": "SUA PELE SE RENOVA EM QUANTOS DIAS?",
+      "titulo": "Por que criança não precisa de skincare: a pele se renova em 10 dias",
+      "titulo_short": "Sua pele se renova em QUANTOS dias?",
+      "descricao": "O turnover celular da pele na infância, aos 25 e aos 80 anos.",
+      "podcast": "Ciência Sem Fim",
+      "tags": [
+        "pele",
+        "skincare",
+        "turnover celular",
+        "envelhecimento",
+        "Ciência Sem Fim"
+      ]
+    },
+    {
+      "id": "05",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:37:50",
+      "fim": "00:38:45",
+      "de": "O que acontece num atleta de alto rendimento",
+      "ate": "é análogo ao envelhecimento",
+      "gancho": "SER ATLETA NÃO É SAUDÁVEL",
+      "titulo": "Ser atleta de alto rendimento não é saudável — e envelhece as células",
+      "titulo_short": "Ser atleta NÃO é saudável",
+      "descricao": "Por que o estresse metabólico extremo de um atleta de Ironman é análogo ao envelhecimento celular.",
+      "podcast": "Ciência Sem Fim",
+      "tags": [
+        "atleta",
+        "estresse oxidativo",
+        "envelhecimento",
+        "Ironman",
+        "Ciência Sem Fim"
+      ]
+    },
+    {
+      "id": "06",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:38:43",
+      "fim": "00:40:30",
+      "de": "Aí você fala, mas é só se entupir de antioxidante",
+      "ate": "que é pra isso que os antioxidantes servem, também não funciona muito",
+      "gancho": "ANTIOXIDANTE DEMAIS TAMBÉM OXIDA",
+      "titulo": "Encher o corpo de antioxidante não impede o envelhecimento — passa do limite e oxida",
+      "titulo_short": "Antioxidante DEMAIS também oxida",
+      "descricao": "Radicais livres, estresse oxidativo e o limite dos antioxidantes.",
+      "podcast": "Ciência Sem Fim",
+      "tags": [
+        "antioxidante",
+        "radicais livres",
+        "estresse oxidativo",
+        "Ciência Sem Fim"
+      ]
+    },
+    {
+      "id": "07",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:49:20",
+      "fim": "00:50:45",
+      "de": "Vocês já devem ter ouvido falar do estudo da Estação Espacial dos Gêmeos",
+      "ate": "é um marcador também do envelhecimento",
+      "gancho": "O GÊMEO QUE FOI PRO ESPAÇO",
+      "titulo": "O gêmeo que foi pro espaço voltou com telômeros maiores — mas não mais jovem",
+      "titulo_short": "O gêmeo que foi pro ESPAÇO",
+      "descricao": "O estudo dos gêmeos Kelly na Estação Espacial e o que os telômeros mostraram sobre envelhecimento.",
+      "podcast": "Ciência Sem Fim",
+      "tags": [
+        "telômeros",
+        "estação espacial",
+        "Scott Kelly",
+        "envelhecimento",
+        "Ciência Sem Fim"
+      ]
+    },
+    {
+      "id": "08",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:03:41",
+      "fim": "01:04:21",
+      "de": "Nunca chamem ninguém",
+      "ate": "como que elas pensaram em se defender dos vírus",
+      "gancho": "NUNCA CHAME ALGUÉM DE BACTÉRIA",
+      "titulo": "Chamar alguém de bactéria não é ofensa: a clonagem e o CRISPR vêm delas",
+      "titulo_short": "NUNCA chame alguém de bactéria",
+      "descricao": "Por que as bactérias são a origem da clonagem em laboratório e da edição genética.",
+      "podcast": "Ciência Sem Fim",
+      "tags": [
+        "bactérias",
+        "CRISPR",
+        "clonagem",
+        "edição genética",
+        "Ciência Sem Fim"
+      ]
+    },
+    {
+      "id": "09",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:23:16",
+      "fim": "01:24:10",
+      "de": "Xi Jinping e Vladimir Putin foram apanhados numa conversa privada",
+      "ate": "a gente vai conseguir viver até os 150",
+      "gancho": "A CONVERSA DE XI E PUTIN NO MICROFONE",
+      "titulo": "Xi Jinping e Putin falaram de viver até os 150 anos com o microfone aberto",
+      "titulo_short": "Xi e Putin falando de viver até os 150",
+      "descricao": "A conversa sobre transplantes e imortalidade captada pelo microfone e o que a ciência diz sobre isso.",
+      "podcast": "Ciência Sem Fim",
+      "tags": [
+        "longevidade",
+        "Xi Jinping",
+        "Putin",
+        "biotecnologia",
+        "Ciência Sem Fim"
+      ]
+    },
+    {
+      "id": "10",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:27:49",
+      "fim": "01:29:05",
+      "de": "Olha em 1940, qual era a expectativa de vida",
+      "ate": "naquele contexto, ela era uma velhinha",
+      "gancho": "A 'VELHINHA' DE 42 ANOS",
+      "titulo": "Em 1940 a expectativa de vida era 45 anos — e uma mulher de 42 era 'velhinha'",
+      "titulo_short": "A 'velhinha' de 42 ANOS",
+      "descricao": "Como a expectativa de vida no Brasil saiu de 45 anos em 1940 para quase 77 hoje.",
+      "podcast": "Ciência Sem Fim",
+      "tags": [
+        "expectativa de vida",
+        "história",
+        "longevidade",
+        "Ciência Sem Fim"
+      ]
+    },
+    {
+      "id": "11",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:41:35",
+      "fim": "01:42:50",
+      "de": "Tem outros biohackings que não são da nutrigenômica",
+      "ate": "a gente precisava andar de costas",
+      "gancho": "ESCOVE OS DENTES COM A OUTRA MÃO",
+      "titulo": "Escovar os dentes com a outra mão cria novas conexões no cérebro",
+      "titulo_short": "Escove os dentes com a OUTRA mão",
+      "descricao": "Biohacking cerebral: sair da zona de conforto motora pra estimular novas conexões neurais.",
+      "podcast": "Ciência Sem Fim",
+      "tags": [
+        "cérebro",
+        "neuroplasticidade",
+        "biohacking",
+        "Ciência Sem Fim"
+      ]
+    },
+    {
+      "id": "12",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:56:41",
+      "fim": "01:57:20",
+      "de": "A questão de controle de insulina",
+      "ate": "Então, mas vale a pena viver pra sempre assim",
+      "gancho": "O CIENTISTA QUE PASSA FOME",
+      "titulo": "O cientista da longevidade que passa fome pra controlar a insulina",
+      "titulo_short": "O cientista que PASSA FOME pra viver mais",
+      "descricao": "O nível de controle de insulina de quem leva o biohacking ao extremo — e a pergunta: vale a pena?",
+      "podcast": "Ciência Sem Fim",
+      "tags": [
+        "David Sinclair",
+        "insulina",
+        "biohacking",
+        "longevidade",
+        "Ciência Sem Fim"
+      ]
+    },
+    {
+      "id": "13",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:43:40",
+      "fim": "00:44:30",
+      "de": "a diferença entre amortal e imortal",
+      "ate": "mas ele pode ser morto por fatores externos",
+      "gancho": "AMORTAL OU IMORTAL?",
+      "titulo": "Amortal x imortal: a diferença (e por que o vampiro é amortal)",
+      "titulo_short": "Amortal ou IMORTAL?",
+      "descricao": "A diferença entre não morrer de causas biológicas e não morrer de nada.",
+      "podcast": "Ciência Sem Fim",
+      "tags": [
+        "imortalidade",
+        "vampiros",
+        "cultura pop",
+        "Ciência Sem Fim"
+      ]
+    }
+  ],
+  "janela_original": [
+    0.64,
+    0.615,
+    0.958,
+    0.93
+  ]
+}

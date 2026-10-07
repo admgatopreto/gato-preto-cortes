@@ -1,0 +1,7 @@
+{
+  "04": [{"nivel": "atencao", "texto": "Banner do MyHub (anúncio com QR) no original de 30s até o fim; cortado com cortar_embaixo 0.68 nesse trecho (zoom leve, topo da cabeça um pouco cortado)."}],
+  "05": [{"nivel": "atencao", "texto": "Banner do MyHub (anúncio com QR) nos últimos ~14s; desfocado com esconder. Fica uma mancha desfocada embaixo da legenda e chega perto do queixo no close do Sacani — conferir se incomoda."}],
+  "08": [{"nivel": "atencao", "texto": "Relato sobre agentes da OpenAI hackeando a Hugging Face é contado no podcast sem fonte verificável; título e descrição dizem 'segundo o relato'. Conferir antes de publicar."}],
+  "12": [{"nivel": "atencao", "texto": "Short curto (33s), abaixo do alvo de 35s; plano lateral aberto do Sacani em parte do tempo."}],
+  "14": [{"nivel": "atencao", "texto": "Números ditos de improviso (tório pra 60 mil anos, só os EUA com saldo positivo); não estão errados de um jeito que mude o sentido, mas não foram verificados."}]
+}

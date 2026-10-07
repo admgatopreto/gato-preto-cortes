@@ -1,0 +1,422 @@
+{
+  "correcoes": {
+    "puffninho": "puffzinho",
+    "Uri": "Yuri",
+    "fez o FRJ": "fez a UFRJ",
+    "FRJ": "UFRJ"
+  },
+  "cortes": [
+    {
+      "id": "01",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:04:13",
+      "fim": "00:05:42",
+      "de": "No caso da mulher",
+      "ate": "se sentindo diferente do mundo.",
+      "gancho": "POR QUE O AUTISMO FEMININO SE ESCONDE",
+      "titulo": "Por que tantas mulheres autistas só descobrem o diagnóstico na vida adulta",
+      "titulo_short": "Por que o autismo feminino passa despercebido",
+      "descricao": "A psiquiatra Dra. Ana Aguiar explica o mascaramento: como meninas autistas aprendem a imitar o grupo e passam despercebidas, mas não sem sofrimento.",
+      "convidado": "Dra. Ana Aguiar",
+      "podcast": "Neurotônico",
+      "tags": [
+        "autismo",
+        "autismo feminino",
+        "mascaramento",
+        "neurodivergência",
+        "diagnóstico tardio",
+        "Neurotônico"
+      ],
+      "esconder": [
+        [
+          0.875,
+          0.01,
+          0.995,
+          0.185
+        ]
+      ]
+    },
+    {
+      "id": "02",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:08:25",
+      "fim": "00:09:37",
+      "de": "Se eu não lhe falo nada",
+      "ate": "Eu já seria limada no critério A",
+      "gancho": "VOCÊ DESCONFIARIA QUE ELA É AUTISTA?",
+      "titulo": "Você desconfiaria que ela é autista? O critério que esconde mulheres autistas",
+      "titulo_short": "Você desconfiaria que ela é autista?",
+      "descricao": "A Dra. Ana Aguiar, psiquiatra autista, mostra como o mascaramento e as habilidades sociais aprendidas confundem o critério A do diagnóstico.",
+      "convidado": "Dra. Ana Aguiar",
+      "podcast": "Neurotônico",
+      "tags": [
+        "autismo",
+        "autismo feminino",
+        "mascaramento",
+        "DSM-5",
+        "diagnóstico",
+        "Neurotônico"
+      ]
+    },
+    {
+      "id": "03",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:15:42",
+      "fim": "00:16:45",
+      "de": "Tem uma coisa que eu preciso dizer",
+      "ate": "você é um mentiroso.",
+      "gancho": "EU PRECISO PROVAR QUE SOU AUTISTA",
+      "titulo": "\"Eu preciso provar que sou autista em todo lugar\": o diagnóstico na vida adulta",
+      "titulo_short": "Preciso provar que sou autista em todo lugar",
+      "descricao": "A Dra. Ana Aguiar fala da falta de rede de suporte do adulto autista e de quando a família não acredita no diagnóstico.",
+      "convidado": "Dra. Ana Aguiar",
+      "podcast": "Neurotônico",
+      "tags": [
+        "autismo",
+        "autismo adulto",
+        "diagnóstico tardio",
+        "família",
+        "neurodivergência",
+        "Neurotônico"
+      ],
+      "esconder": [
+        [
+          0.875,
+          0.01,
+          0.995,
+          0.185
+        ]
+      ]
+    },
+    {
+      "id": "04",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:16:45",
+      "fim": "00:17:30",
+      "de": "E ao longo da vida",
+      "ate": "E a coisa vai se acertando",
+      "gancho": "O AUTISTA QUE FALA NA SUA CARA",
+      "titulo": "Por que algumas pessoas autistas falam as coisas na sua cara",
+      "titulo_short": "Por que o autista fala tudo na sua cara",
+      "descricao": "A psiquiatra Dra. Ana Aguiar explica a alteração no córtex pré-frontal e como saber o diagnóstico muda a convivência.",
+      "convidado": "Dra. Ana Aguiar",
+      "podcast": "Neurotônico",
+      "tags": [
+        "autismo",
+        "córtex pré-frontal",
+        "comunicação",
+        "neurodivergência",
+        "convivência",
+        "Neurotônico"
+      ],
+      "esconder": [
+        [
+          0.875,
+          0.01,
+          0.995,
+          0.185
+        ]
+      ]
+    },
+    {
+      "id": "05",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:18:11",
+      "fim": "00:19:31",
+      "de": "a única pessoa que eu",
+      "ate": "Como médica, inclusive.",
+      "gancho": "A ÚNICA PESSOA QUE PRECISOU SABER",
+      "titulo": "A psiquiatra que se descobriu autista: \"a única pessoa que precisei contar foi minha filha\"",
+      "titulo_short": "Descobri que sou autista e contei só pra minha filha",
+      "descricao": "A Dra. Ana Aguiar conta como o diagnóstico de autismo aos 38 anos mudou sua vida como mãe e como médica.",
+      "convidado": "Dra. Ana Aguiar",
+      "podcast": "Neurotônico",
+      "tags": [
+        "autismo",
+        "diagnóstico tardio",
+        "maternidade",
+        "psiquiatria",
+        "autismo feminino",
+        "Neurotônico"
+      ]
+    },
+    {
+      "id": "06",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:25:35",
+      "fim": "00:26:38",
+      "de": "Esse dia eu me enfiei num grupo",
+      "ate": "Aí eu comecei a procurar.",
+      "gancho": "O DIA EM QUE ELA ENXERGOU",
+      "titulo": "O dia em que uma psiquiatra percebeu que existia autista adulto sem diagnóstico",
+      "titulo_short": "O dia em que ela viu autistas adultos sem diagnóstico",
+      "descricao": "Observando um grupo terapêutico no SUS, a Dra. Ana Aguiar percebeu que havia autistas adultos sendo tratados como outra coisa.",
+      "convidado": "Dra. Ana Aguiar",
+      "podcast": "Neurotônico",
+      "tags": [
+        "autismo",
+        "autismo adulto",
+        "SUS",
+        "psiquiatria",
+        "diagnóstico",
+        "Neurotônico"
+      ],
+      "esconder": [
+        [
+          0.875,
+          0.01,
+          0.995,
+          0.185
+        ]
+      ]
+    },
+    {
+      "id": "07",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:26:43",
+      "fim": "00:28:07",
+      "de": "Eu me lembro que eu liguei para fazer um puff",
+      "ate": "Aquela pergunta, ela veio.",
+      "gancho": "\"TEM AUTISTA ADULTO?\"",
+      "titulo": "\"Tem autista adulto?\": a pergunta que uma psiquiatra ouviu ao encomendar um puff sensorial",
+      "titulo_short": "\"Tem autista adulto?\"",
+      "descricao": "A Dra. Ana Aguiar conta como era montar um ambiente sensorial para adultos autistas quando ninguém acreditava que eles existiam.",
+      "convidado": "Dra. Ana Aguiar",
+      "podcast": "Neurotônico",
+      "tags": [
+        "autismo",
+        "autismo adulto",
+        "crise sensorial",
+        "regulação emocional",
+        "Neurotônico"
+      ],
+      "esconder": [
+        [
+          0.875,
+          0.01,
+          0.995,
+          0.185
+        ]
+      ]
+    },
+    {
+      "id": "08",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:31:25",
+      "fim": "00:32:47",
+      "de": "Você quer ver uma coisa super arcaica",
+      "ate": "Porque você passa uma vida sendo invalidada.",
+      "gancho": "AUTISTA NÃO OLHA NOS OLHOS?",
+      "titulo": "\"Autista não olha nos olhos\": o critério arcaico que ainda aparece em testes",
+      "titulo_short": "Autista não olha nos olhos? Não é bem assim",
+      "descricao": "A psiquiatra Dra. Ana Aguiar derruba um mito do autismo e explica o poder de saber dizer não depois do diagnóstico.",
+      "convidado": "Dra. Ana Aguiar",
+      "podcast": "Neurotônico",
+      "tags": [
+        "autismo",
+        "mitos do autismo",
+        "contato visual",
+        "crise sensorial",
+        "autismo feminino",
+        "Neurotônico"
+      ]
+    },
+    {
+      "id": "09",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:33:53",
+      "fim": "00:34:50",
+      "de": "Alguns médicos já por esse critério",
+      "ate": "poder proteger a minha vida",
+      "gancho": "\"VOCÊ PASSOU NA UFRJ, NÃO É AUTISTA\"",
+      "titulo": "\"Você passou na UFRJ, não é autista\": altas habilidades como cortina de fumaça",
+      "titulo_short": "\"Passou na UFRJ, então não é autista\"",
+      "descricao": "A Dra. Ana Aguiar explica como superdotação e altas habilidades escondem o autismo e atrasam o diagnóstico.",
+      "convidado": "Dra. Ana Aguiar",
+      "podcast": "Neurotônico",
+      "tags": [
+        "autismo",
+        "altas habilidades",
+        "superdotação",
+        "diagnóstico tardio",
+        "Neurotônico"
+      ],
+      "esconder": [
+        [
+          0.875,
+          0.01,
+          0.995,
+          0.185
+        ]
+      ]
+    },
+    {
+      "id": "10",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:35:41",
+      "fim": "00:36:35",
+      "de": "E mulheres, cuidado com relacionamentos",
+      "ate": "São os relacionamentos",
+      "gancho": "O PAR PERFEITO DO AUTISTA",
+      "titulo": "Por que o narcisista é o \"par perfeito\" da mulher autista, segundo uma psiquiatra",
+      "titulo_short": "O narcisista é o par perfeito do autista",
+      "descricao": "O alerta da Dra. Ana Aguiar para mulheres autistas sobre relacionamentos abusivos e tóxicos.",
+      "convidado": "Dra. Ana Aguiar",
+      "podcast": "Neurotônico",
+      "tags": [
+        "autismo",
+        "relacionamento abusivo",
+        "narcisismo",
+        "autismo feminino",
+        "saúde mental",
+        "Neurotônico"
+      ]
+    },
+    {
+      "id": "11",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:39:55",
+      "fim": "00:40:47",
+      "de": "Quem é mais genial?",
+      "ate": "Todo mundo é capaz",
+      "gancho": "QUEM É MAIS GENIAL?",
+      "titulo": "Einstein, Coco Chanel ou Van Gogh: \"não existe ninguém sem habilidade\"",
+      "titulo_short": "Não existe ninguém sem habilidade",
+      "descricao": "A Dra. Ana Aguiar sobre altas habilidades: existem pessoas invalidadas e mal avaliadas, não pessoas sem habilidade.",
+      "convidado": "Dra. Ana Aguiar",
+      "podcast": "Neurotônico",
+      "tags": [
+        "altas habilidades",
+        "superdotação",
+        "neurodivergência",
+        "autismo",
+        "Neurotônico"
+      ],
+      "esconder": [
+        [
+          0.875,
+          0.01,
+          0.995,
+          0.185
+        ]
+      ]
+    },
+    {
+      "id": "12",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:42:40",
+      "fim": "00:44:01",
+      "de": "Para além disso, o nível 1",
+      "ate": "porque a gente entende que precisa disso.",
+      "gancho": "NÃO EXISTE AUTISTA SEM SUPORTE",
+      "titulo": "Autismo nível 1 de suporte: \"não existe pessoa sem suporte\"",
+      "titulo_short": "Não existe autista sem suporte",
+      "descricao": "A psiquiatra Dra. Ana Aguiar explica por que até o nível 1 de suporte do autismo precisa de algum suporte.",
+      "convidado": "Dra. Ana Aguiar",
+      "podcast": "Neurotônico",
+      "tags": [
+        "autismo",
+        "nível de suporte",
+        "autismo nível 1",
+        "neurodivergência",
+        "Neurotônico"
+      ],
+      "esconder": [
+        [
+          0.875,
+          0.01,
+          0.995,
+          0.185
+        ]
+      ]
+    },
+    {
+      "id": "13",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:45:16",
+      "fim": "00:46:37",
+      "de": "Quando uma mulher vai ao médico",
+      "ate": "dificulta o diagnóstico da mulher também.",
+      "gancho": "O \"COMBO\" QUE O MÉDICO TE DÁ",
+      "titulo": "Gaslighting diagnóstico: o \"combo\" que a mulher recebe quando suspeita de autismo",
+      "titulo_short": "O que é gaslighting diagnóstico?",
+      "descricao": "A Dra. Ana Aguiar explica o gaslighting diagnóstico e por que ele atrasa o diagnóstico de autismo em mulheres.",
+      "convidado": "Dra. Ana Aguiar",
+      "podcast": "Neurotônico",
+      "tags": [
+        "autismo",
+        "gaslighting",
+        "autismo feminino",
+        "diagnóstico",
+        "psiquiatria",
+        "Neurotônico"
+      ],
+      "esconder": [
+        [
+          0.875,
+          0.01,
+          0.995,
+          0.185
+        ]
+      ]
+    },
+    {
+      "id": "14",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:53:54",
+      "fim": "00:55:26",
+      "de": "Não se trata autismo com remédio",
+      "ate": "e o uso das suas habilidades.",
+      "gancho": "AUTISMO NÃO SE TRATA COM REMÉDIO",
+      "titulo": "\"Não se trata autismo com remédio\": o que muda depois do diagnóstico adulto",
+      "titulo_short": "Autismo não se trata com remédio",
+      "descricao": "A psiquiatra Dra. Ana Aguiar explica o tratamento do adulto autista: terapia específica, comorbidades e a relação com inflamação.",
+      "convidado": "Dra. Ana Aguiar",
+      "podcast": "Neurotônico",
+      "tags": [
+        "autismo",
+        "tratamento",
+        "autismo adulto",
+        "comorbidades",
+        "inflamação",
+        "Neurotônico"
+      ],
+      "esconder": [
+        [
+          0.875,
+          0.01,
+          0.995,
+          0.185
+        ]
+      ]
+    }
+  ]
+}

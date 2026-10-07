@@ -1,0 +1,268 @@
+{
+  "nome": "Gato Preto História",
+  "handle": "@gatopretohistoria",
+  "nicho": "História",
+  "idioma": "pt",
+  "criado_em": "2026-10-05",
+  "fontes": [
+    {
+      "canal": "Buenas Ideias",
+      "canal_url": "https://www.youtube.com/channel/UCQRPDZMSwXFEDS67uc7kIdg",
+      "status": "SEM MENÇÃO",
+      "espera_horas": null,
+      "emails": [
+        "[e-mail removido]"
+      ],
+      "evidencia": "",
+      "obs": "preparado antes da autorização — pedir por e-mail antes de publicar"
+    },
+    {
+      "canal": "Tinocando TV",
+      "canal_url": "https://www.youtube.com/channel/UCWsR9x5sBLTVvPCrKd4xeBQ",
+      "status": "SEM MENÇÃO",
+      "espera_horas": null,
+      "emails": [],
+      "evidencia": "",
+      "obs": "preparado antes da autorização — pedir por e-mail antes de publicar"
+    },
+    {
+      "canal": "Professor Ricardo Marcílio",
+      "canal_url": "https://www.youtube.com/channel/UCT6Imb3GXhF8GmjpIk6y2lg",
+      "status": "SEM MENÇÃO",
+      "espera_horas": null,
+      "emails": [],
+      "evidencia": "",
+      "obs": "preparado antes da autorização — pedir por e-mail antes de publicar"
+    }
+  ],
+  "estilo": {
+    "fonte": "Anton",
+    "cor_destaque": "#E8B25A",
+    "maiusculas": true,
+    "palavras_por_bloco": 3,
+    "chars_por_bloco": 16,
+    "tamanho_legenda_short": 112,
+    "tamanho_legenda_horizontal": 64,
+    "legenda_altura_short": 0.7,
+    "tamanho_gancho": 82,
+    "gancho_margem_topo": 150,
+    "gancho_segundos": null,
+    "credito": "{podcast}",
+    "falante_ativo": true,
+    "zoom_enfase": true,
+    "barra_progresso": true,
+    "gancho_animado": true,
+    "animacao_legenda": "quique",
+    "animacao_gancho": "pop",
+    "nome_convidado": false,
+    "censurar_palavroes": true,
+    "encerramento": true,
+    "logo_marca": "_identidade/logo-mini-historia.png"
+  },
+  "short": {
+    "apertar_pausas": true,
+    "pausa_max": 0.45,
+    "pausa_folga": 0.14,
+    "duracao_alvo_seg": [
+      35,
+      90
+    ]
+  },
+  "horizontal": {
+    "apertar_pausas": true,
+    "pausa_max": 0.8,
+    "pausa_folga": 0.25,
+    "duracao_alvo_seg": [
+      240,
+      900
+    ]
+  },
+  "publicacao": {
+    "descricao_horizontal": "{descricao}\n\n🎙️ Corte do episódio completo de {podcast}: {episodio_url}\nEpisódio: {episodio_titulo}\n\nTodos os créditos a {podcast}. Cortes publicados conforme a regra de cortes do próprio podcast.",
+    "descricao_short": "{descricao}\n\n🎙️ Episódio completo ({podcast}): {episodio_url}\n#Shorts",
+    "tags_fixas": [],
+    "agenda": {
+      "shorts_por_dia": 2,
+      "horizontais_por_semana": 3,
+      "horarios": [
+        "12:00",
+        "19:00"
+      ]
+    }
+  },
+  "candidatos": [
+    {
+      "canal": "AchismosTV",
+      "canal_url": "https://www.youtube.com/channel/UCxcDCeShqZWIUQuEo2iJSVA",
+      "inscritos": 5460000,
+      "status": "SEM MENÇÃO",
+      "emails": [
+        "[e-mail removido]"
+      ],
+      "nao_usar": "Podcast generalista (curiosidades do dia a dia), não de história."
+    },
+    {
+      "canal": "Brasil Paralelo",
+      "canal_url": "https://www.youtube.com/channel/UCKDjjeeBmdaiicey2nImISw",
+      "inscritos": 5280000,
+      "status": "SEM MENÇÃO",
+      "emails": [],
+      "nao_usar": "Produtora com posicionamento político forte; documentário, não podcast."
+    },
+    {
+      "canal": "Hoje no Mundo Militar",
+      "canal_url": "https://www.youtube.com/channel/UCxDFRhF3Y1A_Gd0-cF8gbqQ",
+      "inscritos": 2890000,
+      "status": "SEM MENÇÃO",
+      "emails": []
+    },
+    {
+      "canal": "Tinocando TV",
+      "canal_url": "https://www.youtube.com/channel/UCS4cwdpm92dw1w9TERgdQJg",
+      "inscritos": 2860000,
+      "status": "SEM MENÇÃO",
+      "emails": []
+    },
+    {
+      "canal": "Iconografia da História",
+      "canal_url": "https://www.youtube.com/channel/UCft01Wf4P7JkDZQ_Th7ICaQ",
+      "inscritos": 1990000,
+      "status": "SEM MENÇÃO",
+      "emails": []
+    },
+    {
+      "canal": "Buenas Ideias",
+      "canal_url": "https://www.youtube.com/channel/UCQRPDZMSwXFEDS67uc7kIdg",
+      "inscritos": 1530000,
+      "status": "SEM MENÇÃO",
+      "emails": [
+        "[e-mail removido]"
+      ]
+    },
+    {
+      "canal": "Parabólica",
+      "canal_url": "https://www.youtube.com/channel/UCeLwY_iqGhtq3AIdAEvT9-g",
+      "inscritos": 1400000,
+      "status": "SEM MENÇÃO",
+      "emails": [
+        "[e-mail removido]"
+      ],
+      "nao_usar": "Lives de atualidade partidária, com ataques nominais; não usar como fonte."
+    },
+    {
+      "canal": "Professor Ricardo Marcílio",
+      "canal_url": "https://www.youtube.com/channel/UCT6Imb3GXhF8GmjpIk6y2lg",
+      "inscritos": 1400000,
+      "status": "SEM MENÇÃO",
+      "emails": []
+    },
+    {
+      "canal": "Vogalizando a História",
+      "canal_url": "https://www.youtube.com/channel/UCdrNJIAfB5ag3od5rg9Q_7w",
+      "inscritos": 1360000,
+      "status": "SEM MENÇÃO",
+      "emails": []
+    },
+    {
+      "canal": "Charla Podcast",
+      "canal_url": "https://www.youtube.com/channel/UCPHvx0NxJubMU8QqZ6X_Efw",
+      "inscritos": 1270000,
+      "status": "SEM MENÇÃO",
+      "emails": [],
+      "nao_usar": "É de esporte, não de história."
+    },
+    {
+      "canal": "Estranha História",
+      "canal_url": "https://www.youtube.com/channel/UCDjzWHhTShC59KtduL-jeig",
+      "inscritos": 1250000,
+      "status": "SEM MENÇÃO",
+      "emails": []
+    },
+    {
+      "canal": "Sala de Guerra",
+      "canal_url": "https://www.youtube.com/channel/UCWsR9x5sBLTVvPCrKd4xeBQ",
+      "inscritos": 878000,
+      "status": "SEM MENÇÃO",
+      "emails": []
+    },
+    {
+      "canal": "Paulo Rezzutti",
+      "canal_url": "https://www.youtube.com/channel/UCEQ12yB8QLw9pVOY3lo34_g",
+      "inscritos": 618000,
+      "status": "SEM MENÇÃO",
+      "emails": []
+    },
+    {
+      "canal": "Ian Neves",
+      "canal_url": "https://www.youtube.com/channel/UCAMExYqcweM7PUebKfmLdFA",
+      "inscritos": 574000,
+      "status": "NÃO AUDITADO",
+      "emails": [],
+      "nao_usar": "Comentário político de atualidade, não história."
+    },
+    {
+      "canal": "Opera Mundi",
+      "canal_url": "https://www.youtube.com/channel/UCOjUlJ4EpPxuhtT0zEVw25A",
+      "inscritos": 546000,
+      "status": "NÃO AUDITADO",
+      "emails": [],
+      "nao_usar": "Comentário político de atualidade, não história."
+    }
+  ],
+  "concorrentes": [
+    {
+      "canal": "Cortes do Inteligência [OFICIAL]",
+      "canal_url": "https://www.youtube.com/channel/UCvmWNQH4c2T3Triih3lftiw",
+      "inscritos": 4100000
+    },
+    {
+      "canal": "Cortes do Flow [OFICIAL]",
+      "canal_url": "https://www.youtube.com/channel/UC3uYvpJ3J6oNoNYRXfZXjEw",
+      "inscritos": 3240000
+    },
+    {
+      "canal": "Cortes Podpah [OFICIAL]",
+      "canal_url": "https://www.youtube.com/channel/UCc1RwDwEXEd2SKO3V6h45wA",
+      "inscritos": 3020000
+    },
+    {
+      "canal": " Cortes do ARUAN [OFICIAL]",
+      "canal_url": "https://www.youtube.com/channel/UCfMXRwbVorj3dbjBhUxPeMg",
+      "inscritos": 978000
+    },
+    {
+      "canal": "CORTES - Leon e Nilce [Oficial]",
+      "canal_url": "https://www.youtube.com/channel/UCr3dtVIm3nL7I-Yjn2PxxIQ",
+      "inscritos": 894000
+    },
+    {
+      "canal": "Cortes do Jozão [OFICIAL]",
+      "canal_url": "https://www.youtube.com/channel/UCmzosGjPdGjP9JstZbZ4cvA",
+      "inscritos": 778000
+    },
+    {
+      "canal": "Cortes do Lutz [OFICIAL]",
+      "canal_url": "https://www.youtube.com/channel/UCsT0wC58qKr2cFhHTaPD0hQ",
+      "inscritos": 703000
+    },
+    {
+      "canal": "Hora do Corte | Podcast",
+      "canal_url": "https://www.youtube.com/channel/UCc1OAoUJKHnuijcruI4YJgg",
+      "inscritos": 550000
+    }
+  ],
+  "fontes_descartadas": [
+    {
+      "canal": "Parabólica",
+      "canal_url": "https://www.youtube.com/channel/UCeLwY_iqGhtq3AIdAEvT9-g",
+      "status": "SEM MENÇÃO",
+      "espera_horas": null,
+      "emails": [
+        "[e-mail removido]"
+      ],
+      "evidencia": "",
+      "obs": "preparado antes da autorização — pedir por e-mail antes de publicar",
+      "motivo_descarte": "Lives de atualidade partidária, com ataques nominais; não usar como fonte."
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "nome": "Gato Preto Negócios",
+  "handle": "@gatopretonegocios",
+  "nicho": "Negócios e dinheiro",
+  "idioma": "pt",
+  "criado_em": "2026-10-05",
+  "fontes": [
+    {
+      "canal": "Os Sócios Podcast",
+      "canal_url": "https://www.youtube.com/channel/UCzJPdSTGj7KPZLjaOatWS4A",
+      "status": "SEM MENÇÃO",
+      "espera_horas": null,
+      "emails": [],
+      "evidencia": "",
+      "obs": "preparado antes da autorização — pedir por e-mail antes de publicar"
+    },
+    {
+      "canal": "Irmãos Dias Podcast",
+      "canal_url": "https://www.youtube.com/channel/UChBtPExX9RjCdmpAizK7ccQ",
+      "status": "SEM MENÇÃO",
+      "espera_horas": null,
+      "emails": [
+        "[e-mail removido]"
+      ],
+      "evidencia": "",
+      "obs": "preparado antes da autorização — pedir por e-mail antes de publicar"
+    },
+    {
+      "canal": "PrimoCast",
+      "canal_url": "https://www.youtube.com/channel/UCfMA8s_QXPPcuOTjTDFb4vA",
+      "status": "SEM MENÇÃO",
+      "espera_horas": null,
+      "emails": [],
+      "evidencia": "",
+      "obs": "preparado antes da autorização — pedir por e-mail antes de publicar"
+    }
+  ],
+  "estilo": {
+    "fonte": "Anton",
+    "cor_destaque": "#3DDC84",
+    "maiusculas": true,
+    "palavras_por_bloco": 3,
+    "chars_por_bloco": 16,
+    "tamanho_legenda_short": 112,
+    "tamanho_legenda_horizontal": 64,
+    "legenda_altura_short": 0.7,
+    "tamanho_gancho": 82,
+    "gancho_margem_topo": 150,
+    "gancho_segundos": null,
+    "credito": "{podcast}",
+    "falante_ativo": true,
+    "zoom_enfase": true,
+    "barra_progresso": true,
+    "gancho_animado": true,
+    "animacao_legenda": "quique",
+    "animacao_gancho": "pop",
+    "nome_convidado": false,
+    "censurar_palavroes": true,
+    "encerramento": true,
+    "logo_marca": "_identidade/logo-mini-negocios.png"
+  },
+  "short": {
+    "apertar_pausas": true,
+    "pausa_max": 0.45,
+    "pausa_folga": 0.14,
+    "duracao_alvo_seg": [
+      35,
+      90
+    ]
+  },
+  "horizontal": {
+    "apertar_pausas": true,
+    "pausa_max": 0.8,
+    "pausa_folga": 0.25,
+    "duracao_alvo_seg": [
+      240,
+      900
+    ]
+  },
+  "publicacao": {
+    "descricao_horizontal": "{descricao}\n\n🎙️ Corte do episódio completo de {podcast}: {episodio_url}\nEpisódio: {episodio_titulo}\n\nTodos os créditos a {podcast}. Cortes publicados conforme a regra de cortes do próprio podcast.",
+    "descricao_short": "{descricao}\n\n🎙️ Episódio completo ({podcast}): {episodio_url}\n#Shorts",
+    "tags_fixas": [],
+    "agenda": {
+      "shorts_por_dia": 2,
+      "horizontais_por_semana": 3,
+      "horarios": [
+        "12:00",
+        "19:00"
+      ]
+    }
+  },
+  "candidatos": [
+    {
+      "canal": "O Primo Rico",
+      "canal_url": "https://www.youtube.com/channel/UCT4nDeU5pv1XIGySbSK-GgA",
+      "inscritos": 7800000,
+      "status": "SEM MENÇÃO",
+      "emails": []
+    },
+    {
+      "canal": "Me Poupe!",
+      "canal_url": "https://www.youtube.com/channel/UC8mDF5mWNGE-Kpfcvnn0bUg",
+      "inscritos": 7740000,
+      "status": "SEM MENÇÃO",
+      "emails": [
+        "[e-mail removido]",
+        "[e-mail removido]",
+        "[e-mail removido]"
+      ]
+    },
+    {
+      "canal": "Primo Pobre",
+      "canal_url": "https://www.youtube.com/channel/UCOjXqrOxAdXa04obIQREfCA",
+      "inscritos": 4290000,
+      "status": "SEM MENÇÃO",
+      "emails": [
+        "[e-mail removido]"
+      ]
+    },
+    {
+      "canal": "Bruno Perini - Você MAIS Rico",
+      "canal_url": "https://www.youtube.com/channel/UCCE-jo1GvBJqyj1b287h7jA",
+      "inscritos": 2110000,
+      "status": "SEM MENÇÃO",
+      "emails": []
+    },
+    {
+      "canal": "Investidor Sardinha l Raul Sena",
+      "canal_url": "https://www.youtube.com/channel/UCM3vJxmuJJkk1r0yzFI9eZg",
+      "inscritos": 1810000,
+      "status": "SEM MENÇÃO",
+      "emails": []
+    },
+    {
+      "canal": "PrimoCast",
+      "canal_url": "https://www.youtube.com/channel/UCfMA8s_QXPPcuOTjTDFb4vA",
+      "inscritos": 1720000,
+      "status": "SEM MENÇÃO",
+      "emails": []
+    },
+    {
+      "canal": "Gêmeos Investem Podcast",
+      "canal_url": "https://www.youtube.com/channel/UC6NgVjfmatbvRuTqWZoegqw",
+      "inscritos": 402000,
+      "status": "SEM MENÇÃO",
+      "emails": []
+    },
+    {
+      "canal": "Os Economistas Podcast",
+      "canal_url": "https://www.youtube.com/channel/UCIX5uq1meeqhtKdBIFwHGWg",
+      "inscritos": 319000,
+      "status": "SEM MENÇÃO",
+      "emails": []
+    },
+    {
+      "canal": "Genial Investimentos",
+      "canal_url": "https://www.youtube.com/channel/UCYSOMA4Yx1CJvrdI8epLfnA",
+      "inscritos": 268000,
+      "status": "SEM MENÇÃO",
+      "emails": []
+    },
+    {
+      "canal": "Bastter.com",
+      "canal_url": "https://www.youtube.com/channel/UCsra3f6ogpXhIZbSUe2OoaA",
+      "inscritos": 181000,
+      "status": "SEM MENÇÃO",
+      "emails": []
+    },
+    {
+      "canal": "Dinheiro Limpo",
+      "canal_url": "https://www.youtube.com/channel/UCj0JfuuD4B9iy8318rWyBvg",
+      "inscritos": 168000,
+      "status": "SEM MENÇÃO",
+      "emails": []
+    },
+    {
+      "canal": "Bitalk - Negócios à Portuguesa",
+      "canal_url": "https://www.youtube.com/channel/UCiYJ8uMM5fAIK_Un4g8hObA",
+      "inscritos": 87500,
+      "status": "SEM MENÇÃO",
+      "emails": []
+    },
+    {
+      "canal": "MaisQFinanças PodCast",
+      "canal_url": "https://www.youtube.com/channel/UCsFHd-LY_sTQ66hN-6UW6aA",
+      "inscritos": 71100,
+      "status": "SEM MENÇÃO",
+      "emails": []
+    },
+    {
+      "canal": "ROI Hunters",
+      "canal_url": "https://www.youtube.com/channel/UCI88YBkUa1nA8u2U1TfG-PQ",
+      "inscritos": 66900,
+      "status": "SEM MENÇÃO",
+      "emails": []
+    },
+    {
+      "canal": "Made In Brasil Podcast - MIB por Dom e Carol ",
+      "canal_url": "https://www.youtube.com/channel/UC7-FWhg_j-9Y7-30PaXd5Fw",
+      "inscritos": 48900,
+      "status": "SEM MENÇÃO",
+      "emails": []
+    }
+  ],
+  "concorrentes": [
+    {
+      "canal": "Cortes do Inteligência [OFICIAL]",
+      "canal_url": "https://www.youtube.com/channel/UCvmWNQH4c2T3Triih3lftiw",
+      "inscritos": 4100000
+    },
+    {
+      "canal": "Cortes do Flow [OFICIAL]",
+      "canal_url": "https://www.youtube.com/channel/UC3uYvpJ3J6oNoNYRXfZXjEw",
+      "inscritos": 3240000
+    },
+    {
+      "canal": "Cortes Podpah [OFICIAL]",
+      "canal_url": "https://www.youtube.com/channel/UCc1RwDwEXEd2SKO3V6h45wA",
+      "inscritos": 3020000
+    },
+    {
+      "canal": "PARANORMAL CORTES [Oficial]",
+      "canal_url": "https://www.youtube.com/channel/UCXtXepmPpbQmHjaOw4ff0Wg",
+      "inscritos": 879000
+    },
+    {
+      "canal": "Cortes Podcast",
+      "canal_url": "https://www.youtube.com/channel/UCGBPo-CBLiMKxivaiF-MBiA",
+      "inscritos": 674000
+    },
+    {
+      "canal": "OS SÓCIOS PODCAST CORTES",
+      "canal_url": "https://www.youtube.com/channel/UC8ledImkVHJGZM3h6c8Ov5w",
+      "inscritos": 100000
+    },
+    {
+      "canal": "Cortes Investidor Sardinha [Oficial]",
+      "canal_url": "https://www.youtube.com/channel/UC4jvxmUsusesgOaBduuQS9Q",
+      "inscritos": 96000
+    },
+    {
+      "canal": "Cortes do Bolder Podcast [Oficial]",
+      "canal_url": "https://www.youtube.com/channel/UCj9CyyH6nVZCFkLP1oxtXuA",
+      "inscritos": 81500
+    }
+  ]
+}

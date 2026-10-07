@@ -1,0 +1,50 @@
+# ===== NUNCA subir: acesso ao YouTube, app do Google, lista de acesso do painel =====
+_segredos/
+*client_secret*.json
+youtube_*.json
+
+# ===== ambiente Python =====
+_motor/venv/
+__pycache__/
+*.pyc
+
+# ===== vídeos e áudio (dezenas de GB) =====
+*.mp4
+*.mkv
+*.webm
+*.m4a
+*.mp3
+*.wav
+*.part
+*.ytdl
+
+# ===== saídas geradas (dá pra refazer rodando o motor) =====
+canal-*/prontos/
+canal-*/episodios/*/trabalho/
+canal-*/episodios/*/transcricao.json
+canal-*/episodios/*/leitura.txt
+canal-*/episodios/*/render.log
+_comparacao/
+_tmp*/
+_teste/
+_motor/painel/painel.log
+
+# ===== estado do painel (muda o tempo todo; é do seu PC) =====
+painel-estado.json
+*.tmp
+
+# ===== pesquisa: caches e logs (os resultados .json ficam) =====
+_pesquisa/radar_cache/
+_pesquisa/*.log
+_pesquisa/preparo_*.json
+_pesquisa/radar.status.json
+_pesquisa/fila.parar
+*.log
+_comparacao.log
+
+# ===== sistema =====
+Thumbs.db
+desktop.ini
+
+# descrição completa dos vídeos (cheia de contatos); o motor baixa de novo quando precisa
+canal-*/episodios/*/info.json

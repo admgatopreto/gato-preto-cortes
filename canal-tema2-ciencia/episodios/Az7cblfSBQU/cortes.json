@@ -1,0 +1,284 @@
+{
+  "correcoes": {
+    "IDH": "TDAH",
+    "NSS": "INSS"
+  },
+  "cortes": [
+    {
+      "id": "01",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:08:28",
+      "fim": "00:10:20",
+      "de": "Por que meu filho me trata assim",
+      "ate": "Pagar um carro que ele nunca vai usar",
+      "remover_texto": [["Então, aí você vê Essas aí são características", "Bancar isso Caramba", "00:09:00"]],
+      "gancho": "FILHO NARCISISTA E O CARRO DO PAI",
+      "titulo": "Filho narcisista adulto: o golpe do carro no nome do pai",
+      "titulo_short": "O carro no nome do PAI",
+      "descricao": "\"Por que meu filho me trata assim?\" Dra. Ana Beatriz Barbosa descreve o filho narcisista adulto que exige que os pais bancem a imagem de sucesso dele, e o golpe do carro financiado no nome do pai.",
+      "convidado": "Dra. Ana Beatriz Barbosa",
+      "podcast": "PodPeople",
+      "tags": [
+        "filho narcisista",
+        "narcisismo",
+        "Ana Beatriz Barbosa",
+        "psicologia",
+        "PodPeople"
+      ],
+      "cortar_embaixo": 0.77
+    },
+    {
+      "id": "02",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:10:53",
+      "fim": "00:12:25",
+      "de": "Eu lembro que uma vez, na escola, eu ouvi um amigo meu",
+      "ate": "você caiu numa cilada",
+      "gancho": "'EU NÃO PEDI PRA NASCER'",
+      "titulo": "'Eu não pedi pra nascer': quando é fase e quando é manipulação",
+      "titulo_short": "'Eu não pedi pra NASCER'",
+      "descricao": "Como reagir quando a criança testa os pais com essa frase, e por que ceder reforça o comportamento.",
+      "convidado": "Dra. Ana Beatriz Barbosa",
+      "podcast": "PodPeople",
+      "tags": [
+        "educação de filhos",
+        "limites",
+        "manipulação",
+        "Ana Beatriz Barbosa",
+        "PodPeople"
+      ]
+    },
+    {
+      "id": "03",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:17:45",
+      "fim": "00:18:45",
+      "de": "Não, eu acho que a gente vive uma sociedade",
+      "ate": "o fulano é tudo, né",
+      "gancho": "A SOCIEDADE APLAUDE O NARCISISTA",
+      "titulo": "Por que a sociedade aplaude o narcisista (ótimo no trabalho, terrível em casa)",
+      "titulo_short": "A sociedade APLAUDE o narcisista",
+      "descricao": "A fachada do narcisista e a complacência com quem é perfeito da porta pra fora.",
+      "convidado": "Dra. Ana Beatriz Barbosa",
+      "podcast": "PodPeople",
+      "tags": [
+        "narcisismo",
+        "redes sociais",
+        "comportamento",
+        "PodPeople"
+      ]
+    },
+    {
+      "id": "04",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:18:41",
+      "fim": "00:20:20",
+      "de": "Eu tive um pacientinho",
+      "ate": "Ele agride Ele menospreza a gente Ele bate",
+      "gancho": "O MENINO QUE SALVOU O CACHORRO",
+      "titulo": "O menino de 10 anos que levou o próprio cachorro pro abrigo pra salvá-lo do pai",
+      "titulo_short": "O menino que SALVOU o cachorro do pai",
+      "descricao": "Uma história do consultório da Dra. Ana Beatriz sobre o pai exaltado na rua e violento em casa.",
+      "convidado": "Dra. Ana Beatriz Barbosa",
+      "podcast": "PodPeople",
+      "tags": [
+        "violência doméstica",
+        "narcisismo",
+        "infância",
+        "PodPeople"
+      ]
+    },
+    {
+      "id": "05",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:33:20",
+      "fim": "00:34:15",
+      "de": "Ele arruma um problema",
+      "ate": "Ou seja, é um padrão, né",
+      "gancho": "O CICLO DO FILHO NARCISISTA",
+      "titulo": "Crise, culpa, resgate e sumiço: o ciclo do filho narcisista",
+      "titulo_short": "O CICLO do filho narcisista",
+      "descricao": "O padrão que se repete: o filho cria a crise, joga a culpa, os pais resgatam, ele some até precisar de novo.",
+      "convidado": "Dra. Ana Beatriz Barbosa",
+      "podcast": "PodPeople",
+      "tags": [
+        "filho narcisista",
+        "ciclo de abuso",
+        "manipulação",
+        "PodPeople"
+      ]
+    },
+    {
+      "id": "06",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:40:04",
+      "fim": "00:41:40",
+      "de": "Tem uma ausência de empatia, de certa forma",
+      "ate": "É melhor pra ele manter as pessoas que ele consegue manipular",
+      "gancho": "NARCISISTA OU PSICOPATA?",
+      "titulo": "Narcisista x psicopata: a diferença explicada por uma psiquiatra",
+      "titulo_short": "Narcisista ou PSICOPATA?",
+      "descricao": "Os dois são exploradores, mas um precisa de plateia e o outro tem um objetivo frio.",
+      "convidado": "Dra. Ana Beatriz Barbosa",
+      "podcast": "PodPeople",
+      "tags": [
+        "narcisista",
+        "psicopata",
+        "transtorno de personalidade",
+        "Ana Beatriz Barbosa",
+        "PodPeople"
+      ]
+    },
+    {
+      "id": "07",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:43:23",
+      "fim": "00:44:40",
+      "de": "E os meus netos? Filhos narcisistas usam os próprios filhos",
+      "ate": "Eu quero ver meu avô e minha avó independente do meu pai",
+      "gancho": "OS NETOS COMO MOEDA DE TROCA",
+      "titulo": "Quando o filho narcisista usa os netos como moeda de troca",
+      "titulo_short": "Os netos como MOEDA DE TROCA",
+      "descricao": "Por que ceder à chantagem não protege os netos.",
+      "convidado": "Dra. Ana Beatriz Barbosa",
+      "podcast": "PodPeople",
+      "tags": [
+        "netos",
+        "chantagem emocional",
+        "filho narcisista",
+        "PodPeople"
+      ]
+    },
+    {
+      "id": "08",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:48:56",
+      "fim": "00:49:35",
+      "de": "A mentira pra eles é um instrumento de trabalho",
+      "ate": "Ele usa a língua pra quem não faz o que ele quer",
+      "gancho": "A MENTIRA É A FERRAMENTA DELE",
+      "titulo": "Pro narcisista, a mentira é ferramenta de trabalho",
+      "titulo_short": "A MENTIRA é a ferramenta dele",
+      "descricao": "Como a faca pro açougueiro: a fala do narcisista sobre quem não faz o que ele quer.",
+      "convidado": "Dra. Ana Beatriz Barbosa",
+      "podcast": "PodPeople",
+      "tags": [
+        "narcisismo",
+        "mentira",
+        "manipulação",
+        "PodPeople"
+      ]
+    },
+    {
+      "id": "09",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:50:29",
+      "fim": "00:51:30",
+      "de": "Agora, Bia, em casa, a mãe e o pai devem estar pensando",
+      "ate": "Rezar. De longe",
+      "gancho": "AMOR NÃO É ENGOLIR ABUSO",
+      "titulo": "Amor incondicional não significa engolir abuso",
+      "titulo_short": "Amor incondicional NÃO é engolir abuso",
+      "descricao": "A resposta da Dra. Ana Beatriz aos pais que perguntam se têm obrigação de aguentar tudo.",
+      "convidado": "Dra. Ana Beatriz Barbosa",
+      "podcast": "PodPeople",
+      "tags": [
+        "pais",
+        "limites",
+        "abuso emocional",
+        "Ana Beatriz Barbosa",
+        "PodPeople"
+      ]
+    },
+    {
+      "id": "10",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:52:05",
+      "fim": "00:52:56",
+      "de": "a primeira coisa é, né, tranque o básico",
+      "ate": "de não ser abandonada",
+      "gancho": "NÃO PASSE A CASA PRO NOME DELE",
+      "titulo": "Como pais idosos protegem dinheiro e casa de um filho abusivo",
+      "titulo_short": "NÃO passe a casa pro nome dele",
+      "descricao": "Cartões, senhas, empréstimos e o imóvel: o que proteger primeiro.",
+      "convidado": "Dra. Ana Beatriz Barbosa",
+      "podcast": "PodPeople",
+      "tags": [
+        "idosos",
+        "violência financeira",
+        "proteção patrimonial",
+        "PodPeople"
+      ]
+    },
+    {
+      "id": "11",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:55:36",
+      "fim": "00:57:05",
+      "de": "Agora a gente vai falar um pouquinho de como proteger",
+      "ate": "Porque se uma falha tem a outra",
+      "gancho": "A TÉCNICA DA PEDRA CINZA",
+      "titulo": "A técnica da pedra cinza: como conviver com um narcisista sem ser manipulado",
+      "titulo_short": "A técnica da PEDRA CINZA",
+      "descricao": "Respostas curtas, sem emoção: por que o narcisista perde o interesse quando não consegue te desregular.",
+      "convidado": "Dra. Ana Beatriz Barbosa",
+      "podcast": "PodPeople",
+      "tags": [
+        "pedra cinza",
+        "narcisista",
+        "contato zero",
+        "PodPeople"
+      ]
+    },
+    {
+      "id": "12",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:57:41",
+      "fim": "00:58:50",
+      "de": "Esse luto dói, tá",
+      "ate": "Você está enterrando a esperança e isso dói pra caramba",
+      "gancho": "O LUTO DE UM FILHO VIVO",
+      "titulo": "O luto de um filho que está vivo",
+      "titulo_short": "O LUTO de um filho vivo",
+      "descricao": "Por que aceitar quem o filho é dói como uma perda, e por que alguns pais só voltam anos depois.",
+      "convidado": "Dra. Ana Beatriz Barbosa",
+      "podcast": "PodPeople",
+      "tags": [
+        "luto",
+        "pais",
+        "filho narcisista",
+        "PodPeople"
+      ]
+    }
+  ],
+  "janela_original": [
+    0.765,
+    0.335,
+    1.0,
+    0.675
+  ]
+}

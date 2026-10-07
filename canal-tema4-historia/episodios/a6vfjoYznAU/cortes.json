@@ -1,0 +1,258 @@
+{
+  "correcoes": {
+    "monosqueles": "manuscritos do",
+    "Tanar": "Tanakh",
+    "Teronôme": "Deuteronômio",
+    "Erud": "Yehud",
+    "Calbart": "Karl Barth",
+    "Herápolis": "Hierápolis",
+    "Judas da Deus": "Judas Tadeu",
+    "escariotes": "Iscariotes",
+    "difuntos": "defuntos"
+  },
+  "cortes": [
+    {
+      "id": "01",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:02:05",
+      "fim": "00:02:30",
+      "de": "A data de nascimento dele é incerta",
+      "ate": "A distância temporal é mais ainda para o passado",
+      "gancho": "AS PIRÂMIDES SÃO MAIS ANTIGAS QUE JESUS… E QUE VOCÊ",
+      "titulo": "Estamos mais perto de Jesus do que os construtores das pirâmides estavam",
+      "titulo_short": "As pirâmides são MAIS ANTIGAS do que você pensa",
+      "descricao": "O historiador Henrique Caldeira coloca a cronologia da Antiguidade em perspectiva.",
+      "convidado": "Henrique Caldeira",
+      "podcast": "Tinocando TV",
+      "tags": [
+        "história",
+        "pirâmides",
+        "Antiguidade",
+        "Henrique Caldeira",
+        "Tinocando"
+      ]
+    },
+    {
+      "id": "02",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:13:22",
+      "fim": "00:14:05",
+      "de": "Que era uma cerimônia que se fazia de confirmação de autoridade",
+      "ate": "Então, Messias e Cristo é a mesma coisa",
+      "gancho": "CRISTO NÃO ERA SOBRENOME",
+      "titulo": "Cristo não era sobrenome: o que significam Messias e Cristo",
+      "titulo_short": "CRISTO não era sobrenome",
+      "descricao": "A unção com óleo dos reis antigos e a origem das palavras Messias e Cristo.",
+      "convidado": "Henrique Caldeira",
+      "podcast": "Tinocando TV",
+      "tags": [
+        "Messias",
+        "Cristo",
+        "história das religiões",
+        "Henrique Caldeira",
+        "Tinocando"
+      ]
+    },
+    {
+      "id": "03",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:16:08",
+      "fim": "00:17:43",
+      "de": "Então tem essa questão do Messias, então aí começa a surgir essa expectativa",
+      "ate": "mais ou menos 300, 200 anos antes de Jesus",
+      "gancho": "ELES ESPERAVAM TRÊS MESSIAS",
+      "titulo": "Os Manuscritos do Mar Morto falam de três messias, não de um",
+      "titulo_short": "Eles esperavam TRÊS messias",
+      "descricao": "Rei, sacerdote e profeta: a expectativa da comunidade dos Manuscritos do Mar Morto séculos antes de Jesus.",
+      "convidado": "Henrique Caldeira",
+      "podcast": "Tinocando TV",
+      "tags": [
+        "Manuscritos do Mar Morto",
+        "Messias",
+        "história",
+        "Tinocando"
+      ]
+    },
+    {
+      "id": "04",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:24:53",
+      "fim": "00:25:50",
+      "de": "Muita gente fala assim, né? Ah, Jesus foi um cara tão importante",
+      "ate": "mais de mil anos depois disso",
+      "gancho": "QUEM INVENTOU O 'ANTES DE CRISTO'",
+      "titulo": "A história não foi dividida em antes e depois de Cristo por causa de Jesus",
+      "titulo_short": "Quem inventou o 'ANTES DE CRISTO'?",
+      "descricao": "Quando e por quem a contagem a.C./d.C. foi criada — e quanto tempo levou pra pegar.",
+      "convidado": "Henrique Caldeira",
+      "podcast": "Tinocando TV",
+      "tags": [
+        "calendário",
+        "antes de Cristo",
+        "história",
+        "Tinocando"
+      ]
+    },
+    {
+      "id": "05",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:29:30",
+      "fim": "00:30:30",
+      "de": "Depende muito de como que você lê o texto",
+      "ate": "a questão de a Virgem dará à luz um filho",
+      "gancho": "JESUS CUMPRIU 817 PROFECIAS?",
+      "titulo": "'Jesus cumpriu 817 profecias'? O que diz um historiador",
+      "titulo_short": "Jesus cumpriu 817 PROFECIAS?",
+      "descricao": "Por que não dá pra chegar objetivamente a esse número, segundo a leitura histórica dos textos.",
+      "convidado": "Henrique Caldeira",
+      "podcast": "Tinocando TV",
+      "tags": [
+        "profecias",
+        "Bíblia",
+        "Jesus histórico",
+        "Tinocando"
+      ]
+    },
+    {
+      "id": "06",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:47:15",
+      "fim": "00:48:20",
+      "de": "E aí, goste ou não, a história, como as outras ciências",
+      "ate": "a gente tem que fazer uma crítica histórica desses textos",
+      "gancho": "COMO UM HISTORIADOR ESTUDA JESUS",
+      "titulo": "Por que um historiador não aceita milagres como fato (nem os de Zeus)",
+      "titulo_short": "Como um HISTORIADOR estuda Jesus",
+      "descricao": "O agnosticismo metodológico da história explicado com a Guerra de Troia.",
+      "convidado": "Henrique Caldeira",
+      "podcast": "Tinocando TV",
+      "tags": [
+        "Jesus histórico",
+        "método histórico",
+        "Tinocando"
+      ]
+    },
+    {
+      "id": "07",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:56:27",
+      "fim": "00:57:00",
+      "de": "Eu queria deixar claro também aqui a minha indignação",
+      "ate": "teve um tempo em que a gente tinha bispos chamados Lúcifer",
+      "gancho": "JÁ EXISTIU UM SÃO LÚCIFER",
+      "titulo": "Judas era um nome comum — e já existiu um São Lúcifer",
+      "titulo_short": "Já existiu um SÃO LÚCIFER",
+      "descricao": "Os nomes que 'queimaram' com o tempo.",
+      "convidado": "Henrique Caldeira",
+      "podcast": "Tinocando TV",
+      "tags": [
+        "curiosidades históricas",
+        "Lúcifer",
+        "Judas",
+        "Tinocando"
+      ]
+    },
+    {
+      "id": "08",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:02:01",
+      "fim": "01:03:50",
+      "de": "No evangelho de Judas, Judas aparece como quem entendeu Jesus",
+      "ate": "Que raios é isso, né",
+      "gancho": "O EVANGELHO EM QUE JUDAS É O ÚNICO QUE ENTENDE",
+      "titulo": "O Evangelho de Judas começa com Jesus rindo dos apóstolos",
+      "titulo_short": "O evangelho em que JUDAS é o único que entende",
+      "descricao": "A cena de abertura do Evangelho de Judas, um texto gnóstico fora da Bíblia.",
+      "convidado": "Henrique Caldeira",
+      "podcast": "Tinocando TV",
+      "tags": [
+        "Evangelho de Judas",
+        "gnósticos",
+        "apócrifos",
+        "Tinocando"
+      ]
+    },
+    {
+      "id": "09",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:10:20",
+      "fim": "01:11:15",
+      "de": "Outra proposta que já foi feita é que ele seria um sicário",
+      "ate": "talvez ele fosse um sicário",
+      "gancho": "JUDAS ERA UM SICÁRIO?",
+      "titulo": "Iscariotes pode vir de 'sicário', os assassinos de faca da Judeia",
+      "titulo_short": "Judas era um SICÁRIO?",
+      "descricao": "Uma das hipóteses para o nome de Judas Iscariotes.",
+      "convidado": "Henrique Caldeira",
+      "podcast": "Tinocando TV",
+      "tags": [
+        "Judas Iscariotes",
+        "sicários",
+        "história",
+        "Tinocando"
+      ]
+    },
+    {
+      "id": "10",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:11:46",
+      "fim": "01:13:05",
+      "de": "O que a gente sabe sobre Judas, que é mais diferencial",
+      "ate": "É uma possibilidade de interpretação",
+      "gancho": "JUDAS CUIDAVA DO DINHEIRO",
+      "titulo": "Judas era o tesoureiro dos apóstolos — e a cena do perfume antes da traição",
+      "titulo_short": "Judas CUIDAVA DO DINHEIRO",
+      "descricao": "A bolsa de dinheiro, o perfume caro e uma das motivações possíveis para a traição.",
+      "convidado": "Henrique Caldeira",
+      "podcast": "Tinocando TV",
+      "tags": [
+        "Judas",
+        "traição",
+        "Bíblia",
+        "Tinocando"
+      ]
+    },
+    {
+      "id": "11",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:57:02",
+      "fim": "01:57:32",
+      "de": "Então tem uma morte de Judas, por exemplo, que aparece num texto de Pápias",
+      "ate": "e eles tiveram esse destino grotesco",
+      "gancho": "A MORTE MAIS ESTRANHA DE JUDAS",
+      "titulo": "A versão mais grotesca da morte de Judas, contada por um cristão antigo",
+      "titulo_short": "A morte mais ESTRANHA de Judas",
+      "descricao": "O relato de Pápias de Hierápolis sobre o fim de Judas.",
+      "convidado": "Henrique Caldeira",
+      "podcast": "Tinocando TV",
+      "tags": [
+        "Judas",
+        "Pápias",
+        "história do cristianismo",
+        "Tinocando"
+      ]
+    }
+  ]
+}

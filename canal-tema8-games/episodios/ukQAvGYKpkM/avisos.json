@@ -1,0 +1,14 @@
+{
+  "10": [
+    {
+      "nivel": "grave",
+      "texto": "Quase todo com o layout da live e imagens do trailer da Rockstar: risco de Content ID."
+    }
+  ],
+  "14": [
+    {
+      "nivel": "atencao",
+      "texto": "Layout da live com várias câmeras pequenas: imagem fica pequena."
+    }
+  ]
+}

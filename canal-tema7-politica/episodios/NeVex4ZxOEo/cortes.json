@@ -1,0 +1,295 @@
+{
+  "correcoes": {
+    "Asaf": "Assaf",
+    "Azaf": "Assaf",
+    "Azar": "Assaf",
+    "Mandami": "Mamdani",
+    "monjaro": "Mounjaro",
+    "Monjaro": "Mounjaro",
+    "Lisandra": "Elisandra",
+    "Elisa": "Elisandra",
+    "Caixias": "Caxias"
+  },
+  "cortes": [
+    {
+      "id": "01",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:04:41",
+      "fim": "00:05:58",
+      "de": "De agosto, do meio de agosto até o primeiro domingo de outubro",
+      "ate": "certamente vai perder muito tempo ou muito dinheiro",
+      "gancho": "QUEM COMEÇA EM AGOSTO JÁ PERDEU",
+      "titulo": "Seis meses de pré-campanha contra 45 dias de campanha: a conta que político ignora",
+      "titulo_short": "Quem começa em AGOSTO já perdeu",
+      "descricao": "Marcelo Vitorino, consultor de marketing político, sobre o calendário eleitoral.",
+      "convidado": "Marcelo Vitorino",
+      "podcast": "Marcelo Vitorino",
+      "tags": [
+        "marketing político",
+        "pré-campanha",
+        "eleições",
+        "Marcelo Vitorino"
+      ]
+    },
+    {
+      "id": "02",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:21:10",
+      "fim": "00:22:10",
+      "de": "A gente está se conhecendo agora, se eu lhe pedisse 10 mil reais emprestado",
+      "ate": "Na cabeça deles é tudo igual",
+      "gancho": "VOTO É COMO EMPRÉSTIMO",
+      "titulo": "Você emprestaria R$ 10 mil pra quem acabou de conhecer? O voto funciona igual",
+      "titulo_short": "Voto é como EMPRÉSTIMO",
+      "descricao": "Relacionamento e endosso, segundo Marcelo Vitorino.",
+      "convidado": "Marcelo Vitorino",
+      "podcast": "Marcelo Vitorino",
+      "tags": [
+        "marketing político",
+        "eleitor",
+        "reputação",
+        "Marcelo Vitorino"
+      ]
+    },
+    {
+      "id": "03",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:32:45",
+      "fim": "00:33:32",
+      "de": "Porque o eleitor, ele só é eleitor no dia da eleição",
+      "ate": "elas estão fazendo outra coisa da vida",
+      "gancho": "QUEM ACOMPANHA POLÍTICO? A MÃE DELE",
+      "titulo": "'Quem acompanha político é o próprio político, os adversários e talvez a mãe dele'",
+      "titulo_short": "Quem acompanha político? A MÃE DELE",
+      "descricao": "Por que o eleitor só é eleitor no dia da eleição.",
+      "convidado": "Marcelo Vitorino",
+      "podcast": "Marcelo Vitorino",
+      "tags": [
+        "marketing político",
+        "eleitor",
+        "Marcelo Vitorino"
+      ]
+    },
+    {
+      "id": "04",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:35:20",
+      "fim": "00:36:27",
+      "de": "E aí é onde a maior parte da classe política erra",
+      "ate": "falando de mim aí é difícil também",
+      "gancho": "POLÍTICO USA REDE SOCIAL COMO RÁDIO",
+      "titulo": "Político usa rede social como se fosse rádio: só fala, nunca escuta",
+      "titulo_short": "Político usa rede social como RÁDIO",
+      "descricao": "A 'rede antissocial' da maioria dos mandatos.",
+      "convidado": "Marcelo Vitorino",
+      "podcast": "Marcelo Vitorino",
+      "tags": [
+        "redes sociais",
+        "marketing político",
+        "comunicação",
+        "Marcelo Vitorino"
+      ]
+    },
+    {
+      "id": "05",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:41:40",
+      "fim": "00:42:58",
+      "de": "O que eu estou vendo cada vez mais",
+      "ate": "vai exigir mais humano",
+      "gancho": "A PRÓXIMA ELEIÇÃO VOLTA PRO PAPEL",
+      "titulo": "Por que as campanhas vão ter que voltar pro papel e pro porta a porta",
+      "titulo_short": "A próxima eleição VOLTA PRO PAPEL",
+      "descricao": "A desconfiança do digital e a lição da campanha de Mamdani em Nova York.",
+      "convidado": "Marcelo Vitorino",
+      "podcast": "Marcelo Vitorino",
+      "tags": [
+        "campanha eleitoral",
+        "mobilização",
+        "marketing político",
+        "Marcelo Vitorino"
+      ]
+    },
+    {
+      "id": "06",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:44:40",
+      "fim": "00:45:58",
+      "de": "A maior parte dos profissionais",
+      "ate": "o benefício do trabalho é o que deve ser vendido, não o trabalho",
+      "gancho": "VENDA A ROUPA LIMPA, NÃO A LAVAGEM",
+      "titulo": "O erro de quem se apresenta para um cliente: falar do 'como' antes do problema que resolve",
+      "titulo_short": "Venda a ROUPA LIMPA, não a lavagem",
+      "descricao": "O exemplo da lavanderia, para qualquer profissional que vende serviço.",
+      "convidado": "Marcelo Vitorino",
+      "podcast": "Marcelo Vitorino",
+      "tags": [
+        "vendas",
+        "prospecção",
+        "marketing",
+        "Marcelo Vitorino"
+      ]
+    },
+    {
+      "id": "07",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:56:47",
+      "fim": "00:57:42",
+      "de": "O que tem na lei? Que as regras da campanha valem para pré-campanha",
+      "ate": "não pode na campanha, não pode na pré",
+      "gancho": "A REGRA DE OURO DA PRÉ-CAMPANHA",
+      "titulo": "A regra simples da pré-campanha: o que não pode na campanha, não pode antes",
+      "titulo_short": "A regra de ouro da PRÉ-CAMPANHA",
+      "descricao": "Outdoor, brinde e impulsionamento: o que vale e o que não vale.",
+      "convidado": "Marcelo Vitorino",
+      "podcast": "Marcelo Vitorino",
+      "tags": [
+        "legislação eleitoral",
+        "pré-campanha",
+        "Marcelo Vitorino"
+      ]
+    },
+    {
+      "id": "08",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:57:40",
+      "fim": "00:58:58",
+      "de": "Em relação a gastos, que é o que pode dar o maior problema de todos",
+      "ate": "uma ex-juíza foi cassada",
+      "gancho": "QUANTO DÁ PRA GASTAR ANTES DA CAMPANHA",
+      "titulo": "Quanto um pré-candidato pode gastar antes da campanha sem risco de cassação",
+      "titulo_short": "Quanto dá pra gastar ANTES da campanha",
+      "descricao": "Os percentuais que, segundo Vitorino, aparecem nas decisões — e o caso da senadora cassada.",
+      "convidado": "Marcelo Vitorino",
+      "podcast": "Marcelo Vitorino",
+      "tags": [
+        "legislação eleitoral",
+        "abuso de poder econômico",
+        "pré-campanha",
+        "Marcelo Vitorino"
+      ]
+    },
+    {
+      "id": "09",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:00:54",
+      "fim": "01:02:15",
+      "de": "Não sou pré-candidato, então eu ia me tornar conhecido",
+      "ate": "É isso que eu tô fazendo",
+      "gancho": "'EU SERIA O CANDIDATO DO MOUNJARO'",
+      "titulo": "Como ficar conhecido sem fazer campanha antecipada: 'eu seria o candidato do Mounjaro'",
+      "titulo_short": "'Eu seria o candidato do MOUNJARO'",
+      "descricao": "Reputação antes de candidatura, num exemplo bem-humorado de Marcelo Vitorino.",
+      "convidado": "Marcelo Vitorino",
+      "podcast": "Marcelo Vitorino",
+      "tags": [
+        "marketing político",
+        "reputação",
+        "pré-campanha",
+        "Marcelo Vitorino"
+      ]
+    },
+    {
+      "id": "10",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:10:58",
+      "fim": "01:12:02",
+      "de": "Olha, a gente pode fazer pré-campanha com dinheiro e sem dinheiro",
+      "ate": "Gastou informalmente",
+      "gancho": "DÁ PRA IR ANDANDO OU DE AVIÃO",
+      "titulo": "Pré-campanha sem dinheiro? 'Dá pra ir andando até o Maranhão ou de avião'",
+      "titulo_short": "Dá pra ir ANDANDO ou de avião",
+      "descricao": "O que o investimento antes da eleição economiza depois.",
+      "convidado": "Marcelo Vitorino",
+      "podcast": "Marcelo Vitorino",
+      "tags": [
+        "custo de campanha",
+        "pré-campanha",
+        "Marcelo Vitorino"
+      ]
+    },
+    {
+      "id": "11",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:22:55",
+      "fim": "01:24:10",
+      "de": "No marketing tradicional, a gente vende um chocolate",
+      "ate": "Tudo isso é o político",
+      "gancho": "POLÍTICO NÃO É CHOCOLATE",
+      "titulo": "Todo mundo sabe o que é um chocolate. Ninguém sabe o que é um político",
+      "titulo_short": "Político NÃO É CHOCOLATE",
+      "descricao": "Por que marketing político começa por uma entrevista em profundidade com o candidato.",
+      "convidado": "Marcelo Vitorino",
+      "podcast": "Marcelo Vitorino",
+      "tags": [
+        "marketing político",
+        "planejamento",
+        "Marcelo Vitorino"
+      ]
+    },
+    {
+      "id": "12",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:26:30",
+      "fim": "01:27:32",
+      "de": "eu acabei de perder um cliente",
+      "ate": "Porque isso daí só vai me dar problema",
+      "gancho": "PERDEU O CLIENTE POR CAUSA DA PESQUISA",
+      "titulo": "A pesquisa disse uma coisa, o político queria outra — e o consultor perdeu o cliente",
+      "titulo_short": "Perdeu o cliente POR CAUSA DA PESQUISA",
+      "descricao": "Campanha orientada por pesquisa contra 'as vozes da cabeça'.",
+      "convidado": "Marcelo Vitorino",
+      "podcast": "Marcelo Vitorino",
+      "tags": [
+        "pesquisa eleitoral",
+        "marketing político",
+        "Marcelo Vitorino"
+      ]
+    },
+    {
+      "id": "13",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:40:17",
+      "fim": "01:40:52",
+      "de": "Então eu maximizo a agenda, mas não é quando eles querem",
+      "ate": "Perde a eleição que não sabe ficar bem o tempo",
+      "gancho": "A FESTA DA PAMONHA NÃO DECIDE ELEIÇÃO",
+      "titulo": "'Se não for na festa da pamonha, perde a eleição'? Como montar a agenda do pré-candidato",
+      "titulo_short": "A FESTA DA PAMONHA não decide eleição",
+      "descricao": "A agenda provocada em vez da agenda de convites.",
+      "convidado": "Marcelo Vitorino",
+      "podcast": "Marcelo Vitorino",
+      "tags": [
+        "agenda política",
+        "pré-campanha",
+        "Marcelo Vitorino"
+      ]
+    }
+  ]
+}

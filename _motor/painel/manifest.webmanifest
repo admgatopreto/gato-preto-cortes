@@ -1,0 +1,13 @@
+{
+  "name": "Gato Preto Cortes",
+  "short_name": "Gato Preto",
+  "start_url": "/#/revisar",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#151513",
+  "theme_color": "#151513",
+  "icons": [
+    {"src": "/icone-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "/icone-512.png", "sizes": "512x512", "type": "image/png"}
+  ]
+}

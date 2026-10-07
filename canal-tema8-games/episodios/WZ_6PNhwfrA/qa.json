@@ -1,0 +1,133 @@
+{
+  "01": {
+    "dur": 62.4,
+    "amostras": 62,
+    "cortado": 0.0,
+    "pequeno": 0.13,
+    "gancho": 0.0,
+    "sem_rosto": 0.37,
+    "nota_problema": 0.13,
+    "tempos": [
+      6.5,
+      10.5,
+      25.5,
+      26.5,
+      27.5,
+      30.5,
+      33.5,
+      36.5
+    ]
+  },
+  "02": {
+    "dur": 46.3,
+    "amostras": 46,
+    "cortado": 0.0,
+    "pequeno": 0.0,
+    "gancho": 0.0,
+    "sem_rosto": 0.0,
+    "nota_problema": 0.0,
+    "tempos": []
+  },
+  "03": {
+    "dur": 85.0,
+    "amostras": 84,
+    "cortado": 0.0,
+    "pequeno": 0.0,
+    "gancho": 0.0,
+    "sem_rosto": 0.17,
+    "nota_problema": 0.0,
+    "tempos": []
+  },
+  "04": {
+    "dur": 31.0,
+    "amostras": 30,
+    "cortado": 0.0,
+    "pequeno": 0.0,
+    "gancho": 0.0,
+    "sem_rosto": 0.0,
+    "nota_problema": 0.0,
+    "tempos": []
+  },
+  "05": {
+    "dur": 74.1,
+    "amostras": 74,
+    "cortado": 0.0,
+    "pequeno": 0.0,
+    "gancho": 0.0,
+    "sem_rosto": 0.0,
+    "nota_problema": 0.0,
+    "tempos": []
+  },
+  "06": {
+    "dur": 64.7,
+    "amostras": 64,
+    "cortado": 0.0,
+    "pequeno": 0.0,
+    "gancho": 0.0,
+    "sem_rosto": 0.0,
+    "nota_problema": 0.0,
+    "tempos": []
+  },
+  "07": {
+    "dur": 64.1,
+    "amostras": 63,
+    "cortado": 0.0,
+    "pequeno": 0.06,
+    "gancho": 0.0,
+    "sem_rosto": 0.02,
+    "nota_problema": 0.06,
+    "tempos": [
+      50.5,
+      51.5,
+      52.5,
+      53.5
+    ]
+  },
+  "08": {
+    "dur": 48.4,
+    "amostras": 48,
+    "cortado": 0.0,
+    "pequeno": 0.12,
+    "gancho": 0.0,
+    "sem_rosto": 0.27,
+    "nota_problema": 0.12,
+    "tempos": [
+      3.5,
+      42.5,
+      43.5,
+      45.5,
+      46.5,
+      47.5
+    ]
+  },
+  "09": {
+    "dur": 55.9,
+    "amostras": 55,
+    "cortado": 0.0,
+    "pequeno": 0.0,
+    "gancho": 0.0,
+    "sem_rosto": 0.0,
+    "nota_problema": 0.0,
+    "tempos": []
+  },
+  "10": {
+    "dur": 89.3,
+    "amostras": 89,
+    "cortado": 0.0,
+    "pequeno": 0.0,
+    "gancho": 0.0,
+    "sem_rosto": 0.0,
+    "nota_problema": 0.0,
+    "tempos": []
+  },
+  "11": {
+    "dur": 32.8,
+    "amostras": 32,
+    "cortado": 0.0,
+    "pequeno": 0.0,
+    "gancho": 0.0,
+    "sem_rosto": 0.0,
+    "nota_problema": 0.0,
+    "tempos": []
+  }
+}

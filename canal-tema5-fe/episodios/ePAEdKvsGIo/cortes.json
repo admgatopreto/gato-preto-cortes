@@ -1,0 +1,332 @@
+{
+  "correcoes": {
+    "Erie Asher Erie": "Ehyeh Asher Ehyeh",
+    "EuSou": "Eu Sou",
+    "EuSerei": "Eu serei",
+    "Getro": "Jetro",
+    "Oreb": "Horebe",
+    "Midian": "Midiã",
+    "sarsa": "sarça",
+    "saça": "sarça",
+    "bisel": "bezerro",
+    "Nini Vinal": "Nínive",
+    "epitafe": "epitáfio",
+    "tráfego": "tráfico"
+  },
+  "cortes": [
+    {
+      "id": "01",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:09:07",
+      "fim": "00:09:52",
+      "de": "Isso é um alívio, sabe porquê",
+      "ate": "mas a nossa busca nunca vai se findar",
+      "gancho": "UM COPO D'ÁGUA NÃO EXPLICA O OCEANO",
+      "titulo": "Por que nunca conhecer Deus por completo é um alívio",
+      "titulo_short": "Um copo d'água não explica o OCEANO",
+      "descricao": "Talitha Pereira sobre o tamanho de Deus.",
+      "convidado": "Talitha Pereira",
+      "podcast": "Talitha Pereira",
+      "tags": [
+        "Talitha Pereira",
+        "pregação",
+        "fé",
+        "Nomes de Deus"
+      ]
+    },
+    {
+      "id": "02",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:12:25",
+      "fim": "00:13:25",
+      "de": "E eu quero que você perceba que esse texto aqui tem uma humilhação silenciosa",
+      "ate": "estava há 40 anos no deserto",
+      "gancho": "DE PRÍNCIPE A PASTOR DO REBANHO DO SOGRO",
+      "titulo": "Moisés passou 40 anos cuidando de um rebanho que nem era dele",
+      "titulo_short": "De príncipe a pastor do rebanho do SOGRO",
+      "descricao": "A humilhação silenciosa de Moisés no deserto de Midiã.",
+      "convidado": "Talitha Pereira",
+      "podcast": "Talitha Pereira",
+      "tags": [
+        "Moisés",
+        "Êxodo",
+        "Talitha Pereira",
+        "pregação"
+      ]
+    },
+    {
+      "id": "03",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:16:03",
+      "fim": "00:17:10",
+      "de": "Muitas pessoas querem viver um encontro com Deus",
+      "ate": "o sinal que eu estou te dando para você perceber",
+      "gancho": "O MAIOR PROBLEMA DESSA GERAÇÃO",
+      "titulo": "O maior problema dessa geração, segundo Talitha Pereira: a distração",
+      "titulo_short": "O maior problema DESSA GERAÇÃO",
+      "descricao": "A sarça que pega fogo e Deus falando no ordinário.",
+      "convidado": "Talitha Pereira",
+      "podcast": "Talitha Pereira",
+      "tags": [
+        "distração",
+        "Moisés",
+        "sarça ardente",
+        "Talitha Pereira"
+      ]
+    },
+    {
+      "id": "04",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:19:16",
+      "fim": "00:19:51",
+      "de": "Agora olha para essa geografia",
+      "ate": "na sua rotina há santidade",
+      "gancho": "A TERRA SANTA ERA UM PASTO",
+      "titulo": "A 'terra santa' de Moisés não era templo nem altar: era o pasto do trabalho dele",
+      "titulo_short": "A terra santa era um PASTO",
+      "descricao": "O que fez aquele lugar santo foi a presença de Deus, não o endereço.",
+      "convidado": "Talitha Pereira",
+      "podcast": "Talitha Pereira",
+      "tags": [
+        "Êxodo 3",
+        "Moisés",
+        "Talitha Pereira",
+        "pregação"
+      ]
+    },
+    {
+      "id": "05",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:21:10",
+      "fim": "00:22:35",
+      "de": "eu sou o Deus dessas pessoas, de Abraão",
+      "ate": "eu conheço e não desisto da história",
+      "gancho": "O DEUS DE QUEM ERROU",
+      "titulo": "'Eu sou o Deus de Abraão, Isaac e Jacó' — três homens que erraram",
+      "titulo_short": "O Deus de quem ERROU",
+      "descricao": "Deus nunca teve vergonha de associar seu nome a gente com histórico.",
+      "convidado": "Talitha Pereira",
+      "podcast": "Talitha Pereira",
+      "tags": [
+        "Abraão",
+        "Jacó",
+        "graça",
+        "Talitha Pereira"
+      ]
+    },
+    {
+      "id": "06",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:24:19",
+      "fim": "00:25:16",
+      "de": "Ele pergunta quem sou eu, e eu amo quando Deus responde",
+      "ate": "Ele responde com quem Ele é",
+      "gancho": "MOISÉS PERGUNTOU 'QUEM SOU EU?'",
+      "titulo": "Moisés perguntou 'quem sou eu?' e Deus respondeu com outra coisa",
+      "titulo_short": "Moisés perguntou 'QUEM SOU EU?'",
+      "descricao": "Quando Moisés pergunta sobre identidade, Deus responde com presença.",
+      "convidado": "Talitha Pereira",
+      "podcast": "Talitha Pereira",
+      "tags": [
+        "identidade",
+        "Moisés",
+        "Talitha Pereira",
+        "pregação"
+      ]
+    },
+    {
+      "id": "07",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:26:58",
+      "fim": "00:28:05",
+      "de": "Porque os egípcios tinham deuses pra tudo",
+      "ate": "me enviou a vocês",
+      "gancho": "QUAL É O SEU DEPARTAMENTO, DEUS?",
+      "titulo": "No Egito cada deus tinha um departamento. Moisés quis saber o de Deus",
+      "titulo_short": "Qual é o seu DEPARTAMENTO, Deus?",
+      "descricao": "O contexto da pergunta de Moisés em Êxodo 3:13.",
+      "convidado": "Talitha Pereira",
+      "podcast": "Talitha Pereira",
+      "tags": [
+        "Egito",
+        "Êxodo",
+        "Eu Sou",
+        "Talitha Pereira"
+      ]
+    },
+    {
+      "id": "08",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:28:45",
+      "fim": "00:29:44",
+      "de": "Mas o hebraico, ele difere do português no tempo verbal",
+      "ate": "a gente procura o eu sou, aquele que é",
+      "gancho": "O QUE 'EU SOU' QUER DIZER EM HEBRAICO",
+      "titulo": "'Eu Sou o que Sou' também pode ser traduzido como 'Eu Serei'",
+      "titulo_short": "O que 'EU SOU' quer dizer em hebraico",
+      "descricao": "Ehyeh Asher Ehyeh e o tempo verbal que o português não mostra.",
+      "convidado": "Talitha Pereira",
+      "podcast": "Talitha Pereira",
+      "tags": [
+        "hebraico",
+        "Eu Sou",
+        "nome de Deus",
+        "Talitha Pereira"
+      ]
+    },
+    {
+      "id": "09",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:33:58",
+      "fim": "00:34:47",
+      "de": "e nós ensinamos para vocês várias vezes que o judeu",
+      "ate": "é a menção do nome próprio de Deus",
+      "gancho": "POR QUE 'SENHOR' VEM EM MAIÚSCULAS",
+      "titulo": "Por que algumas Bíblias escrevem SENHOR todo em maiúsculas",
+      "titulo_short": "Por que 'SENHOR' vem em MAIÚSCULAS",
+      "descricao": "O tetragrama YHWH e a palavra que os judeus não pronunciam.",
+      "convidado": "Talitha Pereira",
+      "podcast": "Talitha Pereira",
+      "tags": [
+        "YHWH",
+        "Bíblia",
+        "curiosidades bíblicas",
+        "Talitha Pereira"
+      ]
+    },
+    {
+      "id": "10",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:42:18",
+      "fim": "00:43:15",
+      "de": "Quantas pessoas estão buscando e dizendo",
+      "ate": "só chega no momento que a gente está em aflição",
+      "gancho": "'O PROFETA FALA COM TODOS, MENOS COMIGO'",
+      "titulo": "'O profeta fala com todo mundo, menos comigo' — a resposta de Talitha Pereira",
+      "titulo_short": "'O profeta fala com todos, MENOS COMIGO'",
+      "descricao": "Buscar o profeta ou buscar a Deus.",
+      "convidado": "Talitha Pereira",
+      "podcast": "Talitha Pereira",
+      "tags": [
+        "profecia",
+        "fé",
+        "Talitha Pereira",
+        "pregação"
+      ]
+    },
+    {
+      "id": "11",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:47:14",
+      "fim": "00:48:38",
+      "de": "Ele diz assim, mas eu também sou aquele que não deixo de punir o culpado",
+      "ate": "É por isso que Deus é os dois na cruz do Calvário",
+      "gancho": "UM DEUS SÓ DE AMOR NÃO TE PROTEGE",
+      "titulo": "Por que um Deus só de amor não protegeria ninguém",
+      "titulo_short": "Um Deus só de amor NÃO TE PROTEGE",
+      "descricao": "Amor e justiça ao mesmo tempo em Êxodo 34.",
+      "convidado": "Talitha Pereira",
+      "podcast": "Talitha Pereira",
+      "tags": [
+        "justiça de Deus",
+        "amor de Deus",
+        "Êxodo 34",
+        "Talitha Pereira"
+      ]
+    },
+    {
+      "id": "12",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:50:39",
+      "fim": "00:52:50",
+      "de": "John Newton, que nasceu na Inglaterra",
+      "ate": "Cristo é um grande salvador",
+      "remover_texto": [
+        [
+          "Você consegue perceber? Ele não escondeu",
+          "um pecador encontrado pela graça."
+        ]
+      ],
+      "gancho": "O EPITÁFIO DO AUTOR DE AMAZING GRACE",
+      "titulo": "O traficante de escravos que escreveu Amazing Grace — e o epitáfio que ele mesmo ditou",
+      "titulo_short": "O epitáfio do autor de AMAZING GRACE",
+      "descricao": "A história de John Newton contada por Talitha Pereira.",
+      "convidado": "Talitha Pereira",
+      "podcast": "Talitha Pereira",
+      "tags": [
+        "John Newton",
+        "Amazing Grace",
+        "história",
+        "Talitha Pereira"
+      ]
+    },
+    {
+      "id": "13",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:53:21",
+      "fim": "00:54:03",
+      "de": "O nosso humor pode estar bom hoje",
+      "ate": "você já estava condenado",
+      "gancho": "DEUS NÃO MUDA DE HUMOR",
+      "titulo": "Malaquias 3:6: por que a gente ainda está vivo, segundo Talitha Pereira",
+      "titulo_short": "Deus NÃO MUDA de humor",
+      "descricao": "A imutabilidade de Deus como motivo de esperança.",
+      "convidado": "Talitha Pereira",
+      "podcast": "Talitha Pereira",
+      "tags": [
+        "Malaquias 3:6",
+        "fé",
+        "Talitha Pereira",
+        "pregação"
+      ]
+    },
+    {
+      "id": "14",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:56:38",
+      "fim": "00:57:41",
+      "de": "No Apocalipse ele diz assim, eu sou",
+      "ate": "você está voltando para uma referência que nunca mudou",
+      "gancho": "A ORDEM ESTRANHA DE UM VERSÍCULO",
+      "titulo": "'Aquele que é, que era e que há de vir': por que o 'é' vem primeiro",
+      "titulo_short": "A ordem ESTRANHA de um versículo",
+      "descricao": "Um detalhe de Apocalipse que muda a leitura.",
+      "convidado": "Talitha Pereira",
+      "podcast": "Talitha Pereira",
+      "tags": [
+        "Apocalipse",
+        "Eu Sou",
+        "Talitha Pereira",
+        "pregação"
+      ]
+    }
+  ]
+}

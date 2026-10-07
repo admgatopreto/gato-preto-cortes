@@ -1,0 +1,235 @@
+{
+  "correcoes": {
+    "Sborden": "Borden",
+    "Cibari": "Seabury",
+    "Ruschel": "Russell",
+    "Rushall": "Russell",
+    "Russel": "Russell",
+    "Rosia Norton": "Hosea Knowlton",
+    "Rose Ann Oughton": "Hosea Knowlton",
+    "Hosea": "Hosea Knowlton",
+    "Rosia": "Hosea",
+    "ácido prusco": "ácido prússico",
+    "mil cardite": "miocardite",
+    "Avenue News": "Evening News",
+    "Suância": "Swansea",
+    "Quickshon": "Quequechan",
+    "Josia Blaisdell": "Josiah Blaisdell",
+    "John Morrissey": "John Morse",
+    "Fall River and Harrod": "Fall River Herald",
+    "Harold": "Herald"
+  },
+  "cortes": [
+    {
+      "id": "01",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:00:05",
+      "fim": "00:01:15",
+      "de": "Essa casa, em tons de verde",
+      "ate": "dos mais famosos crimes de assassinato da história",
+      "gancho": "A CASA QUE VALE 4X MAIS POR UM CRIME",
+      "titulo": "A casa que custa 4 vezes o preço da região por causa de um crime de 1892",
+      "titulo_short": "A casa que vale 4X MAIS por causa de um crime",
+      "descricao": "A casa de Fall River, nos EUA, onde aconteceu um dos crimes mais famosos da história: o caso Lizzie Borden.",
+      "podcast": "Ossos Perdidos",
+      "tags": [
+        "Lizzie Borden",
+        "true crime",
+        "caso real",
+        "mistério",
+        "Ossos Perdidos"
+      ]
+    },
+    {
+      "id": "02",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:18:30",
+      "fim": "00:19:27",
+      "de": "Andrew e Abby acordaram durante a madrugada vomitando",
+      "ate": "mas não sabia que seria na manhã do dia seguinte",
+      "gancho": "ELA DISSE QUE QUERIAM ENVENENÁ-LOS",
+      "titulo": "Na véspera do crime, Abby Borden disse que alguém queria envenená-los",
+      "titulo_short": "Ela disse que queriam ENVENENÁ-LOS",
+      "descricao": "A madrugada de vômitos na casa dos Borden, um dia antes dos assassinatos.",
+      "podcast": "Ossos Perdidos",
+      "tags": [
+        "Lizzie Borden",
+        "true crime",
+        "envenenamento",
+        "Ossos Perdidos"
+      ]
+    },
+    {
+      "id": "03",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:29:28",
+      "fim": "00:30:25",
+      "de": "Como havia aqueles rumores de envenenamento",
+      "ate": "afirmou que nem sequer conhecia o estabelecimento",
+      "gancho": "O FARMACÊUTICO RECONHECEU LIZZIE",
+      "titulo": "O farmacêutico que disse que Lizzie Borden tentou comprar veneno um dia antes",
+      "titulo_short": "O farmacêutico RECONHECEU Lizzie",
+      "descricao": "A pista do ácido prússico e o primeiro passo que transformou a filha em suspeita.",
+      "podcast": "Ossos Perdidos",
+      "tags": [
+        "Lizzie Borden",
+        "true crime",
+        "investigação",
+        "Ossos Perdidos"
+      ]
+    },
+    {
+      "id": "04",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:46:58",
+      "fim": "00:47:55",
+      "de": "No relatório do policial Patrick Doherty",
+      "ate": "nenhum mensageiro foi identificado",
+      "gancho": "A POEIRA DO CELEIRO DESMENTIU ELA",
+      "titulo": "A poeira intacta no celeiro que contradizia a versão de Lizzie Borden",
+      "titulo_short": "A poeira do celeiro DESMENTIU ela",
+      "descricao": "O gemido que ela não mencionou, o celeiro sem pegadas e o bilhete que ninguém escreveu.",
+      "podcast": "Ossos Perdidos",
+      "tags": [
+        "Lizzie Borden",
+        "true crime",
+        "investigação",
+        "Ossos Perdidos"
+      ]
+    },
+    {
+      "id": "05",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:49:38",
+      "fim": "00:50:57",
+      "de": "Nesse período, as autoridades foram procuradas por",
+      "ate": "Lizzie foi formalmente acusada pelos assassinatos",
+      "gancho": "ELA QUEIMOU O VESTIDO NO FOGÃO",
+      "titulo": "Três dias depois do crime, a amiga viu Lizzie queimando um vestido no fogão",
+      "titulo_short": "Ela QUEIMOU o vestido no fogão",
+      "descricao": "O depoimento de Alice Russell que levou à acusação formal de Lizzie Borden.",
+      "podcast": "Ossos Perdidos",
+      "tags": [
+        "Lizzie Borden",
+        "true crime",
+        "vestido queimado",
+        "Ossos Perdidos"
+      ]
+    },
+    {
+      "id": "06",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:55:01",
+      "fim": "00:56:05",
+      "de": "O caso estava ficando difícil para a promotoria naquele tribunal",
+      "ate": "não se encaixou perfeitamente nos ferimentos",
+      "gancho": "LEVARAM O CRÂNIO DA VÍTIMA AO TRIBUNAL",
+      "titulo": "O dia em que levaram o crânio da vítima ao tribunal no caso Lizzie Borden",
+      "titulo_short": "Levaram o CRÂNIO da vítima ao tribunal",
+      "descricao": "A carta na manga da promotoria e a resposta da defesa com outra machadinha.",
+      "podcast": "Ossos Perdidos",
+      "tags": [
+        "Lizzie Borden",
+        "julgamento",
+        "true crime",
+        "Ossos Perdidos"
+      ]
+    },
+    {
+      "id": "07",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:02:56",
+      "fim": "01:03:52",
+      "de": "Depois do julgamento, Dewey chegou a declarar aos jornais",
+      "ate": "a absolvição de Lizzie era motivo de comemoração",
+      "gancho": "VEREDITO EM MENOS DE 10 MINUTOS",
+      "titulo": "O júri levou menos de 10 minutos — e o juiz tinha relação com a defesa",
+      "titulo_short": "Veredito em MENOS de 10 minutos",
+      "descricao": "O fim do julgamento de Lizzie Borden em 1893.",
+      "podcast": "Ossos Perdidos",
+      "tags": [
+        "Lizzie Borden",
+        "julgamento",
+        "veredito",
+        "Ossos Perdidos"
+      ]
+    },
+    {
+      "id": "08",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:10:05",
+      "fim": "01:11:01",
+      "de": "Em seu testamento, ela deixou uma quantia",
+      "ate": "Emma morreu apenas nove dias depois, aos 76 anos",
+      "gancho": "NADA PRA IRMÃ, QUE MORREU 9 DIAS DEPOIS",
+      "titulo": "O testamento de Lizzie Borden: dinheiro pros animais, nada pra irmã",
+      "titulo_short": "Nada pra irmã, que morreu 9 DIAS depois",
+      "descricao": "O que Lizzie Borden deixou em testamento e o destino da irmã Emma.",
+      "podcast": "Ossos Perdidos",
+      "tags": [
+        "Lizzie Borden",
+        "testamento",
+        "true crime",
+        "Ossos Perdidos"
+      ]
+    },
+    {
+      "id": "09",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:11:10",
+      "fim": "01:12:19",
+      "de": "A casa da família Borden, como mencionei no começo do vídeo",
+      "ate": "Esse tipo de coisa incomoda algumas pessoas",
+      "gancho": "DÁ PRA DORMIR NA CASA DO CRIME",
+      "titulo": "A casa do caso Lizzie Borden virou pousada — e dá pra dormir lá",
+      "titulo_short": "Dá pra DORMIR na casa do crime",
+      "descricao": "O turismo macabro na casa de Fall River, mantida como era em 1892.",
+      "podcast": "Ossos Perdidos",
+      "tags": [
+        "Lizzie Borden",
+        "turismo macabro",
+        "casa assombrada",
+        "Ossos Perdidos"
+      ]
+    },
+    {
+      "id": "10",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:12:20",
+      "fim": "01:13:20",
+      "de": "E chegando aos dias atuais",
+      "ate": "dentro da casa da família Borden",
+      "gancho": "AFINAL, FOI ELA?",
+      "titulo": "Lizzie Borden foi absolvida. Então por que quase todo mundo acha que foi ela?",
+      "titulo_short": "Afinal, FOI ELA?",
+      "descricao": "O que os estudiosos dizem hoje sobre o caso Borden e por que ele nunca foi resolvido.",
+      "podcast": "Ossos Perdidos",
+      "tags": [
+        "Lizzie Borden",
+        "caso não resolvido",
+        "true crime",
+        "Ossos Perdidos"
+      ]
+    }
+  ]
+}

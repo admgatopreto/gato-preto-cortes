@@ -1,0 +1,247 @@
+{
+  "nome": "Gato Preto Fé",
+  "handle": "@gatopretofe",
+  "nicho": "Fé",
+  "idioma": "pt",
+  "criado_em": "2026-10-05",
+  "fontes": [
+    {
+      "canal": "JesusCopy",
+      "canal_url": "https://www.youtube.com/channel/UC-lB2nyJ4lZXTgFoJ8bxh0A",
+      "status": "SEM MENÇÃO",
+      "espera_horas": null,
+      "emails": [],
+      "evidencia": "",
+      "obs": "preparado antes da autorização — pedir por e-mail antes de publicar"
+    },
+    {
+      "canal": "Talitha Pereira",
+      "canal_url": "https://www.youtube.com/channel/UCmHg3c3TY7Um2cgV77KfX_Q",
+      "status": "SEM MENÇÃO",
+      "espera_horas": null,
+      "emails": [],
+      "evidencia": "",
+      "obs": "preparado antes da autorização — pedir por e-mail antes de publicar"
+    },
+    {
+      "canal": "Café Com Bíblia Oficial",
+      "canal_url": "https://www.youtube.com/channel/UCvPDFR8mk3RIm1SOQdDfbbQ",
+      "status": "SEM MENÇÃO",
+      "espera_horas": null,
+      "emails": [],
+      "evidencia": "",
+      "obs": "preparado antes da autorização — pedir por e-mail antes de publicar"
+    }
+  ],
+  "estilo": {
+    "fonte": "Anton",
+    "cor_destaque": "#FFD24A",
+    "maiusculas": true,
+    "palavras_por_bloco": 3,
+    "chars_por_bloco": 16,
+    "tamanho_legenda_short": 112,
+    "tamanho_legenda_horizontal": 64,
+    "legenda_altura_short": 0.7,
+    "tamanho_gancho": 82,
+    "gancho_margem_topo": 150,
+    "gancho_segundos": null,
+    "credito": "{podcast}",
+    "falante_ativo": true,
+    "zoom_enfase": true,
+    "barra_progresso": true,
+    "gancho_animado": true,
+    "animacao_legenda": "quique",
+    "animacao_gancho": "pop",
+    "nome_convidado": false,
+    "censurar_palavroes": true,
+    "encerramento": true,
+    "logo_marca": "_identidade/logo-mini-fe.png"
+  },
+  "short": {
+    "apertar_pausas": true,
+    "pausa_max": 0.45,
+    "pausa_folga": 0.14,
+    "duracao_alvo_seg": [
+      35,
+      90
+    ]
+  },
+  "horizontal": {
+    "apertar_pausas": true,
+    "pausa_max": 0.8,
+    "pausa_folga": 0.25,
+    "duracao_alvo_seg": [
+      240,
+      900
+    ]
+  },
+  "publicacao": {
+    "descricao_horizontal": "{descricao}\n\n🎙️ Corte do episódio completo de {podcast}: {episodio_url}\nEpisódio: {episodio_titulo}\n\nTodos os créditos a {podcast}. Cortes publicados conforme a regra de cortes do próprio podcast.",
+    "descricao_short": "{descricao}\n\n🎙️ Episódio completo ({podcast}): {episodio_url}\n#Shorts",
+    "tags_fixas": [],
+    "agenda": {
+      "shorts_por_dia": 2,
+      "horizontais_por_semana": 3,
+      "horarios": [
+        "12:00",
+        "19:00"
+      ]
+    }
+  },
+  "candidatos": [
+    {
+      "canal": "Deive Leonardo",
+      "canal_url": "https://www.youtube.com/channel/UCNMHZujkcJXErDXhLSGNVdA",
+      "inscritos": 10500000,
+      "status": "SEM MENÇÃO",
+      "emails": []
+    },
+    {
+      "canal": "Tiago Brunet",
+      "canal_url": "https://www.youtube.com/channel/UCWkaQBuWlLoRSPP2311ERSA",
+      "inscritos": 3730000,
+      "status": "SEM MENÇÃO",
+      "emails": []
+    },
+    {
+      "canal": "JesusCopy",
+      "canal_url": "https://www.youtube.com/channel/UC-lB2nyJ4lZXTgFoJ8bxh0A",
+      "inscritos": 2810000,
+      "status": "SEM MENÇÃO",
+      "emails": []
+    },
+    {
+      "canal": "Daniel Pires",
+      "canal_url": "https://www.youtube.com/channel/UCrijbKcq54RKfYvVlc84QCg",
+      "inscritos": 2000000,
+      "status": "SEM MENÇÃO",
+      "emails": [
+        "[e-mail removido]"
+      ],
+      "nao_usar": "É de mistério/paranormal, não de fé."
+    },
+    {
+      "canal": "Hernandes Dias Lopes",
+      "canal_url": "https://www.youtube.com/channel/UCT8yKUrnFmq5COl15dasxog",
+      "inscritos": 1880000,
+      "status": "SEM MENÇÃO",
+      "emails": []
+    },
+    {
+      "canal": "PrimoCast",
+      "canal_url": "https://www.youtube.com/channel/UCfMA8s_QXPPcuOTjTDFb4vA",
+      "inscritos": 1720000,
+      "status": "SEM MENÇÃO",
+      "emails": [],
+      "nao_usar": "É de negócios, não de fé."
+    },
+    {
+      "canal": "Positivamente Podcast",
+      "canal_url": "https://www.youtube.com/channel/UCxfFBKvvVV6kWQ_mEDtge3w",
+      "inscritos": 1350000,
+      "status": "SEM MENÇÃO",
+      "emails": []
+    },
+    {
+      "canal": "Pastora Tânia Tereza Oficial",
+      "canal_url": "https://www.youtube.com/channel/UC23tcY1HezYNkGOLjVe545g",
+      "inscritos": 1170000,
+      "status": "SEM MENÇÃO",
+      "emails": []
+    },
+    {
+      "canal": "Talitha Pereira",
+      "canal_url": "https://www.youtube.com/channel/UCmHg3c3TY7Um2cgV77KfX_Q",
+      "inscritos": 885000,
+      "status": "SEM MENÇÃO",
+      "emails": []
+    },
+    {
+      "canal": "PARANORMAL EXPERIENCE",
+      "canal_url": "https://www.youtube.com/channel/UCyIU3E4WGVp4s7x8_ypXQ4g",
+      "inscritos": 867000,
+      "status": "SEM MENÇÃO",
+      "emails": [
+        "[e-mail removido]"
+      ],
+      "nao_usar": "É de mistério/paranormal, não de fé."
+    },
+    {
+      "canal": "PASTOR SANDRO ROCHA",
+      "canal_url": "https://www.youtube.com/channel/UCzY4IvYwOgA4viaDdVNyfZQ",
+      "inscritos": 767000,
+      "status": "SEM MENÇÃO",
+      "emails": []
+    },
+    {
+      "canal": "SantoFlow Podcast",
+      "canal_url": "https://www.youtube.com/channel/UC7_YdQMBjtcorD6ALKCoyPQ",
+      "inscritos": 694000,
+      "status": "SEM MENÇÃO",
+      "emails": []
+    },
+    {
+      "canal": "Pastor Rodrigo Mocellin",
+      "canal_url": "https://www.youtube.com/channel/UCRy4GsY-DHfm9jJ9xF9bQ4A",
+      "inscritos": 670000,
+      "status": "SEM MENÇÃO",
+      "emails": []
+    },
+    {
+      "canal": "EUACREDITO TV",
+      "canal_url": "https://www.youtube.com/channel/UCMQS_SjTWyWDmWoJlhxQMgg",
+      "inscritos": 640000,
+      "status": "SEM MENÇÃO",
+      "emails": []
+    },
+    {
+      "canal": "Católicos de VERDADE",
+      "canal_url": "https://www.youtube.com/channel/UCsM4JUPLhUjh78F-US4Bk8g",
+      "inscritos": 624000,
+      "status": "SEM MENÇÃO",
+      "emails": []
+    }
+  ],
+  "concorrentes": [
+    {
+      "canal": "Cortes do Inteligência [OFICIAL]",
+      "canal_url": "https://www.youtube.com/channel/UCvmWNQH4c2T3Triih3lftiw",
+      "inscritos": 4100000
+    },
+    {
+      "canal": "Cortes JesusCopy",
+      "canal_url": "https://www.youtube.com/channel/UCiFSa4xzRbR3ZtwVS4-FSvg",
+      "inscritos": 504000
+    },
+    {
+      "canal": "Igreja Quadrangular [CORTES]",
+      "canal_url": "https://www.youtube.com/channel/UCJM2cNMKFTJCos3O-Wqkekg",
+      "inscritos": 83600
+    },
+    {
+      "canal": "Abba Pai - Cortes de Pregações Evangélicas",
+      "canal_url": "https://www.youtube.com/channel/UCxul50wT00Sh7bwWcJS93mQ",
+      "inscritos": 80400
+    },
+    {
+      "canal": "CENTRAL CORTES [OFICIAL]",
+      "canal_url": "https://www.youtube.com/channel/UCFhGJpIlVb2tBYZ4wL79u-Q",
+      "inscritos": 78300
+    },
+    {
+      "canal": "Cortes do Mundo Cristão",
+      "canal_url": "https://www.youtube.com/channel/UCWP4_yq55Z88pBpZejVV_9g",
+      "inscritos": 73900
+    },
+    {
+      "canal": "Cortes de Catequese",
+      "canal_url": "https://www.youtube.com/channel/UCOuv3U8JERlrSlIUixZuOKg",
+      "inscritos": 69100
+    },
+    {
+      "canal": "Anissandra Cortes Católicos ",
+      "canal_url": "https://www.youtube.com/channel/UC094rCuhgl75A9ot7g_DyvA",
+      "inscritos": 68100
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "01": {
+    "dur": 84.3,
+    "amostras": 84,
+    "cortado": 0.0,
+    "pequeno": 0.0,
+    "gancho": 0.0,
+    "sem_rosto": 0.0,
+    "nota_problema": 0.0,
+    "tempos": []
+  },
+  "02": {
+    "dur": 60.7,
+    "amostras": 60,
+    "cortado": 0.0,
+    "pequeno": 0.0,
+    "gancho": 0.08,
+    "sem_rosto": 0.0,
+    "nota_problema": 0.17,
+    "tempos": [
+      14.5,
+      17.5,
+      22.5,
+      30.5,
+      38.5
+    ]
+  },
+  "03": {
+    "dur": 61.0,
+    "amostras": 60,
+    "cortado": 0.0,
+    "pequeno": 0.0,
+    "gancho": 0.0,
+    "sem_rosto": 0.0,
+    "nota_problema": 0.0,
+    "tempos": []
+  },
+  "04": {
+    "dur": 41.2,
+    "amostras": 41,
+    "cortado": 0.0,
+    "pequeno": 0.0,
+    "gancho": 0.0,
+    "sem_rosto": 0.0,
+    "nota_problema": 0.0,
+    "tempos": []
+  },
+  "05": {
+    "dur": 77.5,
+    "amostras": 77,
+    "cortado": 0.0,
+    "pequeno": 0.0,
+    "gancho": 0.0,
+    "sem_rosto": 0.0,
+    "nota_problema": 0.0,
+    "tempos": []
+  },
+  "06": {
+    "dur": 58.6,
+    "amostras": 58,
+    "cortado": 0.0,
+    "pequeno": 0.0,
+    "gancho": 0.0,
+    "sem_rosto": 0.0,
+    "nota_problema": 0.0,
+    "tempos": []
+  },
+  "07": {
+    "dur": 80.8,
+    "amostras": 80,
+    "cortado": 0.0,
+    "pequeno": 0.0,
+    "gancho": 0.0,
+    "sem_rosto": 0.0,
+    "nota_problema": 0.0,
+    "tempos": []
+  },
+  "08": {
+    "dur": 69.3,
+    "amostras": 69,
+    "cortado": 0.0,
+    "pequeno": 0.0,
+    "gancho": 0.01,
+    "sem_rosto": 0.0,
+    "nota_problema": 0.03,
+    "tempos": [
+      22.5
+    ]
+  },
+  "09": {
+    "dur": 54.4,
+    "amostras": 54,
+    "cortado": 0.0,
+    "pequeno": 0.0,
+    "gancho": 0.0,
+    "sem_rosto": 0.0,
+    "nota_problema": 0.0,
+    "tempos": []
+  },
+  "10": {
+    "dur": 51.1,
+    "amostras": 50,
+    "cortado": 0.0,
+    "pequeno": 0.0,
+    "gancho": 0.0,
+    "sem_rosto": 0.0,
+    "nota_problema": 0.0,
+    "tempos": []
+  },
+  "11": {
+    "dur": 45.4,
+    "amostras": 45,
+    "cortado": 0.0,
+    "pequeno": 0.0,
+    "gancho": 0.0,
+    "sem_rosto": 0.0,
+    "nota_problema": 0.0,
+    "tempos": []
+  },
+  "12": {
+    "dur": 76.4,
+    "amostras": 76,
+    "cortado": 0.0,
+    "pequeno": 0.0,
+    "gancho": 0.0,
+    "sem_rosto": 0.0,
+    "nota_problema": 0.0,
+    "tempos": []
+  },
+  "13": {
+    "dur": 76.9,
+    "amostras": 76,
+    "cortado": 0.0,
+    "pequeno": 0.0,
+    "gancho": 0.0,
+    "sem_rosto": 0.0,
+    "nota_problema": 0.0,
+    "tempos": []
+  },
+  "14": {
+    "dur": 91.2,
+    "amostras": 91,
+    "cortado": 0.0,
+    "pequeno": 0.0,
+    "gancho": 0.0,
+    "sem_rosto": 0.0,
+    "nota_problema": 0.0,
+    "tempos": []
+  }
+}

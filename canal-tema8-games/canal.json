@@ -1,0 +1,231 @@
+{
+  "nome": "Gato Preto Games",
+  "handle": "@gatopreto.games",
+  "nicho": "Games",
+  "idioma": "pt",
+  "criado_em": "2026-10-05",
+  "fontes": [
+    {
+      "canal": "Flow Games",
+      "canal_url": "https://www.youtube.com/channel/UCUZfhX79dQrJvAgYefiXCCA",
+      "status": "SEM MENÇÃO",
+      "espera_horas": null,
+      "emails": [
+        "[e-mail removido]"
+      ],
+      "evidencia": "",
+      "obs": "preparado antes da autorização — pedir por e-mail antes de publicar"
+    }
+  ],
+  "estilo": {
+    "fonte": "Anton",
+    "cor_destaque": "#FF4FD8",
+    "maiusculas": true,
+    "palavras_por_bloco": 3,
+    "chars_por_bloco": 16,
+    "tamanho_legenda_short": 112,
+    "tamanho_legenda_horizontal": 64,
+    "legenda_altura_short": 0.7,
+    "tamanho_gancho": 82,
+    "gancho_margem_topo": 150,
+    "gancho_segundos": null,
+    "credito": "{podcast}",
+    "falante_ativo": true,
+    "zoom_enfase": true,
+    "barra_progresso": true,
+    "gancho_animado": true,
+    "animacao_legenda": "quique",
+    "animacao_gancho": "pop",
+    "nome_convidado": false,
+    "censurar_palavroes": true,
+    "encerramento": true,
+    "logo_marca": "_identidade/logo-mini-games.png"
+  },
+  "short": {
+    "apertar_pausas": true,
+    "pausa_max": 0.45,
+    "pausa_folga": 0.14,
+    "duracao_alvo_seg": [
+      35,
+      90
+    ]
+  },
+  "horizontal": {
+    "apertar_pausas": true,
+    "pausa_max": 0.8,
+    "pausa_folga": 0.25,
+    "duracao_alvo_seg": [
+      240,
+      900
+    ]
+  },
+  "publicacao": {
+    "descricao_horizontal": "{descricao}\n\n🎙️ Corte do episódio completo de {podcast}: {episodio_url}\nEpisódio: {episodio_titulo}\n\nTodos os créditos a {podcast}. Cortes publicados conforme a regra de cortes do próprio podcast.",
+    "descricao_short": "{descricao}\n\n🎙️ Episódio completo ({podcast}): {episodio_url}\n#Shorts",
+    "tags_fixas": [],
+    "agenda": {
+      "shorts_por_dia": 2,
+      "horizontais_por_semana": 3,
+      "horarios": [
+        "12:00",
+        "19:00"
+      ]
+    }
+  },
+  "candidatos": [
+    {
+      "canal": "TNT Sports Brasil",
+      "canal_url": "https://www.youtube.com/channel/UCs-6sCz2LJm1PrWQN4ErsPw",
+      "inscritos": 13300000,
+      "status": "SEM MENÇÃO",
+      "emails": [],
+      "nao_usar": "É de esporte, não de games."
+    },
+    {
+      "canal": "Flow Sport Club",
+      "canal_url": "https://www.youtube.com/channel/UC5-aueB1RqpUc-EeAjtx9Lw",
+      "inscritos": 1030000,
+      "status": "SEM MENÇÃO",
+      "emails": [
+        "[e-mail removido]"
+      ],
+      "nao_usar": "É de esporte, não de games."
+    },
+    {
+      "canal": "Flow Games",
+      "canal_url": "https://www.youtube.com/channel/UCUZfhX79dQrJvAgYefiXCCA",
+      "inscritos": 888000,
+      "status": "SEM MENÇÃO",
+      "emails": [
+        "[e-mail removido]"
+      ]
+    },
+    {
+      "canal": "N Sports",
+      "canal_url": "https://www.youtube.com/channel/UCf9WJPpsh5BHDY-OeISgIqA",
+      "inscritos": 827000,
+      "status": "SEM MENÇÃO",
+      "emails": [],
+      "nao_usar": "É de esporte, não de games."
+    },
+    {
+      "canal": "Clooless Gaming",
+      "canal_url": "https://www.youtube.com/channel/UC-dDPClZzfqCAcxuQPhqx7A",
+      "inscritos": 294000,
+      "status": "SEM MENÇÃO",
+      "emails": [
+        "[e-mail removido]"
+      ],
+      "nao_usar": "Não é em português (radar)."
+    },
+    {
+      "canal": "HITS  Podcast",
+      "canal_url": "https://www.youtube.com/channel/UCXUHLuvVD44TwENN_iLU82g",
+      "inscritos": 84000,
+      "status": "SEM MENÇÃO",
+      "emails": []
+    },
+    {
+      "canal": "Game Chinchila",
+      "canal_url": "https://www.youtube.com/channel/UCuwg0NCinodO-vwAgzmOrQQ",
+      "inscritos": 81300,
+      "status": "SEM MENÇÃO",
+      "emails": []
+    },
+    {
+      "canal": "Ei Nerd Games",
+      "canal_url": "https://www.youtube.com/channel/UCjpjh0XrsYoJGc34FCATd9w",
+      "inscritos": 75100,
+      "status": "SEM MENÇÃO",
+      "emails": [
+        "[e-mail removido]"
+      ]
+    },
+    {
+      "canal": "Made In Brasil Podcast - MIB por Dom e Carol ",
+      "canal_url": "https://www.youtube.com/channel/UC7-FWhg_j-9Y7-30PaXd5Fw",
+      "inscritos": 48900,
+      "status": "SEM MENÇÃO",
+      "emails": [],
+      "nao_usar": "Podcast generalista, não de games."
+    },
+    {
+      "canal": "Cara dos Sports",
+      "canal_url": "https://www.youtube.com/channel/UCZ3MkOrQx7444pm7tSZ-10Q",
+      "inscritos": 42900,
+      "status": "SEM MENÇÃO",
+      "emails": [],
+      "nao_usar": "É de esporte, não de games."
+    },
+    {
+      "canal": "Mind Games Podcast",
+      "canal_url": "https://www.youtube.com/channel/UC9Y9Enocb4gdZQpEfBQum9Q",
+      "inscritos": 36300,
+      "status": "SEM MENÇÃO",
+      "emails": [],
+      "nao_usar": "Não é em português (radar)."
+    },
+    {
+      "canal": "99Vidas Podcast | Nostalgia e Videogames",
+      "canal_url": "https://www.youtube.com/channel/UC5v8HxjUpGPY-qNpl3vuK1w",
+      "inscritos": 21900,
+      "status": "SEM MENÇÃO",
+      "emails": [],
+      "nao_usar": "Podcast publicado no YouTube como imagem parada (só áudio); não serve para Shorts."
+    }
+  ],
+  "concorrentes": [
+    {
+      "canal": "Cortes da Sarinha",
+      "canal_url": "https://www.youtube.com/channel/UCPDxciU4JUiHjA3JXz8-s8g",
+      "inscritos": 1190000
+    },
+    {
+      "canal": "CORTES - Leon e Nilce [Oficial]",
+      "canal_url": "https://www.youtube.com/channel/UCr3dtVIm3nL7I-Yjn2PxxIQ",
+      "inscritos": 894000
+    },
+    {
+      "canal": "Cortes do Gabriel Aleatoriamente",
+      "canal_url": "https://www.youtube.com/channel/UCzET-f5A-N98EU71HTuUVHw",
+      "inscritos": 815000
+    },
+    {
+      "canal": "Cortes LOUD Coringa",
+      "canal_url": "https://www.youtube.com/channel/UCHRZR1HWojKvtAxEWQJOH0Q",
+      "inscritos": 731000
+    },
+    {
+      "canal": "Cortes do Davy Jones [OFICIAL]",
+      "canal_url": "https://www.youtube.com/channel/UCUTMBmYeeK1S-wZ6Jo9WbWg",
+      "inscritos": 635000
+    },
+    {
+      "canal": "Cortes do Flow Sport Club [OFICIAL]",
+      "canal_url": "https://www.youtube.com/channel/UCUN1WEb4N7ZGCtRjzD_suag",
+      "inscritos": 614000
+    },
+    {
+      "canal": "Cortes do Flow Games",
+      "canal_url": "https://www.youtube.com/channel/UCMUJCt_tPOXPnXRMzRpyujw",
+      "inscritos": 427000
+    },
+    {
+      "canal": "Cortes do Stag",
+      "canal_url": "https://www.youtube.com/channel/UCVruJQDOaSltu7Z2ita64nQ",
+      "inscritos": 405000
+    }
+  ],
+  "fontes_descartadas": [
+    {
+      "canal": "99Vidas Podcast",
+      "canal_url": "https://www.youtube.com/channel/UC5v8HxjUpGPY-qNpl3vuK1w",
+      "status": "SEM MENÇÃO",
+      "espera_horas": null,
+      "emails": [],
+      "evidencia": "",
+      "obs": "preparado antes da autorização — pedir por e-mail antes de publicar",
+      "motivo_descarte": "Podcast publicado no YouTube como imagem parada (só áudio); não serve para Shorts."
+    }
+  ]
+}

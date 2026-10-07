@@ -1,0 +1,142 @@
+{
+  "correcoes": {
+    "Zack Krieger": "Zach Cregger",
+    "Zack Greger": "Zach Cregger",
+    "Zach Greger": "Zach Cregger",
+    "Zach Krieger": "Zach Cregger",
+    "Zack Trigger": "Zach Cregger",
+    "Constantine": "Constantin",
+    "Constantino": "Constantin",
+    "caminha": "Kamiya",
+    "Reckon": "Requiem",
+    "Croix": "Cross"
+  },
+  "cortes": [
+    {
+      "id": "01",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:36:12",
+      "fim": "00:37:07",
+      "de": "E aí o que eu pensei foi, tipo assim, ah, cara, como que adapta o Resident Evil",
+      "ate": "E a gente tem o Requiem",
+      "gancho": "TERROR OU AÇÃO? A BRIGA DENTRO DA CAPCOM",
+      "titulo": "Resident Evil é terror ou ação? A divisão que vem de dentro da Capcom",
+      "titulo_short": "Terror ou ação? A BRIGA dentro da Capcom",
+      "descricao": "Por que é tão difícil adaptar a série para o cinema.",
+      "podcast": "Flow Games",
+      "tags": [
+        "Resident Evil",
+        "Capcom",
+        "filmes de games",
+        "Flow Games"
+      ]
+    },
+    {
+      "id": "02",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:38:10",
+      "fim": "00:39:02",
+      "de": "O maior problema pra mim dos filmes de Resident Evil",
+      "ate": "Coloco uma adaptação outra ali",
+      "gancho": "POR QUE SEMPRE SAI FILME DE RESIDENT EVIL",
+      "titulo": "Por que sempre aparece um filme novo de Resident Evil, segundo o Flow Games",
+      "titulo_short": "Por que SEMPRE sai filme de Resident Evil",
+      "descricao": "A teoria dos direitos de adaptação, comparada ao caso dos filmes do Homem-Aranha.",
+      "podcast": "Flow Games",
+      "tags": [
+        "Resident Evil",
+        "filmes de games",
+        "cinema",
+        "Flow Games"
+      ]
+    },
+    {
+      "id": "03",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:40:20",
+      "fim": "00:41:07",
+      "de": "uma franquia que deu a volta por cima com relação a filmes foi Mortal Kombat",
+      "ate": "parece que na internet é proibido",
+      "gancho": "MORTAL KOMBAT ACERTOU. E RESIDENT EVIL?",
+      "titulo": "Por que é 'proibido' querer os personagens do jogo no filme?",
+      "titulo_short": "Mortal Kombat ACERTOU. E Resident Evil?",
+      "descricao": "A comparação com os filmes recentes de Mortal Kombat.",
+      "podcast": "Flow Games",
+      "tags": [
+        "Mortal Kombat",
+        "Resident Evil",
+        "filmes de games",
+        "Flow Games"
+      ]
+    },
+    {
+      "id": "04",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:55:05",
+      "fim": "00:55:55",
+      "de": "Não é que era galhofa, a dublagem era ruim",
+      "ate": "É a galhofa que tem no Resident Evil, porque tem",
+      "gancho": "RESIDENT EVIL NÃO ERA GALHOFA",
+      "titulo": "O primeiro Resident Evil não era galhofa: a dublagem é que era ruim",
+      "titulo_short": "Resident Evil NÃO ERA GALHOFA",
+      "descricao": "Um dos primeiros jogos dublados da história e o motivo das falas engraçadas.",
+      "podcast": "Flow Games",
+      "tags": [
+        "Resident Evil",
+        "dublagem",
+        "retrogames",
+        "Flow Games"
+      ]
+    },
+    {
+      "id": "05",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:57:11",
+      "fim": "00:57:52",
+      "de": "Eu acho que se resolveria muito se esse filme tivesse o nome Resident Evil Outbreak",
+      "ate": "que a gente deixaria passar mais",
+      "gancho": "O NOME QUE TERIA SALVADO O FILME",
+      "titulo": "O filme de Resident Evil teria sido aceito se tivesse outro nome?",
+      "titulo_short": "O NOME que teria salvado o filme",
+      "descricao": "A sugestão de Charles, do MNES: Resident Evil Outbreak.",
+      "podcast": "Flow Games",
+      "tags": [
+        "Resident Evil",
+        "Outbreak",
+        "filmes de games",
+        "Flow Games"
+      ]
+    },
+    {
+      "id": "06",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:05:05",
+      "fim": "01:06:07",
+      "de": "Pra mim, o terror é construído realmente de pouco a pouco",
+      "ate": "você não fica mais assim",
+      "gancho": "SUSTO NÃO É TERROR",
+      "titulo": "Susto não é terror: como um filme constrói medo (e como uma piada destrói)",
+      "titulo_short": "SUSTO não é TERROR",
+      "descricao": "A crítica ao excesso de piadas no novo filme de Resident Evil.",
+      "podcast": "Flow Games",
+      "tags": [
+        "filmes de terror",
+        "Resident Evil",
+        "cinema",
+        "Flow Games"
+      ]
+    }
+  ]
+}

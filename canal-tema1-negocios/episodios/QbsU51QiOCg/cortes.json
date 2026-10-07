@@ -1,0 +1,223 @@
+{
+  "correcoes": {
+    "espingudo": "espinhudo",
+    "Marvel": "Marvell",
+    "Marvel.": "Marvell.",
+    "Coifin": "Koyfin",
+    "COIF": "Koyfin",
+    "Ketum": "QTUM",
+    "SHD": "SCHD",
+    "Soxel": "SOXL",
+    "Costume Staple": "Consumer Staples",
+    "Bax": "Backes",
+    "Baques": "Backes",
+    "Sopper": "SOPR",
+    "AutoCoin": "altcoin",
+    "Outcoins": "altcoins",
+    "IPLiquid": "Hyperliquid",
+    "Trezor de Bones": "Treasury de bonds",
+    "os 1.500": "o S&P 500",
+    "Ibovespa.": "Ibovespa."
+  },
+  "cortes": [
+    {
+      "id": "01",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:21:46",
+      "fim": "00:22:36",
+      "de": "Isso aqui está barato em dólar",
+      "ate": "É maior que o PIB brasileiro",
+      "gancho": "R$70 BILHÕES É TROCO PRO GRINGO",
+      "titulo": "R$70 bilhões que movem a bolsa brasileira são troco pro investidor estrangeiro",
+      "titulo_short": "R$70 bilhões é TROCO pro gringo",
+      "descricao": "Stormer explica por que o dinheiro estrangeiro mexe tanto com a bolsa brasileira: a ação daqui está barata em dólar.",
+      "convidado": "Stormer",
+      "podcast": "Irmãos Dias Podcast",
+      "tags": [
+        "bolsa brasileira",
+        "investidor estrangeiro",
+        "ibovespa",
+        "Stormer",
+        "Irmãos Dias Podcast"
+      ]
+    },
+    {
+      "id": "02",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:40:56",
+      "fim": "00:41:50",
+      "de": "Cuidado, pessoal, para nunca comprarem a ETF alavancado",
+      "ate": "Porque ele vai perdendo valor com o tempo",
+      "gancho": "O PERIGO DO ETF ALAVANCADO",
+      "titulo": "Por que ETF alavancado perde valor com o tempo (e quando evitar)",
+      "titulo_short": "O PERIGO do ETF alavancado",
+      "descricao": "ETF alavancado é pra operação curta: em mercado lateral ele vai perdendo valor.",
+      "convidado": "Stormer",
+      "podcast": "Irmãos Dias Podcast",
+      "tags": [
+        "ETF alavancado",
+        "ETF",
+        "ações americanas",
+        "Irmãos Dias Podcast"
+      ]
+    },
+    {
+      "id": "03",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:43:30",
+      "fim": "00:44:31",
+      "de": "90% dos fundos de investimento em ações no Brasil",
+      "ate": "comece por ETFs",
+      "gancho": "90% DOS FUNDOS PERDEM PRO ÍNDICE",
+      "titulo": "90% dos fundos de ações não batem o índice — por isso comece por ETF",
+      "titulo_short": "90% dos fundos PERDEM pro índice",
+      "descricao": "A maioria dos fundos de ações não supera o próprio índice, no Brasil e nos EUA. A sugestão pra pessoa física: começar por ETF.",
+      "convidado": "Stormer",
+      "podcast": "Irmãos Dias Podcast",
+      "tags": [
+        "ETF",
+        "fundos de investimento",
+        "S&P 500",
+        "Irmãos Dias Podcast"
+      ]
+    },
+    {
+      "id": "04",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:13:20",
+      "fim": "01:14:30",
+      "de": "Eu sempre digo o seguinte, quando o pepino aperta",
+      "ate": "gerar realmente um crescimento violento",
+      "gancho": "QUANDO O PEPINO APERTA",
+      "titulo": "O velho cabeça branca e o adolescente espinhudo: onde o dinheiro vai na crise",
+      "titulo_short": "Na crise, o dinheiro vai pro velho cabeça branca",
+      "descricao": "A analogia de Stormer pra explicar ações de valor (Consumer Staples) e ações de crescimento.",
+      "convidado": "Stormer",
+      "podcast": "Irmãos Dias Podcast",
+      "tags": [
+        "ações de valor",
+        "consumer staples",
+        "Coca-Cola",
+        "Irmãos Dias Podcast"
+      ]
+    },
+    {
+      "id": "05",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:27:38",
+      "fim": "01:28:45",
+      "de": "E eu preciso lembrar os amigos que cripto é uma piscina pequena",
+      "ate": "dentro do mercado financeiro como um todo",
+      "gancho": "CRIPTO É UMA PISCINA PEQUENA",
+      "titulo": "Todas as criptomoedas do mundo valem menos que uma Apple",
+      "titulo_short": "Cripto é uma PISCINA PEQUENA",
+      "descricao": "Stormer compara o tamanho do mercado cripto com ETFs, ouro e as big techs.",
+      "convidado": "Stormer",
+      "podcast": "Irmãos Dias Podcast",
+      "tags": [
+        "criptomoedas",
+        "bitcoin",
+        "mercado financeiro",
+        "Irmãos Dias Podcast"
+      ]
+    },
+    {
+      "id": "06",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:32:09",
+      "fim": "01:33:45",
+      "de": "Porque quando eu não tenho como saber se aquele fundo",
+      "ate": "Então é um bom dia de comprar",
+      "gancho": "COMPRE QUANDO TODOS ACEITAM PREJUÍZO",
+      "titulo": "O indicador que mostra o dia em que todo mundo vendeu Bitcoin no prejuízo",
+      "titulo_short": "Compre quando TODOS aceitam prejuízo",
+      "descricao": "Augusto Backes explica como usa o SOPR pra achar os dias de maior capitulação no Bitcoin.",
+      "convidado": "Augusto Backes",
+      "podcast": "Irmãos Dias Podcast",
+      "tags": [
+        "bitcoin",
+        "SOPR",
+        "on chain",
+        "Augusto Backes",
+        "Irmãos Dias Podcast"
+      ]
+    },
+    {
+      "id": "07",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:40:57",
+      "fim": "01:41:50",
+      "de": "Eu acho que a maior parte das pessoas hoje, mesmo os conservadores",
+      "ate": "no próximo ano e meio a dois",
+      "gancho": "QUANTO TER EM CRIPTO?",
+      "titulo": "Quanto do patrimônio colocar em cripto: conservador, moderado e agressivo",
+      "titulo_short": "Quanto do patrimônio ter em cripto?",
+      "descricao": "A divisão sugerida por Stormer pra cada perfil de investidor. Não é recomendação de investimento.",
+      "convidado": "Stormer",
+      "podcast": "Irmãos Dias Podcast",
+      "tags": [
+        "cripto",
+        "alocação de patrimônio",
+        "perfil de investidor",
+        "Irmãos Dias Podcast"
+      ]
+    },
+    {
+      "id": "08",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:47:15",
+      "fim": "01:47:55",
+      "de": "a gente tem que acabar no Brasil com essa história",
+      "ate": "Não pode ser torcedor, né",
+      "gancho": "INVESTIDOR NÃO PODE SER TORCEDOR",
+      "titulo": "Você não é investidor de cripto nem de bolsa: você é investidor, ponto",
+      "titulo_short": "Investidor não pode ser TORCEDOR",
+      "descricao": "Stormer sobre seguir o fluxo de dinheiro em vez de torcer por uma classe de ativo.",
+      "convidado": "Stormer",
+      "podcast": "Irmãos Dias Podcast",
+      "tags": [
+        "investimentos",
+        "mentalidade",
+        "Irmãos Dias Podcast"
+      ]
+    },
+    {
+      "id": "09",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:58:36",
+      "fim": "01:59:20",
+      "de": "E aí o pessoal tem medinho de comprar topo",
+      "ate": "quem determina o topo final é o mercado",
+      "gancho": "MEDO DE COMPRAR NO TOPO?",
+      "titulo": "Medo de comprar no topo? Topo histórico não é topo final",
+      "titulo_short": "Medo de comprar no TOPO?",
+      "descricao": "Augusto Backes sobre tendência de alta e o medo de comprar depois que um ativo já subiu.",
+      "convidado": "Augusto Backes",
+      "podcast": "Irmãos Dias Podcast",
+      "tags": [
+        "tendência de alta",
+        "topo histórico",
+        "ações americanas",
+        "Irmãos Dias Podcast"
+      ]
+    }
+  ]
+}

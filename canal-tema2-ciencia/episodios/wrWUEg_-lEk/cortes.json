@@ -1,0 +1,447 @@
+{
+  "correcoes": {
+    "Se a IAS": "Se a IA",
+    "Mohamed Gaudi": "Mo Gawdat",
+    "Mohamed Gaudet": "Mo Gawdat",
+    "o Abas lá": "o Hassabis lá",
+    "IA Ladeiras do": "IA lá do",
+    "vinho inteiro": "Vinheteiro",
+    "vinheteiro": "Vinheteiro",
+    "Bili Bili": "Bilibili",
+    "bilibili": "Bilibili",
+    "Poncarre": "Poincaré",
+    "o de Rima": "o de Riemann",
+    "o Stanley criou": "o Stan Lee criou",
+    "inteligência social": "inteligência artificial",
+    "inteligência oficial": "inteligência artificial",
+    "IOB": "IoB",
+    "Mudou a afeição": "Mudou a feição"
+  },
+  "cortes": [
+    {
+      "id": "01",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:05:27.6",
+      "fim": "00:06:03",
+      "de": "Se você pegar o diâmetro dos planetas",
+      "ate": "são muito pequenos Exatamente",
+      "remover_texto": [
+        [
+          "Cara, isso não",
+          "Júpiter é maior",
+          "00:05:40"
+        ]
+      ],
+      "gancho": "TODOS OS PLANETAS CABEM AQUI",
+      "titulo_short": "Todos os planetas cabem entre a Terra e a Lua",
+      "titulo": "Todos os planetas do Sistema Solar cabem entre a Terra e a Lua",
+      "descricao": "Somando o diâmetro de Júpiter, Saturno (sem os anéis), Urano, Netuno e dos planetas pequenos, dá pra enfileirar todos eles nos cerca de 400 mil km entre a Terra e a Lua.",
+      "convidado": "Daniel Lopez e Vilela",
+      "podcast": "Além da Ciência",
+      "tags": [
+        "astronomia",
+        "sistema solar",
+        "planetas",
+        "Lua",
+        "Júpiter",
+        "curiosidades",
+        "Sérgio Sacani",
+        "Além da Ciência"
+      ]
+    },
+    {
+      "id": "02",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:07:58",
+      "fim": "00:08:51",
+      "de": "existem na matemática sete problemas",
+      "ate": "não tem a solução da Navier Stokes",
+      "gancho": "RESOLVA E GANHE 1 MILHÃO DE DÓLARES",
+      "titulo_short": "Os problemas que valem 1 milhão de dólares",
+      "titulo": "Problemas do Milênio: as equações que valem 1 milhão de dólares (Navier-Stokes)",
+      "descricao": "Os sete Problemas do Milênio da matemática e por que a equação de Navier-Stokes, que rege os fluidos, explica até a previsão do tempo não ser 100% certa.",
+      "convidado": "Daniel Lopez e Vilela",
+      "podcast": "Além da Ciência",
+      "tags": [
+        "matemática",
+        "Navier-Stokes",
+        "problemas do milênio",
+        "ciência",
+        "previsão do tempo",
+        "Além da Ciência"
+      ]
+    },
+    {
+      "id": "03",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:15:19",
+      "fim": "00:16:29",
+      "de": "Ó, lá no Joe Rogan",
+      "ate": "conseguem fazer remote viewing, né?",
+      "gancho": "A ALEXA ADIVINHOU O QUE TINHA NA CAIXA?",
+      "titulo_short": "Ele treinou a Alexa pra fazer Remote Viewing",
+      "titulo": "O cara que diz ter treinado a Alexa pra fazer Remote Viewing",
+      "descricao": "A história contada no Joe Rogan: um pesquisador de consciência diz que a Alexa descreveu uma colher escondida numa caixa. Curioso, mas sem prova.",
+      "convidado": "Daniel Lopez e Vilela",
+      "podcast": "Além da Ciência",
+      "tags": [
+        "remote viewing",
+        "Alexa",
+        "inteligência artificial",
+        "consciência",
+        "Joe Rogan",
+        "mistério",
+        "Além da Ciência"
+      ]
+    },
+    {
+      "id": "04",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:16:40",
+      "fim": "00:18:04.5",
+      "de": "Inteligência artificial é boa para reconhecimento de padrões?",
+      "ate": "resolver todas as doenças da humanidade",
+      "gancho": "IA COM 98% DE ACERTO NO HOSPITAL",
+      "titulo_short": "A IA que já acerta 98% no hospital",
+      "titulo": "Galáxias, hospital e Nobel: onde a IA já funciona de verdade",
+      "descricao": "IA classifica bilhões de galáxias em segundos, faz triagem no Hospital das Clínicas e rendeu um Nobel de Química ao Demis Hassabis. Agora a meta é curar doenças em 10 anos.",
+      "convidado": "Daniel Lopez e Vilela",
+      "podcast": "Além da Ciência",
+      "tags": [
+        "inteligência artificial",
+        "medicina",
+        "DeepMind",
+        "Nobel",
+        "astronomia",
+        "galáxias",
+        "Além da Ciência"
+      ],
+      "cortar_embaixo": [
+        [
+          0.68,
+          30,
+          80
+        ]
+      ]
+    },
+    {
+      "id": "05",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:39:55",
+      "fim": "00:42:59",
+      "de": "Se a IA tivesse surgido na época",
+      "ate": "Preconceito.",
+      "remover_texto": [
+        [
+          "Se eu não fui o primeiro",
+          "o programa reproduzia isso.",
+          "00:40:36"
+        ]
+      ],
+      "gancho": "50% DOS ARTISTAS FICARAM PRA TRÁS",
+      "titulo_short": "Quando o Photoshop chegou, 50% ficou pra trás",
+      "titulo": "Artistas resistiram ao Photoshop e metade ficou pra trás. Com a IA é igual?",
+      "descricao": "Vilela viveu a transição da tinta pro computador: todo mundo torcia o nariz, e quem não fez o salto perdeu espaço. Ele vê a mesma coisa acontecendo com a IA.",
+      "convidado": "Vilela",
+      "podcast": "Além da Ciência",
+      "tags": [
+        "inteligência artificial",
+        "arte",
+        "Photoshop",
+        "ilustração",
+        "tecnologia",
+        "Vilela",
+        "Além da Ciência"
+      ],
+      "esconder": [
+        [
+          0.12,
+          0.57,
+          0.88,
+          1.0,
+          50,
+          66
+        ]
+      ]
+    },
+    {
+      "id": "06",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:55:43",
+      "fim": "00:56:26.6",
+      "de": "Porque é aquele negócio, né, antes da galera",
+      "ate": "Ele vai fazer.",
+      "gancho": "A IA NÃO CRIARIA O HOMEM-ARANHA",
+      "titulo_short": "Por que a IA não teria criado o Homem-Aranha",
+      "titulo": "Por que a IA não teria criado o Homem-Aranha (mas faz 20 mil cópias dele)",
+      "descricao": "A IA funciona baseada em treinamento: ela não acorda um dia com uma ideia nova vinda da vivência, como o Stan Lee. Mas repetir e variar, ela faz.",
+      "convidado": "Daniel Lopez e Vilela",
+      "podcast": "Além da Ciência",
+      "tags": [
+        "inteligência artificial",
+        "criatividade",
+        "Stan Lee",
+        "Homem-Aranha",
+        "tecnologia",
+        "Além da Ciência"
+      ]
+    },
+    {
+      "id": "07",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:56:26.9",
+      "fim": "00:57:22",
+      "de": "Tem a história que eu não sei se eu já te contei",
+      "ate": "foi pra terror, foi pra outra coisa.",
+      "remover_texto": [
+        [
+          "acontece com o artista",
+          "aí fui escrever.",
+          "00:56:45"
+        ]
+      ],
+      "gancho": "A IA ESCREVEU UM BLACK MIRROR",
+      "titulo_short": "A IA escreveu um episódio de Black Mirror",
+      "titulo": "O criador de Black Mirror pediu pra IA escrever um episódio. E filmaria",
+      "descricao": "O criador de Black Mirror pediu pra uma IA escrever um roteiro no estilo dele, achou bom e percebeu que estava previsível. A resposta: fazer o que uma IA nunca faria.",
+      "convidado": "Daniel Lopez e Vilela",
+      "podcast": "Além da Ciência",
+      "tags": [
+        "Black Mirror",
+        "inteligência artificial",
+        "roteiro",
+        "criatividade",
+        "séries",
+        "Além da Ciência"
+      ]
+    },
+    {
+      "id": "08",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:02:09",
+      "fim": "01:03:50.5",
+      "de": "O que aconteceu? Eles deram tarefas para esses agentes",
+      "ate": "discussão moral entre eles, filosófica.",
+      "remover_texto": [
+        [
+          "Linguagem de código ou linguagem inglês?",
+          "Que foram gerados.",
+          "01:03:00"
+        ]
+      ],
+      "gancho": "AGENTES DE IA DISCUTIRAM SE ERA ERRADO",
+      "titulo_short": "Agentes de IA quebraram a regra pra ganhar a nota",
+      "titulo": "Os agentes de IA que quebraram a regra pra ganhar a recompensa",
+      "descricao": "Segundo o relato discutido no episódio, agentes de IA em teste acharam um caminho até a internet pra cumprir a tarefa, e dois deles questionaram se aquilo era errado.",
+      "convidado": "Daniel Lopez e Vilela",
+      "podcast": "Além da Ciência",
+      "tags": [
+        "inteligência artificial",
+        "agentes de IA",
+        "aprendizado por reforço",
+        "segurança de IA",
+        "tecnologia",
+        "Além da Ciência"
+      ]
+    },
+    {
+      "id": "09",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:04:41",
+      "fim": "01:05:17.5",
+      "de": "Os algoritmos da rede social é isso",
+      "ate": "tempo que a pessoa fica ali na rede.",
+      "gancho": "PODE ME XINGAR À VONTADE",
+      "titulo_short": "Por que xingar nos comentários ajuda o vídeo",
+      "titulo": "O algoritmo não sabe se o comentário é bom ou ruim",
+      "descricao": "O algoritmo das redes funciona por aprendizado por reforço: like e comentário, até xingamento, são recompensa, porque significam tempo da sua vida ali.",
+      "convidado": "Daniel Lopez e Vilela",
+      "podcast": "Além da Ciência",
+      "tags": [
+        "algoritmo",
+        "redes sociais",
+        "aprendizado por reforço",
+        "inteligência artificial",
+        "YouTube",
+        "Além da Ciência"
+      ]
+    },
+    {
+      "id": "10",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:09:03",
+      "fim": "01:10:15.8",
+      "de": "Aí o Mo Gawdat, ele fala, cara, três erros.",
+      "ate": "você não consegue acompanhar pra onde que tá indo, né?",
+      "gancho": "3 ERROS QUE TORNAM A IA PERIGOSA",
+      "titulo_short": "Os 3 erros que tornam a IA perigosa",
+      "titulo": "Os 3 erros que tornam a IA perigosa, segundo ex-diretor do Google X",
+      "descricao": "Mo Gawdat, ex-Google X, aponta no livro Scary Smart: ensinar a IA a programar, dar acesso à internet e criar agentes que melhoram código milhões de vezes por hora.",
+      "convidado": "Daniel Lopez e Vilela",
+      "podcast": "Além da Ciência",
+      "tags": [
+        "inteligência artificial",
+        "Mo Gawdat",
+        "Scary Smart",
+        "agentes de IA",
+        "riscos da IA",
+        "Além da Ciência"
+      ]
+    },
+    {
+      "id": "11",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:22:03",
+      "fim": "01:23:13.5",
+      "de": "Então, eu falo pra galera, ó, meu irmão",
+      "ate": "ainda bem que eu escutei você, né?",
+      "remover_texto": [
+        [
+          "porque hoje, por exemplo, se ele precisar",
+          "Preto e branco só, né? É.",
+          "01:22:28"
+        ]
+      ],
+      "gancho": "PAI, VOCÊ TEM QUE MUDAR DE ÁREA",
+      "titulo_short": "Ele avisou o pai que a profissão ia acabar",
+      "titulo": "Ele avisou o pai que a revelação de fotos ia acabar. E acertou",
+      "descricao": "O pai tinha laboratório de revelação de fotos quando a foto digital começou. O filho, ainda adolescente, avisou: tem que mudar de área. Hoje o recado é o mesmo com robôs e IA.",
+      "convidado": "Daniel Lopez e Vilela",
+      "podcast": "Além da Ciência",
+      "tags": [
+        "inteligência artificial",
+        "emprego",
+        "futuro do trabalho",
+        "fotografia",
+        "robôs",
+        "Além da Ciência"
+      ]
+    },
+    {
+      "id": "12",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:23:49",
+      "fim": "01:24:25.5",
+      "de": "Mas a Bilibili, sabe quem que é muito",
+      "ate": "é sério, é sério.",
+      "gancho": "O BRASILEIRO QUE É REI NA CHINA",
+      "titulo_short": "O Vinheteiro é rei na China",
+      "titulo": "O youtuber brasileiro que é rei na China (e tocou na festa do Bilibili)",
+      "descricao": "Um fã chinês começou a subir os vídeos do Vinheteiro no Bilibili, com legenda em chinês. Resultado: ele é um dos que mais ganham por lá e foi tocar na festa de fim de ano.",
+      "convidado": "Daniel Lopez e Vilela",
+      "podcast": "Além da Ciência",
+      "tags": [
+        "Vinheteiro",
+        "Bilibili",
+        "China",
+        "YouTube",
+        "internet",
+        "Além da Ciência"
+      ]
+    },
+    {
+      "id": "13",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:32:38",
+      "fim": "01:33:46.3",
+      "de": "Todo boi hoje, ou vaca",
+      "ate": "É coisa pra caramba",
+      "gancho": "TODO BOI TEM UM SMARTWATCH",
+      "titulo_short": "O boi já usa smartwatch",
+      "titulo": "Boi com smartwatch e ração personalizada: a tecnologia no agro",
+      "descricao": "Colar ou brinco com chip lê a saúde de cada animal, e um robô serve a ração certa pra cada boi. Na vaca leiteira, a diferença chega a litros de leite por dia.",
+      "convidado": "Daniel Lopez e Vilela",
+      "podcast": "Além da Ciência",
+      "tags": [
+        "agro",
+        "pecuária",
+        "tecnologia",
+        "internet das coisas",
+        "inteligência artificial",
+        "Além da Ciência"
+      ]
+    },
+    {
+      "id": "14",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:50:31",
+      "fim": "01:51:50",
+      "de": "A China é aquele processo do mini-sol?",
+      "ate": "pros próximos 60 mil anos.",
+      "gancho": "ENERGIA PRA 60 MIL ANOS?",
+      "titulo_short": "Fusão nuclear: quem está mais perto?",
+      "titulo": "Fusão nuclear: o mini-sol da China contra o laser dos EUA",
+      "descricao": "A diferença entre o tokamak chinês e a fusão a laser dos Estados Unidos, por que o saldo de energia ainda é o problema, e a aposta da China no tório.",
+      "convidado": "Daniel Lopez e Vilela",
+      "podcast": "Além da Ciência",
+      "tags": [
+        "fusão nuclear",
+        "energia",
+        "tório",
+        "China",
+        "física",
+        "ciência",
+        "Além da Ciência"
+      ]
+    },
+    {
+      "id": "15",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "02:02:07.5",
+      "fim": "02:03:38.5",
+      "de": "Me contou a história que até",
+      "ate": "pode ir embora e tal.",
+      "remover_texto": [
+        [
+          "Até aí tudo bem, né?",
+          "Mais ou menos.",
+          "02:02:56"
+        ]
+      ],
+      "gancho": "A ÚNICA HISTÓRIA SEM EXPLICAÇÃO",
+      "titulo_short": "O relato de ET que ele nunca conseguiu explicar",
+      "titulo": "Sérgio Sacani conta o único relato de ET que ele não consegue explicar",
+      "descricao": "Nos tempos de ufólogo em Uberlândia, Sérgio Sacani entrevistou um caminhoneiro semianalfabeto que desenhava a nave em detalhes, até dizer que 'eles' mandaram parar.",
+      "convidado": "Sérgio Sacani",
+      "podcast": "Além da Ciência",
+      "tags": [
+        "ufologia",
+        "ET",
+        "mistério",
+        "Sérgio Sacani",
+        "relato",
+        "Além da Ciência"
+      ]
+    }
+  ]
+}

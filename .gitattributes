@@ -1,0 +1,4 @@
+# e-mails de contato dos podcasts NÃO vão pro GitHub (filtro em _motor/git_sem_emails.py)
+*.json filter=sememails
+*.md filter=sememails
+*.txt filter=sememails

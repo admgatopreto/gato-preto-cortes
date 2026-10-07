@@ -1,0 +1,286 @@
+{
+  "correcoes": {
+    "Vars": "várzea",
+    "Varza": "várzea",
+    "Varze": "várzea",
+    "Rudivira": "Rudi Vieira",
+    "Rudiveiro": "Rudi Vieira",
+    "Rodivieira": "Rudi Vieira",
+    "Rudivireira": "Rudi Vieira",
+    "Di Vieira": "Rudi Vieira",
+    "Arassatuba": "Araçatuba",
+    "Aracatuba": "Araçatuba",
+    "Ubra": "Ulbra",
+    "GE TV": "ge TV",
+    "GTV": "ge TV",
+    "GATV": "ge TV",
+    "arcóxia": "Arcoxia",
+    "Carlsberg": "Carlos Barbosa",
+    "Mussalem": "Mussalem"
+  },
+  "cortes": [
+    {
+      "id": "01",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:06:59",
+      "fim": "00:08:06",
+      "de": "e eu nunca tinha visto ninguém contar, né",
+      "ate": "o carteiro não para nunca",
+      "gancho": "VOCÊ PARA, O CARTEIRO NÃO",
+      "titulo": "'Você para de jogar, mas o carteiro não para nunca': o medo do fim da carreira",
+      "titulo_short": "Você para, o CARTEIRO NÃO",
+      "descricao": "Rodrigo Capita, 982 gols no futsal, sobre o erro de esperar a aposentadoria para pensar no depois.",
+      "convidado": "Rodrigo Capita",
+      "podcast": "Podcast Denilson Show",
+      "tags": [
+        "Rodrigo Capita",
+        "futsal",
+        "aposentadoria",
+        "Denilson Show"
+      ]
+    },
+    {
+      "id": "02",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:08:56",
+      "fim": "00:10:00",
+      "de": "Eu mostrava um erro ali de um cara, mostrava o meu erro",
+      "ate": "com o vô, com o pai e com o filho",
+      "gancho": "ELE MOSTRAVA OS PRÓPRIOS ERROS",
+      "titulo": "Como Rodrigo Capita ganhou credibilidade na internet: mostrando os próprios erros",
+      "titulo_short": "Ele mostrava os PRÓPRIOS ERROS",
+      "descricao": "Instagram, TikTok e YouTube: falar com o avô, o pai e o filho.",
+      "convidado": "Rodrigo Capita",
+      "podcast": "Podcast Denilson Show",
+      "tags": [
+        "Rodrigo Capita",
+        "redes sociais",
+        "futsal",
+        "Denilson Show"
+      ]
+    },
+    {
+      "id": "03",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:10:45",
+      "fim": "00:11:27",
+      "de": "Aí a gente começou a gravar a série, no primeiro episódio",
+      "ate": "E aí na série veio o Capita",
+      "gancho": "COMO NASCEU O 'CAPITA'",
+      "titulo": "'Vou precisar pôr uma lapela em você': o dia em que o Fred criou o 'Capita'",
+      "titulo_short": "Como nasceu o 'CAPITA'",
+      "descricao": "A série do Fred sobre o futsal e o capitão que virou personagem sem fazer personagem.",
+      "convidado": "Rodrigo Capita",
+      "podcast": "Podcast Denilson Show",
+      "tags": [
+        "Rodrigo Capita",
+        "Fred",
+        "futsal",
+        "Denilson Show"
+      ]
+    },
+    {
+      "id": "04",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:21:05",
+      "fim": "00:21:52",
+      "de": "Por que o futsal não é esporte olímpico ainda",
+      "ate": "esses cantos estão pagando bem",
+      "gancho": "POR QUE FUTSAL NÃO É OLÍMPICO",
+      "titulo": "Por que o futsal ainda não é esporte olímpico, segundo Rodrigo Capita",
+      "titulo_short": "Por que futsal NÃO É OLÍMPICO",
+      "descricao": "A teoria dele: falta uma liga forte nos Estados Unidos.",
+      "convidado": "Rodrigo Capita",
+      "podcast": "Podcast Denilson Show",
+      "tags": [
+        "futsal",
+        "Olimpíadas",
+        "Rodrigo Capita",
+        "Denilson Show"
+      ]
+    },
+    {
+      "id": "05",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:25:38",
+      "fim": "00:26:50",
+      "de": "Aí o cara brincou comigo e falou, o que você quer hoje",
+      "ate": "Missão cumprida",
+      "gancho": "'SÓ QUERO UM ÚLTIMO GOL'",
+      "titulo": "Na despedida, ele pediu um último gol. Entrou, chutou errado — e foi gol",
+      "titulo_short": "'Só quero UM ÚLTIMO GOL'",
+      "descricao": "O jogo de despedida de Rodrigo Capita, com mais de 8 mil pessoas em Sorocaba.",
+      "convidado": "Rodrigo Capita",
+      "podcast": "Podcast Denilson Show",
+      "tags": [
+        "Rodrigo Capita",
+        "despedida",
+        "futsal",
+        "Denilson Show"
+      ]
+    },
+    {
+      "id": "06",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:35:01",
+      "fim": "00:36:02",
+      "de": "E aí, a final da",
+      "ate": "que está na rua",
+      "gancho": "DEMITIDO POR JOGAR NA VÁRZEA",
+      "titulo": "O treinador do Guarani foi ver a final da várzea — e Rodrigo Capita estava jogando",
+      "titulo_short": "Demitido por jogar NA VÁRZEA",
+      "descricao": "O gol de falta na final que custou a vaga na base do Guarani.",
+      "convidado": "Rodrigo Capita",
+      "podcast": "Podcast Denilson Show",
+      "tags": [
+        "várzea",
+        "Guarani",
+        "Rodrigo Capita",
+        "Denilson Show"
+      ]
+    },
+    {
+      "id": "07",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:40:15",
+      "fim": "00:41:22",
+      "de": "No último jogo em",
+      "ate": "Olha que história maluca",
+      "gancho": "O PRESIDENTE RIVAL O LEVOU EMBORA",
+      "titulo": "Perdeu, sentou no gol chorando — e o presidente do time adversário o contratou",
+      "titulo_short": "O presidente RIVAL o levou embora",
+      "descricao": "O dia em que a carreira de Rodrigo Capita quase acabou aos 20 anos.",
+      "convidado": "Rodrigo Capita",
+      "podcast": "Podcast Denilson Show",
+      "tags": [
+        "Rodrigo Capita",
+        "futsal",
+        "superação",
+        "Denilson Show"
+      ]
+    },
+    {
+      "id": "08",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:42:30",
+      "fim": "00:43:26",
+      "de": "aí foi quando o",
+      "ate": "estourei no Norte, estourei",
+      "gancho": "A LIGAÇÃO NO ORELHÃO",
+      "titulo": "Esperou uma hora e meia num orelhão pela ligação que mudou a carreira",
+      "titulo_short": "A ligação NO ORELHÃO",
+      "descricao": "O convite do Carlos Barbosa, campeão da Liga Nacional: 'quanto você quer ganhar?'.",
+      "convidado": "Rodrigo Capita",
+      "podcast": "Podcast Denilson Show",
+      "tags": [
+        "Carlos Barbosa",
+        "Rodrigo Capita",
+        "futsal",
+        "Denilson Show"
+      ]
+    },
+    {
+      "id": "09",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:53:13",
+      "fim": "00:54:42",
+      "de": "E aí quando chega lá na Copa, eu lembro até hoje, na Copa América",
+      "ate": "11 anos de seleção brasileira",
+      "gancho": "RECUSOU O DINHEIRO PELO TÊNIS DELE",
+      "titulo": "Na estreia pela seleção, recusou o bicho em dobro pra jogar com o próprio tênis",
+      "titulo_short": "Recusou o dinheiro pelo TÊNIS DELE",
+      "descricao": "E fez gol contra a Argentina. Foram 11 anos de seleção brasileira de futsal.",
+      "convidado": "Rodrigo Capita",
+      "podcast": "Podcast Denilson Show",
+      "tags": [
+        "seleção brasileira de futsal",
+        "Rodrigo Capita",
+        "Denilson Show"
+      ]
+    },
+    {
+      "id": "10",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:06:43",
+      "fim": "01:07:22",
+      "de": "aí você não vai ser mais o capitão do time",
+      "ate": "Tá gravado, eu mando pra você",
+      "gancho": "TIRARAM A FAIXA. ELE FEZ 5 GOLS",
+      "titulo": "Tiraram a faixa de capitão dele. No jogo seguinte ele fez 5 gols",
+      "titulo_short": "Tiraram a faixa. Ele fez 5 GOLS",
+      "descricao": "Uma história de Rodrigo Capita no Carlos Barbosa.",
+      "convidado": "Rodrigo Capita",
+      "podcast": "Podcast Denilson Show",
+      "tags": [
+        "Rodrigo Capita",
+        "Carlos Barbosa",
+        "futsal",
+        "Denilson Show"
+      ]
+    },
+    {
+      "id": "11",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:09:56",
+      "fim": "01:10:57",
+      "de": "aí no meu último jogo a gente tá",
+      "ate": "campeão gaúcho",
+      "gancho": "'NÃO SAIO NEM UM MINUTO'",
+      "titulo": "No último jogo pelo clube ele avisou: 'não saio nem um minuto'. Fez o gol do título",
+      "titulo_short": "'Não saio NEM UM MINUTO'",
+      "descricao": "A despedida de Rodrigo Capita do Carlos Barbosa, na final do Gaúcho.",
+      "convidado": "Rodrigo Capita",
+      "podcast": "Podcast Denilson Show",
+      "tags": [
+        "Rodrigo Capita",
+        "Carlos Barbosa",
+        "futsal",
+        "Denilson Show"
+      ]
+    },
+    {
+      "id": "12",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:14:01",
+      "fim": "01:14:52",
+      "de": "Você tava no jogo da paralisia facial",
+      "ate": "Falcão jogou o Mundial todo, 15 minutos",
+      "gancho": "FALCÃO JOGOU SÓ 15 MINUTOS",
+      "titulo": "No Mundial de 2012, Falcão jogou só 15 minutos — e mudou a final",
+      "titulo_short": "Falcão jogou SÓ 15 MINUTOS",
+      "descricao": "Lesão, paralisia facial e o gol na final contra a Espanha, por quem estava no elenco.",
+      "convidado": "Rodrigo Capita",
+      "podcast": "Podcast Denilson Show",
+      "tags": [
+        "Falcão",
+        "Mundial de futsal 2012",
+        "seleção brasileira",
+        "Denilson Show"
+      ]
+    }
+  ]
+}

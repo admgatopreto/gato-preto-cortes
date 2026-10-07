@@ -1,0 +1,334 @@
+{
+  "correcoes": {
+    "Tafara": "Taffarel",
+    "Tafarel": "Taffarel",
+    "Noir": "Neuer",
+    "Cacá": "Kaká",
+    "Carly": "Carli",
+    "Titi": "Tite",
+    "Luiz Sabiano": "Luís Fabiano",
+    "Groi": "Grohe",
+    "Marcelo Goleiro": "Marcelo Grohe",
+    "Carilli": "Carille",
+    "Stupegal": "pessoal",
+    "Rogério Senna": "Rogério Ceni",
+    "Senna": "Ceni",
+    "Cerni": "Ceni",
+    "Rogério Cerni": "Rogério Ceni",
+    "Link Park": "Linkin Park",
+    "ICDC": "AC/DC",
+    "Badaúi": "Badauí",
+    "Badawi": "Badauí"
+  },
+  "cortes": [
+    {
+      "id": "01",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:05:58",
+      "fim": "00:06:45",
+      "de": "Eu acho que inverteu um pouco",
+      "ate": "acaba ficando um pouco pra trás",
+      "gancho": "MENOS DE 1,90? FICA PRA TRÁS",
+      "titulo": "Cássio: goleiro com menos de 1,90 m hoje acaba ficando pra trás",
+      "titulo_short": "Menos de 1,90? Fica PRA TRÁS",
+      "descricao": "Como mudou o perfil do goleiro na base, segundo Cássio.",
+      "convidado": "Cássio",
+      "podcast": "Charla Podcast",
+      "tags": [
+        "Cássio",
+        "goleiro",
+        "futebol brasileiro",
+        "Charla Podcast"
+      ]
+    },
+    {
+      "id": "02",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:14:50",
+      "fim": "00:15:28",
+      "de": "Mas é que, eu acho assim, tipo, às vezes nós cobramos",
+      "ate": "se nós estávamos no Brasil errando duas vezes, acabou",
+      "gancho": "NEUER COMEÇOU COM 10 ANOS, NÃO COM 40",
+      "titulo": "Por que é injusto cobrar do goleiro brasileiro o jogo com os pés do Neuer",
+      "titulo_short": "Neuer começou com 10 anos, NÃO COM 40",
+      "descricao": "Cássio sobre a cobrança de saída de bola no Brasil.",
+      "convidado": "Cássio",
+      "podcast": "Charla Podcast",
+      "tags": [
+        "Neuer",
+        "goleiro",
+        "Cássio",
+        "Charla Podcast"
+      ]
+    },
+    {
+      "id": "03",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:18:05",
+      "fim": "00:19:03",
+      "de": "Na verdade, é engraçado que o futebol tem essas situações",
+      "ate": "E aí eu joguei",
+      "gancho": "CONVOCADO POR ACASO",
+      "titulo": "O doping de um, o dedo quebrado de outro: como Cássio foi parar na seleção sub-20",
+      "titulo_short": "Convocado POR ACASO",
+      "descricao": "Ele seria emprestado a um time do interior. Acabou campeão sul-americano.",
+      "convidado": "Cássio",
+      "podcast": "Charla Podcast",
+      "tags": [
+        "Cássio",
+        "seleção sub-20",
+        "Grêmio",
+        "Charla Podcast"
+      ]
+    },
+    {
+      "id": "04",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:27:35",
+      "fim": "00:28:42",
+      "de": "Cara, é, é, eu acho que pelo fato de ter ganhado a Libertadores",
+      "ate": "Fiz umas mil vezes esse treinamento",
+      "gancho": "ELE TREINOU ESSA DEFESA MIL VEZES",
+      "titulo": "A defesa no Diego Souza foi treinada 'umas mil vezes', conta Cássio",
+      "titulo_short": "Ele treinou essa defesa MIL VEZES",
+      "descricao": "O treino de véspera com o preparador Mauri Lima que virou o lance mais famoso da carreira.",
+      "convidado": "Cássio",
+      "podcast": "Charla Podcast",
+      "tags": [
+        "Cássio",
+        "Corinthians",
+        "Libertadores 2012",
+        "Diego Souza",
+        "Charla Podcast"
+      ]
+    },
+    {
+      "id": "05",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:28:45",
+      "fim": "00:29:30",
+      "de": "E tipo, pra mim, depois dessa defesa",
+      "ate": "a torcida do Corinthians é apaixonada",
+      "gancho": "AJOELHAVAM E BEIJAVAM A MÃO DELE",
+      "titulo": "Depois da defesa, torcedores se ajoelhavam pra beijar a mão do Cássio no shopping",
+      "titulo_short": "Ajoelhavam e BEIJAVAM a mão dele",
+      "descricao": "A vida do goleiro depois do lance contra o Vasco.",
+      "convidado": "Cássio",
+      "podcast": "Charla Podcast",
+      "tags": [
+        "Cássio",
+        "Corinthians",
+        "torcida",
+        "Charla Podcast"
+      ]
+    },
+    {
+      "id": "06",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:29:55",
+      "fim": "00:31:05",
+      "de": "No lance, ele é muito rápido",
+      "ate": "eu troquei a camisa do jogo com o Diego",
+      "gancho": "O LANCE VISTO DE DENTRO DO GOL",
+      "titulo": "Cássio descreve o lance contra Diego Souza: 'vou olhar onde estou e ficar parado'",
+      "titulo_short": "O lance visto de DENTRO DO GOL",
+      "descricao": "O orvalho, o toque na bola e a camisa que ele guarda até hoje.",
+      "convidado": "Cássio",
+      "podcast": "Charla Podcast",
+      "tags": [
+        "Cássio",
+        "Diego Souza",
+        "Corinthians x Vasco",
+        "Charla Podcast"
+      ]
+    },
+    {
+      "id": "07",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:34:50",
+      "fim": "00:35:27",
+      "de": "e pra mim todo mundo fala de defesa",
+      "ate": "ia dando confiança pro time",
+      "gancho": "A DEFESA MAIS IMPORTANTE DO MUNDIAL",
+      "titulo": "Para Cássio, a defesa mais importante da final do Mundial não foi a mais famosa",
+      "titulo_short": "A defesa MAIS IMPORTANTE do Mundial",
+      "descricao": "O chute de Cahill no começo de Corinthians x Chelsea, em 2012.",
+      "convidado": "Cássio",
+      "podcast": "Charla Podcast",
+      "tags": [
+        "Mundial 2012",
+        "Corinthians x Chelsea",
+        "Cássio",
+        "Charla Podcast"
+      ]
+    },
+    {
+      "id": "08",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:04:07",
+      "fim": "01:05:12",
+      "de": "e 2016 foi quando eu perdi a posição lá",
+      "ate": "porque me fez amadurecer muito",
+      "gancho": "O TITE TIROU ELE DO TIME. ELE AGRADECE",
+      "titulo": "Tite tirou Cássio do time em 2016 — e hoje o goleiro agradece",
+      "titulo_short": "O Tite TIROU ele do time. Ele agradece",
+      "descricao": "A semana de revolta e o que ele entendeu depois.",
+      "convidado": "Cássio",
+      "podcast": "Charla Podcast",
+      "tags": [
+        "Tite",
+        "Cássio",
+        "Corinthians",
+        "Charla Podcast"
+      ]
+    },
+    {
+      "id": "09",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:07:55",
+      "fim": "01:08:58",
+      "de": "Tanto que eu me converti",
+      "ate": "minha esposa falou, cara, vai ter que parar",
+      "gancho": "'OU PARA DE BEBER OU PROCURA OUTRA IGREJA'",
+      "titulo": "Cássio queria diminuir a bebida. O pastor respondeu: 'ou para, ou procura outra igreja'",
+      "titulo_short": "'Ou PARA DE BEBER ou procura outra igreja'",
+      "descricao": "Como o goleiro parou de beber em 2017.",
+      "convidado": "Cássio",
+      "podcast": "Charla Podcast",
+      "tags": [
+        "Cássio",
+        "superação",
+        "futebol",
+        "Charla Podcast"
+      ]
+    },
+    {
+      "id": "10",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:10:00",
+      "fim": "01:10:45",
+      "de": "Quando eu começava, eu não parava",
+      "ate": "tu vê que muita gente some",
+      "gancho": "QUANDO VOCÊ MUDA, MUITA GENTE SOME",
+      "titulo": "'Quando você muda os hábitos, muita gente some', diz Cássio",
+      "titulo_short": "Quando você muda, MUITA GENTE SOME",
+      "descricao": "O conselho que ele dá aos jogadores mais novos.",
+      "convidado": "Cássio",
+      "podcast": "Charla Podcast",
+      "tags": [
+        "Cássio",
+        "carreira",
+        "futebol",
+        "Charla Podcast"
+      ]
+    },
+    {
+      "id": "11",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:11:46",
+      "fim": "01:12:58",
+      "de": "Eu acho assim que, tipo, às vezes, até quando eu saí",
+      "ate": "situações que o dinheiro não é relevante",
+      "gancho": "'EU TAVA EM DEPRESSÃO'",
+      "titulo": "Cássio: 'quando saí do Corinthians, eu estava em depressão'",
+      "titulo_short": "'Eu tava em DEPRESSÃO'",
+      "descricao": "O goleiro fala da terapia e do tratamento — e de por que salário não resolve tudo.",
+      "convidado": "Cássio",
+      "podcast": "Charla Podcast",
+      "tags": [
+        "saúde mental",
+        "Cássio",
+        "Corinthians",
+        "Charla Podcast"
+      ]
+    },
+    {
+      "id": "12",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:18:18",
+      "fim": "01:19:40",
+      "de": "aí eu trabalhava, porque eu trabalhei antes de ir pro Grêmio",
+      "ate": "lavava o carro do Rodrigo Caetano",
+      "gancho": "LAVAVA O CARRO DO FUTURO DIRETOR",
+      "titulo": "Aos 9 anos, Cássio lavava carros — inclusive o de Rodrigo Caetano",
+      "titulo_short": "Lavava o carro do FUTURO DIRETOR",
+      "descricao": "O lava-jato do tio, a primeira luva e o jogador que depois virou dirigente.",
+      "convidado": "Cássio",
+      "podcast": "Charla Podcast",
+      "tags": [
+        "Cássio",
+        "Rodrigo Caetano",
+        "história de vida",
+        "Charla Podcast"
+      ]
+    },
+    {
+      "id": "13",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:26:34",
+      "fim": "01:27:30",
+      "de": "Aí tu tá no lado do teu Ronaldinho Gaúcho",
+      "ate": "pra levar a camisa dele",
+      "gancho": "'MESTRE DOS MAGOS' NA SELEÇÃO",
+      "titulo": "Por que chamavam o jovem Cássio de 'Mestre dos Magos' na seleção",
+      "titulo_short": "'MESTRE DOS MAGOS' na seleção",
+      "descricao": "Ronaldinho, Lúcio, Kaká e o goleiro de 19 anos que sumia depois do almoço.",
+      "convidado": "Cássio",
+      "podcast": "Charla Podcast",
+      "tags": [
+        "seleção brasileira",
+        "Júlio César",
+        "Cássio",
+        "Charla Podcast"
+      ]
+    },
+    {
+      "id": "14",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:41:00",
+      "fim": "01:41:46",
+      "de": "Eu fiquei 12 anos e pouco no Corinthians e eu nunca fui vaiado",
+      "ate": "ela foi mais regular",
+      "gancho": "12 ANOS SEM VAIA. NO CRUZEIRO, NO 1º CLÁSSICO",
+      "titulo": "12 anos de Corinthians sem uma vaia — e vaiado no primeiro clássico pelo Cruzeiro",
+      "titulo_short": "12 anos SEM VAIA. No Cruzeiro, no 1º clássico",
+      "descricao": "O que Cássio aprendeu ao chegar a um clube novo.",
+      "convidado": "Cássio",
+      "podcast": "Charla Podcast",
+      "tags": [
+        "Cássio",
+        "Cruzeiro",
+        "Corinthians",
+        "Charla Podcast"
+      ]
+    }
+  ]
+}

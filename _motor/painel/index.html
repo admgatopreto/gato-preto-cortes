@@ -1,0 +1,1003 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="apple-touch-icon" href="/icone-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Gato Preto">
+<meta name="theme-color" content="#151513">
+<title>Gato Preto · Cortes</title>
+<link rel="icon" href="/icone.png">
+<style>
+:root{
+  --bg:#f6f5f2; --painel:#ffffff; --borda:#e3e0d9; --texto:#1d1c1a; --suave:#6b6760; --fraco:#a19c93;
+  --acento:#d9a400; --acento-txt:#1d1c1a; --ok:#2f8a4c; --ok-bg:#e4f3e8; --erro:#c0392b; --erro-bg:#fbe7e4;
+  --aviso:#b26b00; --aviso-bg:#fdf1dc; --info:#2e6fb7; --info-bg:#e3eefa; --barra:#ece9e3; --sel:#d9a40055;
+  --e-download:#9aa5b1; --e-transcricao:#7f8fd1; --e-curadoria:#b58ad6; --e-fila_render:#e0b44a; --e-render:#e08a3c;
+  --e-conferencia:#3f9fd6; --e-publicacao:#47b39a; --e-concluido:#2f8a4c; --e-descartado:#c9c4bb;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#151513; --painel:#1e1e1b; --borda:#33322e; --texto:#ecebe7; --suave:#a8a49c; --fraco:#6f6b64;
+    --acento:#f0bf2a; --ok:#5cc47c; --ok-bg:#1d3324; --erro:#ef7565; --erro-bg:#3a1f1b; --aviso:#f0b050; --aviso-bg:#3a2c14;
+    --info:#7fb0ea; --info-bg:#1b2a3b; --barra:#2b2a26; --e-descartado:#4a4843; --sel:#f0bf2a44;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#151513; --painel:#1e1e1b; --borda:#33322e; --texto:#ecebe7; --suave:#a8a49c; --fraco:#6f6b64;
+  --acento:#f0bf2a; --ok:#5cc47c; --ok-bg:#1d3324; --erro:#ef7565; --erro-bg:#3a1f1b; --aviso:#f0b050; --aviso-bg:#3a2c14;
+  --info:#7fb0ea; --info-bg:#1b2a3b; --barra:#2b2a26; --e-descartado:#4a4843; --sel:#f0bf2a44;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--texto);font:14px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+html{scrollbar-gutter:stable}
+a{color:inherit}
+header{position:sticky;top:0;z-index:5;background:var(--painel);border-bottom:1px solid var(--borda);
+  display:flex;align-items:center;gap:14px;padding:10px 20px;flex-wrap:wrap}
+header .logo{font-weight:800;letter-spacing:.2px;text-decoration:none;display:flex;align-items:center;gap:8px}
+header .logo img{display:block;border-radius:6px}
+#voltar{font-weight:600;padding:6px 12px} #voltar[hidden]{display:none}
+.canal{border-left:4px solid var(--cor-canal, var(--borda))}
+header nav a i{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:5px;vertical-align:1px}
+header nav{display:flex;gap:4px;flex-wrap:wrap;font-size:13px;color:var(--suave)}
+header nav a{text-decoration:none;padding:3px 8px;border-radius:6px}
+header nav a:hover{color:var(--texto);background:var(--barra)}
+header nav a.atual{color:var(--texto);background:var(--barra);font-weight:600}
+header .dir{margin-left:auto;display:flex;gap:10px;align-items:center;color:var(--fraco);font-size:12px}
+.ponto{width:8px;height:8px;border-radius:50%;background:var(--ok);display:inline-block}
+.ponto.off{background:var(--erro)}
+main{max-width:1280px;margin:0 auto;padding:20px;transition:opacity .12s}
+main.carregando{opacity:.55}
+h1{font-size:22px;margin:0 0 4px}
+h2{font-size:16px;margin:28px 0 10px}
+.sub{color:var(--suave);margin:0 0 16px}
+.grade{display:grid;gap:12px}
+.kpis{grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}
+.kpi{background:var(--painel);border:1px solid var(--borda);border-radius:10px;padding:12px 14px}
+.kpi b{display:block;font-size:24px;font-variant-numeric:tabular-nums}
+.kpi span{color:var(--suave);font-size:12px}
+.cartao{background:var(--painel);border:1px solid var(--borda);border-radius:10px;padding:14px}
+.canais{grid-template-columns:repeat(auto-fill,minmax(290px,1fr))}
+.canal{text-decoration:none;display:block;transition:border-color .15s,transform .15s}
+.canal:hover{border-color:var(--acento);transform:translateY(-1px)}
+.canal h3{margin:0;font-size:15px}
+.canal .nicho{color:var(--suave);font-size:12px;margin-bottom:10px}
+.barra{height:8px;border-radius:5px;background:var(--barra);overflow:hidden;display:flex}
+.barra i{display:block;height:100%;transition:width .4s ease}
+.linha{display:flex;justify-content:space-between;gap:8px;font-size:12px;color:var(--suave);margin:8px 0 4px}
+.linha b{color:var(--texto);font-weight:600;font-variant-numeric:tabular-nums}
+.legenda-etapas{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12px;color:var(--suave);margin:6px 0 2px}
+.legenda-etapas span{display:inline-flex;align-items:center;gap:5px}
+.legenda-etapas i{width:9px;height:9px;border-radius:3px;display:inline-block}
+.etq{display:inline-block;padding:1px 7px;border-radius:20px;font-size:11px;font-weight:600;white-space:nowrap}
+.etq.ok{background:var(--ok-bg);color:var(--ok)} .etq.erro{background:var(--erro-bg);color:var(--erro)}
+.etq.aviso{background:var(--aviso-bg);color:var(--aviso)} .etq.info{background:var(--info-bg);color:var(--info)}
+.etq.neutro{background:var(--barra);color:var(--suave)}
+.agora .item{display:grid;grid-template-columns:1fr 220px;gap:12px;align-items:center;padding:10px 0;border-top:1px solid var(--borda)}
+.agora .item:first-child{border-top:0}
+.agora small{color:var(--suave)}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th{text-align:left;color:var(--suave);font-weight:600;font-size:12px;padding:6px 8px;border-bottom:1px solid var(--borda)}
+td{padding:8px;border-bottom:1px solid var(--borda);vertical-align:top}
+.tabela{overflow-x:auto}
+select,input,button{font:inherit;color:inherit}
+select,input[type=text]{background:var(--bg);border:1px solid var(--borda);border-radius:6px;padding:4px 6px}
+button{background:var(--bg);border:1px solid var(--borda);border-radius:7px;padding:5px 10px;cursor:pointer;transition:background .12s,border-color .12s,color .12s}
+button:hover:not(:disabled){border-color:var(--suave)}
+button:disabled{opacity:.45;cursor:not-allowed}
+button.ok{color:var(--ok)} button.erro{color:var(--erro)}
+button.ativo.ok{background:var(--ok);border-color:var(--ok);color:#fff}
+button.ativo.erro{background:var(--erro);border-color:var(--erro);color:#fff}
+.colunas{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px}
+.coluna h4{margin:0 0 8px;font-size:13px;display:flex;align-items:center;gap:6px}
+.coluna h4 i{width:10px;height:10px;border-radius:3px}
+.ep{display:block;text-decoration:none;margin-bottom:8px;transition:border-color .15s}
+.ep:hover{border-color:var(--acento)}
+.ep .t{font-weight:600;font-size:13px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.ep .p{color:var(--suave);font-size:12px;margin:2px 0 8px}
+.passos{display:flex;gap:3px;margin:8px 0 6px}
+.passos i{flex:1;height:5px;border-radius:3px;background:var(--barra)}
+.passos i.feito{background:var(--ok)} .passos i.agora{background:var(--acento)} .passos i.bloq{background:var(--erro)}
+.passos-nomes{font-size:11px;color:var(--fraco)}
+.faixa{border-radius:10px;padding:10px 14px;margin:14px 0;font-weight:600}
+.faixa.erro{background:var(--erro-bg);color:var(--erro)} .faixa.ok{background:var(--ok-bg);color:var(--ok)}
+.barra-filtros{display:flex;gap:10px;flex-wrap:wrap;align-items:center;justify-content:space-between;margin:6px 0 14px;
+  position:sticky;top:52px;z-index:4;background:var(--bg);padding:8px 0}
+.filtros{display:flex;gap:6px;flex-wrap:wrap}
+.filtros button.sel{background:var(--texto);color:var(--bg);border-color:var(--texto)}
+.atalhos{font-size:12px;color:var(--fraco)} .atalhos kbd{font:11px ui-monospace,monospace;border:1px solid var(--borda);border-bottom-width:2px;border-radius:4px;padding:0 4px;color:var(--suave)}
+.shorts{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px}
+.short{padding:0;overflow:hidden;display:flex;flex-direction:column;transition:border-color .15s,box-shadow .15s,opacity .2s}
+.short.aprovado{border-color:var(--ok)} .short.reprovado{opacity:.55}
+.short.sel{box-shadow:0 0 0 3px var(--sel);border-color:var(--acento)}
+.midia{position:relative;width:100%;aspect-ratio:9/16;background:#000;border:0;border-radius:0;padding:0;display:block;cursor:pointer;overflow:hidden}
+.midia img{width:100%;height:100%;object-fit:cover;display:block}
+.midia .play{position:absolute;inset:auto auto 50% 50%;transform:translate(-50%,50%);width:54px;height:54px;border-radius:50%;
+  background:#000a;color:#fff;display:grid;place-items:center;font-size:20px;transition:transform .15s,background .15s}
+.midia:hover .play{transform:translate(-50%,50%) scale(1.08);background:var(--acento);color:#1d1c1a}
+.midia .dur{position:absolute;right:8px;bottom:8px;background:#000b;color:#fff;font-size:11px;padding:1px 6px;border-radius:4px}
+.short video{width:100%;aspect-ratio:9/16;background:#000;display:block;object-fit:contain}
+.short .semvideo{aspect-ratio:9/16;display:grid;place-items:center;background:var(--barra);color:var(--suave)}
+.short .corpo{padding:10px 12px;display:flex;flex-direction:column;gap:7px;flex:1}
+.short .n{color:var(--fraco);font-size:12px;font-weight:700}
+.short .tt{font-weight:600}
+.short .gancho{font-size:11px;font-weight:800;background:var(--acento);color:var(--acento-txt);padding:2px 6px;border-radius:3px;align-self:flex-start}
+.short .etqs{display:flex;gap:4px;flex-wrap:wrap}
+.short details{font-size:12px;color:var(--suave)}
+.short details p{margin:6px 0 0;max-height:180px;overflow:auto}
+.short .acoes{display:flex;gap:6px;flex-wrap:wrap}
+.short .acoes button{flex:1}
+.short .copiar{display:flex;gap:4px;flex-wrap:wrap} .short .copiar button{font-size:12px;padding:3px 8px}
+.short .pub{display:flex;gap:4px} .short .pub input{flex:1;min-width:0;font-size:12px}
+.short .motivo input{width:100%;font-size:12px}
+.mais{font-size:12px;color:var(--suave);display:flex;flex-direction:column;gap:6px}
+.mais[open]>summary{margin-bottom:4px}
+.mais>summary{cursor:pointer;list-style:none;padding:3px 0} .mais>summary::-webkit-details-marker{display:none}
+.mais .copiar,.mais .pub{margin-top:6px}
+.funil{display:flex;height:14px;border-radius:7px;overflow:hidden;background:var(--barra)}
+.funil i{display:block;height:100%}
+.rev{display:grid;grid-template-columns:minmax(0,auto) minmax(300px,420px);gap:20px;align-items:start;justify-content:center}
+.rev video{height:calc(100vh - 130px);max-height:1100px;aspect-ratio:9/16;background:#000;border-radius:12px;display:block}
+.rev .lado{display:flex;flex-direction:column;gap:10px;position:sticky;top:70px}
+.rev .bts{display:grid;grid-template-columns:1fr 1fr;gap:8px} .rev .bts button{padding:12px;font-size:15px;font-weight:700}
+.rev .leg{font-size:13px;color:var(--suave);max-height:220px;overflow:auto;background:var(--painel);border:1px solid var(--borda);border-radius:8px;padding:8px 10px}
+@media (max-width:900px){
+  .rev{grid-template-columns:1fr;gap:10px} .rev video{height:62vh;width:auto;max-width:100%;margin:0 auto}
+  .rev .lado{position:static;padding-bottom:90px}
+  .rev .bts{position:fixed;left:0;right:0;bottom:0;z-index:6;background:var(--painel);border-top:1px solid var(--borda);
+    padding:10px 12px calc(10px + env(safe-area-inset-bottom));grid-template-columns:repeat(4,1fr);gap:6px}
+  .rev .bts button{padding:14px 4px;font-size:13px} .rev .bts small{display:none}
+  .rev .atalhos{display:none}
+}
+@media (max-width:640px){
+  header{gap:8px;padding:8px 12px calc(8px) 12px;padding-top:calc(8px + env(safe-area-inset-top))}
+  header nav{flex-wrap:nowrap;overflow-x:auto;width:100%;order:3;-webkit-overflow-scrolling:touch} header nav a{white-space:nowrap}
+  header .dir #hora{display:none}
+  main{padding:12px}
+}
+.fora{border:1px dashed var(--borda);border-radius:8px;padding:6px 8px;font-size:12px}
+.fora.marcado{border:1px solid var(--erro);background:var(--erro-bg)}
+.fora label.caixa{display:flex;gap:6px;align-items:center;font-weight:600;cursor:pointer}
+.fora .motivos{display:flex;flex-wrap:wrap;gap:4px;margin-top:6px}
+.fora .motivos button{font-size:11px;padding:2px 7px;border-radius:12px}
+.fora .motivos button.sel{background:var(--erro);border-color:var(--erro);color:#fff}
+.fora input[type=text]{width:100%;margin-top:6px;font-size:12px}
+.short.fora-padrao{border-color:var(--erro)}
+.short .aviso-txt{font-size:12px;border-radius:6px;padding:5px 8px}
+.short .aviso-txt.grave{background:var(--erro-bg);color:var(--erro)} .short .aviso-txt.atencao{background:var(--aviso-bg);color:var(--aviso)}
+.toast{position:fixed;bottom:18px;left:50%;transform:translate(-50%,8px);background:var(--texto);color:var(--bg);padding:8px 16px;border-radius:8px;
+  font-size:13px;opacity:0;transition:opacity .18s,transform .18s;pointer-events:none;z-index:9;max-width:90vw}
+.toast.on{opacity:1;transform:translate(-50%,0)}
+.offline{position:fixed;top:0;left:0;right:0;z-index:10;background:var(--erro);color:#fff;text-align:center;padding:8px;font-weight:600;display:none}
+.offline.on{display:block}
+.vazio{color:var(--fraco);font-size:13px;padding:6px 0}
+.migalhas{font-size:12px;color:var(--suave);margin-bottom:6px}
+.migalhas a{text-decoration:none} .migalhas a:hover{text-decoration:underline}
+.cab-ep{display:flex;gap:12px;align-items:flex-start;justify-content:space-between;flex-wrap:wrap}
+.cab-ep .bts{display:flex;gap:6px;flex-wrap:wrap}
+.esqueleto{height:120px;border-radius:10px;background:linear-gradient(90deg,var(--barra),var(--painel),var(--barra));background-size:200% 100%;animation:brilho 1.2s infinite}
+@keyframes brilho{to{background-position:-200% 0}}
+@media (max-width:640px){
+  header{padding:10px 16px} main{padding:16px}
+  .agora .item{grid-template-columns:1fr}
+  .shorts{grid-template-columns:repeat(auto-fill,minmax(160px,1fr))}
+  .atalhos{display:none} .barra-filtros{top:0;position:static}
+}
+.radar-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:12px}
+.rc{padding:0;overflow:hidden;display:flex;flex-direction:column;transition:opacity .2s,border-color .15s}
+.rc.ignorar{opacity:.45} .rc.quero{border-color:var(--ok)}
+.rc .capa{position:relative;aspect-ratio:16/9;background:#000;display:block}
+.rc .capa img{width:100%;height:100%;object-fit:cover;display:block}
+.rc .capa .dur{position:absolute;right:6px;bottom:6px;background:#000b;color:#fff;font-size:11px;padding:1px 6px;border-radius:4px}
+.rc .nota{position:absolute;left:8px;top:8px;width:42px;height:42px;border-radius:50%;display:grid;place-items:center;font-weight:800;
+  font-size:15px;color:#1d1c1a;background:var(--acento);box-shadow:0 1px 4px #0007}
+.rc .nota.baixa{background:var(--barra);color:var(--suave)} .rc .nota.media{background:#e0b44a}
+.rc .corpo{padding:10px 12px;display:flex;flex-direction:column;gap:6px;flex:1}
+.rc .t{font-weight:600;font-size:13px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;text-decoration:none}
+.rc .t:hover{text-decoration:underline}
+.rc .meta{font-size:12px;color:var(--suave)}
+.rc .acoes{display:flex;gap:6px;margin-top:auto} .rc .acoes button{flex:1}
+button.prim{background:var(--acento);border-color:var(--acento);color:var(--acento-txt);font-weight:600}
+.fila-preparo .item{display:flex;justify-content:space-between;gap:10px;padding:8px 0;border-top:1px solid var(--borda);font-size:13px}
+.fila-preparo .item:first-child{border-top:0}
+@media (prefers-reduced-motion: reduce){ *{transition:none!important;animation:none!important} }
+</style>
+</head>
+<body>
+<div class="offline" id="offline">Painel desligado. Abra de novo pelo atalho "Gato Preto Cortes" na área de trabalho.</div>
+<header>
+  <button id="voltar" title="Voltar (Backspace)" aria-label="Voltar">← Voltar</button>
+  <a class="logo" href="#/"><img src="/icone.png" alt="" width="26" height="26">Gato Preto <span style="font-weight:500;color:var(--suave)">· Cortes</span></a>
+  <nav id="nav"></nav>
+  <div class="dir"><span class="ponto" id="ponto" title="Conectado"></span><span id="hora"></span><button id="tema" title="Tema claro/escuro">◐</button></div>
+</header>
+<main id="app"><div class="esqueleto"></div></main>
+<div class="toast" id="toast"></div>
+<script>
+"use strict";
+window.addEventListener("error", ev => { const el = document.getElementById("toast"); if(el){ el.textContent = "Erro na página: " + ev.message; el.classList.add("on"); } });
+window.addEventListener("unhandledrejection", ev => { const el = document.getElementById("toast"); if(el){ el.textContent = "Erro na página: " + (ev.reason && ev.reason.message || ev.reason); el.classList.add("on"); } });
+const ETAPAS = {
+  download:["Download","Aguardando ou baixando o vídeo"], transcricao:["Transcrição","Whisper transcrevendo"],
+  curadoria:["Curadoria","Aguardando a escolha dos cortes"], fila_render:["Na fila de render","Cortes escolhidos, esperando render"],
+  render:["Renderizando","Gerando os Shorts agora"], conferencia:["Conferência","Shorts prontos para aprovar ou reprovar"],
+  publicacao:["Publicação","Aprovados aguardando publicação"], concluido:["Concluído","Tudo revisado e publicado"],
+  descartado:["Descartado","Episódio não será cortado"]
+};
+const ORDEM = ["download","transcricao","curadoria","fila_render","render","conferencia","publicacao","concluido","descartado"];
+const PASSOS = ["Download","Transcrição","Curadoria","Render","Conferência","Permissão","Publicação"];
+const STATUS_FONTE = ["SEM MENÇÃO","CONDICIONAL","E-MAIL ENVIADO","LIBERADO","NEGADO","PROIBIDO"];
+const app = document.getElementById("app");
+const $ = (s, r=document) => r.querySelector(s), $$ = (s, r=document) => [...r.querySelectorAll(s)];
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const cor = e => `var(--e-${e})`;
+const furl = p => "/f/" + p.split("/").map(encodeURIComponent).join("/");
+const pct = (a,b) => b ? Math.round(100*a/b) : 0;
+const hoje = () => new Date().toISOString().slice(0,10);
+
+// ---------- dados: cache local + versão (o servidor só manda de novo quando algo mudou) ----------
+const CACHE = new Map();
+let online = true;
+async function carregar(url){
+  const c = CACHE.get(url);
+  const r = await fetch(url + (c ? "?v=" + c.v : ""), {cache:"no-store"});
+  const j = await r.json();
+  setOnline(true);
+  if(j.erro) throw new Error(j.erro);
+  if(j.igual) return {dados:c.dados, v:c.v};
+  CACHE.set(url, {v:j.v, dados:j.dados});
+  return {dados:j.dados, v:j.v};
+}
+async function enviar(p, corpo){
+  const r = await fetch(p, {method:"POST", headers:{"Content-Type":"application/json"}, body:JSON.stringify(corpo)});
+  const j = await r.json(); if(j.erro) throw new Error(j.erro); return j;
+}
+function setOnline(v){
+  if(v===online) return; online = v;
+  $("#offline").classList.toggle("on", !v); $("#ponto").classList.toggle("off", !v);
+}
+function marcarHora(){ $("#hora").textContent = new Date().toLocaleTimeString("pt-BR", {hour:"2-digit", minute:"2-digit", second:"2-digit"}); }
+function toast(t){ const el=$("#toast"); el.textContent=t; el.classList.add("on"); clearTimeout(el._t); el._t=setTimeout(()=>el.classList.remove("on"),2200); }
+async function copiar(t, rotulo){
+  if(!t) return toast("Nada para copiar");
+  try{ await navigator.clipboard.writeText(t); }catch(e){ const a=document.createElement("textarea");a.value=t;document.body.appendChild(a);a.select();document.execCommand("copy");a.remove(); }
+  toast((rotulo||"Texto")+" copiado");
+}
+
+// ---------- pedaços de tela ----------
+function etq(etapa){ const cls = {concluido:"ok",descartado:"neutro",render:"aviso",conferencia:"info",publicacao:"ok",fila_render:"aviso"}[etapa]||"neutro";
+  return `<span class="etq ${cls}">${ETAPAS[etapa][0]}</span>`; }
+function etqFonte(st){ const cls = st==="LIBERADO"?"ok":(st==="PROIBIDO"||st==="NEGADO")?"erro":st==="E-MAIL ENVIADO"?"info":"aviso";
+  return `<span class="etq ${cls}">${esc(st)}</span>`; }
+function passos(e){
+  if(e.etapa==="descartado") return `<div class="passos">${PASSOS.map(()=>"<i></i>").join("")}</div>`;
+  const idx = {download:0,transcricao:1,curadoria:2,fila_render:3,render:3,conferencia:4,publicacao:6,concluido:7}[e.etapa];
+  const cl = PASSOS.map((_,i)=>{
+    if(i===5) return e.liberado ? "feito" : (idx>=4 ? "bloq" : "");
+    if(i===6) return e.etapa==="concluido" ? "feito" : (idx===6 ? "agora" : "");
+    return i<idx ? "feito" : (i===idx ? "agora" : "");
+  });
+  const bloq = cl[5]==="bloq" ? " · bloqueado em Permissão" : "";
+  return `<div class="passos">${cl.map((c,i)=>`<i class="${c}" title="${PASSOS[i]}"></i>`).join("")}</div>
+          <div class="passos-nomes">Etapa: ${ETAPAS[e.etapa][0]}${bloq}</div>`;
+}
+function contarEtapas(eps){ const c = {}; eps.forEach(e => c[e.etapa]=(c[e.etapa]||0)+1); return c; }
+function barraEtapas(eps){
+  const n = eps.length || 1, c = contarEtapas(eps);
+  return `<div class="barra">${ORDEM.filter(k=>c[k]).map(k=>`<i style="width:${100*c[k]/n}%;background:${cor(k)}" title="${ETAPAS[k][0]}: ${c[k]}"></i>`).join("")}</div>`;
+}
+function legendaEtapas(eps){
+  const c = contarEtapas(eps);
+  return `<div class="legenda-etapas">${ORDEM.filter(k=>c[k]).map(k=>`<span><i style="background:${cor(k)}"></i>${ETAPAS[k][0]} ${c[k]}</span>`).join("")}</div>`;
+}
+function barraShorts(c){
+  const n = c.n_shorts || 1;
+  return `<div class="barra"><i style="width:${100*c.publicados/n}%;background:var(--e-concluido)"></i><i style="width:${100*(c.aprovados-c.publicados)/n}%;background:var(--e-publicacao)"></i><i style="width:${100*c.reprovados/n}%;background:var(--erro)"></i></div>`;
+}
+const FUNIL = [["a_revisar","A revisar","var(--e-conferencia)"],["aprovados","Aprovados (fonte liberada)","var(--e-publicacao)"],
+  ["esperando_fonte","Aprovados esperando a fonte","var(--e-fila_render)"],["agendados","Agendados no YouTube","var(--info)"],
+  ["publicados","Publicados","var(--e-concluido)"],["fora","Fora do padrão","var(--erro)"],["reprovados","Reprovados","var(--e-descartado)"]];
+function htmlFunil(f){
+  const tot = Object.values(f).reduce((a,b)=>a+b,0) || 1;
+  return `<div class="funil">${FUNIL.filter(([k])=>f[k]).map(([k,n,c])=>`<i style="width:${100*f[k]/tot}%;background:${c}" title="${n}: ${f[k]}"></i>`).join("")}</div>
+    <div class="legenda-etapas" style="margin-top:8px">${FUNIL.map(([k,n,c])=>`<span><i style="background:${c}"></i>${n} <b style="color:var(--texto)">${f[k]||0}</b></span>`).join("")}</div>`;
+}
+function menu(cs, atual){
+  $("#nav").innerHTML = `<a href="#/radar" class="${atual==="radar"?"atual":""}">★ Novos episódios</a><a href="#/publicacao" class="${atual==="publicacao"?"atual":""}">📅 Publicação</a><a href="#/revisar" class="${atual==="revisar"?"atual":""}">▶ Revisar</a>` + cs.map(c=>`<a href="#/c/${c.pasta}" class="${c.pasta===atual?"atual":""}"><i style="background:${esc(c.cor)}"></i>${esc(c.tema)}</a>`).join("");
+}
+
+// ---------- visão geral ----------
+function htmlGeral(d){
+  const cs = d.canais, eps = cs.flatMap(c=>c.episodios);
+  const tot = k => cs.reduce((s,c)=>s+(c[k]||0),0);
+  const validos = eps.filter(e=>e.etapa!=="descartado");
+  return `
+    <h1>Visão geral</h1>
+    <p class="sub">${cs.length} canais · ${validos.length} episódios em produção · ${eps.length-validos.length} descartados</p>
+    <div class="grade kpis">
+      <div class="kpi"><b>${tot("n_shorts")}</b><span>Shorts escolhidos</span></div>
+      <div class="kpi"><b>${tot("aprovados")}</b><span>aprovados por você</span></div>
+      <div class="kpi"><b>${tot("reprovados")}</b><span>reprovados</span></div>
+      <div class="kpi"><b>${tot("publicados")}</b><span>publicados</span></div>
+      <div class="kpi"><b>${tot("fontes_liberadas")}/${tot("fontes_total")}</b><span>fontes liberadas</span></div>
+      <div class="kpi"><b>${tot("fontes_email")}</b><span>pedidos de autorização enviados</span></div>
+    </div>
+    <h2>Agora</h2>
+    <div class="cartao agora">${d.agora.length ? d.agora.map(e=>{
+        const p = e.progresso;
+        return `<div class="item"><div><a href="#/e/${e.canal}/${e.id}"><b>${esc(e.titulo)}</b></a><br>
+          <small>${esc(e.podcast)} · ${ETAPAS[e.etapa][0]}${p&&p.atual?` · corte ${esc(p.atual)}`:""}${p&&p.desde?` · desde ${p.desde}`:""}</small></div>
+          <div>${p?`<div class="linha"><span>Shorts</span><b>${p.feitos}/${p.total}</b></div><div class="barra"><i style="width:${pct(p.feitos,p.total)}%;background:${cor("render")}"></i></div>`
+              : e.prep ? `<div class="linha"><span>${esc(e.prep.texto)}</span><b>${e.prep.pct}%</b></div><div class="barra"><i style="width:${e.prep.pct}%;background:${cor(e.etapa)}"></i></div>${e.prep.falta?`<div class="linha" style="margin-top:4px"><span></span><span>${esc(e.prep.falta)}</span></div>`:""}`
+              : etq(e.etapa)}</div></div>`;
+      }).join("") : ((d.correcoes||[]).length||(d.fila_preparo||[]).length ? "" : `<div class="vazio">Nada rodando agora.${d.fila_render?` ${d.fila_render} episódio(s) esperando render.`:""}</div>`)}
+      ${(d.correcoes||[]).map(x=>`<div class="item"><div><a href="#/e/${x.canal}/${x.id}"><b>Short ${esc(x.corte)} · ${esc(x.canal.replace(/^canal-tema\d+-/,""))} · ${esc(x.id)}</b></a><br>
+        <small>${x.tipo==="reprovado"?"reprovado → reanálise":"fora do padrão → correção"}${(x.motivos||[]).length?" · "+esc(x.motivos.join(", ")):""}${x.obs?" · "+esc(x.obs):""}</small></div>
+        <div><span class="etq ${x.status==="erro"?"erro":x.status==="corrigindo"?"info":"aviso"}">${x.status==="corrigindo"?"Claude corrigindo":x.status==="na fila"?"na fila":"falhou"}</span></div></div>`).join("")}
+      ${(d.fila_preparo||[]).map(x=>`<div class="item"><div><a href="#/e/${x.canal}/${x.id}"><b>${esc(x.titulo)}</b></a><br><small>${esc(x.fonte)}</small></div>
+        <div>${PREP[x.status]?`<span class="etq ${PREP[x.status][0]}">${PREP[x.status][1]}</span>`:esc(x.status)}</div></div>`).join("")}
+    </div>
+    ${(d.cobrar||[]).length?`<h2>Cobrar resposta <span style="color:var(--fraco);font-weight:400">${d.cobrar.length}</span></h2>
+      <div class="cartao agora">${d.cobrar.map(x=>`<div class="item"><div><a href="#/c/${x.canal}"><b>${esc(x.fonte)}</b></a><br><small>${esc(x.canal_nome)} · pedido enviado há ${x.dias} dias, sem resposta</small></div><div><a href="#/c/${x.canal}"><button>Cobrar</button></a></div></div>`).join("")}</div>`:""}
+    ${(d.fora_padrao||[]).length?`<h2>Fora do padrão <span style="color:var(--fraco);font-weight:400">${d.fora_padrao.length}</span></h2>
+      <div class="cartao agora">${d.fora_padrao.map(x=>`<div class="item"><div><a href="#/e/${x.canal}/${x.id}"><b>${esc(x.canal.replace(/^canal-tema\d+-/,""))} · ${esc(x.id)} · Short ${esc(x.corte)}</b></a><br>
+        <small>${esc((x.motivos||[]).join(", ")||"sem motivo marcado")}${x.obs?" · "+esc(x.obs):""}</small></div><div><small>${esc(x.em||"")}</small></div></div>`).join("")}</div>`:""}
+    <div id="disco"></div>
+    <h2>Funil dos Shorts</h2>
+    <div class="cartao">${htmlFunil(d.funil.total)}
+      <p class="vazio" style="margin:8px 0 0"><a href="#/revisar">▶ Revisar os ${d.funil.total.a_revisar} Shorts pendentes em sequência</a> · <a href="#/publicacao">ver a Publicação</a></p></div>
+    <h2>Canais</h2>
+    <div class="grade canais">${cs.map(c=>`
+      <a class="cartao canal" href="#/c/${c.pasta}" style="--cor-canal:${esc(c.cor)}">
+        <h3>${esc(c.nome)}</h3><div class="nicho">${c.handle?esc(c.handle):esc(c.pasta)}</div>
+        <div class="linha"><span>Episódios</span><b>${c.episodios.filter(e=>e.etapa!=="descartado").length}</b></div>
+        ${barraEtapas(c.episodios)}${legendaEtapas(c.episodios)}
+        <div class="linha"><span>Shorts</span><b>${c.n_shorts}</b></div>
+        ${d.funil.canais[c.pasta]?htmlFunil(d.funil.canais[c.pasta]).replace('class="legenda-etapas" style="margin-top:8px"','class="legenda-etapas" style="margin-top:6px;font-size:11px;display:none"'):barraShorts(c)}
+        <div class="linha"><span>a revisar · aprovados · publicados</span><b>${(d.funil.canais[c.pasta]||{}).a_revisar||0} · ${c.aprovados} · ${c.publicados}</b></div>
+        <div class="linha"><span>Fontes liberadas</span><b>${c.fontes_liberadas}/${c.fontes_total}${c.fontes_email?` · ${c.fontes_email} e-mail(s)`:""}</b></div>
+      </a>`).join("")}
+    </div>`;
+}
+async function desenharDisco(){
+  try{
+    const r = await fetch("/api/disco", {cache:"no-store"}); const k = await r.json(); const el = $("#disco"); if(!el) return;
+    const pct = Math.round(100 * (1 - k.livre_gb / k.total_gb));
+    el.innerHTML = `<h2>Disco F:</h2><div class="cartao"><div class="linha" style="margin-top:0"><span>${k.livre_gb} GB livres de ${k.total_gb} GB · vídeos originais dos episódios: ${k.videos_gb} GB</span>
+      ${k.liberavel_gb>0?`<button id="limpar">Liberar ${k.liberavel_gb} GB (episódios já resolvidos)</button>`:`<span style="color:var(--fraco)">nada para limpar (só episódios com todos os Shorts publicados ou reprovados)</span>`}</div>
+      <div class="barra"><i style="width:${pct}%;background:${pct>90?"var(--erro)":pct>75?"var(--e-fila_render)":"var(--e-conferencia)"}"></i></div></div>`;
+    const b = $("#limpar"); if(b) b.onclick = async () => {
+      if(!confirm(`Apagar o vídeo original de ${k.resolvidos.length} episódio(s) já resolvido(s)? Os Shorts prontos ficam. Sem o original não dá mais para corrigir/refazer esses Shorts.`)) return;
+      const x = await enviar("/api/disco/limpar", {}); toast(`Liberados ${x.gb} GB`); desenharDisco(); };
+  }catch(e){}
+}
+const telaGeral = {
+  url: () => "/api/geral",
+  desenhar(d){ menu(d.canais); app.innerHTML = htmlGeral(d); desenharDisco(); }
+};
+
+// ---------- canal ----------
+function htmlCanal(c){
+  const porEtapa = {}; c.episodios.forEach(e => (porEtapa[e.etapa] = porEtapa[e.etapa]||[]).push(e));
+  return `
+    <div class="migalhas"><a href="#/">Visão geral</a> › ${esc(c.pasta)}</div>
+    <h1><span style="display:inline-block;width:12px;height:12px;border-radius:50%;background:${esc(c.cor)};margin-right:8px;vertical-align:2px"></span>${esc(c.nome)}</h1>
+    <p class="sub">${c.handle?esc(c.handle)+" · ":""}${esc(c.nicho)} · ${c.n_shorts} Shorts · ${c.aprovados} aprovados · ${c.publicados} publicados</p>
+    ${htmlPiloto(c)}
+    ${htmlYoutube(c)}
+    <h2>Fontes e permissão</h2>
+    <div class="cartao tabela"><table>
+      <tr><th>Podcast</th><th>Status</th><th>Contato</th><th>Pedido de autorização</th><th></th></tr>
+      ${(c.fontes||[]).map((f,i)=>{ const p=f.pedido||{}; return `<tr>
+        <td><a href="${esc(f.canal_url)}" target="_blank" rel="noopener">${esc(f.canal)}</a>${f.evidencia?`<br><small style="color:var(--suave)">Autorização: ${esc(f.evidencia)}</small>`:""}</td>
+        <td><select data-fonte="${i}">${STATUS_FONTE.map(s=>`<option ${s===f.status?"selected":""}>${s}</option>`).join("")}</select></td>
+        <td>${(f.emails||[]).length ? f.emails.map(m=>`<a href="mailto:${esc(m)}">${esc(m)}</a>`).join("<br>") : `<small style="color:var(--fraco)">sem e-mail público (Instagram/site)</small>`}</td>
+        <td>${p.enviado_em?`enviado ${esc(p.enviado_em)}`:"<small style='color:var(--fraco)'>não enviado</small>"}${p.respondido_em?`<br>respondido ${esc(p.respondido_em)}`:""}</td>
+        <td style="white-space:nowrap">${f.status==="LIBERADO" ? `<span class="etq ok">liberado</span>` : `
+          <button class="prim" data-pedir="${i}">${(f.emails||[]).length ? "✉ Pedir autorização" : "📋 Mensagem p/ Instagram"}</button>
+          ${p.enviado_em && diasDesde(p.enviado_em) >= 7 && !p.respondido_em ? `<button data-cobrar="${i}">⏰ Cobrar (${diasDesde(p.enviado_em)} dias)</button>` : ""}
+          <button data-enviado="${i}">${p.enviado_em?"Desmarcar envio":"Marcar enviado"}</button>`}</td>
+      </tr>`}).join("")}
+    </table></div>
+    <h2>Episódios</h2>
+    <div class="colunas">${ORDEM.filter(k=>porEtapa[k]).map(k=>`
+      <div class="coluna"><h4><i style="background:${cor(k)}"></i>${ETAPAS[k][0]} <span style="color:var(--fraco);font-weight:400">${porEtapa[k].length}</span></h4>
+        ${porEtapa[k].map(e=>`<a class="cartao ep" href="#/e/${c.pasta}/${e.id}">
+          <div class="t">${esc(e.titulo)}</div><div class="p">${esc(e.podcast)} ${e.etapa!=="descartado"?etqFonte(e.fonte_status):""}</div>
+          ${e.etapa==="descartado" ? `<small style="color:var(--suave)">${esc(e.motivo)}</small>` : passos(e)}
+          ${e.progresso?`<div class="linha"><span>Renderizando</span><b>${e.progresso.feitos}/${e.progresso.total}</b></div>`:""}
+          ${e.n_shorts?`<div class="linha"><span>${e.n_shorts} Shorts</span><b>${e.aprovados} ✓ · ${e.reprovados} ✕ · ${e.publicados} no ar</b></div>`:""}
+        </a>`).join("")}
+      </div>`).join("")}
+    </div>`;
+}
+const diasDesde = d => Math.floor((Date.now() - new Date(d + "T12:00:00")) / 86400000);
+function textoPedido(c, f){
+  const link = c.handle ? "https://www.youtube.com/" + c.handle : "";
+  return (c.email_modelo || "").replaceAll("{PODCAST}", f.canal).replaceAll("{NICHO}", (c.nicho||"").toLowerCase())
+    .replaceAll("{NOME DO CANAL}", c.nome).replaceAll("{SEU NOME}", "Equipe " + c.nome).replaceAll("{LINK DO CANAL}", link);
+}
+function abrirGmail(para, assunto, corpo){
+  window.open("https://mail.google.com/mail/?view=cm&fs=1&to=" + encodeURIComponent(para) + "&su=" + encodeURIComponent(assunto) + "&body=" + encodeURIComponent(corpo), "_blank");
+}
+function htmlPiloto(c){
+  const p = c.piloto; if(!p) return "";
+  const e = p.estoque, pct = Math.min(100, Math.round(100 * e.dias / Math.max(1, p.estoque_dias)));
+  return `<h2>Piloto automático</h2><div class="cartao">
+    <div class="linha" style="margin-top:0"><span><b>Estoque: ${e.dias} dias</b> de publicação (${e.total} Shorts) · alvo ${p.estoque_dias} dias</span>
+      <label style="display:flex;gap:6px;align-items:center"><input type="checkbox" data-piloto="auto_escolher" ${p.auto_escolher?"checked":""}> Escolher episódios sozinho</label></div>
+    <div class="barra"><i style="width:${pct}%;background:${pct>=100?"var(--e-concluido)":pct>=50?"var(--e-publicacao)":"var(--e-fila_render)"}"></i></div>
+    <div class="legenda-etapas" style="margin-top:6px"><span>agendados <b>${e.agendados}</b></span><span>aprovados na fila <b>${e.aprovados}</b></span>
+      <span>esperando sua revisão <b>${e.a_revisar}</b></span><span>em produção ~<b>${e.producao}</b></span></div>
+    <p class="vazio" style="margin:8px 0 0">Com o estoque abaixo do alvo, o painel escolhe sozinho o melhor episódio novo de fonte <b>LIBERADA</b> (sem aviso grave),
+      baixa, corta, renderiza e confere. Você só revisa em <a href="#/revisar/${c.pasta}">▶ Revisar</a>. Alvo em dias:
+      <input type="number" min="2" max="30" value="${p.estoque_dias}" data-piloto-dias="1" style="width:60px"></p>
+    ${p.log.length?`<p class="vazio" style="margin:6px 0 0">Últimas escolhas: ${p.log.slice().reverse().map(x=>`${esc(x.em.slice(5))} · ${esc(x.titulo.slice(0,50))}`).join(" — ")}</p>`:""}
+  </div>`;
+}
+function htmlYoutube(c){
+  const y = c.youtube || {};
+  if(y.erro) return `<div class="faixa erro">YouTube: ${esc(y.erro)}</div>`;
+  const info = y.info ? `${esc(y.info.titulo||"")} ${esc(y.info.handle||"")}` : "";
+  const liberadas = (c.fontes||[]).filter(f=>f.status==="LIBERADO").length;
+  return `<h2>YouTube</h2><div class="cartao">
+    ${!y.app ? `<p style="margin:0 0 8px"><b>Falta o app do Google.</b> Salve o arquivo baixado do Google Cloud como <code>F:\\CORTES\\_segredos\\youtube_client.json</code> (passo a passo no guia).</p>` : ""}
+    <div class="linha" style="margin-top:0"><span>${y.conectado ? `Conectado: <b>${info||"canal autorizado"}</b>` : "Não conectado"}</span>
+      <span style="display:flex;gap:8px;align-items:center">
+        <button data-yt="conectar" ${y.app?"":"disabled"}>${y.conectado?"Reconectar":"Conectar YouTube"}</button>
+        <label style="display:flex;gap:6px;align-items:center"><input type="checkbox" data-yt="auto" ${y.auto?"checked":""} ${y.conectado?"":"disabled"}> Enviar automaticamente</label>
+      </span></div>
+    ${y.status?`<p class="vazio">${esc(y.status)}</p>`:""}
+    <p class="vazio" style="margin-bottom:0">Envia só Shorts <b>aprovados</b> por você e de fonte <b>LIBERADA</b> (${liberadas} de ${(c.fontes||[]).length} fontes liberadas agora),
+      agendados nos horários do canal, até 5 por dia. Enquanto o app do Google não for verificado, o YouTube deixa os vídeos privados.</p>
+  </div>`;
+}
+function telaCanal(pasta){
+  const url = "/api/canal/" + encodeURIComponent(pasta);
+  return {
+    url: () => url,
+    desenhar(c){
+      const geral = CACHE.get("/api/geral"); if(geral) menu(geral.dados.canais, pasta);
+      app.innerHTML = htmlCanal(c);
+      const salvar = async corpo => { try{ await enviar("/api/fonte", {canal:c.pasta, ...corpo}); toast("Salvo no canal.json"); atualizar(true); }catch(e){ toast(e.message); atualizar(true); } };
+      $$("select[data-fonte]").forEach(s => s.onchange = () => {
+        const f = c.fontes[s.dataset.fonte], corpo = {fonte:f.canal, status:s.value};
+        if(s.value==="LIBERADO" && !f.evidencia){
+          const ev = prompt("Onde está a autorização? (ex.: e-mail de contato@... em 10/10/2026)");
+          if(!ev){ s.value=f.status; return; } corpo.evidencia = ev; corpo.respondido_em = hoje();
+        }
+        salvar(corpo);
+      });
+      $$("input[data-piloto]").forEach(cx => cx.onchange = () => enviar("/api/piloto", {canal:c.pasta, [cx.dataset.piloto]: cx.checked}).then(()=>{ toast(cx.checked?"Piloto automático ligado":"Piloto automático desligado"); atualizar(true); }).catch(x=>toast(x.message)));
+      const pd = $("input[data-piloto-dias]"); if(pd) pd.onchange = () => enviar("/api/piloto", {canal:c.pasta, estoque_dias: pd.value}).then(()=>{ toast("Alvo do estoque salvo"); atualizar(true); }).catch(x=>toast(x.message));
+      const yc = $('button[data-yt="conectar"]'); if(yc) yc.onclick = () => enviar("/api/youtube/conectar", {canal:c.pasta}).then(()=>{ toast("Abrindo o navegador: escolha o canal e autorize"); setTimeout(()=>atualizar(true), 4000); }).catch(x=>toast(x.message));
+      const ya = $('input[data-yt="auto"]'); if(ya) ya.onchange = () => enviar("/api/youtube/auto", {canal:c.pasta, ligado:ya.checked}).then(()=>{ toast(ya.checked?"Envio automático ligado":"Envio automático desligado"); atualizar(true); }).catch(x=>toast(x.message));
+      $$("button[data-pedir]").forEach(b => b.onclick = () => {
+        const f = c.fontes[b.dataset.pedir], texto = textoPedido(c, f);
+        const assunto = (texto.match(/^ASSUNTO:\s*(.*)$/m) || [,"Autorização para cortes do " + f.canal])[1];
+        const corpo = texto.replace(/^ASSUNTO:.*\n+/m, "");
+        if((f.emails||[]).length){ abrirGmail(f.emails[0], assunto, corpo); }
+        else {
+          copiar(`Oi, pessoal do ${f.canal}! Tenho o canal ${c.nome} (${c.handle ? "https://www.youtube.com/" + c.handle : ""}) e queria pedir autorização pra publicar cortes dos episódios de vocês, sempre com crédito e link do episódio completo, seguindo qualquer regra que vocês tiverem. Posso? Obrigado!`, "Mensagem pro Instagram");
+          window.open(f.canal_url + "/about", "_blank");
+        }
+        const corpoReq = {fonte:f.canal, enviado_em: hoje()};
+        if(["SEM MENÇÃO","CONDICIONAL"].includes(f.status)) corpoReq.status = "E-MAIL ENVIADO";
+        salvar(corpoReq);
+      });
+      $$("button[data-cobrar]").forEach(b => b.onclick = () => {
+        const f = c.fontes[b.dataset.cobrar];
+        const corpo = `Oi, pessoal do ${f.canal}, tudo bem?\n\nEscrevi há uns dias pedindo autorização pra publicar cortes dos episódios de vocês no canal ${c.nome}. Conseguiram ver?\n\nSigo qualquer regra que vocês tiverem (prazo, crédito, temas). Obrigado!\n\nEquipe ${c.nome}`;
+        if((f.emails||[]).length) abrirGmail(f.emails[0], "Re: Autorização para cortes do " + f.canal, corpo);
+        else copiar(corpo, "Lembrete");
+      });
+      $$("button[data-email]").forEach(b => b.onclick = () => {
+        const f = c.fontes[b.dataset.email];
+        copiar(c.email_modelo.replaceAll("{PODCAST}", f.canal).replaceAll("{NICHO}", c.nicho.toLowerCase()), "E-mail de pedido");
+      });
+      $$("button[data-enviado]").forEach(b => b.onclick = () => {
+        const f = c.fontes[b.dataset.enviado], ja = (f.pedido||{}).enviado_em;
+        const corpo = {fonte:f.canal, enviado_em: ja ? "" : hoje()};
+        if(!ja && ["SEM MENÇÃO","CONDICIONAL"].includes(f.status)) corpo.status = "E-MAIL ENVIADO";
+        salvar(corpo);
+      });
+    }
+  };
+}
+
+// ---------- episódio (atualiza card a card: vídeo tocando não é interrompido) ----------
+let filtro = "todos", selecionado = null;
+const temAviso = s => (s.avisos||[]).length || (s.palavroes||[]).length || s.problemas;
+const passaFiltro = s => filtro==="todos" || (filtro==="pendentes" ? !s.aprovacao : filtro==="avisos" ? temAviso(s) : filtro==="fora" ? !!s.fora_padrao : s.aprovacao===filtro);
+
+const MOTIVOS = ["Enquadramento", "Legenda", "Logo/QR/anúncio do original", "Começa ou termina cortado", "Gancho/título", "Áudio", "Outro"];
+function htmlFora(s){
+  const f = s.fora_padrao;
+  return `<div class="fora ${f?"marcado":""}" style="margin:8px 12px 0">
+    <label class="caixa"><input type="checkbox" data-fora="1" ${f?"checked":""}> Fora do padrão</label>
+    ${f?`<div class="motivos">${MOTIVOS.map(m=>`<button data-motivo="${esc(m)}" class="${(f.motivos||[]).includes(m)?"sel":""}">${esc(m)}</button>`).join("")}</div>
+      <input type="text" data-fora-obs="1" placeholder="o que está errado? (Enter salva)" value="${esc(f.obs||"")}">`:""}
+  </div>`;
+}
+function htmlShort(e, s){
+  const avisos = (s.avisos||[]).map(a=>`<div class="aviso-txt ${a.nivel==="grave"?"grave":"atencao"}">${esc(a.texto)}</div>`).join("");
+  const etqs = [
+    s.palavroes && s.palavroes.length ? `<span class="etq aviso" title="Palavrão na legenda">palavrão: ${esc(s.palavroes.join(", "))}</span>` : "",
+    s.problemas ? `<span class="etq erro">${esc(s.problemas)}</span>` : "",
+    s.youtube ? `<span class="etq ok">YouTube: agendado ${esc(new Date(s.youtube.agendado).toLocaleString("pt-BR",{day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit"}))}</span>`
+      : s.publicado ? `<span class="etq ok">no ar ${esc(s.publicado)}</span>` : "",
+    s.youtube_erro ? `<span class="etq erro" title="${esc(s.youtube_erro)}">erro no envio</span>` : ""
+  ].join("");
+  const podePub = e.liberado && s.aprovacao==="aprovado";
+  return `
+    ${s.mp4 ? `<button class="midia" data-acao="tocar" title="Tocar (Espaço)"><img src="${esc(s.poster)}" loading="lazy" alt=""><span class="play">▶</span>${s.duracao?`<span class="dur">${esc(s.duracao)}</span>`:""}</button>`
+            : `<div class="semvideo">ainda não renderizado</div>`}
+    ${htmlFora(s)}
+    <div class="corpo">
+      <div class="n">#${esc(s.corte)} · ${esc(s.inicio)}–${esc(s.fim)}</div>
+      ${s.gancho?`<div class="gancho">${esc(s.gancho)}</div>`:""}
+      <div class="tt">${esc(s.titulo_short)}</div>
+      ${etqs?`<div class="etqs">${etqs}</div>`:""}
+      ${avisos}
+      ${s.correcao?`<div class="aviso-txt ${s.correcao.status==="erro"?"grave":"atencao"}">${
+          s.correcao.status==="na fila" ? (s.correcao.tipo==="reprovado"?"Volta pra conferência: ":"Volta pra produção: ")+"o Claude começa em instantes (dá tempo de marcar os motivos)"
+        : s.correcao.status==="corrigindo" ? (s.correcao.tipo==="reprovado"?"Em conferência: o Claude está reanalisando e refazendo este corte":"Em produção: o Claude está corrigindo este Short")
+        : "A correção falhou: "+esc(s.correcao.erro||"")}</div>`:""}
+      ${s.aprovacao==="aprovado"?`<div class="aviso-txt" style="background:var(--ok-bg);color:var(--ok)">Aprovado: está na aba <a href="#/publicacao">Publicação</a></div>`:""}
+      ${s.refeito && !s.correcao?`<div class="aviso-txt atencao" style="background:var(--info-bg);color:var(--info)">Refeito (${s.refeito.tipo==="reprovado"?"reprovado":"fora do padrão"}, ${esc(s.refeito.em)}): ${esc(s.refeito.resumo)}</div>`:""}
+      <div class="acoes">
+        <button class="ok ${s.aprovacao==="aprovado"?"ativo":""}" data-acao="aprovar" title="Aprovar (A)">✓ Aprovar</button>
+        <button class="erro ${s.aprovacao==="reprovado"?"ativo":""}" data-acao="reprovar" title="Reprovar (R)">✕ Reprovar</button>
+      </div>
+      ${s.aprovacao==="reprovado"?`<div class="motivo"><input type="text" data-campo="motivo" placeholder="motivo (opcional, Enter salva)" value="${esc(s.motivo)}"></div>`:""}
+      <details class="mais"><summary>⋯ Mais opções</summary>
+      ${s.mp4?`<div class="copiar">
+        <button data-copiar="titulo" title="Copiar título (T)">Título</button><button data-copiar="descricao" title="Copiar descrição (D)">Descrição</button><button data-copiar="tags" title="Copiar tags (G)">Tags</button>
+        <button data-acao="pasta" title="Abrir a pasta do vídeo">Pasta</button></div>`:""}
+      <div class="pub">${s.publicado
+        ? `<input type="text" value="${esc(s.link)}" readonly placeholder="link"><button data-acao="despublicar">Desfazer</button>`
+        : `<input type="text" placeholder="link do Short publicado" ${podePub?"":"disabled"}><button data-acao="publicar" ${podePub?"":"disabled"} title="${e.liberado?(s.aprovacao==="aprovado"?"":"Aprove antes"):"Fonte não liberada"}">Publicado</button>`}</div>
+      ${s.legenda?`<details><summary>Legenda (texto exato)</summary><p>${esc(s.legenda)}</p></details>`:""}
+      ${s.mosaico?`<details data-mosaico="${esc(furl(s.mosaico))}"><summary>Mosaico de enquadramento</summary><p></p></details>`:""}
+      </details>
+    </div>`;
+}
+function htmlCabEp(e){
+  const p = e.progresso;
+  return `<div class="migalhas"><a href="#/">Visão geral</a> › <a href="#/c/${e.canal}">${esc(e.canal)}</a> › ${esc(e.id)}</div>
+    <div class="cab-ep"><div><h1>${esc(e.titulo)}</h1>
+      <p class="sub">${esc(e.podcast)} · ${etq(e.etapa)} ${etqFonte(e.fonte_status)}${e.n_shorts?` · ${e.n_shorts} Shorts · ${e.aprovados} aprovados · ${e.reprovados} reprovados · ${e.publicados} publicados`:""}</p></div>
+      <div class="bts"><a href="${esc(e.url)}" target="_blank" rel="noopener"><button>Episódio no YouTube</button></a>
+        ${e.saida?`<button data-abrir="${esc(e.saida)}/shorts">Abrir pasta dos Shorts</button>`:""}
+        ${e.shorts && e.shorts.some(s=>!s.aprovacao && !s.fora_padrao)?`<a href="#/revisar/${e.canal}/${e.id}"><button class="prim">▶ Revisar em sequência</button></a>`:""}</div></div>
+    ${e.etapa==="descartado"?`<div class="faixa erro">Descartado: ${esc(e.motivo)}</div>`:
+      (!e.liberado?`<div class="faixa erro">NÃO PUBLICAR: a fonte está com status “${esc(e.fonte_status)}”. Peça autorização na página do canal.</div>`:`<div class="faixa ok">Fonte LIBERADA: pode publicar os aprovados.</div>`)}
+    ${p?`<div class="cartao"><div class="linha"><span>Renderizando ${p.atual?"· corte "+esc(p.atual):""}</span><b>${p.feitos}/${p.total}</b></div>
+      <div class="barra"><i style="width:${pct(p.feitos,p.total)}%;background:${cor("render")}"></i></div></div>`:""}
+    ${e.prep?`<div class="cartao"><div class="linha"><span>${esc(e.prep.texto)}</span><b>${e.prep.pct}%${e.prep.falta?" · "+esc(e.prep.falta):""}</b></div>
+      <div class="barra"><i style="width:${e.prep.pct}%;background:${cor(e.etapa)}"></i></div></div>`:""}
+    ${e.auto?`<div class="faixa ${e.auto.status==="erro"?"erro":"ok"}">Automático: ${esc((PREP[e.auto.status]||[0,e.auto.status])[1])}${e.auto.inicio_cur?" · desde "+esc(e.auto.inicio_cur):""}${e.auto.resumo?" · "+esc(e.auto.resumo):""}${e.auto.erro?" · "+esc(e.auto.erro):""}</div>`:""}
+    ${["download","transcricao","curadoria","fila_render"].includes(e.etapa)?`<div class="cartao">${passos(e)}<p class="vazio">${ETAPAS[e.etapa][1]}.</p>
+      ${e.etapa==="curadoria" && !(e.auto && ["curadoria","curadoria na fila"].includes(e.auto.status))?`<button class="prim" data-auto="1">Curadoria automática (Claude escolhe, renderiza e confere)</button>`:""}</div>`:""}`;
+}
+function htmlFiltros(e){
+  const sh = e.shorts||[], n = k => sh.filter(s => k==="pendentes" ? !s.aprovacao : k==="avisos" ? temAviso(s) : s.aprovacao===k).length;
+  return [["todos","Todos",sh.length],["pendentes","A revisar",n("pendentes")],["aprovado","Aprovados",n("aprovado")],["reprovado","Reprovados",n("reprovado")],["avisos","Com aviso",n("avisos")],["fora","Fora do padrão",sh.filter(s=>s.fora_padrao).length]]
+    .map(([k,t,q])=>`<button data-filtro="${k}" class="${filtro===k?"sel":""}">${t} ${q}</button>`).join("");
+}
+function telaEp(canal, id){
+  const url = `/api/episodio/${encodeURIComponent(canal)}/${encodeURIComponent(id)}`;
+  let E = null, assinaturas = new Map();
+  const assinatura = s => JSON.stringify(s);
+  const recontar = () => {
+    const sh = E.shorts||[];
+    E.aprovados = sh.filter(s=>s.aprovacao==="aprovado").length; E.reprovados = sh.filter(s=>s.aprovacao==="reprovado").length;
+    E.publicados = sh.filter(s=>s.publicado).length;
+  };
+  const desenharCab = () => { $("#cab").innerHTML = htmlCabEp(E); if($("#filtros")) $("#filtros").innerHTML = htmlFiltros(E); };
+  const desenharCard = (s, card) => {
+    card = card || $(`.short[data-corte="${s.corte}"]`); if(!card) return;
+    card.className = `cartao short ${s.aprovacao||""} ${s.fora_padrao?"fora-padrao":""} ${selecionado===s.corte?"sel":""}`;
+    card.innerHTML = htmlShort(E, s); assinaturas.set(s.corte, assinatura(s));
+  };
+  const visiveis = () => $$(".short");
+  const selecionar = (corte, rolar=true) => {
+    selecionado = corte;
+    visiveis().forEach(c => c.classList.toggle("sel", c.dataset.corte===corte));
+    const card = $(`.short[data-corte="${corte}"]`); if(card && rolar) card.scrollIntoView({block:"nearest", behavior:"smooth"});
+  };
+  const proximo = (passo=1) => {
+    const vs = visiveis(); if(!vs.length) return;
+    const i = vs.findIndex(c => c.dataset.corte===selecionado);
+    const alvo = vs[Math.max(0, Math.min(vs.length-1, i<0 ? 0 : i+passo))]; selecionar(alvo.dataset.corte);
+  };
+  const tocar = card => {
+    const s = E.shorts.find(x=>x.corte===card.dataset.corte); if(!s || !s.mp4) return;
+    let v = $("video", card);
+    if(!v){ const m = $(".midia", card); v = document.createElement("video");
+      v.src = furl(s.mp4); v.controls = true; v.playsInline = true; v.preload = "auto"; m.replaceWith(v); }
+    v.paused ? v.play().catch(()=>{}) : v.pause();
+  };
+  async function acao(card, a, extra){
+    const s = E.shorts.find(x=>x.corte===card.dataset.corte), antes = {...s}, base = {canal, id, corte:s.corte};
+    let corpo = null;
+    if(a==="aprovar"){ s.aprovacao = s.aprovacao==="aprovado" ? null : "aprovado"; corpo = {...base, aprovacao:s.aprovacao}; }
+    else if(a==="reprovar"){ s.aprovacao = s.aprovacao==="reprovado" ? null : "reprovado"; if(!s.aprovacao) s.motivo=""; corpo = {...base, aprovacao:s.aprovacao, motivo:s.motivo||""}; }
+    else if(a==="motivo"){ s.motivo = extra; corpo = {...base, aprovacao:"reprovado", motivo:extra}; }
+    else if(a==="publicar"){ corpo = {...base, publicado:true, link:$(".pub input", card).value.trim()}; }
+    else if(a==="despublicar"){ corpo = {...base, publicado:false}; }
+    if(a!=="publicar"){ recontar(); desenharCard(s, card); desenharCab(); }   // na hora, sem esperar o servidor
+    try{
+      await enviar("/api/short", corpo);
+      if(a==="publicar"){ s.publicado = hoje(); s.link = corpo.link; recontar(); desenharCard(s, card); desenharCab(); toast("Marcado como publicado"); }
+      if(a==="motivo") toast("Motivo salvo");
+      if(filtro!=="todos" && !passaFiltro(s)) setTimeout(()=>{ if(!passaFiltro(s)) card.remove(); }, 650);
+    }catch(x){ Object.assign(s, antes); recontar(); desenharCard(s, card); desenharCab(); toast(x.message); }
+  }
+  function desenharTudo(){
+    app.innerHTML = `<div id="cab"></div>${E.shorts ? `
+      <div class="barra-filtros"><div class="filtros" id="filtros"></div>
+        <div class="atalhos"><kbd>←</kbd><kbd>→</kbd> navegar · <kbd>A</kbd> aprovar · <kbd>R</kbd> reprovar · <kbd>Espaço</kbd> tocar · <kbd>T</kbd><kbd>D</kbd><kbd>G</kbd> copiar</div></div>
+      <div class="shorts" id="shorts"></div>` : ""}`;
+    desenharCab();
+    if(!E.shorts) return;
+    const lista = E.shorts.filter(passaFiltro);
+    $("#shorts").innerHTML = lista.length ? lista.map(s=>`<div class="cartao short" data-corte="${s.corte}"></div>`).join("") : `<div class="vazio">Nenhum Short neste filtro.</div>`;
+    assinaturas = new Map(); lista.forEach(s => desenharCard(s));
+  }
+  function ligar(){
+    app.onclick = ev => {
+      const b = ev.target.closest("button, summary"); const card = ev.target.closest(".short");
+      if(card && !ev.target.closest("input")) selecionar(card.dataset.corte, false);
+      if(!b) return;
+      if(b.dataset.filtro){ filtro = b.dataset.filtro; desenharTudo(); return; }
+      if(b.dataset.abrir){ enviar("/api/abrir", {caminho:b.dataset.abrir}).catch(x=>toast(x.message)); return; }
+      if(b.dataset.auto){ b.disabled = true; enviar("/api/auto", {canal, id}).then(()=>{ toast("Curadoria automática na fila"); atualizar(true); }).catch(x=>{ b.disabled=false; toast(x.message); }); return; }
+      if(b.tagName==="SUMMARY"){ const d = b.parentElement; if(d.dataset.mosaico && !$("img", d)) $("p", d).innerHTML = `<a href="${d.dataset.mosaico}" target="_blank"><img src="${d.dataset.mosaico}" style="width:100%;border-radius:6px"></a>`; return; }
+      if(!card) return;
+      const s = E.shorts.find(x=>x.corte===card.dataset.corte);
+      if(b.dataset.motivo){ const f = s.fora_padrao || {motivos:[]}; const m = b.dataset.motivo;
+        f.motivos = (f.motivos||[]).includes(m) ? f.motivos.filter(x=>x!==m) : [...(f.motivos||[]), m];
+        s.fora_padrao = f; desenharCard(s, card); enviar("/api/short", {canal, id, corte:s.corte, fora_padrao:f}).catch(x=>toast(x.message)); return; }
+      if(b.dataset.copiar) return copiar((s.upload||{})[b.dataset.copiar], b.textContent);
+      if(b.dataset.acao==="tocar") return tocar(card);
+      if(b.dataset.acao==="pasta") return enviar("/api/abrir",{caminho:s.mp4}).catch(x=>toast(x.message));
+      if(b.dataset.acao) acao(card, b.dataset.acao);
+    };
+    app.onchange = ev => {
+      const cx = ev.target.closest("input[data-fora]"); if(!cx) return;
+      const card = cx.closest(".short"), s = E.shorts.find(x=>x.corte===card.dataset.corte);
+      s.fora_padrao = cx.checked ? {motivos:[], obs:""} : null; recontar(); desenharCard(s, card);
+      enviar("/api/short", {canal, id, corte:s.corte, fora_padrao:s.fora_padrao}).then(()=>toast(cx.checked?"Marcado como fora do padrão: escolha o motivo":"Desmarcado")).catch(x=>toast(x.message));
+      if(cx.checked){ const i = $("input[data-fora-obs]", card); }
+    };
+    app.onkeydown = ev => {
+      const ob = ev.target.closest("input[data-fora-obs]");
+      if(ob && ev.key==="Enter"){ const card = ob.closest(".short"), s = E.shorts.find(x=>x.corte===card.dataset.corte);
+        s.fora_padrao = {...(s.fora_padrao||{motivos:[]}), obs: ob.value.trim()};
+        enviar("/api/short", {canal, id, corte:s.corte, fora_padrao:s.fora_padrao}).then(()=>toast("Observação salva")).catch(x=>toast(x.message)); ob.blur(); return; }
+      const inp = ev.target.closest("input[data-campo=motivo]");
+      if(inp && ev.key==="Enter"){ acao(inp.closest(".short"), "motivo", inp.value.trim()); inp.blur(); }
+    };
+    teclado = ev => {
+      if(ev.target.closest("input, textarea, select") || ev.ctrlKey || ev.metaKey || ev.altKey) return;
+      const k = ev.key.toLowerCase(), card = selecionado && $(`.short[data-corte="${selecionado}"]`);
+      if(k==="arrowright" || k==="j"){ ev.preventDefault(); proximo(1); }
+      else if(k==="arrowleft" || k==="k"){ ev.preventDefault(); proximo(-1); }
+      else if(!card) { if(["a","r"," ","t","d","g"].includes(k)){ ev.preventDefault(); proximo(0); } }
+      else if(k==="a" || k==="r"){ ev.preventDefault(); acao(card, k==="a"?"aprovar":"reprovar"); const v=$("video",card); if(v) v.pause(); setTimeout(()=>proximo(1), 120); }
+      else if(k===" "){ ev.preventDefault(); tocar(card); }
+      else if(k==="t" || k==="d" || k==="g"){ const s = E.shorts.find(x=>x.corte===selecionado); copiar((s.upload||{})[{t:"titulo",d:"descricao",g:"tags"}[k]], {t:"Título",d:"Descrição",g:"Tags"}[k]); }
+    };
+  }
+  return {
+    url: () => url,
+    desenhar(d, primeira){
+      const geral = CACHE.get("/api/geral"); if(geral) menu(geral.dados.canais, canal);
+      const antes = E; E = structuredClone(d);
+      if(primeira || !antes || !antes.shorts !== !E.shorts || (antes.shorts||[]).length !== (E.shorts||[]).length){
+        if(primeira){ filtro = "pendentes"; selecionado = null; ligar(); }
+        desenharTudo(); return;
+      }
+      desenharCab();   // só troca os cards que mudaram de verdade
+      (E.shorts||[]).forEach(s => { if(assinaturas.has(s.corte) && assinaturas.get(s.corte)!==assinatura(s)) desenharCard(s); });
+    }
+  };
+}
+
+// ---------- novos episódios (radar) ----------
+let radarCanal = "todos", radarOcultos = false;
+const fmtNum = n => n >= 1e6 ? (n/1e6).toFixed(1).replace(".0","").replace(".",",")+" mi" : n >= 1e3 ? Math.round(n/1e3)+" mil" : String(n);
+const PREP = {aguardando:["aviso","na fila para baixar"], preparando:["aviso","baixando e transcrevendo"], pronto:["ok","pronto para curadoria"],
+              "curadoria na fila":["aviso","na fila da curadoria automática"], curadoria:["info","Claude escolhendo, renderizando e conferindo"],
+              "shorts prontos":["ok","Shorts prontos para aprovar"], descartado:["neutro","descartado na curadoria"],
+              erro:["erro","falhou"], "imagem parada":["erro","imagem parada: descartado"]};
+function htmlRadarCard(i){
+  const cls = i.nota>=60 ? "" : i.nota>=35 ? "media" : "baixa";
+  const prep = i.preparo && PREP[i.preparo] ? `<span class="etq ${PREP[i.preparo][0]}">${PREP[i.preparo][1]}</span>` : "";
+  const fonte = i.fonte_tipo==="fonte" ? "fonte do canal" : i.fonte_tipo==="retentar" ? "tentar de novo" : "candidato";
+  return `<div class="cartao rc ${i.decisao||""}" data-id="${esc(i.id)}">
+    <a class="capa" href="${esc(i.url)}" target="_blank" rel="noopener"><img src="${esc(i.thumb)}" loading="lazy" alt="">
+      <span class="nota ${cls}" title="Nota: metade desempenho vs. a média do canal, metade alcance no nicho">${i.nota}</span><span class="dur">${i.duracao_min} min</span></a>
+    <div class="corpo">
+      <a class="t" href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.titulo)}</a>
+      <div class="meta">${esc(i.fonte)} · <span title="${esc(fonte)}">${esc(fonte)}</span> ${i.fonte_status?etqFonte(i.fonte_status):""}</div>
+      <div class="meta">${fmtNum(i.views)} visualizações · ${fmtNum(i.vpd)}/dia · há ${i.dias} dia(s)${i.rel!=null?` · ${String(i.rel).replace(".",",")}× a média do canal`:""}</div>
+      ${(i.avisos||[]).map(a=>`<div class="aviso-txt ${a.nivel==="grave"?"grave":"atencao"}" style="font-size:12px;border-radius:6px;padding:4px 8px;background:var(--${a.nivel==="grave"?"erro":"aviso"}-bg);color:var(--${a.nivel==="grave"?"erro":"aviso"})">${esc(a.texto)}</div>`).join("")}
+      ${prep}
+      <div class="acoes">${i.ja_baixado && !i.preparo ? `<span class="etq neutro">já baixado</span>` : `
+        <button class="${i.decisao==="quero"?"prim":""}" data-decisao="quero" ${i.bloqueado?"disabled title='Bloqueado pelos filtros'":""}>${i.decisao==="quero"?"✓ Escolhido":"Quero esse"}</button>
+        <button data-decisao="ignorar">${i.decisao==="ignorar"?"Ignorado":"Ignorar"}</button>`}</div>
+    </div></div>`;
+}
+let FONTES_NOVAS = null;
+function htmlFontesNovas(){
+  const d = FONTES_NOVAS; if(!d || !d.itens.length) return "";
+  return `<h2>Fontes que liberam cortes publicamente <span style="color:var(--fraco);font-weight:400">${d.itens.length} novas</span></h2>
+    <div class="radar-cards">${d.itens.map(i=>`<div class="cartao" style="display:flex;flex-direction:column;gap:6px" data-fonte-url="${esc(i.url)}">
+      <div><b>${esc(i.nome)}</b> ${etqFonte(i.status)}</div>
+      <div class="meta" style="font-size:12px;color:var(--suave)">${esc(d.nomes[i.canal]||i.canal)}${i.espera_horas?` · só publicar ${i.espera_horas}h depois do episódio`:""}</div>
+      <div class="aviso-txt" style="font-size:12px;border-radius:6px;padding:5px 8px;background:var(--ok-bg);color:var(--ok)">“${esc((i.prova||{}).texto||"")}”
+        ${(i.prova||{}).video?`<a href="${esc(i.prova.video)}" target="_blank" rel="noopener">ver</a>`:""}</div>
+      ${i.principal?`<div style="font-size:12px;color:var(--suave)">Canal de cortes oficial. Podcast principal: <a href="${esc(i.principal.canal_url)}" target="_blank" rel="noopener">${esc(i.principal.canal)}</a></div>`:""}
+      <div class="acoes" style="display:flex;gap:6px;margin-top:auto">
+        <button class="prim" data-fn="adicionar">Adicionar ${i.principal?"o podcast principal":"como fonte"}</button><button data-fn="ignorar">Ignorar</button></div>
+    </div>`).join("")}</div>`;
+}
+function htmlRadar(d){
+  const st = d.status || {}, itens = d.itens || [];
+  const canaisR = [...new Set(itens.map(i=>i.canal))];
+  const vis = itens.filter(i => (radarCanal==="todos" || i.canal===radarCanal) && (radarOcultos || (!i.bloqueado && i.decisao!=="ignorar")));
+  const porCanal = {}; vis.forEach(i => (porCanal[i.canal] = porCanal[i.canal]||[]).push(i));
+  const fila = (d.fila||[]).filter(x => x.status!=="pronto" || true).slice(-12).reverse();
+  return `
+    <div class="cab-ep"><div><h1>Novos episódios</h1>
+      <p class="sub">${d.gerado_em?`Busca de ${esc(d.gerado_em)}`:"Nenhuma busca ainda"} · ${itens.length} episódios avaliados · ${itens.filter(i=>i.bloqueado).length} bloqueados pelos filtros</p></div>
+      <div class="bts"><button class="prim" id="rodarRadar" ${st.rodando?"disabled":""}>${st.rodando?`Procurando… ${esc(st.etapa||"")} ${st.total?`${st.feitos||0}/${st.total}`:""}`:"Procurar agora"}</button></div></div>
+    ${st.erro?`<div class="faixa erro">A última busca falhou: ${esc(st.erro.slice(-200))}</div>`:""}
+    <p class="vazio" style="margin-top:-6px">A nota vai de 0 a 100: metade é o desempenho do episódio contra a média do próprio canal, metade é o alcance (visualizações por dia) no nicho.
+      Imagem parada, episódio fora do português e fonte marcada como “não usar” já ficam de fora. “Quero esse” manda baixar e transcrever; depois peça a curadoria ao Claude.</p>
+    ${htmlFontesNovas()}
+    ${fila.length?`<h2>Fila de download e transcrição</h2><div class="cartao fila-preparo">${fila.map(x=>`<div class="item"><span>${esc(x.titulo)}<br><small style="color:var(--suave)">${esc(d.nomes[x.canal]||x.canal)}${x.erro?" · "+esc(x.erro):""}</small></span>
+      <span>${PREP[x.status]?`<span class="etq ${PREP[x.status][0]}">${PREP[x.status][1]}</span>`:esc(x.status)}</span></div>`).join("")}</div>`:""}
+    <div class="barra-filtros"><div class="filtros">
+      <button data-rcanal="todos" class="${radarCanal==="todos"?"sel":""}">Todos</button>
+      ${canaisR.map(c=>`<button data-rcanal="${c}" class="${radarCanal===c?"sel":""}">${esc(c.replace(/^canal-tema\d+-/,""))}</button>`).join("")}</div>
+      <label class="atalhos" style="display:flex;gap:6px;align-items:center"><input type="checkbox" id="ocultos" ${radarOcultos?"checked":""}> mostrar bloqueados e ignorados</label></div>
+    ${Object.keys(porCanal).length ? Object.entries(porCanal).map(([c, l]) => `<h2>${esc(d.nomes[c]||c)} <span style="color:var(--fraco);font-weight:400">${l.length}</span></h2>
+      <div class="radar-cards">${l.sort((a,b)=>b.nota-a.nota).map(htmlRadarCard).join("")}</div>`).join("") : `<div class="vazio">Nada para mostrar neste filtro.</div>`}`;
+}
+const telaRadar = {
+  url: () => "/api/radar",
+  desenhar(d){
+    const geral = CACHE.get("/api/geral"); if(geral) menu(geral.dados.canais, "radar");
+    const y = scrollY; app.innerHTML = htmlRadar(d); if(tela && tela.v) scrollTo(0, y);
+    if(FONTES_NOVAS === null) carregar("/api/fontes_novas").then(r => { FONTES_NOVAS = r.dados; telaRadar.desenhar(d); }).catch(()=>{});
+    $$("[data-fn]").forEach(b => b.onclick = async () => {
+      const card = b.closest("[data-fonte-url]"), url = card.dataset.fonteUrl, it = FONTES_NOVAS.itens.find(x=>x.url===url);
+      try{ await enviar("/api/fontes_novas/decidir", {url, decisao:b.dataset.fn, usar_principal: !!(it && it.principal)});
+           toast(b.dataset.fn==="adicionar" ? "Fonte adicionada como LIBERADA no canal" : "Ignorada");
+           FONTES_NOVAS.itens = FONTES_NOVAS.itens.filter(x=>x.url!==url); telaRadar.desenhar(d); }
+      catch(x){ toast(x.message); }
+    });
+    $("#rodarRadar").onclick = async () => { try{ await enviar("/api/radar/rodar", {}); toast("Busca iniciada: leva uns 5 minutos"); atualizar(true); }catch(x){ toast(x.message); } };
+    $("#ocultos").onchange = ev => { radarOcultos = ev.target.checked; telaRadar.desenhar(d); };
+    $$("[data-rcanal]").forEach(b => b.onclick = () => { radarCanal = b.dataset.rcanal; telaRadar.desenhar(d); });
+    $$(".rc [data-decisao]").forEach(b => b.onclick = async () => {
+      const card = b.closest(".rc"), i = d.itens.find(x => x.id === card.dataset.id);
+      const nova = i.decisao === b.dataset.decisao ? null : b.dataset.decisao;
+      const antes = i.decisao; i.decisao = nova; card.outerHTML = htmlRadarCard(i); telaRadar.desenhar(d);
+      try{ await enviar("/api/radar/decidir", {id:i.id, decisao:nova}); if(nova==="quero") toast("Entrou na fila: baixar e transcrever"); atualizar(true); }
+      catch(x){ i.decisao = antes; telaRadar.desenhar(d); toast(x.message); }
+    });
+  }
+};
+
+// ---------- publicação (Shorts aprovados e envio pro YouTube) ----------
+const SIT = {"agendado":"ok","publicado":"ok","na fila de envio":"info","erro":"erro","fora do padrão":"erro",
+             "aguardando a fonte liberar":"aviso","canal não conectado ao YouTube":"aviso","envio automático desligado":"aviso"};
+function htmlCalendario(d){
+  const dias = [...Array(7)].map((_,k)=>{ const x = new Date(); x.setHours(0,0,0,0); x.setDate(x.getDate()+k); return x; });
+  const ag = d.canais.flatMap(c=>c.itens.filter(i=>i.agendado).map(i=>({...i, cor:c.cor, canal_nome:c.nome})));
+  const mesmoDia = (a,b) => a.getFullYear()===b.getFullYear() && a.getMonth()===b.getMonth() && a.getDate()===b.getDate();
+  return `<h2>Próximos 7 dias</h2><div class="cartao" style="display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:8px;overflow-x:auto">
+    ${dias.map(dia=>{ const deste = ag.filter(i=>mesmoDia(new Date(i.agendado), dia)).sort((a,b)=>a.agendado.localeCompare(b.agendado));
+      return `<div style="min-width:120px"><div style="font-weight:700;font-size:13px;margin-bottom:6px">${dia.toLocaleDateString("pt-BR",{weekday:"short",day:"2-digit",month:"2-digit"})}</div>
+        ${deste.length ? deste.map(i=>`<a href="#/e/${i.canal}/${i.id}" style="display:block;text-decoration:none;border-left:3px solid ${esc(i.cor)};padding:3px 6px;margin-bottom:5px;font-size:12px;background:var(--bg);border-radius:4px">
+          <b>${new Date(i.agendado).toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit"})}</b> ${esc(i.titulo).slice(0,46)}</a>`).join("") : `<div class="vazio" style="font-size:12px">livre</div>`}</div>`; }).join("")}</div>`;
+}
+function htmlDesempenho(d){
+  const pub = d.canais.flatMap(c=>c.itens.filter(i=>i.desempenho).map(i=>({...i, canal_nome:c.nome})));
+  if(!pub.length) return "";
+  const top = pub.slice().sort((a,b)=>b.desempenho.views-a.desempenho.views).slice(0,8);
+  const porPod = {}; pub.forEach(i=>{ const p = porPod[i.podcast] = porPod[i.podcast] || {n:0, v:0}; p.n++; p.v += i.desempenho.views; });
+  return `<h2>Desempenho</h2><div class="grade" style="grid-template-columns:2fr 1fr">
+    <div class="cartao tabela"><table><tr><th>Short</th><th>Views</th><th>Curtidas</th><th>Coment.</th></tr>
+      ${top.map(i=>`<tr><td><a href="${esc(i.link)}" target="_blank" rel="noopener">${esc(i.titulo)}</a><br><small style="color:var(--suave)">${esc(i.canal_nome)}</small></td>
+        <td><b>${fmtNum(i.desempenho.views)}</b></td><td>${fmtNum(i.desempenho.likes)}</td><td>${fmtNum(i.desempenho.comentarios)}</td></tr>`).join("")}</table></div>
+    <div class="cartao tabela"><table><tr><th>Podcast</th><th>Média de views</th></tr>
+      ${Object.entries(porPod).sort((a,b)=>b[1].v/b[1].n-a[1].v/a[1].n).map(([p,x])=>`<tr><td>${esc(p)} <small>(${x.n})</small></td><td><b>${fmtNum(Math.round(x.v/x.n))}</b></td></tr>`).join("")}</table></div></div>`;
+}
+function htmlPublicacao(d){
+  const tot = d.canais.reduce((s,c)=>s+c.itens.length,0);
+  const ag = d.canais.reduce((s,c)=>s+c.itens.filter(i=>i.situacao==="agendado").length,0);
+  return `<h1>Publicação</h1>
+    <p class="sub">${tot} Shorts aprovados · ${ag} agendados no YouTube · envios hoje: ${d.cota.usados_hoje} de ${d.cota.limite} (cota grátis da API)</p>
+    ${htmlCalendario(d)}
+    ${htmlDesempenho(d)}
+    ${d.canais.filter(c=>c.itens.length || c.conectado).map(c=>`
+      <h2><span style="display:inline-block;width:11px;height:11px;border-radius:50%;background:${esc(c.cor)};margin-right:8px"></span>${esc(c.nome)}
+        <span style="color:var(--fraco);font-weight:400;font-size:13px">· ${c.conectado?"YouTube conectado":"YouTube não conectado"} · envio automático ${c.auto?"ligado":"desligado"} · horários ${esc((c.horarios||[]).join(" e "))}</span></h2>
+      <div class="cartao tabela">${c.itens.length?`<table>
+        <tr><th></th><th>Short</th><th>Podcast</th><th>Situação</th><th>Quando</th></tr>
+        ${c.itens.map(i=>`<tr>
+          <td style="width:54px">${i.poster?`<img src="${esc(i.poster)}" loading="lazy" style="width:44px;aspect-ratio:9/16;object-fit:cover;border-radius:4px">`:""}</td>
+          <td><a href="#/e/${i.canal}/${i.id}">#${esc(i.corte)} · ${esc(i.titulo)}</a></td>
+          <td>${esc(i.podcast||"")}<br>${etqFonte(i.fonte_status)}</td>
+          <td><span class="etq ${SIT[i.situacao]||"neutro"}" ${i.erro?`title="${esc(i.erro)}"`:""}>${esc(i.situacao)}</span></td>
+          <td>${i.agendado?esc(new Date(i.agendado).toLocaleString("pt-BR",{weekday:"short",day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit"})):""}${i.link?`<br><a href="${esc(i.link)}" target="_blank" rel="noopener">abrir</a>`:""}${i.desempenho?`<br><small>${fmtNum(i.desempenho.views)} views · ${esc(i.desempenho.privacidade||"")}</small>`:""}</td>
+        </tr>`).join("")}</table>`:`<div class="vazio">Nenhum Short aprovado neste canal ainda.</div>`}</div>`).join("") || `<div class="vazio">Nenhum Short aprovado ainda. Aprove na página de cada episódio.</div>`}`;
+}
+const telaPublicacao = {
+  url: () => "/api/publicacao",
+  desenhar(d){ const geral = CACHE.get("/api/geral"); if(geral) menu(geral.dados.canais, "publicacao"); app.innerHTML = htmlPublicacao(d); }
+};
+
+// ---------- modo revisão: um Short por vez, A aprova, R reprova, F fora do padrão ----------
+function telaRevisar(canal, ep){
+  const url = "/api/revisar" + (canal ? "/" + encodeURIComponent(canal) + (ep ? "/" + encodeURIComponent(ep) : "") : "");
+  let fila = [], i = 0, modo = null, tocou = false;
+  const it = () => fila[i];
+  function desenhar(){
+    const geral = CACHE.get("/api/geral"); if(geral) menu(geral.dados.canais, "revisar");
+    if(!fila.length){ app.innerHTML = `<h1>Revisar</h1><div class="faixa ok">Nada para revisar aqui. Tudo decidido!</div><p><a href="#/publicacao">Ver a Publicação</a></p>`; return; }
+    i = Math.min(i, fila.length - 1);
+    const s = it();
+    const avisos = (s.avisos||[]).map(a=>`<div class="aviso-txt ${a.nivel==="grave"?"grave":"atencao"}">${esc(a.texto)}</div>`).join("");
+    app.innerHTML = `<div class="migalhas"><a href="#/">Visão geral</a> › Revisar${canal?" · "+esc(canal):""}${ep?" · "+esc(ep):""}</div>
+      <div class="rev">
+        <video id="rv" src="${furl(s.mp4)}" controls playsinline preload="metadata" ${tocou?"autoplay":""}></video>
+        <div class="lado">
+          <div class="linha" style="margin:0"><span>${i+1} de ${fila.length}</span><span><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:${esc(s.cor)}"></span> ${esc(s.canal_nome)}</span></div>
+          <div class="cartao" style="padding:12px">
+            <div class="n" style="color:var(--fraco);font-size:12px">${esc(s.podcast)} · #${esc(s.corte)} · ${esc(s.duracao||"")}</div>
+            ${s.gancho?`<div class="gancho" style="font-size:12px;font-weight:800;background:var(--acento);color:var(--acento-txt);padding:2px 6px;border-radius:3px;display:inline-block;margin:6px 0">${esc(s.gancho)}</div>`:""}
+            <div style="font-weight:700;font-size:16px">${esc(s.titulo_short)}</div>
+            <div style="margin-top:6px">${etqFonte(s.fonte_status)} ${s.palavroes&&s.palavroes.length?`<span class="etq aviso">palavrão: ${esc(s.palavroes.join(", "))}</span>`:""}</div>
+          </div>
+          ${avisos}
+          <div class="bts">
+            <button class="ok" data-r="aprovar">✓ Aprovar <small>(A)</small></button>
+            <button class="erro" data-r="reprovar">✕ Reprovar <small>(R)</small></button>
+            <button data-r="fora">⚑ Fora do padrão <small>(F)</small></button>
+            <button data-r="pular">Pular <small>(→)</small></button>
+          </div>
+          ${modo==="reprovar"?`<div class="cartao" style="padding:10px"><b>Por que reprovar?</b> <small style="color:var(--suave)">(o Claude refaz ou troca o trecho)</small>
+            <input type="text" id="rmot" placeholder="motivo e Enter" style="width:100%;margin-top:6px"></div>`:""}
+          ${modo==="fora"?`<div class="cartao fora marcado" style="padding:10px"><b>O que está fora do padrão?</b>
+            <div class="motivos">${MOTIVOS.map(m=>`<button data-m="${esc(m)}">${esc(m)}</button>`).join("")}</div>
+            <input type="text" id="fobs" placeholder="observação (opcional) e Enter" style="width:100%;margin-top:6px"></div>`:""}
+          <div class="leg"><b>Legenda:</b> ${esc(s.legenda||"")}</div>
+          <div class="atalhos"><kbd>Espaço</kbd> tocar · <kbd>←</kbd> anterior · <kbd>→</kbd> pular · <a href="#/e/${s.canal}/${s.id}">abrir o episódio</a></div>
+        </div></div>`;
+    const v = $("#rv"); if(v && tocou) v.play().catch(()=>{});
+    if(modo==="reprovar") $("#rmot").focus();
+    if(modo==="fora") $("#fobs").focus();
+  }
+  function decidir(corpo, rotulo){
+    const s = it(), pos = i;
+    fila.splice(i, 1); modo = null; tocou = true; desenhar();     // mostra e toca o próximo já (no mesmo toque)
+    enviar("/api/short", {canal:s.canal, id:s.id, corte:s.corte, ...corpo}).then(() => toast(rotulo))
+      .catch(x => { fila.splice(pos, 0, s); i = pos; desenhar(); toast("Não salvou: " + x.message); });
+  }
+  let motivosSel = [];
+  function acao(a){
+    if(!it()) return;
+    if(a==="aprovar") return decidir({aprovacao:"aprovado"}, "Aprovado → Publicação");
+    if(a==="reprovar"){ modo = modo==="reprovar" ? null : "reprovar"; return desenhar(); }
+    if(a==="fora"){ modo = modo==="fora" ? null : "fora"; motivosSel = []; return desenhar(); }
+    if(a==="pular"){ i = (i + 1) % fila.length; modo = null; tocou = true; return desenhar(); }
+    if(a==="voltar"){ i = (i - 1 + fila.length) % fila.length; modo = null; tocou = true; return desenhar(); }
+  }
+  return {
+    url: () => url,
+    desenhar(d, primeira){
+      if(primeira || !fila.length){ fila = d.itens.slice(); i = 0; desenhar(); }
+      app.onclick = ev => {
+        const b = ev.target.closest("button"); if(!b) return;
+        if(b.dataset.r){ tocou = true; return acao(b.dataset.r); }
+        if(b.dataset.m){ const m = b.dataset.m; motivosSel = motivosSel.includes(m) ? motivosSel.filter(x=>x!==m) : [...motivosSel, m]; b.classList.toggle("sel"); }
+      };
+      // celular: deslizar pra esquerda = pular, pra direita = voltar
+      let x0 = null, y0 = null;
+      app.ontouchstart = ev => { if(ev.target.closest("video, .lado")){ x0 = ev.touches[0].clientX; y0 = ev.touches[0].clientY; } };
+      app.ontouchend = ev => {
+        if(x0 === null) return;
+        const dx = ev.changedTouches[0].clientX - x0, dy = ev.changedTouches[0].clientY - y0; x0 = null;
+        if(Math.abs(dx) > 70 && Math.abs(dx) > 1.5 * Math.abs(dy)){ tocou = true; acao(dx < 0 ? "pular" : "voltar"); }
+      };
+      app.onkeydown = ev => {
+        if(ev.key!=="Enter") return;
+        if(ev.target.id==="rmot") decidir({aprovacao:"reprovado", motivo:ev.target.value.trim()}, "Reprovado → volta pra conferência");
+        if(ev.target.id==="fobs") decidir({fora_padrao:{motivos:motivosSel, obs:ev.target.value.trim()}}, "Fora do padrão → volta pra produção");
+      };
+      teclado = ev => {
+        if(ev.target.closest("input, textarea, select") || ev.ctrlKey || ev.metaKey || ev.altKey) return;
+        const k = ev.key.toLowerCase(), v = $("#rv");
+        if(k==="a"){ ev.preventDefault(); tocou = true; acao("aprovar"); }
+        else if(k==="r"){ ev.preventDefault(); acao("reprovar"); }
+        else if(k==="f"){ ev.preventDefault(); acao("fora"); }
+        else if(k==="arrowright"){ ev.preventDefault(); acao("pular"); }
+        else if(k==="arrowleft"){ ev.preventDefault(); acao("voltar"); }
+        else if(k===" " && v){ ev.preventDefault(); tocou = true; v.paused ? v.play() : v.pause(); }
+      };
+    }
+  };
+}
+
+// ---------- rotas, atualização automática e pré-carregamento ----------
+let tela = null, timer = null, teclado = null, geracao = 0;
+async function atualizar(forcar){
+  if(!tela) return;
+  const g = geracao, url = tela.url();
+  try{
+    const r = await carregar(url);
+    if(g !== geracao) return;          // trocou de tela no meio
+    marcarHora();
+    if(r.v !== tela.v || forcar){ tela.v = r.v; tela.desenhar(r.dados, false); }
+  }catch(x){ if(x instanceof TypeError) setOnline(false); else toast(x.message); }
+}
+async function rota(){
+  geracao++; clearInterval(timer); teclado = null; app.onclick = null; app.onkeydown = null; app.ontouchstart = null; app.ontouchend = null;
+  const p = location.hash.replace(/^#\/?/,"").split("/").map(decodeURIComponent);
+  tela = p[0]==="revisar" ? telaRevisar(p[1], p[2]) : p[0]==="publicacao" ? telaPublicacao : p[0]==="radar" ? telaRadar : p[0]==="c" && p[1] ? telaCanal(p[1]) : p[0]==="e" && p[2] ? telaEp(p[1], p[2]) : telaGeral;
+  const g = geracao, url = tela.url(), c = CACHE.get(url);
+  tela.v = null;
+  if(c){ tela.v = c.v; tela.desenhar(c.dados, true); scrollTo(0,0); }        // abre na hora com o que já tem
+  else { app.classList.add("carregando"); }
+  try{
+    const r = await carregar(url);
+    if(g !== geracao) return;
+    marcarHora();
+    if(r.v !== tela.v){ const primeira = tela.v === null; tela.v = r.v; tela.desenhar(r.dados, primeira); if(primeira) scrollTo(0,0); }
+  }catch(x){ if(g===geracao) app.innerHTML = `<div class="faixa erro">${esc(x instanceof TypeError ? "Sem conexão com o painel." : x.message)}</div>`; if(x instanceof TypeError) setOnline(false); }
+  app.classList.remove("carregando");
+  timer = setInterval(() => { if(!document.hidden) atualizar(); }, 4000);
+}
+let passosNav = 0;
+function pai(){ const p = location.hash.replace(/^#\/?/,"").split("/"); return p[0]==="e" ? "#/c/"+p[1] : "#/"; }
+function voltar(){ if(passosNav > 0){ passosNav -= 2; history.back(); } else location.hash = pai(); }
+$("#voltar").onclick = voltar;
+window.addEventListener("hashchange", () => { passosNav++; $("#voltar").hidden = !location.hash || location.hash === "#/"; });
+document.addEventListener("keydown", ev => { if(ev.key==="Backspace" && !ev.target.closest("input, textarea, select")){ ev.preventDefault(); if(location.hash && location.hash!=="#/") voltar(); } });
+window.addEventListener("hashchange", rota);
+// só um vídeo tocando por vez
+app.addEventListener("play", ev => $$("video", app).forEach(v => { if(v!==ev.target) v.pause(); }), true);
+document.addEventListener("keydown", ev => teclado && teclado(ev));
+document.addEventListener("visibilitychange", () => { if(!document.hidden) atualizar(); });
+// mantém o painel ligado mesmo minimizado (ele desliga sozinho 5 min depois de fechado)
+setInterval(() => fetch("/api/ping", {cache:"no-store"}).then(()=>setOnline(true)).catch(()=>setOnline(false)), 60000);
+// passou o mouse num link → já busca os dados, o clique abre na hora
+let preTempo = {};
+document.addEventListener("mouseover", ev => {
+  const a = ev.target.closest('a[href^="#/"]'); if(!a) return;
+  const p = a.getAttribute("href").replace(/^#\/?/,"").split("/");
+  const url = p[0]==="revisar" ? "/api/revisar" : p[0]==="publicacao" ? "/api/publicacao" : p[0]==="radar" ? "/api/radar" : p[0]==="c" ? "/api/canal/"+encodeURIComponent(p[1]) : p[0]==="e" ? `/api/episodio/${encodeURIComponent(p[1])}/${encodeURIComponent(p[2])}` : "/api/geral";
+  if(Date.now() - (preTempo[url]||0) < 8000) return; preTempo[url] = Date.now();
+  carregar(url).catch(()=>{});
+});
+$("#tema").onclick = () => {
+  const r = document.documentElement, escuro = r.dataset.theme ? r.dataset.theme==="dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+  r.dataset.theme = escuro ? "light" : "dark"; try{ localStorage.setItem("tema", r.dataset.theme); }catch(e){}
+};
+try{ const t = localStorage.getItem("tema"); if(t) document.documentElement.dataset.theme = t; }catch(e){}
+carregar("/api/geral").then(r => { if(!(tela===telaGeral)) menu(r.dados.canais); }).catch(()=>{});
+$("#voltar").hidden = !location.hash || location.hash === "#/";
+rota();
+</script>
+</body>
+</html>

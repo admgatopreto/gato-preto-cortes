@@ -1,0 +1,348 @@
+{
+  "correcoes": {
+    "Biroco Negro": "buraco negro",
+    "braquinho": "buraquinho",
+    "Bróquio Negos": "buracos negros",
+    "Sagitário Zé Estrela": "Sagitário A*",
+    "Sagitário da Estrela": "Sagitário A*",
+    "IHT": "EHT",
+    "Lygo": "LIGO",
+    "Liza": "LISA",
+    "Lyza": "LISA",
+    "Capitone": "Kip Thorne",
+    "Navira Stokes": "Navier-Stokes",
+    "Naveira Stokes": "Navier-Stokes",
+    "Navier Stokes": "Navier-Stokes",
+    "Vera Stokes": "Navier-Stokes",
+    "Cláudio": "Claude",
+    "Clode": "Claude",
+    "Chate-EPT": "ChatGPT",
+    "chat de PT": "ChatGPT",
+    "CHPT": "ChatGPT",
+    "Chet EPT": "ChatGPT",
+    "chat EPT": "ChatGPT",
+    "Archive": "arXiv",
+    "DESE": "DESI",
+    "Headshift": "redshift",
+    "Miley Scramner": "Miles Cranmer",
+    "Hug Face": "Hugging Face",
+    "Hanging Face": "Hugging Face",
+    "ranking face": "Hugging Face"
+  },
+  "cortes": [
+    {
+      "id": "01",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:04:50",
+      "fim": "00:05:45",
+      "de": "Tem gente, pessoal, que é especializada em congresso e roubar ideia",
+      "ate": "antes do que a pessoa do pôster, entendeu",
+      "gancho": "ROUBAM SUA IDEIA NO CONGRESSO",
+      "titulo": "Tem gente que vai a congresso científico só pra roubar ideia",
+      "titulo_short": "ROUBAM sua ideia no congresso",
+      "descricao": "Sérgio Sacani conta como pesquisadores fotografam pôsteres em congressos e publicam antes do autor original.",
+      "convidado": "Roberta",
+      "podcast": "Além da Ciência",
+      "tags": [
+        "vida acadêmica",
+        "ciência",
+        "doutorado",
+        "Sérgio Sacani",
+        "Além da Ciência"
+      ],
+      "esconder": [
+        [
+          0.6,
+          0.71,
+          0.96,
+          0.98
+        ]
+      ]
+    },
+    {
+      "id": "02",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:13:55",
+      "fim": "00:15:10",
+      "de": "E até para o pessoal entender, né, por que você simula",
+      "ate": "por causa do que o Event Horizon Telescope fez",
+      "gancho": "POR QUE SIMULAR UM BURACO NEGRO?",
+      "titulo": "Se já existe foto do buraco negro, por que os cientistas ainda simulam?",
+      "titulo_short": "Por que SIMULAR um buraco negro?",
+      "descricao": "A foto mostra um instante; a física só aparece comparando a imagem com simulações.",
+      "convidado": "Roberta",
+      "podcast": "Além da Ciência",
+      "tags": [
+        "buraco negro",
+        "Event Horizon Telescope",
+        "simulação",
+        "astronomia",
+        "Além da Ciência"
+      ],
+      "esconder": [
+        [
+          0.6,
+          0.71,
+          0.96,
+          0.98
+        ]
+      ]
+    },
+    {
+      "id": "03",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:17:31",
+      "fim": "00:18:17",
+      "de": "É, porque é como se estivesse se mexendo e tentando tirar uma foto",
+      "ate": "Então aí dá tempo da simulação rodar e bater",
+      "gancho": "POR QUE O BURACO NEGRO SAI BORRADO",
+      "titulo": "O carrossel e a criança girando: por que a foto do buraco negro da Via Láctea foi tão difícil",
+      "titulo_short": "Por que o buraco negro sai BORRADO",
+      "descricao": "A analogia do parque de diversões pra explicar a diferença entre fotografar M87* e Sagitário A*.",
+      "convidado": "Roberta",
+      "podcast": "Além da Ciência",
+      "tags": [
+        "Sagitário A*",
+        "M87",
+        "buraco negro",
+        "astronomia",
+        "Além da Ciência"
+      ],
+      "esconder": [
+        [
+          0.6,
+          0.71,
+          0.96,
+          0.98
+        ]
+      ]
+    },
+    {
+      "id": "04",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:20:40",
+      "fim": "00:21:25",
+      "de": "Tem que tomar muito cuidado aqui pelo seguinte, pessoal",
+      "ate": "Eu falei, eu não falei nada não, gente",
+      "gancho": "ARTIGO NÃO QUER DIZER QUE É VERDADE",
+      "titulo": "Saiu um artigo científico — isso não quer dizer que é verdade",
+      "titulo_short": "Artigo NÃO quer dizer que é verdade",
+      "descricao": "Sérgio Sacani explica a diferença entre hipótese, artigo e algo confirmado por observação.",
+      "convidado": "Roberta",
+      "podcast": "Além da Ciência",
+      "tags": [
+        "método científico",
+        "divulgação científica",
+        "Sérgio Sacani",
+        "Além da Ciência"
+      ],
+      "esconder": [
+        [
+          0.6,
+          0.71,
+          0.96,
+          0.98
+        ]
+      ]
+    },
+    {
+      "id": "05",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:21:30",
+      "fim": "00:22:30",
+      "de": "E tem essa ideia, né? Do universo estar dentro do buraco negro",
+      "ate": "Se fosse verdade, eu ia adorar, ia achar incrível",
+      "gancho": "E SE CADA BURACO NEGRO FOR UM UNIVERSO?",
+      "titulo": "A hipótese de que o universo está dentro de um buraco negro",
+      "titulo_short": "E se cada buraco negro for um UNIVERSO?",
+      "descricao": "Duas singularidades e bordas inalcançáveis: a ideia (ainda só hipótese) do universo dentro de um buraco negro.",
+      "convidado": "Roberta",
+      "podcast": "Além da Ciência",
+      "tags": [
+        "buraco negro",
+        "universo",
+        "cosmologia",
+        "Além da Ciência"
+      ],
+      "esconder": [
+        [
+          0.6,
+          0.71,
+          0.96,
+          0.98
+        ]
+      ]
+    },
+    {
+      "id": "06",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:27:05",
+      "fim": "00:29:10",
+      "de": "Bom, a estrela de buraco negro",
+      "ate": "essa é uma forma da gente saber se tem um buraquinho",
+      "gancho": "A ESTRELA COM UM BURACO NEGRO DENTRO",
+      "titulo": "Black hole star: a estrela que pode ter um buraco negro escondido no centro",
+      "titulo_short": "A estrela com um BURACO NEGRO dentro",
+      "descricao": "Como um buraco negro primordial poderia viver no centro de uma estrela comum, e como a sismologia estelar poderia revelar isso.",
+      "convidado": "Roberta",
+      "podcast": "Além da Ciência",
+      "tags": [
+        "black hole star",
+        "buraco negro primordial",
+        "estrelas",
+        "astronomia",
+        "Além da Ciência"
+      ],
+      "esconder": [
+        [
+          0.6,
+          0.71,
+          0.96,
+          0.98
+        ]
+      ]
+    },
+    {
+      "id": "07",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:34:00",
+      "fim": "00:35:22",
+      "de": "ele nem foi feito para mexer com a cosmologia",
+      "ate": "Então, continue sendo Big Bangista, que não tem problema",
+      "gancho": "O JAMES WEBB NÃO DESTRUIU O BIG BANG",
+      "titulo": "O James Webb não destruiu o Big Bang — ele nem foi feito pra isso",
+      "titulo_short": "O James Webb NÃO destruiu o Big Bang",
+      "descricao": "Cosmologia x astrofísica extragaláctica, e por que o Planck continua sendo a referência sobre o Big Bang.",
+      "convidado": "Roberta",
+      "podcast": "Além da Ciência",
+      "tags": [
+        "James Webb",
+        "Big Bang",
+        "cosmologia",
+        "Planck",
+        "Além da Ciência"
+      ],
+      "esconder": [
+        [
+          0.6,
+          0.71,
+          0.96,
+          0.98
+        ]
+      ]
+    },
+    {
+      "id": "08",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:36:03",
+      "fim": "00:37:05",
+      "de": "Ele vai esfriando até chegar um ponto que a entropia atinge o máximo",
+      "ate": "Quase instantâneo, assim, chegando em Plutão Já era",
+      "gancho": "O UNIVERSO PODE SE RASGAR",
+      "titulo": "Big Freeze ou Big Rip: no rasgo do universo, de Plutão à Terra em milésimos de segundo",
+      "titulo_short": "O universo pode se RASGAR",
+      "descricao": "Os cenários de fim do universo e a velocidade do Big Rip.",
+      "convidado": "Roberta",
+      "podcast": "Além da Ciência",
+      "tags": [
+        "fim do universo",
+        "Big Rip",
+        "Big Freeze",
+        "energia escura",
+        "Além da Ciência"
+      ],
+      "esconder": [
+        [
+          0.6,
+          0.71,
+          0.96,
+          0.98
+        ]
+      ]
+    },
+    {
+      "id": "09",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:52:58",
+      "fim": "00:55:10",
+      "de": "possíveis respostas para o paradoxo de Fermi",
+      "ate": "Porque tudo na física vai pro mínimo de energia possível",
+      "gancho": "POR QUE AINDA NÃO ACHAMOS ALIENS?",
+      "titulo": "Paradoxo de Fermi: e se os aliens já mandaram grãos com IA pela galáxia?",
+      "titulo_short": "Por que ainda NÃO achamos aliens?",
+      "descricao": "A hipótese de um artigo recente: uma civilização com IA avançada exploraria a galáxia gastando o mínimo de energia possível.",
+      "convidado": "Roberta",
+      "podcast": "Além da Ciência",
+      "tags": [
+        "paradoxo de Fermi",
+        "vida extraterrestre",
+        "inteligência artificial",
+        "Além da Ciência"
+      ]
+    },
+    {
+      "id": "10",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:11:35",
+      "fim": "01:12:55",
+      "de": "Só que aí você pega esse problema, quem que foi a pessoa",
+      "ate": "São pessoas que estudavam o problema a fundo e sabiam exatamente",
+      "gancho": "A IA RESOLVEU? NÃO FOI QUALQUER UM",
+      "titulo": "Quando a IA ajuda a resolver um problema aberto, quem está guiando faz toda a diferença",
+      "titulo_short": "A IA resolveu? Não foi QUALQUER UM",
+      "descricao": "Roberta explica por que os casos de IA ajudando em conjecturas envolveram especialistas que estudavam o problema há anos.",
+      "convidado": "Roberta",
+      "podcast": "Além da Ciência",
+      "tags": [
+        "inteligência artificial",
+        "matemática",
+        "física",
+        "ciência",
+        "Além da Ciência"
+      ]
+    },
+    {
+      "id": "11",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:37:17",
+      "fim": "01:39:12",
+      "de": "porque os caras, sabe o que eles querem falar",
+      "ate": "Numa noite que o ChatGPT resolve tudo, né",
+      "gancho": "RESOLVEU A FÍSICA COM O CHATGPT?",
+      "titulo": "Einstein passou 30 anos tentando — e tem gente que acha que resolveu numa noite com o ChatGPT",
+      "titulo_short": "Resolveu a física com o CHATGPT?",
+      "descricao": "Sérgio Sacani e Roberta sobre as 'teorias de tudo' que recebem por e-mail.",
+      "convidado": "Roberta",
+      "podcast": "Além da Ciência",
+      "tags": [
+        "física",
+        "Einstein",
+        "ChatGPT",
+        "Sérgio Sacani",
+        "Além da Ciência"
+      ]
+    }
+  ]
+}

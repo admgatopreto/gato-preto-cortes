@@ -1,0 +1,215 @@
+{
+  "correcoes": {
+    "Cerrado": "Serrado",
+    "Serradu": "Serrado",
+    "Cro": "Crô",
+    "Crow": "Crô",
+    "Cru": "Crô",
+    "Daisy Washington": "Denzel Washington",
+    "Smith": "Will Smith"
+  },
+  "cortes": [
+    {
+      "id": "01",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:09:11",
+      "fim": "00:10:45",
+      "de": "Bom, depois de duas horas em pânico",
+      "ate": "você é um ótimo ator Você devia trabalhar com isso",
+      "gancho": "PÂNICO NO AVIÃO E O HOMEM DE BRANCO",
+      "titulo": "Marcelo Serrado em pânico num voo: o homem de branco que o distraiu por horas",
+      "titulo_short": "Pânico no avião e o HOMEM DE BRANCO",
+      "descricao": "Marcelo Serrado conta como sobreviveu a horas de crise de pânico num voo conversando com um desconhecido.",
+      "convidado": "Marcelo Serrado",
+      "podcast": "Paranormal Experience",
+      "tags": [
+        "Marcelo Serrado",
+        "crise de pânico",
+        "saúde mental",
+        "Paranormal Experience"
+      ]
+    },
+    {
+      "id": "02",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:07:29",
+      "fim": "00:08:16",
+      "de": "a minha mãe era tão figura",
+      "ate": "ela chegava ao extremo",
+      "gancho": "ELA FEZ 4 SENHORAS DESCEREM DO AVIÃO",
+      "titulo": "A mãe de Marcelo Serrado entrava na cabine e dava ordens ao piloto",
+      "titulo_short": "Ela fez 4 senhoras DESCEREM do avião",
+      "descricao": "A história do medo de avião da mãe do ator.",
+      "convidado": "Marcelo Serrado",
+      "podcast": "Paranormal Experience",
+      "tags": [
+        "Marcelo Serrado",
+        "medo de avião",
+        "história engraçada",
+        "Paranormal Experience"
+      ]
+    },
+    {
+      "id": "03",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:15:40",
+      "fim": "00:17:17",
+      "de": "Teve um outro episódio, posso contar rapidamente, que eu tava na Dutra",
+      "ate": "Interviu por você na hora",
+      "gancho": "NÃO FOI MINHA MÃO QUE VIROU O VOLANTE",
+      "titulo": "'Não foi minha mão': Marcelo Serrado e o quase acidente na Dutra",
+      "titulo_short": "Não foi MINHA MÃO que virou o volante",
+      "descricao": "O ator descreve a sensação de que alguém virou o volante por ele segundos antes de uma batida.",
+      "convidado": "Marcelo Serrado",
+      "podcast": "Paranormal Experience",
+      "tags": [
+        "Marcelo Serrado",
+        "experiência inexplicável",
+        "proteção espiritual",
+        "Paranormal Experience"
+      ]
+    },
+    {
+      "id": "04",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:17:17",
+      "fim": "00:17:50",
+      "de": "Tive algumas experiências assim, um pouco, quando minha mãe faleceu",
+      "ate": "tive algumas experiências bem profundas sobre esse campo, assim, sabe",
+      "gancho": "ELE VIU A MÃE DEPOIS DA MORTE",
+      "titulo": "Marcelo Serrado acordou e viu a mãe, que tinha morrido",
+      "titulo_short": "Ele viu a mãe DEPOIS da morte",
+      "descricao": "O relato do ator sobre a noite em que viu e abraçou a mãe já falecida.",
+      "convidado": "Marcelo Serrado",
+      "podcast": "Paranormal Experience",
+      "tags": [
+        "Marcelo Serrado",
+        "experiência paranormal",
+        "luto",
+        "Paranormal Experience"
+      ]
+    },
+    {
+      "id": "05",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:23:35",
+      "fim": "00:25:30",
+      "de": "Tinha uma menina Com 15 anos",
+      "ate": "Olha o que meu irmão fez, fura a olho",
+      "gancho": "O FIM DE SEMANA SEM CONSEGUIR BEIJAR",
+      "titulo": "Marcelo Serrado passou um fim de semana inteiro sem conseguir beijar a garota",
+      "titulo_short": "O fim de semana sem conseguir BEIJAR",
+      "descricao": "A história do adolescente tímido, do Cruzeiro do Sul e do irmão mais velho.",
+      "convidado": "Marcelo Serrado",
+      "podcast": "Paranormal Experience",
+      "tags": [
+        "Marcelo Serrado",
+        "timidez",
+        "adolescência",
+        "história engraçada",
+        "Paranormal Experience"
+      ]
+    },
+    {
+      "id": "06",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:20:26",
+      "fim": "00:21:55",
+      "de": "Aí eu me lembro que a minha mãe botou pra fazer",
+      "ate": "É um milagre eu, um cara tímido, falar pra esse tanto de gente",
+      "gancho": "DE GAGO E TÍMIDO A ATOR",
+      "titulo": "De menino gago e tímido a ator que lota teatro: o dia em que Marcelo Serrado achou sua casa",
+      "titulo_short": "De GAGO e tímido a ator",
+      "descricao": "Como o teatro, que era só pra perder a timidez, virou a carreira de Marcelo Serrado.",
+      "convidado": "Marcelo Serrado",
+      "podcast": "Paranormal Experience",
+      "tags": [
+        "Marcelo Serrado",
+        "gagueira",
+        "timidez",
+        "teatro",
+        "superação",
+        "Paranormal Experience"
+      ]
+    },
+    {
+      "id": "07",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:34:10",
+      "fim": "00:36:12",
+      "de": "eu tô saindo de um estacionamento, passa um cara de moto",
+      "ate": "porque eu quis transformar aquele cara pelo amor",
+      "gancho": "ELE TENTOU ABRAÇAR QUEM O XINGAVA",
+      "titulo": "Marcelo Serrado desceu do carro pra abraçar o motoqueiro que o xingava",
+      "titulo_short": "Ele tentou ABRAÇAR quem o xingava",
+      "descricao": "Uma discussão de trânsito no Rio e a tentativa do ator de responder com amor. Não deu certo.",
+      "convidado": "Marcelo Serrado",
+      "podcast": "Paranormal Experience",
+      "tags": [
+        "Marcelo Serrado",
+        "briga de trânsito",
+        "história real",
+        "Paranormal Experience"
+      ]
+    },
+    {
+      "id": "08",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:48:05",
+      "fim": "00:49:08",
+      "de": "Porém, quando você tem lá em cima, você começa a descobrir",
+      "ate": "Mas a vida é assim. São curvas",
+      "gancho": "O QUE TEM NO TOPO DO SUCESSO",
+      "titulo": "O que Marcelo Serrado descobriu no auge do Crô (e a frase de Jim Carrey)",
+      "titulo_short": "O que tem no TOPO do sucesso",
+      "descricao": "Sucesso, fracasso e a felicidade que não está só na fama.",
+      "convidado": "Marcelo Serrado",
+      "podcast": "Paranormal Experience",
+      "tags": [
+        "Marcelo Serrado",
+        "sucesso",
+        "felicidade",
+        "Jim Carrey",
+        "Paranormal Experience"
+      ]
+    },
+    {
+      "id": "09",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:12:44",
+      "fim": "01:13:39",
+      "de": "A mensagem é você verbalizar isso pros outros",
+      "ate": "isso é tudo aí que você se apega em alguma coisa",
+      "gancho": "NÃO GUARDE ISSO PRA VOCÊ",
+      "titulo": "O recado de Marcelo Serrado pra quem está passando por uma crise",
+      "titulo_short": "NÃO guarde isso pra você",
+      "descricao": "Falar, dividir com alguém próximo e procurar um médico: a mensagem do ator pra quem sofre com ansiedade.",
+      "convidado": "Marcelo Serrado",
+      "podcast": "Paranormal Experience",
+      "tags": [
+        "saúde mental",
+        "crise de pânico",
+        "Marcelo Serrado",
+        "Paranormal Experience"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,293 @@
+{
+  "correcoes": {
+    "André Larrezende": "André Lara Resende",
+    "Pércio Arida": "Persio Arida",
+    "chipófagos": "xifópagos",
+    "Jorge Assis": "Jorge Asís",
+    "Jorge Clemenceau": "Georges Clemenceau",
+    "Agostin Lanucci": "Alejandro Lanusse",
+    "Lanús": "Lanusse",
+    "Agende": "Allende",
+    "emberbes": "imberbes",
+    "Menin": "Menem",
+    "cavalo": "Cavallo",
+    "Martinea": "Machinea",
+    "de la rua": "De la Rúa",
+    "De La Rua": "De la Rúa",
+    "Milley": "Milei",
+    "Millet": "Milei",
+    "MINEI": "Milei",
+    "mileísmo": "mileísmo",
+    "Milena": "Milei",
+    "lealtade": "lealdade",
+    "cangresso": "Congresso"
+  },
+  "cortes": [
+    {
+      "id": "01",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:08:11",
+      "fim": "00:09:06",
+      "de": "O Schumpeter, que é economista conhece",
+      "ate": "do Plano Cruzado",
+      "gancho": "O PLANO REAL É NETO DO CRUZADO",
+      "titulo": "Fabio Giambiagi: não dá pra entender o Plano Real sem o fracasso do Cruzado",
+      "titulo_short": "O Plano Real é NETO do Cruzado",
+      "descricao": "Aprender com os fracassos, de Schumpeter à economia brasileira.",
+      "convidado": "Fabio Giambiagi",
+      "podcast": "Os Economistas Podcast",
+      "tags": [
+        "Plano Real",
+        "Plano Cruzado",
+        "economia brasileira",
+        "Fabio Giambiagi",
+        "Os Economistas"
+      ]
+    },
+    {
+      "id": "02",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:21:33",
+      "fim": "00:22:52",
+      "de": "Estava acabando de atualizar algumas tabelas",
+      "ate": "Depois teve uma modernização nos últimos 20 anos",
+      "gancho": "A ARGENTINA TINHA METRÔ NOS ANOS 20",
+      "titulo": "Buenos Aires tinha metrô nos anos 1920. O do Rio é de 1979",
+      "titulo_short": "A Argentina tinha METRÔ nos anos 20",
+      "descricao": "Um dado que mostra quão rica a Argentina já foi — e que ainda tem renda per capita maior que a do Brasil.",
+      "convidado": "Fabio Giambiagi",
+      "podcast": "Os Economistas Podcast",
+      "tags": [
+        "Argentina",
+        "história econômica",
+        "Fabio Giambiagi",
+        "Os Economistas"
+      ]
+    },
+    {
+      "id": "03",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:22:51",
+      "fim": "00:23:48",
+      "de": "Inclusive há uma frase que",
+      "ate": "para aquele mundo era suficiente",
+      "gancho": "'A ARGENTINA CRESCE DE NOITE'",
+      "titulo": "'A Argentina cresce de noite, enquanto seus governantes dormem'",
+      "titulo_short": "'A Argentina cresce DE NOITE'",
+      "descricao": "Carne, trigo e imigrantes: o que fez a Argentina ser um dos países mais ricos do mundo.",
+      "convidado": "Fabio Giambiagi",
+      "podcast": "Os Economistas Podcast",
+      "tags": [
+        "Argentina",
+        "história econômica",
+        "imigração",
+        "Os Economistas"
+      ]
+    },
+    {
+      "id": "04",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:36:58",
+      "fim": "00:37:52",
+      "de": "E aí, a partir disso, você tem um fenômeno que é o seguinte, o operário",
+      "ate": "dia da lealdade peronista",
+      "gancho": "POR QUE O NETO AINDA É PERONISTA",
+      "titulo": "Por que o neto do operário de 1945 ainda se sente peronista",
+      "titulo_short": "Por que o neto AINDA É PERONISTA",
+      "descricao": "O 17 de outubro e o sentimento de representação que atravessou gerações.",
+      "convidado": "Fabio Giambiagi",
+      "podcast": "Os Economistas Podcast",
+      "tags": [
+        "peronismo",
+        "Argentina",
+        "história política",
+        "Os Economistas"
+      ]
+    },
+    {
+      "id": "05",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:47:45",
+      "fim": "00:48:32",
+      "de": "Meus pais já tinham tido três filhos",
+      "ate": "Arrasados psicologicamente com a situação",
+      "gancho": "QUANDO TODOS COMEMORAM E VOCÊ NÃO",
+      "titulo": "No dia da posse de Perón, a família de Giambiagi fugiu pro interior pra não ver TV",
+      "titulo_short": "Quando TODOS COMEMORAM e você não",
+      "descricao": "Uma lembrança pessoal de 1973.",
+      "convidado": "Fabio Giambiagi",
+      "podcast": "Os Economistas Podcast",
+      "tags": [
+        "Perón",
+        "Argentina",
+        "história",
+        "Os Economistas"
+      ]
+    },
+    {
+      "id": "06",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:52:47",
+      "fim": "00:53:46",
+      "de": "E ele, em um determinado momento, faz um discurso histórico",
+      "ate": "são expulsos da praça",
+      "gancho": "PERÓN ESVAZIOU METADE DA PRAÇA",
+      "titulo": "O discurso em que Perón expulsou a esquerda peronista da Praça de Maio",
+      "titulo_short": "Perón ESVAZIOU metade da praça",
+      "descricao": "1º de maio de 1974, dois meses antes da morte de Perón.",
+      "convidado": "Fabio Giambiagi",
+      "podcast": "Os Economistas Podcast",
+      "tags": [
+        "Perón",
+        "Montoneros",
+        "Argentina",
+        "Os Economistas"
+      ]
+    },
+    {
+      "id": "07",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:10:55",
+      "fim": "01:12:24",
+      "de": "A Argentina e o Brasil foram ambos afetados por fenômenos de alta inflação",
+      "ate": "o drama do dia a dia é muito maior",
+      "gancho": "POR QUE A INFLAÇÃO ARGENTINA FOI PIOR",
+      "titulo": "Brasil e Argentina tiveram hiperinflação. Por que lá foi mais dramático",
+      "titulo_short": "Por que a inflação argentina FOI PIOR",
+      "descricao": "Inflação alta, mas previsível, contra saltos de 1% para 45% ao mês.",
+      "convidado": "Fabio Giambiagi",
+      "podcast": "Os Economistas Podcast",
+      "tags": [
+        "hiperinflação",
+        "Argentina",
+        "economia",
+        "Os Economistas"
+      ]
+    },
+    {
+      "id": "08",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:17:22",
+      "fim": "01:18:52",
+      "de": "Qual é o passo seguinte para você não desvalorizar",
+      "ate": "Situação de convulsão social",
+      "gancho": "O QUE FOI O CORRALITO",
+      "titulo": "O corralito argentino explicado: quando o banco diz que não pode te dar seu dinheiro",
+      "titulo_short": "O que foi o CORRALITO",
+      "descricao": "O fim da conversibilidade em 2001, contado por quem estava lá.",
+      "convidado": "Fabio Giambiagi",
+      "podcast": "Os Economistas Podcast",
+      "tags": [
+        "corralito",
+        "Argentina",
+        "crise de 2001",
+        "Os Economistas"
+      ]
+    },
+    {
+      "id": "09",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:22:30",
+      "fim": "01:23:22",
+      "de": "Então, é por isso que a principal tarefa do Maurício Macri",
+      "ate": "que conseguisse chegar até o final do mandato",
+      "gancho": "DESDE 1928 NENHUM CONSEGUIU",
+      "titulo": "Desde 1928, nenhum presidente civil não peronista tinha terminado o mandato na Argentina",
+      "titulo_short": "Desde 1928 NENHUM conseguiu",
+      "descricao": "Por que a principal tarefa de Macri era chegar ao fim do governo.",
+      "convidado": "Fabio Giambiagi",
+      "podcast": "Os Economistas Podcast",
+      "tags": [
+        "Argentina",
+        "Macri",
+        "história política",
+        "Os Economistas"
+      ]
+    },
+    {
+      "id": "10",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:48:05",
+      "fim": "01:48:57",
+      "de": "Eu vou começar citando uma frase de um velho economista",
+      "ate": "torturando demais o argumento",
+      "gancho": "BONS ECONOMISTAS CONCORDAM EM 80%",
+      "titulo": "'Bons economistas deveriam concordar em 80, 90% dos assuntos'",
+      "titulo_short": "Bons economistas CONCORDAM em 80%",
+      "descricao": "Fabio Giambiagi sobre a polarização no debate econômico.",
+      "convidado": "Fabio Giambiagi",
+      "podcast": "Os Economistas Podcast",
+      "tags": [
+        "economia",
+        "polarização",
+        "Fabio Giambiagi",
+        "Os Economistas"
+      ]
+    },
+    {
+      "id": "11",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:52:29",
+      "fim": "01:53:17",
+      "de": "Você pretende cortar o gasto público em 27% em termos reais aqui no Brasil",
+      "ate": "fundamentalmente pela inflação elevada",
+      "gancho": "COMO A ARGENTINA CORTOU 27% DO GASTO",
+      "titulo": "A Argentina cortou 27% do gasto público. O Brasil deveria (ou poderia) fazer igual?",
+      "titulo_short": "Como a Argentina cortou 27% DO GASTO",
+      "descricao": "O que explica o corte — e por que a comparação com o Brasil não fecha.",
+      "convidado": "Fabio Giambiagi",
+      "podcast": "Os Economistas Podcast",
+      "tags": [
+        "gasto público",
+        "Argentina",
+        "Milei",
+        "política fiscal",
+        "Os Economistas"
+      ]
+    },
+    {
+      "id": "12",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:56:05",
+      "fim": "01:57:30",
+      "de": "Agora, é um paradoxo, porque esse é um discurso que serve para você ganhar as eleições",
+      "ate": "Como é que isso vai funcionar",
+      "gancho": "SERVE PRA GANHAR, NÃO PRA GOVERNAR",
+      "titulo": "O discurso antipolítica ganha eleição, mas não governa, diz Giambiagi",
+      "titulo_short": "Serve pra GANHAR, não pra GOVERNAR",
+      "descricao": "A capacidade de negociação que falta a governos de outsiders.",
+      "convidado": "Fabio Giambiagi",
+      "podcast": "Os Economistas Podcast",
+      "tags": [
+        "política",
+        "Milei",
+        "governabilidade",
+        "Os Economistas"
+      ]
+    }
+  ]
+}

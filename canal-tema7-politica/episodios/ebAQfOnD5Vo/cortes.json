@@ -1,0 +1,184 @@
+{
+  "correcoes": {
+    "Terciso": "Tarcísio",
+    "Tracísio": "Tarcísio",
+    "torsas de freitas": "Tarcísio de Freitas",
+    "Tabela Sul-São Paulo": "Tabela SUS Paulista",
+    "majestão": "má gestão",
+    "Idileuza": "Edileuza",
+    "Edneuza": "Edileuza",
+    "Edileus": "Edileuza",
+    "besetacil": "Benzetacil",
+    "Educa Afro": "Educafro"
+  },
+  "cortes": [
+    {
+      "id": "01",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:04:12",
+      "fim": "00:05:27",
+      "de": "Então, eu estou aqui para defender a minha pauta",
+      "ate": "existe uma taxa de ociosidade de mais de 50%",
+      "gancho": "SUS: FALTA DINHEIRO OU GESTÃO?",
+      "titulo": "SUS: o problema é dinheiro ou gestão? O argumento da direita",
+      "titulo_short": "SUS: falta DINHEIRO ou GESTÃO?",
+      "descricao": "Uma estudante de medicina defende que o SUS gasta mal, num debate entre eleitores de esquerda e de direita.",
+      "podcast": "Canal Foco",
+      "tags": [
+        "SUS",
+        "saúde pública",
+        "debate político",
+        "Canal Foco"
+      ]
+    },
+    {
+      "id": "02",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:08:50",
+      "fim": "00:09:37",
+      "de": "Então, o Lula foi",
+      "ate": "Então, isso é um exemplo de gestão e dinheiro",
+      "gancho": "SUS: O ARGUMENTO DA ESQUERDA",
+      "titulo": "SUS: o problema é dinheiro ou gestão? O argumento da esquerda",
+      "titulo_short": "SUS: o argumento da ESQUERDA",
+      "descricao": "Uma professora e ex-conselheira de saúde defende que gestão e investimento andam juntos.",
+      "podcast": "Canal Foco",
+      "tags": [
+        "SUS",
+        "Farmácia Popular",
+        "debate político",
+        "Canal Foco"
+      ]
+    },
+    {
+      "id": "03",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:14:50",
+      "fim": "00:16:07",
+      "de": "Mas daí não é justo, porque daí também no campo da direita",
+      "ate": "mas a sociedade sabe o que é",
+      "gancho": "O CONSENSO QUASE VIROU BRIGA",
+      "titulo": "Esquerda e direita tentando escrever um consenso sobre o SUS — e quase não dá",
+      "titulo_short": "O consenso QUASE VIROU BRIGA",
+      "descricao": "O momento em que um único exemplo travou o acordo.",
+      "podcast": "Canal Foco",
+      "tags": [
+        "debate político",
+        "SUS",
+        "esquerda e direita",
+        "Canal Foco"
+      ]
+    },
+    {
+      "id": "04",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:35:00",
+      "fim": "00:36:05",
+      "de": "Então, antes de começar esse debate, eu gostaria de citar uma frase",
+      "ate": "para cobrir prejuízos estatais federais",
+      "gancho": "QUANDO A ESTATAL QUEBRA, QUEM PAGA?",
+      "titulo": "'Quando uma estatal quebra, quem paga a conta é você': o argumento pró-privatização",
+      "titulo_short": "Quando a estatal quebra, QUEM PAGA?",
+      "descricao": "O lado da direita no debate sobre estatais.",
+      "podcast": "Canal Foco",
+      "tags": [
+        "privatização",
+        "estatais",
+        "debate político",
+        "Canal Foco"
+      ]
+    },
+    {
+      "id": "05",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:39:16",
+      "fim": "00:39:50",
+      "de": "Por exemplo, ela foi comprada por um valor",
+      "ate": "é assim que eu vejo a questão das empresas estratégicas",
+      "gancho": "PRIVATIZAR É TROCAR CASA POR ALUGUEL?",
+      "titulo": "Privatizar estatal lucrativa é como vender a casa e passar a pagar aluguel?",
+      "titulo_short": "Privatizar é trocar CASA por ALUGUEL?",
+      "descricao": "O lado da esquerda no debate sobre estatais.",
+      "podcast": "Canal Foco",
+      "tags": [
+        "privatização",
+        "estatais",
+        "debate político",
+        "Canal Foco"
+      ]
+    },
+    {
+      "id": "06",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:44:26",
+      "fim": "00:45:16",
+      "de": "Então, vocês me permitem, como espectador, repetir",
+      "ate": "sempre com transparência na gestão",
+      "gancho": "ESQUERDA E DIREITA CONCORDARAM NISSO",
+      "titulo": "Sobre estatais, um eleitor de esquerda e uma de direita chegaram a este acordo",
+      "titulo_short": "Esquerda e direita CONCORDARAM nisso",
+      "descricao": "O consenso possível sobre privatização e transparência.",
+      "podcast": "Canal Foco",
+      "tags": [
+        "privatização",
+        "consenso",
+        "debate político",
+        "Canal Foco"
+      ]
+    },
+    {
+      "id": "07",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:48:30",
+      "fim": "00:49:27",
+      "de": "Nós temos privatização, terceirização ou estatização",
+      "ate": "senão vai dar certo",
+      "gancho": "PRIVATIZAR OU ESTATIZAR? TANTO FAZ, SE...",
+      "titulo": "Privatização, terceirização ou estatização: 'qualquer uma precisa ser auditada'",
+      "titulo_short": "Privatizar ou estatizar? TANTO FAZ, se...",
+      "descricao": "Um participante resume o que faltou no debate.",
+      "podcast": "Canal Foco",
+      "tags": [
+        "privatização",
+        "transparência",
+        "debate político",
+        "Canal Foco"
+      ]
+    },
+    {
+      "id": "08",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:15:38",
+      "fim": "01:16:50",
+      "de": "Então, assim, eu diria de antemão que já houve um consenso",
+      "ate": "Para ontem",
+      "gancho": "O DEBATE QUE VIROU CONCORDÂNCIA",
+      "titulo": "Educação pública: o debate entre esquerda e direita que virou concordância em 1 minuto",
+      "titulo_short": "O debate que virou CONCORDÂNCIA",
+      "descricao": "Dois professores de lados opostos e a mesma conclusão: a escola precisa mudar.",
+      "podcast": "Canal Foco",
+      "tags": [
+        "educação pública",
+        "escola",
+        "debate político",
+        "Canal Foco"
+      ]
+    }
+  ]
+}

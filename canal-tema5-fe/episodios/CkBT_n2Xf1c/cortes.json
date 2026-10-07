@@ -1,0 +1,236 @@
+{
+  "correcoes": {
+    "jet family": "Getsêmani",
+    "jet seme": "Getsêmani",
+    "lanchas": "lanças",
+    "Represária": "represália",
+    "escravos": "cravos",
+    "percas": "perdas",
+    "perca": "perda",
+    "sirineu": "cireneu",
+    "Ferraria de Vasconcelos": "Ferraz de Vasconcelos"
+  },
+  "cortes": [
+    {
+      "id": "01",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:04:47",
+      "fim": "00:05:40",
+      "de": "E eu costumo dizer que o culto não começa nesses respectivos horários",
+      "ate": "querer que Deus brade na sua vida à noite",
+      "gancho": "O CULTO NÃO COMEÇA ÀS 19H",
+      "titulo": "O culto não começa no horário da igreja: começa quando você acorda",
+      "titulo_short": "O culto NÃO COMEÇA às 19h",
+      "descricao": "Luiz, do Café com Bíblia, sobre preparar o culto durante o dia.",
+      "convidado": "Luiz",
+      "podcast": "Café com Bíblia",
+      "tags": [
+        "culto",
+        "vida cristã",
+        "Café com Bíblia"
+      ]
+    },
+    {
+      "id": "02",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:09:41",
+      "fim": "00:11:01",
+      "de": "O texto diz que quando Jesus é conduzido pelos soldados",
+      "ate": "o temperamento de Pedro sempre foi explosivo",
+      "gancho": "PEDRO SE AQUECEU NA FOGUEIRA ERRADA",
+      "titulo": "Pedro foi se aquecer na fogueira — no meio das pessoas erradas",
+      "titulo_short": "Pedro se aqueceu na FOGUEIRA ERRADA",
+      "descricao": "Wesley Santos sobre a noite da negação de Pedro.",
+      "convidado": "Wesley Santos",
+      "podcast": "Café com Bíblia",
+      "tags": [
+        "Pedro",
+        "negação de Pedro",
+        "Wesley Santos",
+        "Café com Bíblia"
+      ]
+    },
+    {
+      "id": "03",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:15:58",
+      "fim": "00:17:07",
+      "de": "E aonde que nós passamos as maiores traições na nossa vida",
+      "ate": "Jesus, ele alcança onde o médico não alcança",
+      "gancho": "JESUS CHAMOU JUDAS DE AMIGO",
+      "titulo": "No momento da traição, Jesus chamou Judas de 'amigo'",
+      "titulo_short": "Jesus chamou Judas de AMIGO",
+      "descricao": "As maiores traições vêm de quem senta à mesa com a gente.",
+      "convidado": "Wesley Santos",
+      "podcast": "Café com Bíblia",
+      "tags": [
+        "Judas",
+        "traição",
+        "Wesley Santos",
+        "Café com Bíblia"
+      ]
+    },
+    {
+      "id": "04",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:18:13",
+      "fim": "00:18:58",
+      "de": "aí nós se perguntamos, aonde estão os outros discípulos",
+      "ate": "você precisa de um abraço",
+      "gancho": "ONDE ESTÃO SEUS AMIGOS QUANDO VOCÊ ERRA?",
+      "titulo": "Seus amigos só estão com você quando a mesa está farta?",
+      "titulo_short": "Onde estão seus AMIGOS quando você erra?",
+      "descricao": "Uma pergunta sobre os outros discípulos quando Judas se afasta.",
+      "convidado": "Wesley Santos",
+      "podcast": "Café com Bíblia",
+      "tags": [
+        "amizade",
+        "recomeço",
+        "Wesley Santos",
+        "Café com Bíblia"
+      ]
+    },
+    {
+      "id": "05",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:23:18",
+      "fim": "00:24:00",
+      "de": "você olha essa geração",
+      "ate": "a glória é de Deus",
+      "gancho": "A MATEMÁTICA DE DEUS NÃO BATE",
+      "titulo": "Quando a conta não fecha, a glória é de Deus",
+      "titulo_short": "A matemática de Deus NÃO BATE",
+      "descricao": "Cinco pães e dois peixes para uma geração que só crê no que é lógico.",
+      "convidado": "Luiz",
+      "podcast": "Café com Bíblia",
+      "tags": [
+        "fé",
+        "geração",
+        "Café com Bíblia"
+      ]
+    },
+    {
+      "id": "06",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:28:15",
+      "fim": "00:29:58",
+      "de": "Quando a minha mãe foi, eu tava forte",
+      "ate": "Acabou o seu ministério aqui",
+      "remover_texto": [
+        [
+          "pra quem não sabe o que é alopécia",
+          "Uma decepção muito forte de alguém próximo"
+        ]
+      ],
+      "gancho": "TRÊS MESES DEPOIS, A ESTRUTURA CAIU",
+      "titulo": "No enterro da mãe ele estava firme. Três meses depois, desabou",
+      "titulo_short": "Três meses depois, a ESTRUTURA CAIU",
+      "descricao": "Wesley Santos sobre o luto que chegou depois.",
+      "convidado": "Wesley Santos",
+      "podcast": "Café com Bíblia",
+      "tags": [
+        "luto",
+        "recomeço",
+        "Wesley Santos",
+        "Café com Bíblia"
+      ]
+    },
+    {
+      "id": "07",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:36:50",
+      "fim": "00:37:52",
+      "de": "eu estava pregando, pregando, pregando, pregando",
+      "ate": "você é referência, alguém se espelha em você",
+      "gancho": "QUEM SÓ PREGA TAMBÉM SECA",
+      "titulo": "O erro de quem prega todo dia e nunca para pra ouvir",
+      "titulo_short": "Quem só prega também SECA",
+      "descricao": "Do dia 1 ao dia 30 pregando, sem parar para beber água.",
+      "convidado": "Wesley Santos",
+      "podcast": "Café com Bíblia",
+      "tags": [
+        "ministério",
+        "esgotamento",
+        "Wesley Santos",
+        "Café com Bíblia"
+      ]
+    },
+    {
+      "id": "08",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:40:55",
+      "fim": "00:42:14",
+      "de": "Eu tenho muitos amigos aí que falam, cara, você quer ver esse podcast bombar",
+      "ate": "O pão rejeitado de hoje faz falta amanhã",
+      "gancho": "QUER BOMBAR O PODCAST? FAÇA DEBATE",
+      "titulo": "'Quer ver o podcast bombar? Faz debate' — por que ele recusou",
+      "titulo_short": "Quer bombar o podcast? Faça DEBATE",
+      "descricao": "Debates rasos que não aproximam ninguém de Jesus.",
+      "convidado": "Luiz",
+      "podcast": "Café com Bíblia",
+      "tags": [
+        "podcast cristão",
+        "debate",
+        "Café com Bíblia"
+      ]
+    },
+    {
+      "id": "09",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:46:15",
+      "fim": "00:47:25",
+      "de": "Só que a frustração não pode ser maior do que o",
+      "ate": "mesmo ferido, tem o que você precisa",
+      "gancho": "O MÉDICO TAMBÉM ESTAVA DOENTE",
+      "titulo": "O médico também estava doente — e era o único que podia te curar",
+      "titulo_short": "O médico também estava DOENTE",
+      "descricao": "Sobre pregar mesmo ferido.",
+      "convidado": "Luiz",
+      "podcast": "Café com Bíblia",
+      "tags": [
+        "ministério",
+        "cura",
+        "Café com Bíblia"
+      ]
+    },
+    {
+      "id": "10",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:56:40",
+      "fim": "00:57:31",
+      "de": "Ele falou assim, o dia que eu parar de pregar Cristo",
+      "ate": "De Cristo, Da Palavra",
+      "gancho": "NÃO PROCURE A IGREJA MAIS PRÓXIMA",
+      "titulo": "Não procure a igreja mais próxima de você. Procure a mais próxima de Cristo",
+      "titulo_short": "Não procure a igreja MAIS PRÓXIMA",
+      "descricao": "Um conselho para quem desistiu da igreja por causa de pessoas.",
+      "convidado": "Luiz",
+      "podcast": "Café com Bíblia",
+      "tags": [
+        "igreja",
+        "fé",
+        "Café com Bíblia"
+      ]
+    }
+  ]
+}

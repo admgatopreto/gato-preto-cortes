@@ -1,0 +1,256 @@
+{
+  "correcoes": {
+    "clonicionador": "colecionador",
+    "Clonacionador": "Colecionador",
+    "relacionador": "colecionador",
+    "relacionadores": "colecionadores",
+    "colorizadores": "colecionadores",
+    "processador": "colecionador",
+    "Croazão": "Crossão",
+    "Félix": "Fênix",
+    "Fenicão": "Fênix",
+    "Pongue": "Pong",
+    "Star Trek Punk": "Cyberpunk",
+    "Jerry Punk": "Cyberpunk",
+    "Capo": "Capcom",
+    "Chaves Cart": "Chaves Kart",
+    "Quiris": "Aquiris",
+    "Calcasts": "Cal Kestis",
+    "Pipiboy": "Pip-Boy",
+    "Pipi Boy": "Pip-Boy",
+    "Alan Zoca": "Alan Zoka",
+    "pataquada": "patacoada"
+  },
+  "cortes": [
+    {
+      "id": "01",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:16:12",
+      "fim": "00:17:22",
+      "de": "Ele foi anunciado em 77, uma campanha da Coca",
+      "ate": "que eles chamam de coroa",
+      "gancho": "O VIDEOGAME QUE SE COMPRAVA COM TAMPINHA",
+      "titulo": "O videogame da Coca-Cola de 1977 que só podia ser comprado juntando tampinhas",
+      "titulo_short": "O videogame que se comprava com TAMPINHA",
+      "descricao": "Um Pong japonês com botão em forma de tampinha, mostrado no Flow Games.",
+      "convidado": "Gilão (Mr. Games)",
+      "podcast": "Flow Games",
+      "tags": [
+        "retrogames",
+        "Coca-Cola",
+        "colecionismo",
+        "Flow Games"
+      ]
+    },
+    {
+      "id": "02",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:13:35",
+      "fim": "00:14:28",
+      "de": "Porque o que tá acontecendo",
+      "ate": "Era edição regular",
+      "gancho": "SEU JOGO DE PS3 PODE VALER MIL REAIS",
+      "titulo": "Por que alguns jogos comuns de PS3 já valem mais de mil reais",
+      "titulo_short": "Seu jogo de PS3 pode valer MIL REAIS",
+      "descricao": "Licença vencida, servidor desligado e tiragem baixa: o que faz um jogo valorizar.",
+      "podcast": "Flow Games",
+      "tags": [
+        "colecionismo",
+        "PlayStation 3",
+        "mídia física",
+        "Flow Games"
+      ]
+    },
+    {
+      "id": "03",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:25:57",
+      "fim": "00:27:20",
+      "de": "Eu vi uma vez um desse, porque o Alan Zoka ganhou",
+      "ate": "ele não sai",
+      "gancho": "O CONTROLE COM CHEIRO DE PIZZA",
+      "titulo": "O controle de Xbox das Tartarugas Ninja que solta cheiro de pizza (e o cheiro é horrível)",
+      "titulo_short": "O controle com CHEIRO DE PIZZA",
+      "descricao": "Um brinde para criadores que precisou ser isolado em 20 sacos.",
+      "podcast": "Flow Games",
+      "tags": [
+        "Xbox",
+        "Tartarugas Ninja",
+        "curiosidades",
+        "Flow Games"
+      ]
+    },
+    {
+      "id": "04",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:20:20",
+      "fim": "00:21:08",
+      "de": "A gente fala muito isso de",
+      "ate": "O que vale comprar o console",
+      "gancho": "CADÊ A EXCLUSIVIDADE?",
+      "titulo": "Edição especial que depois vende as peças separadas: 'cadê a exclusividade?'",
+      "titulo_short": "Cadê a EXCLUSIVIDADE?",
+      "descricao": "A crítica às capas do PS5 vendidas avulsas depois do bundle.",
+      "podcast": "Flow Games",
+      "tags": [
+        "PlayStation 5",
+        "edição de colecionador",
+        "Flow Games"
+      ]
+    },
+    {
+      "id": "05",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:44:05",
+      "fim": "00:45:22",
+      "de": "Mas assim, a pessoa fala, mas um jogo vale 35 mil",
+      "ate": "é pro colecionador",
+      "gancho": "POR QUE UM JOGO DO CHAVES VALE R$ 35 MIL",
+      "titulo": "Um jogo do Chaves por R$ 35 mil? Como funciona o preço no colecionismo",
+      "titulo_short": "Por que um jogo do Chaves vale R$ 35 MIL",
+      "descricao": "Tiragem com erro, raridade e o colecionador certo.",
+      "podcast": "Flow Games",
+      "tags": [
+        "Chaves Kart",
+        "colecionismo",
+        "retrogames",
+        "Flow Games"
+      ]
+    },
+    {
+      "id": "06",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:49:58",
+      "fim": "00:51:05",
+      "de": "E o problema de coleção",
+      "ate": "Não tem jeito, cara",
+      "gancho": "O ERRO DE QUEM COMEÇA A COLECIONAR",
+      "titulo": "O erro de quem começa a colecionar: não escolher escala e franquia",
+      "titulo_short": "O ERRO de quem começa a colecionar",
+      "descricao": "Vingadores, Exterminador e uma coleção que nunca termina.",
+      "podcast": "Flow Games",
+      "tags": [
+        "colecionismo",
+        "Hot Toys",
+        "Flow Games"
+      ]
+    },
+    {
+      "id": "07",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:51:15",
+      "fim": "00:52:22",
+      "de": "lembrei de uma muito boa que a gente teve alguns meses atrás lá na loja",
+      "ate": "Esse paga 30",
+      "gancho": "SÓ 50 NO MUNDO: A EDIÇÃO DO SENNA",
+      "titulo": "A edição do Horizon Chase com Ayrton Senna que só teve 50 unidades",
+      "titulo_short": "Só 50 no mundo: a edição do SENNA",
+      "descricao": "Por quanto ela foi vendida numa loja brasileira — e por que para alguns vale mais.",
+      "podcast": "Flow Games",
+      "tags": [
+        "Ayrton Senna",
+        "Horizon Chase",
+        "colecionismo",
+        "Flow Games"
+      ]
+    },
+    {
+      "id": "08",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:59:57",
+      "fim": "01:00:48",
+      "de": "Cara, isso daqui nos anos 90, vou falar pra você",
+      "ate": "Modern Mate Modern Mate",
+      "gancho": "MEGA DRIVE E NINTENDINHO NUM CONSOLE SÓ",
+      "titulo": "O console 'dois em um' do Paraguai que rodava Mega Drive e Nintendinho",
+      "titulo_short": "Mega Drive e Nintendinho NUM CONSOLE SÓ",
+      "descricao": "A lenda dos anos 90 que existia de verdade.",
+      "podcast": "Flow Games",
+      "tags": [
+        "Mega Drive",
+        "Nintendinho",
+        "clones",
+        "retrogames",
+        "Flow Games"
+      ]
+    },
+    {
+      "id": "09",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:05:55",
+      "fim": "01:06:58",
+      "de": "Quando alguém vem com",
+      "ate": "pro Fênix é 300 reais",
+      "gancho": "VIDEOGAME NÃO É INVESTIMENTO",
+      "titulo": "'Não vem falar que videogame é investimento': o que um lojista pensa do colecionismo",
+      "titulo_short": "Videogame NÃO É INVESTIMENTO",
+      "descricao": "O mesmo console vale R$ 10 mil para um colecionador e R$ 300 para outro.",
+      "podcast": "Flow Games",
+      "tags": [
+        "colecionismo",
+        "investimento",
+        "retrogames",
+        "Flow Games"
+      ]
+    },
+    {
+      "id": "10",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:11:47",
+      "fim": "01:13:15",
+      "de": "Nas lives, especificamente, a gente fez uma projeção",
+      "ate": "Então é um ano e meio esse ciclo",
+      "gancho": "O CICLO DE 1 ANO E MEIO DO COLECIONADOR",
+      "titulo": "O ciclo do colecionador de videogame: compra por impulso, enche a casa e vende",
+      "titulo_short": "O ciclo de 1 ANO E MEIO do colecionador",
+      "descricao": "O padrão que lojistas de retrogames observam nas lives.",
+      "podcast": "Flow Games",
+      "tags": [
+        "colecionismo",
+        "retrogames",
+        "Flow Games"
+      ]
+    },
+    {
+      "id": "11",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:16:55",
+      "fim": "01:17:32",
+      "de": "Cara, eu passei a vida trocando cartucho original por cartucho pirata",
+      "ate": "É isso que te faz bem ver a sua coleção",
+      "gancho": "TROCAVA 2 ORIGINAIS POR 1 PIRATA",
+      "titulo": "O colecionador que trocava dois cartuchos originais por um pirata",
+      "titulo_short": "Trocava 2 ORIGINAIS por 1 PIRATA",
+      "descricao": "Por que a coleção só precisa fazer sentido pra quem coleciona.",
+      "podcast": "Flow Games",
+      "tags": [
+        "colecionismo",
+        "cartuchos",
+        "CCE",
+        "Flow Games"
+      ]
+    }
+  ]
+}

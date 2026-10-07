@@ -1,0 +1,67 @@
+{
+  "marca": "Gato Preto",
+  "fonte": "Anton",
+  "base": {
+    "preto": "#111111",
+    "branco": "#F5F3EE",
+    "grafite": "#1E1E1B"
+  },
+  "canais": {
+    "canal-tema1-negocios": {
+      "nome": "Gato Preto Negócios",
+      "handle": "@gatopretonegocios",
+      "cor": "#3DDC84",
+      "avatar": "avatar-negocios.png",
+      "banner": "banner-negocios.png"
+    },
+    "canal-tema2-ciencia": {
+      "nome": "Gato Preto Ciência",
+      "handle": "@gatopretociencia",
+      "cor": "#3FB6FF",
+      "avatar": "avatar-ciencia.png",
+      "banner": "banner-ciencia.png"
+    },
+    "canal-tema3-misterio": {
+      "nome": "Gato Preto Mistério",
+      "handle": "@gatopretomisterio",
+      "cor": "#A970FF",
+      "avatar": "avatar-misterio.png",
+      "banner": "banner-misterio.png"
+    },
+    "canal-tema4-historia": {
+      "nome": "Gato Preto História",
+      "handle": "@gatopretohistoria",
+      "cor": "#E8B25A",
+      "avatar": "avatar-historia.png",
+      "banner": "banner-historia.png"
+    },
+    "canal-tema5-fe": {
+      "nome": "Gato Preto Fé",
+      "handle": "@gatopretofe",
+      "cor": "#FFD24A",
+      "avatar": "avatar-fe.png",
+      "banner": "banner-fe.png"
+    },
+    "canal-tema6-esporte": {
+      "nome": "Gato Preto Esporte",
+      "handle": "@gatopretoesporte",
+      "cor": "#FF7A3D",
+      "avatar": "avatar-esporte.png",
+      "banner": "banner-esporte.png"
+    },
+    "canal-tema7-politica": {
+      "nome": "Gato Preto Política",
+      "handle": "@gatopretopolitica",
+      "cor": "#4FD1C5",
+      "avatar": "avatar-politica.png",
+      "banner": "banner-politica.png"
+    },
+    "canal-tema8-games": {
+      "nome": "Gato Preto Games",
+      "handle": "@gatopreto.games",
+      "cor": "#FF4FD8",
+      "avatar": "avatar-games.png",
+      "banner": "banner-games.png"
+    }
+  }
+}

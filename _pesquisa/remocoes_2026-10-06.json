@@ -1,0 +1,15 @@
+[
+  {"canal": "canal-tema3-misterio", "id": "U387T4JgYZU",
+   "motivo": "Acusações contra pessoas nomeadas (calote, feitiço, ameaça de processo): risco de difamação em qualquer canal."},
+  {"canal": "canal-tema4-historia", "id": "vPn_q7WP6g8",
+   "motivo": "Live lendo chat, política partidária e recomendação de voto; não serve nem para o canal de Política.",
+   "fonte_motivo": "Lives de atualidade partidária, com ataques nominais; não usar como fonte."},
+  {"canal": "canal-tema6-esporte", "id": "soXBCUksUe4",
+   "motivo": "Debatedor é candidato (diz número e pede voto) e acusa pessoas nomeadas; não serve para Política.",
+   "fonte_motivo": "Formato de debate com candidatos em campanha e acusações; não usar como fonte."},
+  {"canal": "canal-tema6-esporte", "id": "wOszZkhOjfU", "retentar": true,
+   "motivo": "Download falhou (HTTP 403). Conteúdo é de Esporte: tentar baixar de novo na próxima busca."},
+  {"canal": "canal-tema8-games", "id": "eripsf5db74",
+   "motivo": "Vídeo de imagem parada (só áudio com a capa): 100% dos quadros iguais.",
+   "fonte_motivo": "Podcast publicado no YouTube como imagem parada (só áudio); não serve para Shorts."}
+]

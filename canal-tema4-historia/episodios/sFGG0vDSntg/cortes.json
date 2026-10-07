@@ -1,0 +1,64 @@
+{
+  "correcoes": {
+    "Gustavo Colombo": "Cristóvão Colombo",
+    "Waitlin Island": "Watling Island",
+    "Kerrach": "Kerouac"
+  },
+  "cortes": [
+    {
+      "id": "01", "formatos": ["short"],
+      "inicio": "00:34:00", "fim": "00:34:48",
+      "de": "Todas as grandes cidades brasileiras estão localizadas", "ate": "europeu não toma banho",
+      "gancho": "O BANHO DIÁRIO VEIO DOS INDÍGENAS",
+      "titulo": "As cidades, as estradas, a comida e até o banho: o que o Brasil herdou dos indígenas",
+      "titulo_short": "O banho diário veio dos INDÍGENAS",
+      "descricao": "Eduardo Bueno sobre a influência dos povos originários no Brasil de hoje.",
+      "convidado": "Eduardo Bueno", "podcast": "Buenas Ideias",
+      "tags": ["história do Brasil", "povos indígenas", "Eduardo Bueno", "Buenas Ideias"]
+    },
+    {
+      "id": "02", "formatos": ["short"],
+      "inicio": "00:24:36", "fim": "00:25:18",
+      "de": "Tu sabe a origem da palavra índio", "ate": "essa é a origem da palavra índio",
+      "gancho": "DE ONDE VEM A PALAVRA ÍNDIO",
+      "titulo": "De onde vem a palavra 'índio' (e por que Colombo errou o continente)",
+      "titulo_short": "De onde vem a palavra ÍNDIO",
+      "descricao": "A origem da palavra que Colombo usou ao achar que tinha chegado na Índia.",
+      "convidado": "Eduardo Bueno", "podcast": "Buenas Ideias",
+      "tags": ["história", "Cristóvão Colombo", "povos originários", "Eduardo Bueno", "Buenas Ideias"]
+    },
+    {
+      "id": "03", "formatos": ["short"],
+      "inicio": "00:10:00", "fim": "00:10:50",
+      "de": "não nasceu no dia 25 de dezembro, tu sabe", "ate": "o dia mais curto, mais sombrio, mais escuro do ano",
+      "gancho": "POR QUE O NATAL É 25 DE DEZEMBRO",
+      "titulo": "Por que o Natal é comemorado em 25 de dezembro",
+      "titulo_short": "Por que o Natal é em 25 de DEZEMBRO?",
+      "descricao": "Eduardo Bueno explica a ligação da data com as celebrações antigas do solstício.",
+      "convidado": "Eduardo Bueno", "podcast": "Buenas Ideias",
+      "tags": ["Natal", "solstício", "história", "Eduardo Bueno", "Buenas Ideias"]
+    },
+    {
+      "id": "04", "formatos": ["short"],
+      "inicio": "00:13:09", "fim": "00:14:00",
+      "de": "Porque eu era tão apaixonado pelo Bob Dylan", "ate": "eu me refiro a mim mesmo",
+      "gancho": "BOB DYLAN O FEZ ESTUDAR O BRASIL",
+      "titulo": "Como o Bob Dylan fez Eduardo Bueno estudar a história do Brasil",
+      "titulo_short": "Bob Dylan o fez estudar o BRASIL",
+      "descricao": "A vergonha de saber tudo dos EUA e nada do próprio país.",
+      "convidado": "Eduardo Bueno", "podcast": "Buenas Ideias",
+      "tags": ["Eduardo Bueno", "Bob Dylan", "história do Brasil", "Buenas Ideias"]
+    },
+    {
+      "id": "05", "formatos": ["short"],
+      "inicio": "00:15:25", "fim": "00:16:20",
+      "de": "A minha mãe, Beatriz Bueno, ela era bem legal", "ate": "é melhor tu ser o dono da frota de ônibus",
+      "gancho": "'QUERO SER COBRADOR DE ÔNIBUS'",
+      "titulo": "'Quero ser cobrador de ônibus': a resposta do irmão de Eduardo Bueno",
+      "titulo_short": "'Quero ser COBRADOR de ônibus'",
+      "descricao": "Uma história de família contada por Eduardo Bueno ao vivo.",
+      "convidado": "Eduardo Bueno", "podcast": "Buenas Ideias",
+      "tags": ["Eduardo Bueno", "história engraçada", "Buenas Ideias"]
+    }
+  ]
+}

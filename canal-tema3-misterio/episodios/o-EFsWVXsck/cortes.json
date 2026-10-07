@@ -1,0 +1,301 @@
+{
+  "correcoes": {
+    "Ija": "Ouija",
+    "vechação": "vexação",
+    "Vechação": "Vexação",
+    "Gabriel Amort": "Gabriele Amorth",
+    "Gabriel Amor": "Gabriele Amorth",
+    "Gabriele Amor": "Gabriele Amorth",
+    "Amor Amor": "Amorth",
+    "Subirus": "Soubirous",
+    "esborna": "esbórnia"
+  },
+  "cortes": [
+    {
+      "id": "01",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:19:24",
+      "fim": "00:20:45",
+      "de": "E até tem um fato interessante, que do lado do motel",
+      "ate": "é a fé, é a espiritualidade",
+      "gancho": "OS TRÊS ESTÁGIOS DA LOUCURA",
+      "titulo": "Um sanatório, um motel e um convento na mesma rua: 'os três estágios da loucura'",
+      "titulo_short": "Os três ESTÁGIOS DA LOUCURA",
+      "descricao": "A frase de um frade carmelita que o Padre Iágaro Domingos nunca esqueceu.",
+      "convidado": "Padre Iágaro Domingos",
+      "podcast": "LendaCast",
+      "tags": [
+        "padre exorcista",
+        "LendaCast",
+        "Daniel Pires",
+        "Padre Iágaro Domingos"
+      ]
+    },
+    {
+      "id": "02",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:44:50",
+      "fim": "00:46:32",
+      "de": "A igreja ensina que toda ação do mal",
+      "ate": "Atingindo cada um de nós",
+      "gancho": "O ALVO DO DEMÔNIO NÃO É VOCÊ",
+      "titulo": "Segundo um padre exorcista, o alvo do demônio não é você",
+      "titulo_short": "O alvo do demônio NÃO É VOCÊ",
+      "descricao": "Por que, segundo a doutrina católica, o demônio ataca o ser humano.",
+      "convidado": "Padre Iágaro Domingos",
+      "podcast": "LendaCast",
+      "tags": [
+        "exorcismo",
+        "demônio",
+        "padre exorcista",
+        "LendaCast"
+      ]
+    },
+    {
+      "id": "03",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:49:12",
+      "fim": "00:50:00",
+      "de": "Casas e objetos, porta que se movimenta sozinha",
+      "ate": "Minha casa não tá muito bem abençoada",
+      "gancho": "UM BARULHO NO MEIO DA GRAVAÇÃO",
+      "titulo": "Falando de portas que batem sozinhas… e começa um barulho no estúdio",
+      "titulo_short": "Um BARULHO no meio da gravação",
+      "descricao": "O padre explicava a infestação em casas quando o estúdio começou a fazer barulho.",
+      "convidado": "Padre Iágaro Domingos",
+      "podcast": "LendaCast",
+      "tags": [
+        "paranormal",
+        "exorcismo",
+        "infestação",
+        "LendaCast"
+      ]
+    },
+    {
+      "id": "04",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:50:04",
+      "fim": "00:51:05",
+      "de": "E essa infestação, os bichos aparecem pela casa",
+      "ate": "Não gosto de casa suja",
+      "gancho": "NEM TODA BARATA É DEMÔNIO",
+      "titulo": "Padre exorcista: infestação de bicho pode ser demônio… ou só casa suja",
+      "titulo_short": "Nem toda barata é DEMÔNIO",
+      "descricao": "A diferença entre infestação sobrenatural e louça suja na pia, segundo um exorcista.",
+      "convidado": "Padre Iágaro Domingos",
+      "podcast": "LendaCast",
+      "tags": [
+        "infestação",
+        "exorcismo",
+        "padre exorcista",
+        "LendaCast"
+      ]
+    },
+    {
+      "id": "05",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:54:22",
+      "fim": "00:55:13",
+      "de": "Eu lembro que na história, a história real do Exorcista",
+      "ate": "De dentro pra fora De dentro pra fora",
+      "gancho": "A HISTÓRIA REAL DE 'O EXORCISTA'",
+      "titulo": "O caso real que inspirou O Exorcista começou com um tabuleiro Ouija",
+      "titulo_short": "A história REAL de O Exorcista",
+      "descricao": "O menino, a tia e o tabuleiro: a origem do caso que virou filme.",
+      "convidado": "Padre Iágaro Domingos",
+      "podcast": "LendaCast",
+      "tags": [
+        "O Exorcista",
+        "tabuleiro Ouija",
+        "caso real",
+        "LendaCast"
+      ]
+    },
+    {
+      "id": "06",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:29:45",
+      "fim": "01:31:05",
+      "de": "mas a gente traz São Bento como exorcista",
+      "ate": "e comeu a comida envenenada e não sofreu mal algum",
+      "gancho": "OS PRÓPRIOS MONGES ENVENENARAM SÃO BENTO",
+      "titulo": "A comida envenenada que os próprios monges deram a São Bento",
+      "titulo_short": "Os próprios monges ENVENENARAM São Bento",
+      "descricao": "A história mais conhecida de São Bento, o santo exorcista.",
+      "convidado": "Padre Iágaro Domingos",
+      "podcast": "LendaCast",
+      "tags": [
+        "São Bento",
+        "exorcismo",
+        "história da Igreja",
+        "LendaCast"
+      ]
+    },
+    {
+      "id": "07",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:37:48",
+      "fim": "01:38:23",
+      "de": "Nossa Senhora apareceu pra Bernadette",
+      "ate": "fonte de cura e milagre em Lourdes",
+      "gancho": "ELA CAVOU COM AS MÃOS E BROTOU ÁGUA",
+      "titulo": "Bernadette cavou com as mãos onde não havia fonte — e a água de Lourdes brotou",
+      "titulo_short": "Ela cavou com as mãos e BROTOU ÁGUA",
+      "descricao": "A origem da fonte de Lourdes, na França, contada por um padre.",
+      "convidado": "Padre Iágaro Domingos",
+      "podcast": "LendaCast",
+      "tags": [
+        "Lourdes",
+        "Santa Bernadette",
+        "milagre",
+        "LendaCast"
+      ]
+    },
+    {
+      "id": "08",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:55:12",
+      "fim": "01:55:40",
+      "de": "Porque no exorcismo, o que o exorcista orienta",
+      "ate": "ele mente, ele te engana, ele te induz",
+      "gancho": "NINGUÉM PODE FALAR COM O POSSUÍDO",
+      "titulo": "Num exorcismo, ninguém além do exorcista pode falar com o possuído",
+      "titulo_short": "Ninguém pode FALAR com o possuído",
+      "descricao": "A regra do ritual explicada por um padre exorcista.",
+      "convidado": "Padre Iágaro Domingos",
+      "podcast": "LendaCast",
+      "tags": [
+        "exorcismo",
+        "ritual de exorcismo",
+        "padre exorcista",
+        "LendaCast"
+      ]
+    },
+    {
+      "id": "09",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:57:35",
+      "fim": "01:59:19",
+      "de": "A água benta, você joga a água benta num demônio",
+      "ate": "Porque o demônio se alimenta do medo",
+      "gancho": "ÁGUA BENTA SOLTA FUMAÇA?",
+      "titulo": "Água benta que solta fumaça como nos filmes? O que um exorcista diz",
+      "titulo_short": "Água benta solta FUMAÇA?",
+      "descricao": "O que acontece de verdade num exorcismo, segundo um padre nomeado exorcista.",
+      "convidado": "Padre Iágaro Domingos",
+      "podcast": "LendaCast",
+      "tags": [
+        "exorcismo",
+        "levitação",
+        "água benta",
+        "LendaCast"
+      ]
+    },
+    {
+      "id": "10",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "02:13:30",
+      "fim": "02:14:16",
+      "de": "Mostraram algum vídeo de uma possessão real",
+      "ate": "como se fosse uma cicatriz, como se fosse uma cicatriz",
+      "gancho": "O VÍDEO MOSTRADO NO CURSO DE ROMA",
+      "titulo": "O vídeo de possessão real mostrado no curso de exorcismo em Roma",
+      "titulo_short": "O vídeo mostrado no CURSO DE ROMA",
+      "descricao": "O que os padres veem no curso de exorcistas do Vaticano.",
+      "convidado": "Padre Iágaro Domingos",
+      "podcast": "LendaCast",
+      "tags": [
+        "exorcismo",
+        "Roma",
+        "Gabriele Amorth",
+        "LendaCast"
+      ]
+    },
+    {
+      "id": "11",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "02:30:20",
+      "fim": "02:31:13",
+      "de": "A igreja afirma, quando a igreja diz",
+      "ate": "nenhum papa, nenhum santo disse que tem gente no inferno",
+      "gancho": "A IGREJA NUNCA DISSE QUEM ESTÁ NO INFERNO",
+      "titulo": "A Igreja diz quem está no céu, mas nunca disse que alguém está no inferno",
+      "titulo_short": "A Igreja nunca disse quem está no INFERNO",
+      "descricao": "Um detalhe da doutrina católica que pouca gente conhece.",
+      "convidado": "Padre Iágaro Domingos",
+      "podcast": "LendaCast",
+      "tags": [
+        "inferno",
+        "Igreja Católica",
+        "curiosidades",
+        "LendaCast"
+      ]
+    },
+    {
+      "id": "12",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "02:45:46",
+      "fim": "02:46:43",
+      "de": "Mas aí eles podem se transformar no que eles quiserem",
+      "ate": "e isso ele não faz",
+      "gancho": "A ÚNICA FIGURA QUE O DEMÔNIO NÃO IMITA",
+      "titulo": "O demônio pode imitar qualquer um — menos uma figura, segundo um exorcista",
+      "titulo_short": "A única figura que o demônio NÃO IMITA",
+      "descricao": "Por que, segundo a Igreja, essa é a única forma que ele não consegue tomar.",
+      "convidado": "Padre Iágaro Domingos",
+      "podcast": "LendaCast",
+      "tags": [
+        "demônio",
+        "exorcismo",
+        "padre exorcista",
+        "LendaCast"
+      ]
+    },
+    {
+      "id": "13",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "02:52:54",
+      "fim": "02:54:05",
+      "de": "É bom você falar nisso porque também no curso",
+      "ate": "Ver se de fato é uma ação extraordinária",
+      "gancho": "ANTES DO EXORCISTA, O PSICÓLOGO",
+      "titulo": "Antes de pensar em exorcismo, a Igreja manda passar por psicólogo e psiquiatra",
+      "titulo_short": "Antes do exorcista, o PSICÓLOGO",
+      "descricao": "A ordem que um padre exorcista segue antes de concluir que é um caso espiritual.",
+      "convidado": "Padre Iágaro Domingos",
+      "podcast": "LendaCast",
+      "tags": [
+        "exorcismo",
+        "saúde mental",
+        "padre exorcista",
+        "LendaCast"
+      ]
+    }
+  ]
+}

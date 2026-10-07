@@ -1,0 +1,299 @@
+{
+  "correcoes": {
+    "Goudet": "Good Day",
+    "Gudeia": "Good Day",
+    "Gudei": "Good Day",
+    "Gooday": "Good Day",
+    "God Day": "Good Day",
+    "Simple Gen": "Simple Gym",
+    "Randova": "handover",
+    "cloud": "Claude",
+    "Claudio": "Claude",
+    "Morgan Hussle": "Morgan Housel",
+    "Haskin Nails": "Hair Skin Nails",
+    "ebista": "EBITDA",
+    "GAMI": "gummy",
+    "Gama": "gummy"
+  },
+  "cortes": [
+    {
+      "id": "01",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:07:45",
+      "fim": "00:09:07",
+      "de": "Pô, gigantesco a gente leva a empresa de",
+      "ate": "Mas eu organizo a minha vida E eu decidi sair",
+      "gancho": "DE R$400 MILHÕES A R$2 BILHÕES E SAIU",
+      "titulo": "Ele levou a empresa de R$400 milhões a R$2 bilhões e decidiu sair",
+      "titulo_short": "De R$400 mi a R$2 BI… e ele SAIU",
+      "descricao": "Rony Meisler, fundador da Reserva, conta por que deixou o grupo depois de quintuplicar o faturamento: a maior riqueza é o tempo.",
+      "convidado": "Rony Meisler",
+      "podcast": "PrimoCast",
+      "tags": [
+        "Rony Meisler",
+        "Reserva",
+        "empreendedorismo",
+        "Arezzo",
+        "PrimoCast"
+      ]
+    },
+    {
+      "id": "02",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:10:05",
+      "fim": "00:10:49",
+      "de": "o Rony é péssimo de WhatsApp",
+      "ate": "Às vezes eu mandava bom dia pro Rony só pegar cupom",
+      "gancho": "O HACK DE VENDAS NO WHATSAPP",
+      "titulo": "O hack de vendas da mensagem automática no WhatsApp do fundador da Reserva",
+      "titulo_short": "O HACK de vendas no WhatsApp",
+      "descricao": "A resposta automática com cupom de desconto que fazia até amigo mandar mensagem só pra ganhar cupom.",
+      "convidado": "Rony Meisler",
+      "podcast": "PrimoCast",
+      "tags": [
+        "vendas",
+        "WhatsApp",
+        "cupom de desconto",
+        "Reserva",
+        "PrimoCast"
+      ]
+    },
+    {
+      "id": "03",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:20:05",
+      "fim": "00:21:05",
+      "de": "Tem um funil que é velho",
+      "ate": "e não vai achar cliente pro seu produto",
+      "gancho": "O FUNIL MAIS SIMPLES DOS NEGÓCIOS",
+      "titulo": "Funil ACP: audiência, comunidade e produto — o framework que todo negócio deveria usar",
+      "titulo_short": "O funil mais SIMPLES dos negócios",
+      "descricao": "Rony Meisler explica o funil ACP: criar audiência, separar uma comunidade e só então fazer o produto.",
+      "convidado": "Rony Meisler",
+      "podcast": "PrimoCast",
+      "tags": [
+        "funil ACP",
+        "audiência",
+        "comunidade",
+        "produto",
+        "PrimoCast"
+      ]
+    },
+    {
+      "id": "04",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:23:17",
+      "fim": "00:23:50",
+      "de": "Mas você acha que dava pra você ter priorizado saúde",
+      "ate": "Tem meia hora no dia",
+      "gancho": "TODO EMPRESÁRIO TEM MEIA HORA",
+      "titulo": "Não ter tempo pra saúde é a maior desculpa do empresário",
+      "titulo_short": "Todo empresário tem MEIA HORA",
+      "descricao": "O treino de meia hora por dia do fundador da Reserva.",
+      "convidado": "Rony Meisler",
+      "podcast": "PrimoCast",
+      "tags": [
+        "saúde",
+        "rotina",
+        "empresário",
+        "PrimoCast"
+      ]
+    },
+    {
+      "id": "05",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:33:49",
+      "fim": "00:35:41",
+      "de": "Aí um deles, ele, puta, é completamente apaixonado por futebol",
+      "ate": "e financiou o Claude, entendeu",
+      "gancho": "O FILHO QUERIA QUE O PAI PAGASSE",
+      "titulo": "O filho pediu US$20 por mês e o pai ensinou a financiar o próprio negócio",
+      "titulo_short": "O filho QUERIA que o pai pagasse",
+      "descricao": "Como o filho de 13 anos de Rony Meisler fez pré-venda pra 50 pessoas pra pagar a ferramenta do próprio projeto.",
+      "convidado": "Rony Meisler",
+      "podcast": "PrimoCast",
+      "tags": [
+        "educação financeira",
+        "filhos",
+        "empreendedorismo",
+        "pré-venda",
+        "PrimoCast"
+      ]
+    },
+    {
+      "id": "06",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "00:43:27",
+      "fim": "00:44:49",
+      "de": "Cara, eu tenho uma super vontade de fazer alguma coisa no YouTube",
+      "ate": "É, ele só tá vendo como ele vai fazer isso",
+      "gancho": "POR QUE O YOUTUBE VENDE MAIS",
+      "titulo": "Por que um vídeo no YouTube vale mais que 70 vídeos curtos pra vender",
+      "titulo_short": "Por que o YOUTUBE vende mais",
+      "descricao": "Retenção e intenção de busca: a diferença entre YouTube e Instagram na hora de converter.",
+      "convidado": "Rony Meisler",
+      "podcast": "PrimoCast",
+      "tags": [
+        "YouTube",
+        "marketing",
+        "conversão",
+        "Instagram",
+        "PrimoCast"
+      ]
+    },
+    {
+      "id": "07",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:08:58",
+      "fim": "01:09:45",
+      "de": "Olha, primeiro, acho que assim, tem uma máxima",
+      "ate": "Quem tem que achar caro é o cliente",
+      "gancho": "CARO É O QUE NÃO VENDE",
+      "titulo": "Lucro é liberdade e caro é o que não vende: como precificar um produto",
+      "titulo_short": "CARO é o que não vende",
+      "descricao": "As duas regras de precificação do fundador da Reserva.",
+      "convidado": "Rony Meisler",
+      "podcast": "PrimoCast",
+      "tags": [
+        "precificação",
+        "preço",
+        "lucro",
+        "Reserva",
+        "PrimoCast"
+      ]
+    },
+    {
+      "id": "08",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:11:15",
+      "fim": "01:12:00",
+      "de": "Não, assim, vou dar um exemplo de reserva",
+      "ate": "Você não tem margem bruta, você arrebenta, cara",
+      "gancho": "COMPRAVA 10, VENDIA 60, LUCRAVA 12%",
+      "titulo": "Comprava por 10, vendia por 60 e lucrava 12%: por que varejo é difícil no Brasil",
+      "titulo_short": "Comprava 10, vendia 60… e lucrava 12%",
+      "descricao": "O exemplo da Reserva pra mostrar como a precificação define se o varejo sobrevive.",
+      "convidado": "Rony Meisler",
+      "podcast": "PrimoCast",
+      "tags": [
+        "varejo",
+        "margem bruta",
+        "precificação",
+        "Reserva",
+        "PrimoCast"
+      ]
+    },
+    {
+      "id": "09",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:16:42",
+      "fim": "01:17:20",
+      "de": "E aí que a gente virou sacoleiro",
+      "ate": "6 mil reais, bootstrapping, assim, total",
+      "gancho": "A RESERVA NASCEU COM R$6 MIL",
+      "titulo": "A Reserva nasceu com R$6 mil de dois sócios",
+      "titulo_short": "A Reserva nasceu com R$6 MIL",
+      "descricao": "A primeira leva de bermudas da Reserva e o dinheiro que os fundadores colocaram no começo.",
+      "convidado": "Rony Meisler",
+      "podcast": "PrimoCast",
+      "tags": [
+        "Reserva",
+        "bootstrapping",
+        "começar empresa",
+        "PrimoCast"
+      ]
+    },
+    {
+      "id": "10",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:29:13",
+      "fim": "01:30:20",
+      "de": "Porque assim, a gente tomou uma decisão com três anos de vida",
+      "ate": "Os caras não tinham estoque, velho",
+      "remover_texto": [
+        [
+          "Pô, a gente ganhou um sócio investidor no negócio",
+          "Se abriu mais a mercado pra conversar com o mercado",
+          "01:29:52"
+        ]
+      ],
+      "gancho": "A DECISÃO DE CORAÇÃO QUE SALVOU A EMPRESA",
+      "titulo": "Fabricar no Brasil parecia caro — até a pandemia fechar os portos",
+      "titulo_short": "A decisão de CORAÇÃO que salvou a empresa",
+      "descricao": "Por que a Reserva ganhou mercado na pandemia: toda a produção era no Brasil quando o resto dependia da Ásia.",
+      "convidado": "Rony Meisler",
+      "podcast": "PrimoCast",
+      "tags": [
+        "Reserva",
+        "pandemia",
+        "cadeia de suprimentos",
+        "indústria nacional",
+        "PrimoCast"
+      ]
+    },
+    {
+      "id": "11",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:36:20",
+      "fim": "01:37:20",
+      "de": "eu faço check-up todo novembro",
+      "ate": "se eu tinha alguma dúvida, tava dado a resposta",
+      "gancho": "O MÉDICO DISSE: VOCÊ TÁ SEMI-TUDO",
+      "titulo": "O check-up que fez o fundador da Reserva decidir sair da empresa",
+      "titulo_short": "O médico disse: você tá SEMI-TUDO",
+      "descricao": "Rony Meisler conta o resultado do exame que o fez mudar de vida.",
+      "convidado": "Rony Meisler",
+      "podcast": "PrimoCast",
+      "tags": [
+        "saúde",
+        "burnout",
+        "Rony Meisler",
+        "PrimoCast"
+      ]
+    },
+    {
+      "id": "12",
+      "formatos": [
+        "short"
+      ],
+      "inicio": "01:38:33",
+      "fim": "01:39:30",
+      "de": "Humildade e curiosidade",
+      "ate": "Então, curiosidade, coragem",
+      "gancho": "CRIATIVIDADE NÃO É GENÉTICA",
+      "titulo": "Criatividade não é genética: é repertório (e coragem pra executar)",
+      "titulo_short": "Criatividade NÃO é genética",
+      "descricao": "O conselho final de Rony Meisler sobre curiosidade, repertório e coragem.",
+      "convidado": "Rony Meisler",
+      "podcast": "PrimoCast",
+      "tags": [
+        "criatividade",
+        "curiosidade",
+        "repertório",
+        "PrimoCast"
+      ]
+    }
+  ]
+}
